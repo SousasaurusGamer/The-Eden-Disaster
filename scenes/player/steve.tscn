@@ -46,3 +46,16 @@ offset_top = -35.0
 offset_right = 42.0
 offset_bottom = -5.0
 color = Color(1, 0.50980395, 0, 0.54901963)
+
+[node name="WeaponPivot" type="Node2D" parent="." unique_id=25195597]
+position = Vector2(0, -20)
+
+[node name="ColorRect" type="ColorRect" parent="WeaponPivot" unique_id=374874563]
+offset_left = 8.0
+offset_top = -4.0
+offset_right = 30.0
+offset_bottom = 4.0
+color = Color(1, 1, 0.015686275, 1)
+
+[node name="Muzzle" type="Marker2D" parent="WeaponPivot" unique_id=1777388647]
+position = Vector2(34, 0)
