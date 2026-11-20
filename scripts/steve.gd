@@ -4,12 +4,19 @@ extends CharacterBody2D
 @onready var golpe_visual: ColorRect = $AttackHitbox/GolpeVisual
 @onready var golpe_colision: CollisionShape2D = $AttackHitbox/CollisionShape2D
 @onready var visual: Node2D = $Visual
-
+@onready var weapon_pivot: Node2D = $WeaponPivot
 @export var max_health: int = 100
+@onready var muzzle: Marker2D = $WeaponPivot/Muzzle
+@export var max_ammo: int = 12
+
+const BULLET_SCENE = preload("res://scenes/player/bullet.tscn")
 
 # Movimiento
 const SPEED = 200.0
 const JUMP_FORCE = -350.0
+
+const CHARGE_TIME = 0.8
+const CHARGED_AMMO_COST = 3
 
 # Rodada
 const ROLL_SPEED = 330.0
@@ -36,11 +43,17 @@ var enemigos_golpeados: Array[Node2D] = []
 var health: int = 100
 var is_dead: bool = false
 
+var ammo: int = 12
+
+var charge_time = 0.0
+var is_charging = false
 
 func _ready() -> void:
 	add_to_group("player")
 	health = max_health
 	print("Steve listo. Vida: ", health)
+	ammo = max_ammo
+	print("Municion inicial: ", ammo)
 
 
 func _physics_process(delta: float) -> void:
@@ -99,6 +112,9 @@ func _physics_process(delta: float) -> void:
 		velocity.x = direction * SPEED
 		visual.scale.x = facing_direction
 
+	# Apuntar la pistola hacia el mouse
+	weapon_pivot.look_at(get_global_mouse_position())
+
 	# Temporizadores de ataque
 	ataque_tiempo = maxf(ataque_tiempo - delta, 0.0)
 	ataque_recarga = maxf(ataque_recarga - delta, 0.0)
@@ -119,6 +135,26 @@ func _physics_process(delta: float) -> void:
 
 	if ataque_tiempo > 0.0:
 		deal_damage()
+
+	
+	# Iniciar carga al presionar el mouse
+	if Input.is_action_just_pressed("shoot") and roll_time <= 0.0 and ammo > 0:
+		is_charging = true
+		charge_time = 0.0
+
+	# Acumular tiempo mientras mantiene presionado
+	if is_charging and Input.is_action_pressed("shoot"):
+		charge_time += delta
+
+	# Disparar solamente cuando suelta el mouse
+	if Input.is_action_just_released("shoot") and is_charging:
+		is_charging = false
+
+		if roll_time <= 0.0:
+			var charged = charge_time >= CHARGE_TIME
+			shoot(charged)
+
+		charge_time = 0.0
 
 	# Aplicar movimiento fisico
 	move_and_slide()
@@ -166,3 +202,45 @@ func take_damage(amount: int) -> void:
 		is_dead = true
 		print("Steve ha muerto")
 		get_tree().call_deferred("reload_current_scene")
+
+
+
+func shoot(charged: bool = false) -> void:
+	if ammo <= 0:
+		print("Sin municion")
+		return
+
+	# Si no hay 3 balas, disparar normalmente
+	if charged and ammo < CHARGED_AMMO_COST:
+		charged = false
+
+	var bullet = BULLET_SCENE.instantiate()
+	get_tree().current_scene.add_child(bullet)
+
+	bullet.global_position = muzzle.global_position
+	bullet.global_rotation = weapon_pivot.global_rotation
+	bullet.direction = Vector2.RIGHT.rotated(weapon_pivot.global_rotation)
+
+	if charged:
+		bullet.damage = 30
+		bullet.speed = 450.0
+		bullet.scale = Vector2(1.8, 1.8)
+		ammo -= CHARGED_AMMO_COST
+		print("Disparo cargado!")
+	else:
+		bullet.damage = 10
+		ammo -= 1
+		print("Disparo normal")
+
+	print("Municion restante: ", ammo)
+
+
+func add_ammo(amount: int) -> bool:
+	if ammo >= max_ammo:
+		print("Municion completa")
+		return false
+	
+	ammo = mini(ammo + amount, max_ammo)
+
+	print("Municion recogida: ", ammo, "/", max_ammo)
+	return true

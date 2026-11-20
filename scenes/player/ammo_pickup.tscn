@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://clb203aksgex6"]
+
+[ext_resource type="Script" uid="uid://dr5mpioccgmrc" path="res://scripts/ammo_pickup.gd" id="1_d0dgo"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_op1xx"]
+size = Vector2(18, 18)
+
+[node name="AmmoPickup" type="Area2D" unique_id=1355191995]
+script = ExtResource("1_d0dgo")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1571563812]
+offset_left = -9.0
+offset_top = -9.0
+offset_right = 9.0
+offset_bottom = 9.0
+color = Color(1, 0.9411765, 0.15686275, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1712009822]
+shape = SubResource("RectangleShape2D_op1xx")
