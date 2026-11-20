@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://bhjhv3042iaxg"]
+
+[ext_resource type="Script" uid="uid://bpfrv4ktfxe6p" path="res://scripts/plant_enemy.gd" id="1_refwo"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_op1xx"]
+size = Vector2(36, 24)
+
+[node name="PlantEnemy" type="CharacterBody2D" unique_id=530101187]
+script = ExtResource("1_refwo")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1235433917]
+offset_left = -18.0
+offset_top = -24.0
+offset_right = 18.0
+color = Color(0.40784314, 0.65882355, 0.37254903, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1066056462]
+position = Vector2(0, -12)
+shape = SubResource("RectangleShape2D_op1xx")
+debug_color = Color(0.10689508, 0.57209265, 0.82152617, 0.41960785)

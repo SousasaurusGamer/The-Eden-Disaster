@@ -1,0 +1,48 @@
+[gd_scene format=3 uid="uid://bs4wjh4g2wxnf"]
+
+[ext_resource type="Script" uid="uid://dp8ldhrgfloxl" path="res://scripts/steve.gd" id="1_kdmgw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kmatr"]
+size = Vector2(23, 39)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_op1xx"]
+size = Vector2(28, 30)
+
+[node name="Steve" type="CharacterBody2D" unique_id=1515212709]
+script = ExtResource("1_kdmgw")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1471053193]
+position = Vector2(0, -20)
+shape = SubResource("RectangleShape2D_kmatr")
+
+[node name="Visual" type="Node2D" parent="." unique_id=1443959185]
+
+[node name="IndicadorMirada" type="ColorRect" parent="Visual" unique_id=958228245]
+offset_left = 6.0
+offset_top = -33.0
+offset_right = 11.0
+offset_bottom = -25.0
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=2078056176]
+offset_left = -13.0
+offset_top = -40.0
+offset_right = 11.0
+color = Color(0.3254902, 0.7254902, 0.8980392, 1)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1693207895]
+position = Vector2(0, -20)
+position_smoothing_enabled = true
+
+[node name="AttackHitbox" type="Area2D" parent="." unique_id=717792158]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AttackHitbox" unique_id=1438318943]
+position = Vector2(28, -20)
+shape = SubResource("RectangleShape2D_op1xx")
+
+[node name="GolpeVisual" type="ColorRect" parent="AttackHitbox" unique_id=172518634]
+visible = false
+offset_left = 14.0
+offset_top = -35.0
+offset_right = 42.0
+offset_bottom = -5.0
+color = Color(1, 0.50980395, 0, 0.54901963)
