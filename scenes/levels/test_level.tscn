@@ -1,13 +1,17 @@
 [gd_scene format=3 uid="uid://rv5c3siy2iv7"]
 
+[ext_resource type="PackedScene" uid="uid://dxbq7pncklnoo" path="res://scenes/ui/hud.tscn" id="1_48ne7"]
 [ext_resource type="PackedScene" uid="uid://bs4wjh4g2wxnf" path="res://scenes/player/steve.tscn" id="1_jbqir"]
 [ext_resource type="PackedScene" uid="uid://bhjhv3042iaxg" path="res://scenes/enemies/plant_enemy.tscn" id="2_yautc"]
 [ext_resource type="PackedScene" uid="uid://clb203aksgex6" path="res://scenes/player/ammo_pickup.tscn" id="3_fr1um"]
+[ext_resource type="PackedScene" uid="uid://6y3s3ddlm6sa" path="res://scenes/enemies/spore_shooter.tscn" id="4_v45ci"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_op1xx"]
 size = Vector2(1154.75, 42)
 
 [node name="TestLevel" type="Node2D" unique_id=901466039]
+
+[node name="HUD" parent="." unique_id=265695125 instance=ExtResource("1_48ne7")]
 
 [node name="FondoTemporal" type="ColorRect" parent="." unique_id=1084933701]
 offset_right = 1152.0
@@ -36,3 +40,6 @@ position = Vector2(528, 606)
 
 [node name="AmmoPickup" parent="." unique_id=1355191995 instance=ExtResource("3_fr1um")]
 position = Vector2(770, 596)
+
+[node name="SporeShooter" parent="." unique_id=811389092 instance=ExtResource("4_v45ci")]
+position = Vector2(913, 604)

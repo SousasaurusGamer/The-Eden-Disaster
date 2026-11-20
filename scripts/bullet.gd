@@ -8,6 +8,7 @@ var lifetime: float = 1.5
 
 
 func _ready() -> void:
+	add_to_group("player_bullets")
 	body_entered.connect(_on_body_entered)
 
 
