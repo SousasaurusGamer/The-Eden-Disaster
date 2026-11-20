@@ -1,0 +1,48 @@
+[gd_scene format=3 uid="uid://dxbq7pncklnoo"]
+
+[ext_resource type="Script" uid="uid://fgs1npru2xx1" path="res://scripts/hud.gd" id="1_0mwgc"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kmatr"]
+bg_color = Color(0.030214945, 0.6363357, 0.9500653, 1)
+draw_center = false
+
+[node name="HUD" type="CanvasLayer" unique_id=265695125]
+script = ExtResource("1_0mwgc")
+
+[node name="Control" type="Control" parent="." unique_id=538187495]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="HealthBar" type="ProgressBar" parent="Control" unique_id=1597559148]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 220.0
+offset_bottom = 32.0
+mouse_filter = 2
+value = 100.0
+show_percentage = false
+
+[node name="AmmoLabel" type="Label" parent="Control" unique_id=1442843454]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 55.0
+offset_right = 180.0
+offset_bottom = 80.0
+theme_override_font_sizes/font_size = 12
+
+[node name="ChargeBar" type="ProgressBar" parent="Control" unique_id=1313021332]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 90.0
+offset_right = 220.0
+offset_bottom = 98.0
+mouse_filter = 2
+theme_override_styles/background = SubResource("StyleBoxFlat_kmatr")
+max_value = 0.8
+show_percentage = false
