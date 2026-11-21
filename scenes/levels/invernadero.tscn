@@ -1,0 +1,63 @@
+[gd_scene format=3 uid="uid://couffylpjkfwp"]
+
+[ext_resource type="PackedScene" uid="uid://bs4wjh4g2wxnf" path="res://scenes/player/steve.tscn" id="1_ikrkf"]
+[ext_resource type="PackedScene" uid="uid://dxbq7pncklnoo" path="res://scenes/ui/hud.tscn" id="2_71ufu"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_op1xx"]
+size = Vector2(1432, 42)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kmatr"]
+size = Vector2(35, 646)
+
+[node name="Invernadero" type="Node2D" unique_id=901466039]
+
+[node name="FondoTemporal" type="ColorRect" parent="." unique_id=1084933701]
+offset_top = -7.0
+offset_right = 1459.0
+offset_bottom = 650.0
+color = Color(0.25065672, 0.3163744, 0.38215223, 1)
+
+[node name="Suelo" type="StaticBody2D" parent="." unique_id=1815186442]
+
+[node name="ColorRect" type="ColorRect" parent="Suelo" unique_id=463342805]
+offset_left = 1.0
+offset_top = 610.0
+offset_right = 1453.0
+offset_bottom = 650.0
+color = Color(0.3764706, 0.41960785, 0.4627451, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Suelo" unique_id=1159307698]
+position = Vector2(726, 631)
+shape = SubResource("RectangleShape2D_op1xx")
+debug_color = Color(0, 0.6, 0.69803923, 0)
+
+[node name="Steve" parent="." unique_id=1515212709 instance=ExtResource("1_ikrkf")]
+position = Vector2(100, 600)
+
+[node name="HUD" parent="." unique_id=265695125 instance=ExtResource("2_71ufu")]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=2073522055]
+position = Vector2(-21, 300)
+
+[node name="ColorRect" type="ColorRect" parent="StaticBody2D" unique_id=1643565935]
+offset_left = -11.0
+offset_top = -309.0
+offset_right = 20.0
+offset_bottom = 332.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1992225443]
+position = Vector2(2.5, 5)
+shape = SubResource("RectangleShape2D_kmatr")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="." unique_id=1770278595]
+position = Vector2(1469, 306)
+
+[node name="ColorRect" type="ColorRect" parent="StaticBody2D2" unique_id=1317130754]
+offset_left = -13.0
+offset_top = -314.0
+offset_right = 18.0
+offset_bottom = 318.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2" unique_id=600735044]
+position = Vector2(2, 4)
+shape = SubResource("RectangleShape2D_kmatr")

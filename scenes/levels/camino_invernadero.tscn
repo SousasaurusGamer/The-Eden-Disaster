@@ -1,0 +1,114 @@
+[gd_scene format=3 uid="uid://bwvrs6sy8y8jf"]
+
+[ext_resource type="PackedScene" uid="uid://bs4wjh4g2wxnf" path="res://scenes/player/steve.tscn" id="1_mn1kt"]
+[ext_resource type="PackedScene" uid="uid://dxbq7pncklnoo" path="res://scenes/ui/hud.tscn" id="2_ckjj0"]
+[ext_resource type="PackedScene" uid="uid://bhjhv3042iaxg" path="res://scenes/enemies/plant_enemy.tscn" id="3_ah1ng"]
+[ext_resource type="PackedScene" uid="uid://6y3s3ddlm6sa" path="res://scenes/enemies/spore_shooter.tscn" id="4_gqnp5"]
+[ext_resource type="PackedScene" uid="uid://clb203aksgex6" path="res://scenes/player/ammo_pickup.tscn" id="5_51tph"]
+[ext_resource type="Script" uid="uid://fhsnhe1y21om" path="res://scripts/scene_door.gd" id="6_gqnp5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_op1xx"]
+size = Vector2(1145, 42)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pmlil"]
+size = Vector2(40, 108)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7sk7b"]
+size = Vector2(71, 12)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kmatr"]
+size = Vector2(54, 68)
+
+[node name="CamninoInvernadero" type="Node2D" unique_id=901466039]
+
+[node name="FondoTemporal" type="ColorRect" parent="." unique_id=1084933701]
+offset_right = 1162.0
+offset_bottom = 650.0
+color = Color(0.015686275, 0.16470589, 0, 1)
+
+[node name="Suelo" type="StaticBody2D" parent="." unique_id=1815186442]
+
+[node name="ColorRect" type="ColorRect" parent="Suelo" unique_id=463342805]
+offset_left = 1.0
+offset_top = 610.0
+offset_right = 1157.0
+offset_bottom = 650.0
+color = Color(0.3764706, 0.41960785, 0.4627451, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Suelo" unique_id=1159307698]
+position = Vector2(582.5, 631)
+shape = SubResource("RectangleShape2D_op1xx")
+debug_color = Color(0, 0.6, 0.69803923, 0)
+
+[node name="Steve" parent="." unique_id=1515212709 instance=ExtResource("1_mn1kt")]
+position = Vector2(100, 600)
+
+[node name="HUD" parent="." unique_id=265695125 instance=ExtResource("2_ckjj0")]
+
+[node name="Muro02" type="StaticBody2D" parent="." unique_id=1852028674]
+position = Vector2(344, 608)
+
+[node name="ColorRect" type="ColorRect" parent="Muro02" unique_id=492506215]
+offset_left = -20.0
+offset_top = -109.0
+offset_right = 20.0
+color = Color(0.19793725, 0.19793722, 0.19793722, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Muro02" unique_id=1635325844]
+position = Vector2(-1, -56)
+shape = SubResource("RectangleShape2D_pmlil")
+
+[node name="Muro03" type="StaticBody2D" parent="." unique_id=1959882797]
+position = Vector2(797, 610)
+
+[node name="ColorRect" type="ColorRect" parent="Muro03" unique_id=131174422]
+offset_left = -20.0
+offset_top = -109.0
+offset_right = 20.0
+color = Color(0.19793725, 0.19793722, 0.19793722, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Muro03" unique_id=2052913834]
+position = Vector2(-1, -56)
+shape = SubResource("RectangleShape2D_pmlil")
+
+[node name="Plataforma01" type="StaticBody2D" parent="." unique_id=584712177]
+position = Vector2(591, 485)
+
+[node name="ColorRect" type="ColorRect" parent="Plataforma01" unique_id=1297020736]
+offset_left = -34.0
+offset_right = 36.0
+offset_bottom = 12.0
+color = Color(0.18072194, 0.18072197, 0.18072197, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Plataforma01" unique_id=2109020637]
+position = Vector2(1.5, 6)
+shape = SubResource("RectangleShape2D_7sk7b")
+
+[node name="PlantEnemy" parent="." unique_id=530101187 instance=ExtResource("3_ah1ng")]
+position = Vector2(452, 606)
+
+[node name="SporeShooter" parent="." unique_id=428102256 instance=ExtResource("4_gqnp5")]
+position = Vector2(790, 499)
+
+[node name="PlantEnemy2" parent="." unique_id=1643090887 instance=ExtResource("3_ah1ng")]
+position = Vector2(617, 606)
+
+[node name="AmmoPickup" parent="." unique_id=1355191995 instance=ExtResource("5_51tph")]
+position = Vector2(851, 602)
+
+[node name="AmmoPickup2" parent="." unique_id=141528703 instance=ExtResource("5_51tph")]
+position = Vector2(886, 601)
+
+[node name="DoorInvernadero" type="Area2D" parent="." unique_id=614099325]
+position = Vector2(1056, 604)
+script = ExtResource("6_gqnp5")
+destination_scene = "uid://couffylpjkfwp"
+
+[node name="ColorRect" type="ColorRect" parent="DoorInvernadero" unique_id=86163567]
+offset_left = -20.0
+offset_top = -60.0
+offset_right = 20.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DoorInvernadero" unique_id=1903043732]
+position = Vector2(0, -34)
+shape = SubResource("RectangleShape2D_kmatr")

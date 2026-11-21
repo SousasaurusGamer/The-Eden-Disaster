@@ -13,7 +13,7 @@ const BULLET_SCENE = preload("res://scenes/player/bullet.tscn")
 
 # Movimiento
 const SPEED = 200.0
-const JUMP_FORCE = -350.0
+const JUMP_FORCE = -500.0
 
 const CHARGE_TIME = 0.8
 const CHARGED_AMMO_COST = 3
@@ -50,11 +50,16 @@ var is_charging = false
 
 func _ready() -> void:
 	add_to_group("player")
-	health = max_health
-	print("Steve listo. Vida: ", health)
-	ammo = max_ammo
-	print("Municion inicial: ", ammo)
 
+	if GameState.has_saved_stats:
+		health = clampi(GameState.health, 1, max_health)
+		ammo = clampi(GameState.ammo, 0, max_ammo)
+	else:
+		health = max_health
+		ammo = max_ammo
+
+	print("Vida de Steve: ", health)
+	print("Municion de Steve: ", ammo)
 
 func _physics_process(delta: float) -> void:
 	if is_dead:
@@ -195,13 +200,17 @@ func take_damage(amount: int) -> void:
 		print("Steve esquivo el ataque")
 		return
 
+	# Restar vida
 	health = maxi(health - amount, 0)
 	print("Vida de Steve: ", health, "/", max_health)
 
+	# Morir solamente cuando la vida llegue a cero
 	if health <= 0:
 		is_dead = true
 		print("Steve ha muerto")
+		GameState.has_saved_stats = false
 		get_tree().call_deferred("reload_current_scene")
+
 
 
 
