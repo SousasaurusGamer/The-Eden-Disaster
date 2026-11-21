@@ -1,0 +1,78 @@
+[gd_scene format=3 uid="uid://cap31o2f8dawg"]
+
+[ext_resource type="PackedScene" uid="uid://dxbq7pncklnoo" path="res://scenes/ui/hud.tscn" id="1_xbuhi"]
+[ext_resource type="PackedScene" uid="uid://bs4wjh4g2wxnf" path="res://scenes/player/steve.tscn" id="2_gkwyn"]
+[ext_resource type="PackedScene" uid="uid://bhjhv3042iaxg" path="res://scenes/enemies/plant_enemy.tscn" id="3_drsfp"]
+[ext_resource type="PackedScene" uid="uid://clb203aksgex6" path="res://scenes/player/ammo_pickup.tscn" id="4_0ny3w"]
+[ext_resource type="PackedScene" uid="uid://6y3s3ddlm6sa" path="res://scenes/enemies/spore_shooter.tscn" id="5_2nl3w"]
+[ext_resource type="PackedScene" uid="uid://bbko7wv2to7tu" path="res://scenes/levels/exit_door.tscn" id="6_gkwyn"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_op1xx"]
+size = Vector2(1634.625, 42)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kmatr"]
+size = Vector2(120, 12)
+
+[node name="Laboratory" type="Node2D" unique_id=901466039]
+
+[node name="FondoTemporal" type="ColorRect" parent="." unique_id=1084933701]
+offset_right = 1634.0
+offset_bottom = 650.0
+color = Color(0.13333334, 0.16862746, 0.20784314, 1)
+
+[node name="Suelo" type="StaticBody2D" parent="." unique_id=1815186442]
+
+[node name="ColorRect" type="ColorRect" parent="Suelo" unique_id=463342805]
+offset_left = 1.0
+offset_top = 610.0
+offset_right = 1634.0
+offset_bottom = 650.0
+color = Color(0.3764706, 0.41960785, 0.4627451, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Suelo" unique_id=1159307698]
+position = Vector2(816.6875, 631)
+shape = SubResource("RectangleShape2D_op1xx")
+debug_color = Color(0, 0.6, 0.69803923, 0)
+
+[node name="Steve" parent="." unique_id=1515212709 instance=ExtResource("2_gkwyn")]
+position = Vector2(100, 600)
+
+[node name="HUD" parent="." unique_id=265695125 instance=ExtResource("1_xbuhi")]
+
+[node name="PlantEnemy" parent="." unique_id=530101187 instance=ExtResource("3_drsfp")]
+position = Vector2(528, 606)
+
+[node name="AmmoPickup" parent="." unique_id=1355191995 instance=ExtResource("4_0ny3w")]
+position = Vector2(770, 596)
+
+[node name="SporeShooter" parent="." unique_id=811389092 instance=ExtResource("5_2nl3w")]
+position = Vector2(913, 604)
+
+[node name="Plataforma01" type="StaticBody2D" parent="." unique_id=36589898]
+position = Vector2(274, 537)
+
+[node name="ColorRect" type="ColorRect" parent="Plataforma01" unique_id=508305678]
+offset_left = -60.0
+offset_right = 60.0
+offset_bottom = 12.0
+color = Color(0.18072194, 0.18072197, 0.18072197, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Plataforma01" unique_id=247098103]
+position = Vector2(0, 6)
+shape = SubResource("RectangleShape2D_kmatr")
+
+[node name="Plataforma02" type="StaticBody2D" parent="." unique_id=2083634861]
+position = Vector2(551, 439)
+
+[node name="ColorRect" type="ColorRect" parent="Plataforma02" unique_id=493899815]
+offset_left = -60.0
+offset_right = 60.0
+offset_bottom = 12.0
+color = Color(0.18072194, 0.18072197, 0.18072197, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Plataforma02" unique_id=98734593]
+position = Vector2(0, 6)
+shape = SubResource("RectangleShape2D_kmatr")
+
+[node name="ExitDoor" parent="." unique_id=759371311 instance=ExtResource("6_gkwyn")]
+position = Vector2(1107, 608)
