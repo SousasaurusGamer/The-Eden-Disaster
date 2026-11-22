@@ -34,6 +34,11 @@ debug_color = Color(0, 0.6, 0.69803923, 0)
 [node name="Steve" parent="." unique_id=1515212709 instance=ExtResource("1_ikrkf")]
 position = Vector2(100, 600)
 
+[node name="Camera2D" parent="Steve" index="3" unique_id=1693207895]
+limit_left = -45
+limit_right = 1500
+limit_bottom = 652
+
 [node name="HUD" parent="." unique_id=265695125 instance=ExtResource("2_71ufu")]
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=2073522055]
@@ -61,3 +66,5 @@ offset_bottom = 318.0
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2" unique_id=600735044]
 position = Vector2(2, 4)
 shape = SubResource("RectangleShape2D_kmatr")
+
+[editable path="Steve"]

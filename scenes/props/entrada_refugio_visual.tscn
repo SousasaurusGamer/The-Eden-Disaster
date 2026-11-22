@@ -1,0 +1,90 @@
+[gd_scene format=3 uid="uid://bx727uyyuelk2"]
+
+[sub_resource type="Animation" id="Animation_t3li4"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("LuzSuperior:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_tec4q"]
+resource_name = "parpadeo"
+length = 1.5
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("LuzSuperior:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.75, 1.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0.22352941), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_5ywqd"]
+_data = {
+&"RESET": SubResource("Animation_t3li4"),
+&"parpadeo": SubResource("Animation_tec4q")
+}
+
+[node name="EntradaRefugioVisual" type="Node2D" unique_id=1549103111]
+
+[node name="ParedBase" type="ColorRect" parent="." unique_id=1606707363]
+offset_right = 100.0
+offset_bottom = 110.0
+color = Color(0.3019608, 0.3529412, 0.38039216, 1)
+
+[node name="FranjaSuperior" type="ColorRect" parent="." unique_id=585401843]
+offset_right = 100.0
+offset_bottom = 10.0
+color = Color(0.53333336, 0.5882353, 0.6117647, 1)
+
+[node name="MarcoPuertaExterior" type="ColorRect" parent="." unique_id=2120876681]
+offset_left = 20.0
+offset_top = 30.0
+offset_right = 80.0
+offset_bottom = 110.0
+color = Color(0.1882353, 0.22745098, 0.2509804, 1)
+
+[node name="Puerta" type="ColorRect" parent="." unique_id=1999174094]
+offset_left = 26.0
+offset_top = 36.0
+offset_right = 74.0
+offset_bottom = 110.0
+color = Color(0.5372549, 0.5882353, 0.60784316, 1)
+
+[node name="Panelpuesta" type="ColorRect" parent="." unique_id=1812067448]
+offset_left = 34.0
+offset_top = 44.0
+offset_right = 66.0
+offset_bottom = 90.0
+color = Color(0.34901962, 0.40392157, 0.42745098, 1)
+
+[node name="Manija" type="ColorRect" parent="." unique_id=1997699459]
+offset_left = 63.0
+offset_top = 77.0
+offset_right = 68.0
+offset_bottom = 83.0
+color = Color(0.81960785, 0.8352941, 0.8392157, 1)
+
+[node name="LuzSuperior" type="ColorRect" parent="." unique_id=385558662]
+offset_left = 46.0
+offset_top = 17.0
+offset_right = 54.0
+offset_bottom = 23.0
+color = Color(0.4627451, 0.9372549, 0.5686275, 1)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1297312747]
+libraries/ = SubResource("AnimationLibrary_5ywqd")
+autoplay = &"parpadeo"

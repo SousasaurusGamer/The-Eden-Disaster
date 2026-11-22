@@ -1,0 +1,158 @@
+[gd_scene format=3 uid="uid://jffie53pn3fb"]
+
+[node name="EstanteriaRefugio" type="Node2D" unique_id=1061127050]
+
+[node name="SoporteIzquierdo" type="ColorRect" parent="." unique_id=1084071355]
+offset_top = -200.0
+offset_right = 12.0
+color = Color(0.4509804, 0.5137255, 0.5411765, 1)
+
+[node name="SoporteDerecho" type="ColorRect" parent="." unique_id=1496464502]
+offset_left = 188.0
+offset_top = -200.0
+offset_right = 200.0
+color = Color(0.4509804, 0.5137255, 0.5411765, 1)
+
+[node name="RepisaSuperior" type="ColorRect" parent="." unique_id=576860410]
+offset_top = -160.0
+offset_right = 200.0
+offset_bottom = -150.0
+color = Color(0.627451, 0.67058825, 0.6901961, 1)
+
+[node name="RepisaMedia" type="ColorRect" parent="." unique_id=161653012]
+offset_top = -100.0
+offset_right = 200.0
+offset_bottom = -90.0
+color = Color(0.627451, 0.67058825, 0.6901961, 1)
+
+[node name="RepisaInferior" type="ColorRect" parent="." unique_id=413294733]
+offset_top = -40.0
+offset_right = 200.0
+offset_bottom = -30.0
+color = Color(0.627451, 0.67058825, 0.6901961, 1)
+
+[node name="CajaComida" type="ColorRect" parent="." unique_id=523361462]
+offset_left = 24.0
+offset_top = -195.0
+offset_right = 89.0
+offset_bottom = -160.0
+color = Color(0.6, 0.46666667, 0.3137255, 1)
+
+[node name="CintaCaja" type="ColorRect" parent="." unique_id=1880020729]
+offset_left = 53.0
+offset_top = -195.0
+offset_right = 60.0
+offset_bottom = -160.0
+color = Color(0.7764706, 0.68235296, 0.5058824, 1)
+
+[node name="Botella1" type="ColorRect" parent="." unique_id=1294239926]
+offset_left = 118.0
+offset_top = -186.0
+offset_right = 132.0
+offset_bottom = -160.0
+color = Color(0.41960785, 0.73333335, 0.76862746, 1)
+
+[node name="Botella2" type="ColorRect" parent="." unique_id=437896130]
+offset_left = 144.0
+offset_top = -186.0
+offset_right = 158.0
+offset_bottom = -160.0
+color = Color(0.41960785, 0.73333335, 0.76862746, 1)
+
+[node name="Botiquin" type="ColorRect" parent="." unique_id=975975125]
+offset_left = 28.0
+offset_top = -145.0
+offset_right = 86.0
+offset_bottom = -100.0
+color = Color(0.72156864, 0.7764706, 0.72156864, 1)
+
+[node name="CruzVertical" type="ColorRect" parent="." unique_id=1352221742]
+offset_left = 53.0
+offset_top = -137.0
+offset_right = 61.0
+offset_bottom = -109.0
+color = Color(0.32156864, 0.58431375, 0.40784314, 1)
+
+[node name="CruzHorizontal" type="ColorRect" parent="." unique_id=205994272]
+offset_left = 42.0
+offset_top = -127.0
+offset_right = 72.0
+offset_bottom = -119.0
+color = Color(0.32156864, 0.58431375, 0.40784314, 1)
+
+[node name="CajaMedicinas" type="ColorRect" parent="." unique_id=1924123899]
+offset_left = 121.0
+offset_top = -125.0
+offset_right = 175.0
+offset_bottom = -100.0
+color = Color(0.67058825, 0.5019608, 0.33333334, 1)
+
+[node name="CajaGrande" type="ColorRect" parent="." unique_id=1500734353]
+offset_left = 24.0
+offset_top = -85.0
+offset_right = 94.0
+offset_bottom = -40.0
+color = Color(0.59607846, 0.44313726, 0.29803923, 1)
+
+[node name="TapaBotella1" type="ColorRect" parent="." unique_id=855841539]
+offset_left = 120.0
+offset_top = -190.0
+offset_right = 130.0
+offset_bottom = -186.0
+color = Color(0.8509804, 0.8901961, 0.90588236, 1)
+
+[node name="TapaBotella2" type="ColorRect" parent="." unique_id=1424578460]
+offset_left = 146.0
+offset_top = -190.0
+offset_right = 156.0
+offset_bottom = -186.0
+color = Color(0.8509804, 0.8901961, 0.90588236, 1)
+
+[node name="CintaHorizontal" type="ColorRect" parent="." unique_id=1733810419]
+offset_left = 24.0
+offset_top = -180.0
+offset_right = 89.0
+offset_bottom = -174.0
+color = Color(0.7764706, 0.68235296, 0.5058824, 1)
+
+[node name="EtiquetaComida" type="ColorRect" parent="." unique_id=411480137]
+offset_left = 32.0
+offset_top = -170.0
+offset_right = 57.0
+offset_bottom = -162.0
+color = Color(0.89411765, 0.84705883, 0.7137255, 1)
+
+[node name="ManijaBotiquin" type="ColorRect" parent="." unique_id=1839544543]
+offset_left = 47.0
+offset_top = -151.0
+offset_right = 67.0
+offset_bottom = -145.0
+color = Color(0.44313726, 0.5411765, 0.4862745, 1)
+
+[node name="CierreIquierdo" type="ColorRect" parent="." unique_id=287742809]
+offset_left = 35.0
+offset_top = -108.0
+offset_right = 42.0
+offset_bottom = -103.0
+color = Color(0.39607844, 0.45490196, 0.47843137, 1)
+
+[node name="CierreDerecho" type="ColorRect" parent="." unique_id=933204266]
+offset_left = 72.0
+offset_top = -108.0
+offset_right = 79.0
+offset_bottom = -103.0
+color = Color(0.39607844, 0.45490196, 0.47843137, 1)
+
+[node name="TablaVertical" type="ColorRect" parent="." unique_id=1658122437]
+offset_left = 53.0
+offset_top = -86.0
+offset_right = 61.0
+offset_bottom = -40.0
+color = Color(0.39607844, 0.2784314, 0.1764706, 1)
+
+[node name="TablaHorizontal" type="ColorRect" parent="." unique_id=1050966331]
+offset_left = 24.0
+offset_top = -66.0
+offset_right = 94.0
+offset_bottom = -59.0
+color = Color(0.39607844, 0.2784314, 0.1764706, 1)

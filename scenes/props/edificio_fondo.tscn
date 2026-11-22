@@ -1,0 +1,63 @@
+[gd_scene format=3 uid="uid://d0ry576ps3uxi"]
+
+[node name="EdificioFondo" type="Node2D" unique_id=1929745409]
+
+[node name="Cuerpo" type="ColorRect" parent="." unique_id=458676310]
+offset_top = -300.0
+offset_right = 150.0
+color = Color(0.27058825, 0.3254902, 0.36862746, 1)
+
+[node name="SombraLateral" type="ColorRect" parent="." unique_id=2117390647]
+offset_left = 130.0
+offset_top = -300.0
+offset_right = 150.0
+color = Color(0.20784314, 0.2627451, 0.3019608, 1)
+
+[node name="Techo" type="ColorRect" parent="." unique_id=1202177694]
+offset_left = -12.0
+offset_top = -321.0
+offset_right = 168.0
+offset_bottom = -298.0
+color = Color(0.3372549, 0.4, 0.4392157, 1)
+
+[node name="Ventana1" type="ColorRect" parent="." unique_id=1386840157]
+offset_left = 20.0
+offset_top = -260.0
+offset_right = 50.0
+offset_bottom = -218.0
+color = Color(0.16078432, 0.23137255, 0.27058825, 1)
+
+[node name="Ventana2" type="ColorRect" parent="." unique_id=293095108]
+offset_left = 95.0
+offset_top = -260.0
+offset_right = 125.0
+offset_bottom = -218.0
+color = Color(0.16078432, 0.23137255, 0.27058825, 1)
+
+[node name="Ventana3" type="ColorRect" parent="." unique_id=1348055453]
+offset_left = 20.0
+offset_top = -180.0
+offset_right = 50.0
+offset_bottom = -138.0
+color = Color(0.16078432, 0.23137255, 0.27058825, 1)
+
+[node name="Ventana4" type="ColorRect" parent="." unique_id=138681064]
+offset_left = 95.0
+offset_top = -180.0
+offset_right = 125.0
+offset_bottom = -138.0
+color = Color(0.16078432, 0.23137255, 0.27058825, 1)
+
+[node name="Ventana5" type="ColorRect" parent="." unique_id=1936025228]
+offset_left = 20.0
+offset_top = -100.0
+offset_right = 50.0
+offset_bottom = -58.0
+color = Color(0.16078432, 0.23137255, 0.27058825, 1)
+
+[node name="Ventana6" type="ColorRect" parent="." unique_id=2109238347]
+offset_left = 95.0
+offset_top = -100.0
+offset_right = 125.0
+offset_bottom = -58.0
+color = Color(0.16078432, 0.23137255, 0.27058825, 1)

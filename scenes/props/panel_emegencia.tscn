@@ -1,0 +1,103 @@
+[gd_scene format=3 uid="uid://dsnoxm8fq8wdh"]
+
+[sub_resource type="Animation" id="Animation_kaw47"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("LuzRoja:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_o8e51"]
+resource_name = "parpadeo"
+length = 1.5
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("LuzRoja:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.75, 1.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0.2), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_dbylf"]
+_data = {
+&"RESET": SubResource("Animation_kaw47"),
+&"parpadeo": SubResource("Animation_o8e51")
+}
+
+[node name="PanelEmegencia" type="Node2D" unique_id=1740181658]
+
+[node name="Cuerpo" type="ColorRect" parent="." unique_id=942103237]
+offset_right = 100.0
+offset_bottom = 135.0
+color = Color(0.3254902, 0.3882353, 0.42745098, 1)
+
+[node name="MarcoSuperior" type="ColorRect" parent="." unique_id=1178155749]
+offset_right = 100.0
+offset_bottom = 10.0
+color = Color(0.6392157, 0.6784314, 0.70980394, 1)
+
+[node name="MarcoInferior" type="ColorRect" parent="." unique_id=1302410722]
+offset_top = 125.0
+offset_right = 100.0
+offset_bottom = 135.0
+color = Color(0.6392157, 0.6784314, 0.70980394, 1)
+
+[node name="Pantalla" type="ColorRect" parent="." unique_id=1599832130]
+offset_left = 12.0
+offset_top = 20.0
+offset_right = 88.0
+offset_bottom = 75.0
+color = Color(0.14901961, 0.24313726, 0.22745098, 1)
+
+[node name="TextoPantalla1" type="ColorRect" parent="." unique_id=1125426015]
+offset_left = 20.0
+offset_top = 35.0
+offset_right = 68.0
+offset_bottom = 39.0
+color = Color(0.44705883, 0.8980392, 0.64705884, 1)
+
+[node name="TextoPantalla2" type="ColorRect" parent="." unique_id=1230393859]
+offset_left = 20.0
+offset_top = 45.0
+offset_right = 78.0
+offset_bottom = 49.0
+color = Color(0.44705883, 0.8980392, 0.64705884, 1)
+
+[node name="BotonRojo" type="ColorRect" parent="." unique_id=1654218820]
+offset_left = 20.0
+offset_top = 90.0
+offset_right = 40.0
+offset_bottom = 110.0
+color = Color(0.93333334, 0.27058825, 0.27058825, 1)
+
+[node name="BotonVerde" type="ColorRect" parent="." unique_id=568084611]
+offset_left = 60.0
+offset_top = 90.0
+offset_right = 80.0
+offset_bottom = 110.0
+color = Color(0.4117647, 0.8392157, 0.5411765, 1)
+
+[node name="LuzRoja" type="ColorRect" parent="." unique_id=44328126]
+offset_left = 78.0
+offset_top = 8.0
+offset_right = 88.0
+offset_bottom = 18.0
+color = Color(1, 0.35686275, 0.35686275, 1)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=2116844965]
+libraries/ = SubResource("AnimationLibrary_dbylf")
+autoplay = &"parpadeo"

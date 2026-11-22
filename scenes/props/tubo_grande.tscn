@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://c7ihyrr66ybvo"]
+
+[node name="TuboGrande" type="Node2D" unique_id=1208712540]
+z_index = -1
+position = Vector2(237, 95)
+
+[node name="Cuerpo" type="ColorRect" parent="." unique_id=287883833]
+offset_right = 220.0
+offset_bottom = 24.0
+color = Color(0.36862746, 0.40784314, 0.44705883, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="Brillo" type="ColorRect" parent="." unique_id=984444772]
+offset_right = 220.0
+offset_bottom = 8.0
+color = Color(0.64705884, 0.6901961, 0.7294118, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="BordeIzq" type="ColorRect" parent="." unique_id=2087182804]
+offset_left = -8.0
+offset_top = -5.0
+offset_right = 4.0
+offset_bottom = 31.0
+color = Color(0.49411765, 0.53333336, 0.57254905, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="BordeDer" type="ColorRect" parent="." unique_id=155414954]
+offset_left = 216.0
+offset_top = -5.0
+offset_right = 228.0
+offset_bottom = 31.0
+color = Color(0.49411765, 0.53333336, 0.57254905, 1)
+metadata/_edit_use_anchors_ = true

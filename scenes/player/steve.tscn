@@ -32,7 +32,7 @@ color = Color(0.3254902, 0.7254902, 0.8980392, 1)
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1693207895]
 position = Vector2(0, -20)
 limit_left = 0
-limit_top = -30
+limit_top = 0
 limit_bottom = 640
 position_smoothing_enabled = true
 editor_draw_limits = true
