@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://cfvgpb6ujyr5t"]
+
+[node name="CamaRefugio" type="Node2D" unique_id=349099528]
+
+[node name="Sombra" type="ColorRect" parent="." unique_id=779582467]
+offset_left = -8.0
+offset_top = -5.0
+offset_right = 158.0
+offset_bottom = 3.0
+color = Color(0.16078432, 0.19215687, 0.21568628, 0.45490196)
+
+[node name="PataIzquierda" type="ColorRect" parent="." unique_id=1720248801]
+offset_top = -45.0
+offset_right = 10.0
+color = Color(0.39215687, 0.3254902, 0.25882354, 1)
+
+[node name="PataDerecha" type="ColorRect" parent="." unique_id=1685452583]
+offset_left = 140.0
+offset_top = -45.0
+offset_right = 150.0
+color = Color(0.39215687, 0.3254902, 0.25882354, 1)
+
+[node name="Estructura" type="ColorRect" parent="." unique_id=1909926140]
+offset_left = -5.0
+offset_top = -42.0
+offset_right = 155.0
+offset_bottom = -22.0
+color = Color(0.5019608, 0.41568628, 0.31764707, 1)
+
+[node name="Respaldo" type="ColorRect" parent="." unique_id=843798265]
+offset_left = -8.0
+offset_top = -78.0
+offset_right = 2.0
+offset_bottom = -22.0
+color = Color(0.43529412, 0.35686275, 0.28235295, 1)
+
+[node name="Colchon" type="ColorRect" parent="." unique_id=1226223788]
+offset_left = 2.0
+offset_top = -52.0
+offset_right = 148.0
+offset_bottom = -38.0
+color = Color(0.64705884, 0.7019608, 0.6392157, 1)
+
+[node name="Sabana" type="ColorRect" parent="." unique_id=467021613]
+offset_left = 55.0
+offset_top = -52.0
+offset_right = 148.0
+offset_bottom = -38.0
+color = Color(0.45490196, 0.56078434, 0.5294118, 1)
+
+[node name="Almohada" type="ColorRect" parent="." unique_id=1871385446]
+offset_left = 8.0
+offset_top = -62.0
+offset_right = 43.0
+offset_bottom = -50.0
+color = Color(0.85490197, 0.84313726, 0.7372549, 1)

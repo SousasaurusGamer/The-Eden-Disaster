@@ -1,0 +1,61 @@
+[gd_scene format=3 uid="uid://cnskv3ubhq2be"]
+
+[sub_resource type="Gradient" id="Gradient_ri63k"]
+colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 0.039215688)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_op1xx"]
+gradient = SubResource("Gradient_ri63k")
+width = 256
+height = 256
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(1, 0.5)
+
+[node name="FocoColgante" type="Node2D" unique_id=447179231]
+
+[node name="BaseTecho" type="ColorRect" parent="." unique_id=2113834409]
+offset_left = -16.0
+offset_right = 16.0
+offset_bottom = 8.0
+color = Color(0.63529414, 0.68235296, 0.69803923, 1)
+
+[node name="Cable" type="ColorRect" parent="." unique_id=551195746]
+offset_left = -2.0
+offset_top = 8.0
+offset_right = 2.0
+offset_bottom = 93.0
+color = Color(0.15686275, 0.1764706, 0.19607843, 1)
+
+[node name="Conector" type="ColorRect" parent="." unique_id=201533752]
+offset_left = -9.0
+offset_top = 93.0
+offset_right = 9.0
+offset_bottom = 107.0
+color = Color(0.4, 0.4627451, 0.49019608, 1)
+
+[node name="PantallaMetalica" type="ColorRect" parent="." unique_id=553893150]
+offset_left = -20.0
+offset_top = 107.0
+offset_right = 20.0
+offset_bottom = 119.0
+color = Color(0.53333336, 0.5882353, 0.6156863, 1)
+
+[node name="BordeLampara" type="ColorRect" parent="." unique_id=2142239478]
+offset_left = -23.0
+offset_top = 117.0
+offset_right = 23.0
+offset_bottom = 121.0
+color = Color(0.34901962, 0.4117647, 0.4392157, 1)
+
+[node name="Bombilla" type="ColorRect" parent="." unique_id=459784676]
+offset_left = -9.0
+offset_top = 121.0
+offset_right = 9.0
+offset_bottom = 136.0
+color = Color(1, 0.89411765, 0.6431373, 1)
+
+[node name="LuzReal" type="PointLight2D" parent="." unique_id=509852137]
+color = Color(1, 0.89411765, 0.6431373, 1)
+texture = SubResource("GradientTexture2D_op1xx")
+offset = Vector2(0, 132)
+texture_scale = 3.0

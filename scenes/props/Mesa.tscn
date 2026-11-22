@@ -1,0 +1,111 @@
+[gd_scene format=3 uid="uid://ild1kqf6sox7"]
+
+[node name="Mesa" type="Node2D" unique_id=476277961]
+z_index = -1
+
+[node name="Sombra" type="ColorRect" parent="." unique_id=1042628618]
+offset_left = -55.0
+offset_top = -5.0
+offset_right = 55.0
+offset_bottom = 2.0
+color = Color(0.078431375, 0.10980392, 0.13725491, 0.5019608)
+
+[node name="PataIzquierda" type="ColorRect" parent="." unique_id=1839376646]
+offset_left = -42.0
+offset_top = -34.0
+offset_right = -32.0
+color = Color(0.39607844, 0.2509804, 0.17254902, 1)
+
+[node name="PataDerecha" type="ColorRect" parent="." unique_id=1940013891]
+offset_left = 32.0
+offset_top = -34.0
+offset_right = 42.0
+color = Color(0.39607844, 0.2509804, 0.17254902, 1)
+
+[node name="Tablero" type="ColorRect" parent="." unique_id=1182616109]
+offset_left = -50.0
+offset_top = -43.0
+offset_right = 50.0
+offset_bottom = -32.0
+color = Color(0.6392157, 0.41960785, 0.25882354, 1)
+
+[node name="BordeSuperior" type="ColorRect" parent="." unique_id=2106925327]
+offset_left = -50.0
+offset_top = -43.0
+offset_right = 50.0
+offset_bottom = -40.0
+color = Color(0.8235294, 0.6, 0.38039216, 1)
+
+[node name="Cajon" type="ColorRect" parent="." unique_id=437091000]
+offset_left = -23.0
+offset_top = -32.0
+offset_right = 23.0
+offset_bottom = -15.0
+color = Color(0.4627451, 0.31764707, 0.23137255, 1)
+
+[node name="Tirador" type="ColorRect" parent="." unique_id=2096302071]
+offset_left = -4.0
+offset_top = -25.0
+offset_right = 4.0
+offset_bottom = -22.0
+color = Color(0.77254903, 0.7176471, 0.6313726, 1)
+
+[node name="ObjetosMesa" type="Node2D" parent="." unique_id=766302153]
+
+[node name="Monitor" type="Node2D" parent="ObjetosMesa" unique_id=1622993516]
+
+[node name="Pantalla" type="ColorRect" parent="ObjetosMesa/Monitor" unique_id=1628529060]
+offset_left = -15.0
+offset_top = -72.0
+offset_right = 15.0
+offset_bottom = -52.0
+color = Color(0.33333334, 0.39215687, 0.41960785, 1)
+
+[node name="BrilloPantalla" type="ColorRect" parent="ObjetosMesa/Monitor" unique_id=1972825972]
+offset_left = -12.0
+offset_top = -69.0
+offset_right = 12.0
+offset_bottom = -55.0
+color = Color(0.32156864, 0.8509804, 0.72156864, 1)
+
+[node name="BaseMonitor" type="ColorRect" parent="ObjetosMesa/Monitor" unique_id=1944160470]
+offset_left = -3.0
+offset_top = -52.0
+offset_right = 3.0
+offset_bottom = -46.0
+color = Color(0.5529412, 0.6039216, 0.61960787, 1)
+
+[node name="PieMonitor" type="ColorRect" parent="ObjetosMesa/Monitor" unique_id=613563945]
+offset_left = -10.0
+offset_top = -46.0
+offset_right = 10.0
+offset_bottom = -43.0
+color = Color(0.49411765, 0.54509807, 0.5647059, 1)
+
+[node name="Tubo1" type="ColorRect" parent="ObjetosMesa" unique_id=1225440068]
+offset_left = 24.0
+offset_top = -59.0
+offset_right = 32.0
+offset_bottom = -43.0
+color = Color(0.4745098, 0.84313726, 0.7647059, 1)
+
+[node name="Tubo2" type="ColorRect" parent="ObjetosMesa" unique_id=1044891281]
+offset_left = 24.0
+offset_top = -59.0
+offset_right = 32.0
+offset_bottom = -47.0
+color = Color(0.72954154, 0.82210714, 1, 1)
+
+[node name="Tapita1" type="ColorRect" parent="ObjetosMesa" unique_id=206244240]
+offset_left = 23.0
+offset_top = -59.0
+offset_right = 31.0
+offset_bottom = -57.0
+color = Color(0.84705883, 0.8784314, 0.8901961, 1)
+
+[node name="Tapita2" type="ColorRect" parent="ObjetosMesa" unique_id=2108245368]
+offset_left = 25.0
+offset_top = -59.0
+offset_right = 33.0
+offset_bottom = -57.0
+color = Color(0.84705883, 0.8784314, 0.8901961, 1)

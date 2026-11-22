@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://c6syskmrkccpp"]
+
+[node name="VegetacionMutada" type="Node2D" unique_id=2131654461]
+
+[node name="TalloPrincipal" type="Line2D" parent="." unique_id=1327051028]
+points = PackedVector2Array(0, 0, -5, -35, 8, -70, 0, -110)
+width = 8.0
+default_color = Color(0.19607843, 0.42745098, 0.28235295, 1)
+
+[node name="RamaIzquierda" type="Line2D" parent="." unique_id=2003089056]
+points = PackedVector2Array(0, -35, -25, -60, -42, -75)
+width = 5.0
+default_color = Color(0.19607843, 0.42745098, 0.28235295, 1)
+
+[node name="RamaDerecha" type="Line2D" parent="." unique_id=64742952]
+points = PackedVector2Array(8, -70, 30, -90, 48, -96)
+width = 5.0
+default_color = Color(0.19607843, 0.42745098, 0.28235295, 1)
+
+[node name="Hoja1" type="ColorRect" parent="." unique_id=644793929]
+offset_left = -18.0
+offset_top = -117.0
+offset_right = 12.0
+offset_bottom = -101.0
+rotation = -0.43633232
+color = Color(0.32156864, 0.6117647, 0.38039216, 1)
+
+[node name="Hoja2" type="ColorRect" parent="." unique_id=1878608503]
+offset_left = -47.0
+offset_top = -85.0
+offset_right = -18.0
+offset_bottom = -71.0
+rotation = 0.43633232
+color = Color(0.2627451, 0.5568628, 0.32941177, 1)
+
+[node name="Hoja3" type="ColorRect" parent="." unique_id=3360355]
+offset_left = 29.0
+offset_top = -107.0
+offset_right = 61.0
+offset_bottom = -92.0
+rotation = -0.5235988
+color = Color(0.39607844, 0.6627451, 0.41568628, 1)

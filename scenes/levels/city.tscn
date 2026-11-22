@@ -1,11 +1,27 @@
 [gd_scene format=3 uid="uid://c8spub2rnuogw"]
 
+[ext_resource type="PackedScene" uid="uid://dwxm2m5o3nanp" path="res://scenes/props/edificio_abandodado.tscn" id="1_0hjwn"]
 [ext_resource type="PackedScene" uid="uid://dxbq7pncklnoo" path="res://scenes/ui/hud.tscn" id="1_3lt63"]
 [ext_resource type="PackedScene" uid="uid://bs4wjh4g2wxnf" path="res://scenes/player/steve.tscn" id="2_0hjwn"]
+[ext_resource type="PackedScene" uid="uid://c6syskmrkccpp" path="res://scenes/props/vegetacion_mutada.tscn" id="2_3n6pg"]
+[ext_resource type="PackedScene" uid="uid://b7kikda3bcuw6" path="res://scenes/props/farola_rota.tscn" id="3_0hjwn"]
 [ext_resource type="Script" uid="uid://fhsnhe1y21om" path="res://scripts/scene_door.gd" id="3_3lt63"]
 [ext_resource type="PackedScene" uid="uid://bhjhv3042iaxg" path="res://scenes/enemies/plant_enemy.tscn" id="3_wyqnf"]
-[ext_resource type="PackedScene" uid="uid://clb203aksgex6" path="res://scenes/player/ammo_pickup.tscn" id="4_dx8ow"]
 [ext_resource type="PackedScene" uid="uid://6y3s3ddlm6sa" path="res://scenes/enemies/spore_shooter.tscn" id="5_pksu5"]
+[ext_resource type="PackedScene" uid="uid://buydtrgbk2doq" path="res://scenes/props/escombro_salto.tscn" id="7_dx8ow"]
+[ext_resource type="PackedScene" uid="uid://bx727uyyuelk2" path="res://scenes/props/entrada_refugio_visual.tscn" id="10_pksu5"]
+[ext_resource type="PackedScene" uid="uid://d0ry576ps3uxi" path="res://scenes/props/edificio_fondo.tscn" id="11_nqxve"]
+
+[sub_resource type="Gradient" id="Gradient_x77yk"]
+offsets = PackedFloat32Array(0, 0.5, 1)
+colors = PackedColorArray(0.50980395, 0.58431375, 0.5529412, 0.67058825, 0.50980395, 0.58431375, 0.5529412, 0.3764706, 0.50980395, 0.58431375, 0.5529412, 0.007843138)
+metadata/_snap_enabled = true
+metadata/_snap_count = 2
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_op1xx"]
+gradient = SubResource("Gradient_x77yk")
+fill_from = Vector2(0.5, 0)
+fill_to = Vector2(0.5, 1)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_op1xx"]
 size = Vector2(2304, 42)
@@ -13,40 +29,101 @@ size = Vector2(2304, 42)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_i88o1"]
 size = Vector2(60, 80)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_kmatr"]
-size = Vector2(71, 12)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_j85h6"]
-size = Vector2(40, 145.625)
-
 [node name="City" type="Node2D" unique_id=901466039]
 
 [node name="FondoTemporal" type="ColorRect" parent="." unique_id=1084933701]
+z_index = -10
 offset_right = 2304.0
 offset_bottom = 650.0
-color = Color(0.25065672, 0.3163744, 0.38215223, 1)
+color = Color(0.20392157, 0.2784314, 0.32941177, 1)
+
+[node name="NieblaLejana" type="TextureRect" parent="." unique_id=772296074]
+z_index = -9
+offset_left = -9.0
+offset_top = 1.0
+offset_right = 2304.0
+offset_bottom = 460.0
+mouse_filter = 2
+texture = SubResource("GradientTexture2D_op1xx")
+
+[node name="EdificiosFondo" type="Node2D" parent="." unique_id=805673402]
+z_index = -2
+
+[node name="EdificioAbandodado" parent="EdificiosFondo" unique_id=761721482 instance=ExtResource("1_0hjwn")]
+position = Vector2(201, 187)
+
+[node name="EdificioAbandodado2" parent="EdificiosFondo" unique_id=1515023312 instance=ExtResource("1_0hjwn")]
+position = Vector2(1842, 204)
+
+[node name="EdificioAbandodado3" parent="EdificiosFondo" unique_id=886196563 instance=ExtResource("1_0hjwn")]
+position = Vector2(1631.0001, 252.00006)
+rotation = 0.45029494
+
+[node name="EdificioAbandodado4" parent="EdificiosFondo" unique_id=670173012 instance=ExtResource("1_0hjwn")]
+position = Vector2(1062, 286)
+
+[node name="EdificioAbandodado5" parent="EdificiosFondo" unique_id=2118402375 instance=ExtResource("1_0hjwn")]
+position = Vector2(641, 216)
+
+[node name="PlantasMutantes" type="Node2D" parent="." unique_id=166087938]
+z_index = -1
+
+[node name="VegetacionMutada" parent="PlantasMutantes" unique_id=2131654461 instance=ExtResource("2_3n6pg")]
+position = Vector2(1415, 620)
+
+[node name="VegetacionMutada2" parent="PlantasMutantes" unique_id=896865131 instance=ExtResource("2_3n6pg")]
+position = Vector2(442, 627)
+
+[node name="VegetacionMutada3" parent="PlantasMutantes" unique_id=164267417 instance=ExtResource("2_3n6pg")]
+position = Vector2(658, 642)
+
+[node name="VegetacionMutada4" parent="PlantasMutantes" unique_id=1290472974 instance=ExtResource("2_3n6pg")]
+position = Vector2(1787, 630)
+
+[node name="VegetacionMutada5" parent="PlantasMutantes" unique_id=773546171 instance=ExtResource("2_3n6pg")]
+position = Vector2(968, 621)
+
+[node name="Faros" type="Node2D" parent="." unique_id=883169390]
+z_index = -1
+position = Vector2(973, 623)
+
+[node name="FarolaRota" parent="Faros" unique_id=731431877 instance=ExtResource("3_0hjwn")]
+position = Vector2(546, -5)
+rotation = -1.5934856
+
+[node name="FarolaRota2" parent="Faros" unique_id=1773629406 instance=ExtResource("3_0hjwn")]
+position = Vector2(-38, 1)
+
+[node name="FarolaRota3" parent="Faros" unique_id=1442585889 instance=ExtResource("3_0hjwn")]
+position = Vector2(-931, 3)
 
 [node name="Suelo" type="StaticBody2D" parent="." unique_id=1815186442]
+position = Vector2(135, 178)
 
 [node name="ColorRect" type="ColorRect" parent="Suelo" unique_id=463342805]
-offset_left = 1.0
-offset_top = 610.0
-offset_right = 2305.0
-offset_bottom = 650.0
+offset_left = -142.0
+offset_top = 440.0
+offset_right = 2162.0
+offset_bottom = 480.0
 color = Color(0.3764706, 0.41960785, 0.4627451, 1)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Suelo" unique_id=1159307698]
-position = Vector2(1151.375, 631)
+position = Vector2(1008, 467)
 shape = SubResource("RectangleShape2D_op1xx")
 debug_color = Color(0, 0.6, 0.69803923, 0)
 
 [node name="Steve" parent="." unique_id=1515212709 instance=ExtResource("2_0hjwn")]
 position = Vector2(100, 600)
 
+[node name="Camera2D" parent="Steve" index="3" unique_id=1693207895]
+limit_right = 2300
+limit_bottom = 649
+
 [node name="HUD" parent="." unique_id=265695125 instance=ExtResource("1_3lt63")]
 
 [node name="EntradaRefugio" type="Area2D" parent="." unique_id=959917742]
-position = Vector2(2138, 606)
+z_index = -1
+position = Vector2(2215, 618)
 script = ExtResource("3_3lt63")
 destination_scene = "uid://c0cwv64jhygkr"
 
@@ -60,93 +137,60 @@ color = Color(0.0028182059, 0.23702261, 0.00089795137, 1)
 position = Vector2(0, -40)
 shape = SubResource("RectangleShape2D_i88o1")
 
-[node name="Plataforma01" type="StaticBody2D" parent="." unique_id=36589898]
-position = Vector2(1187, 485)
+[node name="Escombros" type="Node2D" parent="." unique_id=887269407]
 
-[node name="ColorRect" type="ColorRect" parent="Plataforma01" unique_id=508305678]
-offset_left = -34.0
-offset_right = 36.0
-offset_bottom = 12.0
-color = Color(0.18072194, 0.18072197, 0.18072197, 1)
+[node name="EscombroSalto" parent="Escombros" unique_id=1359279060 instance=ExtResource("7_dx8ow")]
+position = Vector2(1609, 629)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Plataforma01" unique_id=247098103]
-position = Vector2(1.5, 6)
-shape = SubResource("RectangleShape2D_kmatr")
+[node name="EscombroSalto2" parent="Escombros" unique_id=106716191 instance=ExtResource("7_dx8ow")]
+position = Vector2(737, 626)
 
-[node name="Plataforma02" type="StaticBody2D" parent="." unique_id=2083634861]
-position = Vector2(1435, 439)
+[node name="enemigos" type="Node2D" parent="." unique_id=923571011]
 
-[node name="ColorRect" type="ColorRect" parent="Plataforma02" unique_id=493899815]
-offset_left = -34.0
-offset_right = 36.0
-offset_bottom = 12.0
-color = Color(0.18072194, 0.18072197, 0.18072197, 1)
+[node name="SporeShooter" parent="enemigos" unique_id=428102256 instance=ExtResource("5_pksu5")]
+position = Vector2(1598, 573)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Plataforma02" unique_id=98734593]
-position = Vector2(0, 6)
-shape = SubResource("RectangleShape2D_kmatr")
+[node name="SporeShooter2" parent="enemigos" unique_id=1053611135 instance=ExtResource("5_pksu5")]
+position = Vector2(1346, 628)
 
-[node name="Muro01" type="StaticBody2D" parent="." unique_id=2043103596]
-position = Vector2(837, 609)
+[node name="SporeShooter3" parent="enemigos" unique_id=453722410 instance=ExtResource("5_pksu5")]
+position = Vector2(734, 570)
 
-[node name="ColorRect" type="ColorRect" parent="Muro01" unique_id=1987717203]
-offset_left = -20.0
-offset_top = -124.0
-offset_right = 20.0
-offset_bottom = 1.0
-color = Color(0.19793725, 0.19793722, 0.19793722, 1)
+[node name="PlantEnemy" parent="enemigos" unique_id=530101187 instance=ExtResource("3_wyqnf")]
+position = Vector2(904, 623)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Muro01" unique_id=945258032]
-position = Vector2(0, -53)
-shape = SubResource("RectangleShape2D_j85h6")
+[node name="PlantEnemy2" parent="enemigos" unique_id=1715398859 instance=ExtResource("3_wyqnf")]
+position = Vector2(1096, 624)
 
-[node name="Muro03" type="StaticBody2D" parent="." unique_id=1418783837]
-position = Vector2(1568, 608)
+[node name="PlantEnemy3" parent="enemigos" unique_id=967748294 instance=ExtResource("3_wyqnf")]
+position = Vector2(590, 624)
 
-[node name="ColorRect" type="ColorRect" parent="Muro03" unique_id=674342615]
-offset_left = -20.0
-offset_top = -168.0
-offset_right = 20.0
-offset_bottom = 1.0
-color = Color(0.19793725, 0.19793722, 0.19793722, 1)
+[node name="PlantEnemy4" parent="enemigos" unique_id=146919103 instance=ExtResource("3_wyqnf")]
+position = Vector2(377, 623)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Muro03" unique_id=336011738]
-position = Vector2(1, -95.8125)
-shape = SubResource("RectangleShape2D_j85h6")
+[node name="EntradaRefugioVisual" parent="." unique_id=1549103111 instance=ExtResource("10_pksu5")]
+z_index = -1
+position = Vector2(2167, 508)
 
-[node name="Muro02" type="StaticBody2D" parent="." unique_id=525953357]
-position = Vector2(776, 609)
+[node name="EdificiosFondoOscuro" type="Node2D" parent="." unique_id=1010113894]
+z_index = -5
 
-[node name="ColorRect" type="ColorRect" parent="Muro02" unique_id=2013065050]
-offset_left = -20.0
-offset_top = -60.0
-offset_right = 20.0
-color = Color(0.19793725, 0.19793722, 0.19793722, 1)
+[node name="EdificioFondo" parent="EdificiosFondoOscuro" unique_id=1929745409 instance=ExtResource("11_nqxve")]
+position = Vector2(2026, 632)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Muro02" unique_id=2020584799]
-position = Vector2(-1, 11)
-shape = SubResource("RectangleShape2D_j85h6")
+[node name="EdificioFondo2" parent="EdificiosFondoOscuro" unique_id=1881283382 instance=ExtResource("11_nqxve")]
+position = Vector2(1643, 626)
 
-[node name="PlantEnemy" parent="." unique_id=530101187 instance=ExtResource("3_wyqnf")]
-position = Vector2(1071, 607)
+[node name="EdificioFondo3" parent="EdificiosFondoOscuro" unique_id=1146395386 instance=ExtResource("11_nqxve")]
+position = Vector2(1377, 632)
 
-[node name="PlantEnemy2" parent="." unique_id=995781800 instance=ExtResource("3_wyqnf")]
-position = Vector2(1433, 609)
+[node name="EdificioFondo4" parent="EdificiosFondoOscuro" unique_id=169762692 instance=ExtResource("11_nqxve")]
+position = Vector2(938, 624)
 
-[node name="PlantEnemy3" parent="." unique_id=872225672 instance=ExtResource("3_wyqnf")]
-position = Vector2(1262, 609)
+[node name="EdificioFondo5" parent="EdificiosFondoOscuro" unique_id=293889809 instance=ExtResource("11_nqxve")]
+position = Vector2(453, 623)
 
-[node name="SporeShooter" parent="." unique_id=428102256 instance=ExtResource("5_pksu5")]
-position = Vector2(1570, 435)
+[node name="EdificioFondo6" parent="EdificiosFondoOscuro" unique_id=735027612 instance=ExtResource("11_nqxve")]
+position = Vector2(37, 620)
 
-[node name="SporeShooter2" parent="." unique_id=310702444 instance=ExtResource("5_pksu5")]
-position = Vector2(1197, 484)
-
-[node name="AmmoPickup" parent="." unique_id=1355191995 instance=ExtResource("4_dx8ow")]
-position = Vector2(1028, 601)
-
-[node name="AmmoPickup2" parent="." unique_id=1346300859 instance=ExtResource("4_dx8ow")]
-position = Vector2(1362, 601)
-
-[node name="AmmoPickup3" parent="." unique_id=1046903688 instance=ExtResource("4_dx8ow")]
-position = Vector2(1418, 430)
+[editable path="Steve"]

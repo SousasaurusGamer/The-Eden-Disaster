@@ -1,0 +1,165 @@
+[gd_scene format=3 uid="uid://dwxm2m5o3nanp"]
+
+[node name="EdificioAbandodado" type="Node2D" unique_id=761721482]
+
+[node name="Cuerpo" type="ColorRect" parent="." unique_id=1954581954]
+offset_right = 260.0
+offset_bottom = 430.0
+color = Color(0.3372549, 0.3882353, 0.41568628, 1)
+
+[node name="Techo" type="ColorRect" parent="." unique_id=1065197358]
+offset_left = -8.0
+offset_top = -12.0
+offset_right = 268.0
+offset_bottom = 6.0
+color = Color(0.47058824, 0.5294118, 0.54901963, 1)
+
+[node name="BordeIzquierdo" type="ColorRect" parent="." unique_id=679543059]
+offset_right = 10.0
+offset_bottom = 430.0
+color = Color(0.22352941, 0.28627452, 0.31764707, 1)
+
+[node name="BordeDerecho" type="ColorRect" parent="." unique_id=1722572463]
+offset_left = 250.0
+offset_right = 260.0
+offset_bottom = 430.0
+color = Color(0.22352941, 0.28627452, 0.31764707, 1)
+
+[node name="MarcoVentana1" type="ColorRect" parent="." unique_id=961571614]
+offset_left = 35.0
+offset_top = 70.0
+offset_right = 100.0
+offset_bottom = 155.0
+color = Color(0.5372549, 0.6, 0.61960787, 1)
+
+[node name="CristalVentana1" type="ColorRect" parent="." unique_id=805302646]
+offset_left = 41.0
+offset_top = 76.0
+offset_right = 94.0
+offset_bottom = 149.0
+color = Color(0.15294118, 0.23921569, 0.27058825, 1)
+
+[node name="MarcoVentada2" type="ColorRect" parent="." unique_id=1672697032]
+offset_left = 155.0
+offset_top = 70.0
+offset_right = 220.0
+offset_bottom = 155.0
+color = Color(0.5372549, 0.6, 0.61960787, 1)
+
+[node name="CristalVentana2" type="ColorRect" parent="." unique_id=1068954133]
+offset_left = 161.0
+offset_top = 76.0
+offset_right = 214.0
+offset_bottom = 149.0
+color = Color(0.15294118, 0.23921569, 0.27058825, 1)
+
+[node name="MarcoVentada3" type="ColorRect" parent="." unique_id=1101147512]
+offset_left = 37.0
+offset_top = 247.0
+offset_right = 102.0
+offset_bottom = 332.0
+color = Color(0.5372549, 0.6, 0.61960787, 1)
+
+[node name="CristalVentana3" type="ColorRect" parent="." unique_id=213105076]
+offset_left = 43.0
+offset_top = 253.0
+offset_right = 96.0
+offset_bottom = 326.0
+color = Color(0.15294118, 0.23921569, 0.27058825, 1)
+
+[node name="MarcoVentada5" type="ColorRect" parent="." unique_id=1304993255]
+offset_left = 151.0
+offset_top = 246.0
+offset_right = 216.0
+offset_bottom = 331.0
+color = Color(0.5372549, 0.6, 0.61960787, 1)
+
+[node name="CristalVentana4" type="ColorRect" parent="." unique_id=765378262]
+offset_left = 157.0
+offset_top = 252.0
+offset_right = 210.0
+offset_bottom = 325.0
+color = Color(0.15294118, 0.23921569, 0.27058825, 1)
+
+[node name="Vegetacio" type="Node2D" parent="." unique_id=1914453124]
+
+[node name="LianaPrincipal" type="Line2D" parent="Vegetacio" unique_id=1046148817]
+points = PackedVector2Array(210, 0, 195, 50, 220, 110, 182, 165, 205, 225, 170, 310, 185, 400)
+width = 9.0
+default_color = Color(0.19215687, 0.3647059, 0.2627451, 1)
+antialiased = true
+
+[node name="Hoja1" type="ColorRect" parent="Vegetacio" unique_id=1317837670]
+offset_left = 196.0
+offset_top = 55.0
+offset_right = 226.0
+offset_bottom = 67.0
+rotation = -0.61086524
+color = Color(0.29803923, 0.57254905, 0.3647059, 1)
+
+[node name="Hoja2" type="ColorRect" parent="Vegetacio" unique_id=686679729]
+offset_left = 208.0
+offset_top = 120.0
+offset_right = 242.0
+offset_bottom = 133.0
+rotation = 0.5235988
+color = Color(0.29803923, 0.57254905, 0.3647059, 1)
+
+[node name="Hoja3" type="ColorRect" parent="Vegetacio" unique_id=1164228097]
+offset_left = 165.0
+offset_top = 212.0
+offset_right = 193.0
+offset_bottom = 224.0
+rotation = -0.43633232
+color = Color(0.29803923, 0.57254905, 0.3647059, 1)
+
+[node name="Hoja4" type="ColorRect" parent="Vegetacio" unique_id=635399810]
+offset_left = 178.0
+offset_top = 320.0
+offset_right = 216.0
+offset_bottom = 333.0
+rotation = 0.6981317
+color = Color(0.29803923, 0.57254905, 0.3647059, 1)
+
+[node name="Vegetacio2" type="Node2D" parent="." unique_id=627379043]
+position = Vector2(-167, -5)
+
+[node name="LianaPrincipal" type="Line2D" parent="Vegetacio2" unique_id=975948715]
+position = Vector2(-18.941193, -0.88277435)
+scale = Vector2(1.117647, 0.9019139)
+points = PackedVector2Array(210, 0, 195, 50, 220, 110, 182, 165, 205, 225, 170, 310, 185, 400)
+width = 9.0
+default_color = Color(0.19215687, 0.3647059, 0.2627451, 1)
+antialiased = true
+
+[node name="Hoja1" type="ColorRect" parent="Vegetacio2" unique_id=478668331]
+offset_left = 214.0
+offset_top = 90.00001
+offset_right = 244.0
+offset_bottom = 102.00001
+rotation = -0.61086524
+color = Color(0.29803923, 0.57254905, 0.3647059, 1)
+
+[node name="Hoja2" type="ColorRect" parent="Vegetacio2" unique_id=1001413770]
+offset_left = 199.0
+offset_top = 214.0
+offset_right = 233.0
+offset_bottom = 227.0
+rotation = 0.5235988
+color = Color(0.29803923, 0.57254905, 0.3647059, 1)
+
+[node name="Hoja3" type="ColorRect" parent="Vegetacio2" unique_id=2074122615]
+offset_left = 161.0
+offset_top = 149.00002
+offset_right = 189.0
+offset_bottom = 161.00002
+rotation = -0.43633232
+color = Color(0.29803923, 0.57254905, 0.3647059, 1)
+
+[node name="Hoja4" type="ColorRect" parent="Vegetacio2" unique_id=423670907]
+offset_left = 183.0
+offset_top = 321.0
+offset_right = 221.0
+offset_bottom = 334.0
+rotation = 0.6981317
+color = Color(0.29803923, 0.57254905, 0.3647059, 1)

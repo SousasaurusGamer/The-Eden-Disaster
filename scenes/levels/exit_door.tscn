@@ -3,17 +3,39 @@
 [ext_resource type="Script" uid="uid://c6o6gf83qeuih" path="res://scripts/exit_door.gd" id="1_xxsxy"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_op1xx"]
-size = Vector2(60, 80)
+size = Vector2(53, 77)
 
 [node name="ExitDoor" type="Area2D" unique_id=759371311]
+position = Vector2(2, -4)
 script = ExtResource("1_xxsxy")
 
-[node name="ColorRect" type="ColorRect" parent="." unique_id=962889139]
-offset_left = -20.0
-offset_top = -70.0
-offset_right = 20.0
-color = Color(0.0028182059, 0.23702261, 0.00089795137, 1)
+[node name="MarcoExterior" type="ColorRect" parent="." unique_id=962889139]
+offset_right = 46.0
+offset_bottom = 72.0
+color = Color(0.29411766, 0.33333334, 0.3882353, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="Puerta" type="ColorRect" parent="." unique_id=379233074]
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 40.0
+offset_bottom = 66.0
+color = Color(0.6039216, 0.6392157, 0.6784314, 1)
+
+[node name="MarcoInterior" type="ColorRect" parent="." unique_id=112759458]
+offset_left = 13.0
+offset_top = 12.0
+offset_right = 31.0
+offset_bottom = 48.0
+color = Color(0.78039217, 0.80784315, 0.8392157, 1)
+
+[node name="Manija" type="ColorRect" parent="." unique_id=131351697]
+offset_left = 28.0
+offset_top = 28.0
+offset_right = 32.0
+offset_bottom = 36.0
+color = Color(0.8980392, 0.90588236, 0.92156863, 1)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1458168970]
-position = Vector2(0, -40)
+position = Vector2(21, 34)
 shape = SubResource("RectangleShape2D_op1xx")

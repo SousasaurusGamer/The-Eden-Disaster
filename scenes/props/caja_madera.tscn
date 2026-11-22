@@ -1,0 +1,92 @@
+[gd_scene format=3 uid="uid://dj8yfaxkx3y1w"]
+
+[node name="CajaMadera" type="Node2D" unique_id=72915883]
+
+[node name="Cuerpo" type="ColorRect" parent="." unique_id=2024573152]
+offset_left = -40.0
+offset_top = -80.0
+offset_right = 40.0
+color = Color(0.7254902, 0.52156866, 0.30980393, 1)
+
+[node name="TablaSuperior" type="ColorRect" parent="." unique_id=2115361184]
+offset_left = -40.0
+offset_top = -80.0
+offset_right = 40.0
+offset_bottom = -72.0
+color = Color(0.8352941, 0.6392157, 0.44313726, 1)
+
+[node name="TablaInferior" type="ColorRect" parent="." unique_id=218151553]
+offset_left = -40.0
+offset_top = -8.0
+offset_right = 40.0
+color = Color(0.39215687, 0.2509804, 0.15294118, 1)
+
+[node name="TablaIzquierda" type="ColorRect" parent="." unique_id=230696978]
+offset_left = -40.0
+offset_top = -80.0
+offset_right = -32.0
+color = Color(0.5019608, 0.31764707, 0.18039216, 1)
+
+[node name="TablaDerecha" type="ColorRect" parent="." unique_id=1438385768]
+offset_left = 32.0
+offset_top = -80.0
+offset_right = 40.0
+color = Color(0.5019608, 0.31764707, 0.18039216, 1)
+
+[node name="LineaMadera1" type="ColorRect" parent="." unique_id=731064556]
+offset_left = -32.0
+offset_top = -55.0
+offset_right = 32.0
+offset_bottom = -52.0
+color = Color(0.59607846, 0.40784314, 0.24313726, 1)
+
+[node name="LineaMadera2" type="ColorRect" parent="." unique_id=463079453]
+offset_left = -32.0
+offset_top = -28.0
+offset_right = 32.0
+offset_bottom = -25.0
+color = Color(0.59607846, 0.40784314, 0.24313726, 1)
+
+[node name="RefuerzoDiagonal1" type="ColorRect" parent="." unique_id=335544885]
+offset_left = -27.158667
+offset_top = -73.15866
+offset_right = 54.90412
+offset_bottom = -65.15866
+rotation = 0.7853982
+color = Color(0.40784314, 0.26666668, 0.15294118, 1)
+
+[node name="RefuerzoDiagonal2" type="ColorRect" parent="." unique_id=1010898221]
+offset_left = -32.62241
+offset_top = -10.988763
+offset_right = 55.068394
+offset_bottom = -3.3221483
+rotation = -0.80285144
+color = Color(0.40784314, 0.26666668, 0.15294118, 1)
+
+[node name="Clavo1" type="ColorRect" parent="." unique_id=1634670344]
+offset_left = -30.0
+offset_top = -70.0
+offset_right = -26.0
+offset_bottom = -66.0
+color = Color(0.7882353, 0.7647059, 0.70980394, 1)
+
+[node name="Clavo2" type="ColorRect" parent="." unique_id=145067188]
+offset_left = 26.0
+offset_top = -70.0
+offset_right = 30.0
+offset_bottom = -66.0
+color = Color(0.7882353, 0.7647059, 0.70980394, 1)
+
+[node name="Clavo3" type="ColorRect" parent="." unique_id=379405107]
+offset_left = -30.0
+offset_top = -14.0
+offset_right = -26.0
+offset_bottom = -10.0
+color = Color(0.7882353, 0.7647059, 0.70980394, 1)
+
+[node name="Clavo4" type="ColorRect" parent="." unique_id=499724597]
+offset_left = 26.0
+offset_top = -14.0
+offset_right = 30.0
+offset_bottom = -10.0
+color = Color(0.7882353, 0.7647059, 0.70980394, 1)

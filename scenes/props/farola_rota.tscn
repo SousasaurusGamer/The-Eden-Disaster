@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://b7kikda3bcuw6"]
+
+[node name="FarolaRota" type="Node2D" unique_id=731431877]
+
+[node name="Poste" type="ColorRect" parent="." unique_id=1124974678]
+offset_left = 20.103931
+offset_top = -185.73947
+offset_right = 30.666643
+offset_bottom = -4.992737
+rotation = 0.13962634
+color = Color(0.34901962, 0.4, 0.42745098, 1)
+
+[node name="Base" type="ColorRect" parent="." unique_id=1816096064]
+offset_left = -15.0
+offset_top = -10.0
+offset_right = 15.0
+color = Color(0.22352941, 0.27058825, 0.29411766, 1)
+
+[node name="Brazo" type="ColorRect" parent="." unique_id=2007317322]
+offset_left = 24.0
+offset_top = -185.00002
+offset_right = 89.0
+offset_bottom = -177.00002
+rotation = -0.13962634
+color = Color(0.45882353, 0.5176471, 0.54509807, 1)
+
+[node name="Lampara" type="ColorRect" parent="." unique_id=2079449541]
+offset_left = 73.0
+offset_top = -188.0
+offset_right = 98.0
+offset_bottom = -174.0
+color = Color(0.23921569, 0.28235295, 0.30980393, 1)
+
+[node name="Luz" type="ColorRect" parent="." unique_id=326417406]
+offset_left = 80.0
+offset_top = -183.0
+offset_right = 95.0
+offset_bottom = -178.0
+color = Color(0.8980392, 0.7764706, 0.47843137, 1)
