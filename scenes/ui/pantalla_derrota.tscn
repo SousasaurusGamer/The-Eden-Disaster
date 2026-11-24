@@ -1,0 +1,111 @@
+[gd_scene format=3 uid="uid://78e0bqp4jyf7"]
+
+[ext_resource type="Script" uid="uid://b87fsg7ter1s6" path="res://scripts/pantalla_derrota.gd" id="1_kgyjn"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_op1xx"]
+bg_color = Color(0.63, 0, 0, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j85h6"]
+bg_color = Color(0.09803922, 0.12941177, 0.16862746, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i88o1"]
+bg_color = Color(0.27450982, 0.3372549, 0.42745098, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kmatr"]
+bg_color = Color(0.11710929, 0.117109336, 0.11710923, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jrfwv"]
+bg_color = Color(0.09803922, 0.12941177, 0.16862746, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wg20l"]
+bg_color = Color(0.16078432, 0.18431373, 0.23137255, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[node name="PantallaDerrota" type="CanvasLayer" unique_id=267418050]
+script = ExtResource("1_kgyjn")
+escena_menu = "uid://d0lxghfldtxj6"
+
+[node name="Pantalla" type="Control" parent="." unique_id=40388990]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Fondo" type="ColorRect" parent="Pantalla" unique_id=1317610671]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.043137256, 0.0627451, 0.09803922, 0.8666667)
+
+[node name="Centro" type="CenterContainer" parent="Pantalla" unique_id=997158994]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Opciones" type="VBoxContainer" parent="Pantalla/Centro" unique_id=1291488888]
+custom_minimum_size = Vector2(360, 0)
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="Titulo" type="Label" parent="Pantalla/Centro/Opciones" unique_id=437111880]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.92941177, 0.38431373, 0.38431373, 1)
+theme_override_font_sizes/font_size = 52
+text = "DEFEAT"
+horizontal_alignment = 1
+
+[node name="Subitulo" type="Label" parent="Pantalla/Centro/Opciones" unique_id=1393003110]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "Steve has fallen."
+horizontal_alignment = 1
+
+[node name="BotonReintentar" type="Button" parent="Pantalla/Centro/Opciones" unique_id=1445802499]
+custom_minimum_size = Vector2(360, 65)
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = SubResource("StyleBoxFlat_op1xx")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_j85h6")
+theme_override_styles/hover = SubResource("StyleBoxFlat_i88o1")
+text = "RETRY"
+
+[node name="BotonMenu" type="Button" parent="Pantalla/Centro/Opciones" unique_id=1503873658]
+custom_minimum_size = Vector2(360, 65)
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = SubResource("StyleBoxFlat_kmatr")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_jrfwv")
+theme_override_styles/hover = SubResource("StyleBoxFlat_wg20l")
+text = "MAIN MENU"

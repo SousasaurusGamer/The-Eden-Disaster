@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://bec0hjsm1qsvn"]
+
+[ext_resource type="Script" uid="uid://jdlqr1yavw18" path="res://scripts/pinchos_suelo.gd" id="1_asjew"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_op1xx"]
+size = Vector2(100, 55)
+
+[node name="PinchosSuelo" type="Area2D" unique_id=1066293805]
+script = ExtResource("1_asjew")
+
+[node name="AvisoVisual" type="ColorRect" parent="." unique_id=315045909]
+offset_left = -50.0
+offset_top = -7.0
+offset_right = 50.0
+color = Color(1, 0.23137255, 0.23137255, 1)
+
+[node name="PinchosVisual" type="Polygon2D" parent="." unique_id=1474569887]
+position = Vector2(89.99999, -23.999998)
+scale = Vector2(0.43556997, 0.5409323)
+color = Color(0.3529412, 0.59607846, 0.33333334, 1)
+polygon = PackedVector2Array(-307.19998, 22, -279.19998, -54.799995, -245.6, 22.800003, -222.4, -53.199997, -197.6, 22, -174.4, -53.999996, -143.20001, 25.199997, -117.600006, -53.199997, -96, 23.599998, -83.20001, 43.6, -317.6, 44.4)
+uv = PackedVector2Array(-304.8, 33.999992, -272.8, -56.399994, -245.6, 22.800003, -220.79999, -56.399994, -197.6, 22, -173.6, -55.599995, -143.20001, 25.199997, -106.399994, -61.999996, -80.79999, 24.400002, -71.20001, 41.999992, -327.19998, 42.799995)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1627310918]
+position = Vector2(0, -27.5)
+shape = SubResource("RectangleShape2D_op1xx")
+
+[node name="TimerAviso" type="Timer" parent="." unique_id=587189221]
+one_shot = true
+
+[node name="TimerActivo" type="Timer" parent="." unique_id=2004623022]
+wait_time = 0.8
+one_shot = true

@@ -1,0 +1,228 @@
+[gd_scene format=3 uid="uid://cap31o2f8dawg"]
+
+[ext_resource type="PackedScene" uid="uid://dxbq7pncklnoo" path="res://scenes/ui/hud.tscn" id="1_xbuhi"]
+[ext_resource type="PackedScene" uid="uid://bs4wjh4g2wxnf" path="res://scenes/player/steve.tscn" id="2_gkwyn"]
+[ext_resource type="PackedScene" uid="uid://bhjhv3042iaxg" path="res://scenes/enemies/plant_enemy.tscn" id="3_drsfp"]
+[ext_resource type="PackedScene" uid="uid://ild1kqf6sox7" path="res://scenes/props/Mesa.tscn" id="4_ibvvg"]
+[ext_resource type="PackedScene" uid="uid://6y3s3ddlm6sa" path="res://scenes/enemies/spore_shooter.tscn" id="5_2nl3w"]
+[ext_resource type="PackedScene" uid="uid://c7ihyrr66ybvo" path="res://scenes/props/tubo_grande.tscn" id="5_xbuhi"]
+[ext_resource type="PackedScene" uid="uid://crrgqxdo37xru" path="res://scenes/props/capsula_grande.tscn" id="6_drsfp"]
+[ext_resource type="PackedScene" uid="uid://bbko7wv2to7tu" path="res://scenes/levels/exit_door.tscn" id="6_gkwyn"]
+[ext_resource type="PackedScene" uid="uid://dsnoxm8fq8wdh" path="res://scenes/props/panel_emegencia.tscn" id="7_drsfp"]
+
+[sub_resource type="Gradient" id="Gradient_i88o1"]
+offsets = PackedFloat32Array(0, 0.5, 1)
+colors = PackedColorArray(0, 0, 0, 0.5803922, 0, 0, 0, 0.36862746, 0, 0, 0, 0)
+metadata/_snap_enabled = true
+metadata/_snap_count = 2
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_op1xx"]
+gradient = SubResource("Gradient_i88o1")
+fill_from = Vector2(0.5, 0)
+fill_to = Vector2(0.5, 1)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_op1xx"]
+size = Vector2(1634.625, 24)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kmatr"]
+size = Vector2(41, 658.5)
+
+[node name="Laboratory" type="Node2D" unique_id=901466039]
+
+[node name="FondoTemporal" type="TextureRect" parent="." unique_id=1582712196]
+z_index = -1
+offset_right = 1634.0
+offset_bottom = 582.0
+texture = SubResource("GradientTexture2D_op1xx")
+
+[node name="FondoLaboratorio" type="Node2D" parent="." unique_id=2057202497]
+z_index = -2
+
+[node name="ParedBase" type="ColorRect" parent="FondoLaboratorio" unique_id=2077270274]
+offset_right = 1634.0
+offset_bottom = 612.0
+color = Color(0.20784314, 0.2627451, 0.3019608, 1)
+
+[node name="VigaSuperior" type="ColorRect" parent="FondoLaboratorio" unique_id=1904595489]
+offset_right = 1634.0
+offset_bottom = 40.0
+color = Color(0.3254902, 0.3882353, 0.42745098, 1)
+
+[node name="LineaHorizontal1" type="ColorRect" parent="FondoLaboratorio" unique_id=1298695339]
+offset_top = 205.0
+offset_right = 1634.0
+offset_bottom = 210.0
+color = Color(0.14901961, 0.2, 0.23529412, 1)
+
+[node name="LineaHorizontal2" type="ColorRect" parent="FondoLaboratorio" unique_id=1670908792]
+offset_top = 400.0
+offset_right = 1634.0
+offset_bottom = 405.0
+color = Color(0.14901961, 0.2, 0.23529412, 1)
+
+[node name="UnionVertical1" type="ColorRect" parent="FondoLaboratorio" unique_id=624145752]
+offset_left = 272.0
+offset_top = 40.0
+offset_right = 277.0
+offset_bottom = 580.0
+color = Color(0.14901961, 0.2, 0.23529412, 1)
+
+[node name="UnionVertical2" type="ColorRect" parent="FondoLaboratorio" unique_id=930233077]
+offset_left = 544.0
+offset_top = 40.0
+offset_right = 549.0
+offset_bottom = 580.0
+color = Color(0.14901961, 0.2, 0.23529412, 1)
+
+[node name="UnionVertical3" type="ColorRect" parent="FondoLaboratorio" unique_id=657014599]
+offset_left = 816.0
+offset_top = 40.0
+offset_right = 821.0
+offset_bottom = 580.0
+color = Color(0.14901961, 0.2, 0.23529412, 1)
+
+[node name="UnionVertical4" type="ColorRect" parent="FondoLaboratorio" unique_id=1921264810]
+offset_left = 1088.0
+offset_top = 40.0
+offset_right = 1093.0
+offset_bottom = 580.0
+color = Color(0.14901961, 0.2, 0.23529412, 1)
+
+[node name="UnionVertical5" type="ColorRect" parent="FondoLaboratorio" unique_id=1406246352]
+offset_left = 1360.0
+offset_top = 40.0
+offset_right = 1365.0
+offset_bottom = 580.0
+color = Color(0.14901961, 0.2, 0.23529412, 1)
+
+[node name="DecoracionPared" type="Node2D" parent="." unique_id=1579715191]
+z_index = -2
+
+[node name="GrietaPrincipla" type="Line2D" parent="DecoracionPared" unique_id=946002588]
+position = Vector2(0.025640965, 1.1371689)
+scale = Vector2(1.0051283, 0.99557525)
+points = PackedVector2Array(3, 39, 93, 188, 292, 99, 363, 232, 450, 157, 590, 249, 767, 154)
+width = 8.0
+default_color = Color(0.1254902, 0.16862746, 0.19607843, 1)
+antialiased = true
+
+[node name="RamaGrieta1" type="Line2D" parent="DecoracionPared" unique_id=263228409]
+points = PackedVector2Array(365, 231, 271, 249, 207, 308)
+width = 6.0
+default_color = Color(0.1254902, 0.16862746, 0.19607843, 1)
+
+[node name="RamaGrieta2" type="Line2D" parent="DecoracionPared" unique_id=762392599]
+points = PackedVector2Array(454, 157, 533, 73, 674, 100, 797, 53)
+width = 6.0
+default_color = Color(0.1254902, 0.16862746, 0.19607843, 1)
+
+[node name="Grieta1" type="Line2D" parent="DecoracionPared" unique_id=627350107]
+points = PackedVector2Array(1397, 60, 1326, 137, 1426, 215, 1375, 314, 1269, 333, 1222, 362)
+width = 6.0
+default_color = Color(0.1254902, 0.16862746, 0.19607843, 1)
+
+[node name="RmaGRI" type="Line2D" parent="DecoracionPared" unique_id=501641093]
+points = PackedVector2Array(1372, 313, 1423, 378)
+width = 6.0
+default_color = Color(0.1254902, 0.16862746, 0.19607843, 1)
+
+[node name="Grieta2" type="Line2D" parent="DecoracionPared" unique_id=70271762]
+points = PackedVector2Array(1037, 45, 1071, 153, 920, 235, 1073, 343)
+width = 6.0
+default_color = Color(0.1254902, 0.16862746, 0.19607843, 1)
+
+[node name="Suelo" type="StaticBody2D" parent="." unique_id=1815186442]
+z_index = -1
+
+[node name="ColorRect" type="ColorRect" parent="Suelo" unique_id=463342805]
+offset_left = 1.0
+offset_top = 583.0
+offset_right = 1634.0
+offset_bottom = 650.0
+color = Color(0.3764706, 0.41960785, 0.4627451, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Suelo" unique_id=1159307698]
+position = Vector2(816.6875, 640)
+shape = SubResource("RectangleShape2D_op1xx")
+debug_color = Color(0, 0.6, 0.69803923, 0)
+
+[node name="Steve" parent="." unique_id=1515212709 instance=ExtResource("2_gkwyn")]
+position = Vector2(100, 600)
+
+[node name="Camera2D" parent="Steve" index="3" unique_id=1693207895]
+limit_right = 1640
+limit_bottom = 648
+
+[node name="HUD" parent="." unique_id=265695125 instance=ExtResource("1_xbuhi")]
+
+[node name="ExitDoor" parent="." unique_id=759371311 instance=ExtResource("6_gkwyn")]
+z_index = -1
+position = Vector2(1455, 548)
+
+[node name="Tubos" type="Node2D" parent="." unique_id=2031957966]
+z_index = -1
+
+[node name="TuboGrande7" parent="Tubos" unique_id=1990906636 instance=ExtResource("5_xbuhi")]
+position = Vector2(1634, 90.00006)
+rotation = 2.7663467
+
+[node name="TuboGrande6" parent="Tubos" unique_id=1240290351 instance=ExtResource("5_xbuhi")]
+position = Vector2(1088, 163)
+rotation = 1.2636184
+
+[node name="TuboGrande5" parent="Tubos" unique_id=1121409648 instance=ExtResource("5_xbuhi")]
+position = Vector2(398, 55)
+
+[node name="TuboGrande3" parent="Tubos" unique_id=1467340690 instance=ExtResource("5_xbuhi")]
+position = Vector2(626, 55)
+
+[node name="TuboGrande2" parent="Tubos" unique_id=1555342123 instance=ExtResource("5_xbuhi")]
+position = Vector2(172, 55)
+
+[node name="TuboGrande" parent="Tubos" unique_id=1208712540 instance=ExtResource("5_xbuhi")]
+position = Vector2(1, 221.00002)
+rotation = -0.8115781
+scale = Vector2(0.99999994, 0.99999994)
+
+[node name="TuboGrande4" parent="Tubos" unique_id=1700614555 instance=ExtResource("5_xbuhi")]
+position = Vector2(854, 55)
+rotation = 0.32986724
+scale = Vector2(0.99999994, 0.99999994)
+
+[node name="enemigos" type="Node2D" parent="." unique_id=715574795]
+
+[node name="SporeShooter" parent="enemigos" unique_id=428102256 instance=ExtResource("5_2nl3w")]
+position = Vector2(1255, 617)
+
+[node name="PlantEnemy" parent="enemigos" unique_id=530101187 instance=ExtResource("3_drsfp")]
+position = Vector2(460, 602)
+
+[node name="PlantEnemy2" parent="enemigos" unique_id=1034947106 instance=ExtResource("3_drsfp")]
+position = Vector2(742, 619)
+
+[node name="Mesa" parent="." unique_id=476277961 instance=ExtResource("4_ibvvg")]
+position = Vector2(1035, 600)
+
+[node name="CapsulaGrande" parent="." unique_id=283371915 instance=ExtResource("6_drsfp")]
+position = Vector2(674, 600)
+
+[node name="CapsulaGrande2" parent="." unique_id=37868306 instance=ExtResource("6_drsfp")]
+position = Vector2(839, 603)
+
+[node name="PanelEmegencia" parent="." unique_id=1740181658 instance=ExtResource("7_drsfp")]
+z_index = -1
+position = Vector2(235, 365)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=431270852]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1413769293]
+position = Vector2(-23, 318.75)
+shape = SubResource("RectangleShape2D_kmatr")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="." unique_id=626406333]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2" unique_id=1441967770]
+position = Vector2(1648, 319)
+shape = SubResource("RectangleShape2D_kmatr")
+
+[editable path="Steve"]

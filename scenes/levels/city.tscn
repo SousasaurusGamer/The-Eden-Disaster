@@ -29,6 +29,9 @@ size = Vector2(2304, 42)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_i88o1"]
 size = Vector2(60, 80)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nqxve"]
+size = Vector2(41, 658.5)
+
 [node name="City" type="Node2D" unique_id=901466039]
 
 [node name="FondoTemporal" type="ColorRect" parent="." unique_id=1084933701]
@@ -192,5 +195,17 @@ position = Vector2(453, 623)
 
 [node name="EdificioFondo6" parent="EdificiosFondoOscuro" unique_id=735027612 instance=ExtResource("11_nqxve")]
 position = Vector2(37, 620)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1018631420]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=32298147]
+position = Vector2(-23, 318.75)
+shape = SubResource("RectangleShape2D_nqxve")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="StaticBody2D" unique_id=1338414597]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D/StaticBody2D" unique_id=920103346]
+position = Vector2(2325, 338)
+shape = SubResource("RectangleShape2D_nqxve")
 
 [editable path="Steve"]

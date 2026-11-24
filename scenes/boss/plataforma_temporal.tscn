@@ -1,0 +1,48 @@
+[gd_scene format=3 uid="uid://b5vt0rcocx6g3"]
+
+[ext_resource type="Script" uid="uid://cpbsgk6dl4rej" path="res://scripts/plataforma_temporal.gd" id="1_gyek2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_op1xx"]
+size = Vector2(130, 14)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kmatr"]
+size = Vector2(124, 18)
+
+[node name="PlataformaTemporal" type="AnimatableBody2D" unique_id=1748668339]
+script = ExtResource("1_gyek2")
+
+[node name="Visual" type="Node2D" parent="." unique_id=955671849]
+
+[node name="RaizBase" type="ColorRect" parent="Visual" unique_id=1095589670]
+offset_left = -65.0
+offset_right = 65.0
+offset_bottom = 14.0
+color = Color(0.29803923, 0.22352941, 0.15294118, 1)
+
+[node name="Musgo" type="ColorRect" parent="Visual" unique_id=1933520960]
+offset_left = -65.0
+offset_top = -5.0
+offset_right = 65.0
+offset_bottom = 1.0
+color = Color(0.3137255, 0.5137255, 0.2901961, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=730312105]
+position = Vector2(0, 7)
+shape = SubResource("RectangleShape2D_op1xx")
+one_way_collision = true
+
+[node name="DetectorJugador" type="Area2D" parent="." unique_id=722377091]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DetectorJugador" unique_id=135985630]
+position = Vector2(0, -10)
+shape = SubResource("RectangleShape2D_kmatr")
+
+[node name="TimerDesaparicion" type="Timer" parent="." unique_id=1765757994]
+wait_time = 3.0
+one_shot = true
+
+[node name="TimerRegreso" type="Timer" parent="." unique_id=1052893099]
+wait_time = 3.0
+one_shot = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=720681529]

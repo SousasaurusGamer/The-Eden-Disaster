@@ -18,6 +18,9 @@ size = Vector2(1412, 34)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3chtq"]
 size = Vector2(52, 79)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_887tc"]
+size = Vector2(41, 658.5)
+
 [node name="Refugio" type="Node2D" unique_id=901466039]
 
 [node name="FondoTemporal" type="ColorRect" parent="." unique_id=1084933701]
@@ -267,5 +270,17 @@ position = Vector2(1109, 535)
 
 [node name="AmmoPickup6" parent="Municiones" unique_id=1797977530 instance=ExtResource("11_ec8m4")]
 position = Vector2(1131, 535)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=2050378800]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1917827472]
+position = Vector2(-20, 334)
+shape = SubResource("RectangleShape2D_887tc")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="." unique_id=1151456823]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2" unique_id=1072035211]
+position = Vector2(1419, 327)
+shape = SubResource("RectangleShape2D_887tc")
 
 [editable path="Steve"]

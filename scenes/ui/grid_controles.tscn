@@ -1,0 +1,63 @@
+[gd_scene format=3]
+
+[node name="GridControles" type="GridContainer"]
+columns = 2
+theme_override_constants/h_separation = 55
+theme_override_constants/v_separation = 14
+
+[node name="Move" type="Label" parent="."]
+custom_minimum_size = Vector2(160, 0)
+theme_override_font_sizes/font_size = 18
+text = "Move"
+
+[node name="TeclaMove" type="Label" parent="."]
+theme_override_font_sizes/font_size = 18
+text = "A / D"
+
+[node name="Jump" type="Label" parent="."]
+theme_override_font_sizes/font_size = 18
+text = "Jump"
+
+[node name="TeclaJump" type="Label" parent="."]
+theme_override_font_sizes/font_size = 18
+text = "Space"
+
+[node name="Aim" type="Label" parent="."]
+theme_override_font_sizes/font_size = 18
+text = "Aim"
+
+[node name="TeclaAim" type="Label" parent="."]
+theme_override_font_sizes/font_size = 18
+text = "Mouse"
+
+[node name="Shoot" type="Label" parent="."]
+theme_override_font_sizes/font_size = 18
+text = "Shoot / Charge"
+
+[node name="TeclaShoot" type="Label" parent="."]
+theme_override_font_sizes/font_size = 18
+text = "Left Click / Hold"
+
+[node name="Melee" type="Label" parent="."]
+theme_override_font_sizes/font_size = 18
+text = "Melee"
+
+[node name="TeclaMelee" type="Label" parent="."]
+theme_override_font_sizes/font_size = 18
+text = "J"
+
+[node name="Roll" type="Label" parent="."]
+theme_override_font_sizes/font_size = 18
+text = "Roll"
+
+[node name="TeclaRoll" type="Label" parent="."]
+theme_override_font_sizes/font_size = 18
+text = "Q"
+
+[node name="Interact" type="Label" parent="."]
+theme_override_font_sizes/font_size = 18
+text = "Interact"
+
+[node name="TeclaInteract" type="Label" parent="."]
+theme_override_font_sizes/font_size = 18
+text = "E"

@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://dry5yli5mborl"]
+
+[ext_resource type="Script" uid="uid://byav6mcdyw16b" path="res://scripts/proyectil_venenoso.gd" id="1_7yap0"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_kmatr"]
+
+[node name="ProyectilVenenoso" type="Area2D" unique_id=1731804709]
+script = ExtResource("1_7yap0")
+
+[node name="BolaVisual" type="ColorRect" parent="." unique_id=1877780023]
+offset_left = -10.0
+offset_top = -10.0
+offset_right = 10.0
+offset_bottom = 10.0
+color = Color(0.6509804, 0.92941177, 0.44705883, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1649989969]
+shape = SubResource("CircleShape2D_kmatr")
