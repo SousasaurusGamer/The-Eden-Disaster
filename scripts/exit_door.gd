@@ -19,8 +19,9 @@ func _process(_delta: float) -> void:
 
 		if player != null:
 			GameState.save_player(player)
+			
+		SceneTransition.cambiar_escena(CITY_SCENE)
 
-		get_tree().change_scene_to_file.call_deferred(CITY_SCENE)
 
 
 func _on_body_entered(body: Node2D) -> void:

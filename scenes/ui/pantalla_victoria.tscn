@@ -1,0 +1,111 @@
+[gd_scene format=3 uid="uid://2i7vjexfne38"]
+
+[ext_resource type="Script" uid="uid://8xy48vquhohp" path="res://scripts/pantalla_victoria.gd" id="1_ii8jx"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_op1xx"]
+bg_color = Color(0.13333334, 0.34117648, 0.45882353, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j85h6"]
+bg_color = Color(0.078431375, 0.23921569, 0.34509805, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i88o1"]
+bg_color = Color(0.2, 0.49411765, 0.6392157, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kmatr"]
+bg_color = Color(0.11710929, 0.117109336, 0.11710923, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jrfwv"]
+bg_color = Color(0.09803922, 0.12941177, 0.16862746, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wg20l"]
+bg_color = Color(0.16078432, 0.18431373, 0.23137255, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[node name="PantallaVictoria" type="CanvasLayer" unique_id=267418050]
+script = ExtResource("1_ii8jx")
+escena_menu = "uid://d0lxghfldtxj6"
+
+[node name="Pantalla" type="Control" parent="." unique_id=40388990]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Fondo" type="ColorRect" parent="Pantalla" unique_id=1317610671]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.02745098, 0.105882354, 0.1882353, 0.9098039)
+
+[node name="Centro" type="CenterContainer" parent="Pantalla" unique_id=997158994]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Opciones" type="VBoxContainer" parent="Pantalla/Centro" unique_id=1291488888]
+custom_minimum_size = Vector2(360, 0)
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="Titulo" type="Label" parent="Pantalla/Centro/Opciones" unique_id=437111880]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.90588236, 0.7764706, 0.41960785, 1)
+theme_override_font_sizes/font_size = 56
+text = "VICTORY!"
+horizontal_alignment = 1
+
+[node name="Subitulo" type="Label" parent="Pantalla/Centro/Opciones" unique_id=1393003110]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "You defeated the Mutant Plant!"
+horizontal_alignment = 1
+
+[node name="BotonReintentar" type="Button" parent="Pantalla/Centro/Opciones" unique_id=1445802499]
+custom_minimum_size = Vector2(360, 65)
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = SubResource("StyleBoxFlat_op1xx")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_j85h6")
+theme_override_styles/hover = SubResource("StyleBoxFlat_i88o1")
+text = "PLAY AGAIN"
+
+[node name="BotonMenu" type="Button" parent="Pantalla/Centro/Opciones" unique_id=1503873658]
+custom_minimum_size = Vector2(360, 65)
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = SubResource("StyleBoxFlat_kmatr")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_jrfwv")
+theme_override_styles/hover = SubResource("StyleBoxFlat_wg20l")
+text = "MAIN MENU"

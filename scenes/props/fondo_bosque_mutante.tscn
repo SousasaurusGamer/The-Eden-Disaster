@@ -1,0 +1,1990 @@
+[gd_scene format=3 uid="uid://n225p55tdbsw"]
+
+[node name="FondoBosqueMutante" type="Node2D" unique_id=574409992]
+modulate = Color(1, 1, 1, 0.7647059)
+z_index = -5
+skew = 0.017453292
+
+[node name="BosqueAjustado" type="Node2D" parent="." unique_id=716659910]
+position = Vector2(36, 21)
+scale = Vector2(0.414428, 0.89824307)
+skew = 0.017453292
+
+[node name="ArbolesLejanos" type="Node2D" parent="BosqueAjustado" unique_id=1572652761]
+skew = 0.017453292
+
+[node name="TroncoLejano_01" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=919936478]
+skew = 0.017453292
+color = Color(0.094118, 0.215686, 0.160784, 1)
+polygon = PackedVector2Array(-47, 590, -41.6, 260, -36.7, 195, -7, 183, 3.2, 237, 7, 590)
+
+[node name="CopaLejana_00_0" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=1092458287]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(11.6, 230, 11.8, 259.7, -11.5, 285.4, -51.4, 285.6, -87.8, 287.8, -122.5, 273.6, -137.9, 245.1, -153.5, 211.8, -126.9, 183.3, -94.3, 158.6, -48.3, 154.4, -19.3, 183.5, 14.5, 199.2)
+
+[node name="CopaLejana_00_1" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=576684193]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(97.1, 204, 87.7, 233.1, 71.1, 266.4, 22.7, 263.3, -22.9, 274.3, -51.1, 246.1, -65.6, 218.4, -67.3, 189.3, -54.4, 159.7, -15.5, 148.3, 23.8, 137.8, 72.5, 140, 86.6, 175.3)
+
+[node name="CopaLejana_00_2" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=1436021469]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(54.8, 155, 41.1, 190.3, 13.3, 213.8, -19.4, 230.9, -53.6, 217.3, -85.5, 203.1, -97.2, 171.1, -105.1, 137, -89.6, 103.4, -54.6, 90.2, -20.1, 84.3, 17.7, 90, 42.7, 118.8)
+
+[node name="RamaLejana_00" type="Line2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=634761325]
+skew = 0.017453292
+points = PackedVector2Array(-20, 345, 70, 245, 110, 219)
+default_color = Color(0.101961, 0.219608, 0.160784, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="TroncoLejano_02" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=1098646736]
+skew = 0.017453292
+color = Color(0.094118, 0.215686, 0.160784, 1)
+polygon = PackedVector2Array(123, 590, 130.4, 164, 137.1, 99, 177.8, 87, 191.8, 141, 197, 590)
+
+[node name="CopaLejana_01_0" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=233258892]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(205.5, 134, 198.5, 166.5, 166.1, 186.6, 128.7, 190.5, 88.2, 200.1, 56.7, 178.2, 39.1, 149.7, 36.2, 117.7, 61.2, 93, 87.3, 66.1, 131.5, 59.4, 169.6, 77.3, 183.4, 107.8)
+
+[node name="CopaLejana_01_1" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=269826764]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(294.4, 108, 269.7, 137.9, 238.2, 156.6, 203.1, 169.7, 156.8, 178.9, 133.6, 147, 106.2, 123.9, 92.4, 89.6, 127.6, 65, 162.4, 48, 205.7, 30.4, 251, 45.7, 284, 72.6)
+
+[node name="CopaLejana_01_2" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=444648845]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(221.8, 59, 227.6, 97.6, 189, 111.9, 158.9, 121.7, 127, 119.7, 90.3, 110.6, 66.8, 78.9, 75.4, 41.1, 100.2, 15.7, 128.1, 1.1, 161, -20.5, 193.7, -0.4, 219.8, 24.3)
+
+[node name="TroncoLejano_03" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=1576022859]
+skew = 0.017453292
+color = Color(0.094118, 0.215686, 0.160784, 1)
+polygon = PackedVector2Array(365.5, 590, 370.4, 191, 374.8, 126, 401.8, 114, 411.1, 168, 414.5, 590)
+
+[node name="CopaLejana_02_0" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=1471834762]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(432, 161, 430.7, 194.4, 399.5, 217.6, 359.9, 225.1, 323.7, 215.6, 294.3, 199.9, 265.3, 177.5, 278, 147, 294, 121.9, 315.8, 90, 361, 89.4, 397, 107.4, 427.2, 129.1)
+
+[node name="CopaLejana_02_1" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=1592525541]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(509.1, 135, 495.5, 163.2, 469.9, 185.5, 434.5, 205.6, 388.8, 201.9, 348.6, 183.9, 337.6, 150.6, 327.2, 117.5, 343.7, 82.9, 391.5, 73.4, 433.9, 68.3, 474.9, 79.2, 511, 100.7)
+
+[node name="CopaLejana_02_2" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=508642850]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(465.4, 86, 452.8, 122.2, 417.2, 136.4, 390.1, 158.3, 353.2, 156.4, 329.6, 129.7, 306.9, 103.5, 309.4, 69, 325.8, 39.1, 351.6, 11.6, 390.4, 11.7, 423.4, 27, 454.9, 48.7)
+
+[node name="RamaLejana_02" type="Line2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=1671480968]
+skew = 0.017453292
+points = PackedVector2Array(390, 276, 480, 176, 520, 150)
+default_color = Color(0.101961, 0.219608, 0.160784, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="TroncoLejano_04" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=1805744303]
+skew = 0.017453292
+color = Color(0.094118, 0.215686, 0.160784, 1)
+polygon = PackedVector2Array(568.5, 590, 575.8, 161, 582.4, 96, 622.5, 84, 636.4, 138, 641.5, 590)
+
+[node name="CopaLejana_03_0" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=427651576]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(644.8, 131, 649.9, 166.1, 615, 188.1, 576.5, 205.6, 533.7, 196, 492.4, 181.7, 484.4, 146.7, 482.8, 115, 510.3, 92.8, 539.8, 78.7, 574.2, 71.1, 617.2, 71.4, 644.9, 97.9)
+
+[node name="CopaLejana_03_1" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=781435861]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(744.3, 105, 719, 136.5, 690.6, 161.6, 650.2, 179.4, 608, 163.7, 570.6, 149.3, 547.1, 121.6, 556.7, 90.1, 562.8, 55.5, 604.2, 38.8, 648.6, 40, 691.7, 47.3, 726.8, 70.4)
+
+[node name="CopaLejana_03_2" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=1891703216]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(673.3, 56, 660, 88.2, 636.1, 111.8, 604.8, 125.3, 569.5, 123.1, 537.8, 105.5, 515.1, 75.1, 519.6, 37.9, 531.8, 1.4, 571.7, -5.6, 604.7, -12.9, 642.1, -8.2, 658.4, 24.6)
+
+[node name="TroncoLejano_05" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=2115750489]
+skew = 0.017453292
+color = Color(0.094118, 0.215686, 0.160784, 1)
+polygon = PackedVector2Array(815, 590, 820, 148, 824.5, 83, 852, 71, 861.5, 125, 865, 590)
+
+[node name="CopaLejana_04_0" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=1371982712]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(897.6, 118, 871.8, 147.7, 852.5, 178, 808.9, 175.8, 766.8, 187.1, 731.6, 165.7, 728.3, 131.9, 719.2, 102.3, 730.5, 69.5, 770.2, 56.1, 810.6, 49.4, 847.8, 63.4, 871.1, 88.6)
+
+[node name="CopaLejana_04_1" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=706306606]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(961.4, 92, 967.4, 128.8, 922.4, 145.1, 885.6, 169, 841.3, 153.9, 807.1, 135.3, 785.7, 108, 770.7, 73.3, 797.1, 42.1, 839.5, 26.5, 882.5, 33.9, 922.3, 39, 947.1, 63.1)
+
+[node name="CopaLejana_04_2" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=664283474]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(898.8, 43, 906, 80.8, 867.7, 94.1, 841, 122, 800.8, 119.6, 773.7, 91.7, 760.5, 59.7, 750.5, 24, 779.5, -0.9, 806.6, -18.9, 839.5, -24.3, 871.5, -13.4, 898.5, 8.9)
+
+[node name="RamaLejana_04" type="Line2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=255493982]
+skew = 0.017453292
+points = PackedVector2Array(840, 233, 930, 133, 970, 107)
+default_color = Color(0.101961, 0.219608, 0.160784, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="TroncoLejano_06" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=544271736]
+skew = 0.017453292
+color = Color(0.094118, 0.215686, 0.160784, 1)
+polygon = PackedVector2Array(1058, 590, 1065.4, 162, 1072.1, 97, 1112.8, 85, 1126.8, 139, 1132, 590)
+
+[node name="CopaLejana_05_0" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=2145531856]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(1144.6, 132, 1126.6, 161.6, 1110.3, 195.1, 1065.5, 200.1, 1027.5, 189.1, 990.3, 177.2, 986.2, 145.4, 967.6, 115, 988.3, 85.4, 1024.4, 68.4, 1066.3, 58.8, 1103.5, 76.6, 1123.4, 103.7)
+
+[node name="CopaLejana_05_1" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=249214978]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(1208.4, 106, 1213.4, 139.2, 1173.6, 155, 1139.8, 177.9, 1096.6, 167.4, 1060.3, 150.5, 1024.5, 124.9, 1024.3, 87, 1064.7, 64.4, 1098.6, 48.5, 1137.4, 48.9, 1187.9, 41.6, 1213.1, 72.9)
+
+[node name="CopaLejana_05_2" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=1420934098]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(1158.4, 57, 1145.2, 86.9, 1128.9, 116.7, 1096.2, 137.8, 1058, 127.9, 1035.3, 100.1, 1021.6, 72.2, 1024.3, 42.4, 1033.5, 12.4, 1060.7, -7, 1094.3, -9, 1133.3, -8.9, 1158.1, 20.6)
+
+[node name="TroncoLejano_07" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=407727843]
+skew = 0.017453292
+color = Color(0.094118, 0.215686, 0.160784, 1)
+polygon = PackedVector2Array(1304.5, 590, 1308.6, 234, 1312.3, 169, 1334.8, 157, 1342.6, 211, 1345.5, 590)
+
+[node name="CopaLejana_06_0" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=1173736222]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(1374.8, 204, 1370.6, 239.4, 1334.6, 260.7, 1295.3, 271, 1259.2, 257.6, 1226.7, 244.7, 1191.3, 222.2, 1212.9, 190, 1216.1, 155.9, 1255.3, 142.2, 1294, 145.6, 1330.2, 152.4, 1354.7, 175.2)
+
+[node name="CopaLejana_06_1" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=2044023254]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(1446.9, 178, 1433.5, 207.4, 1404.9, 228.5, 1369.8, 250.4, 1330.4, 232, 1287.2, 224.5, 1275.2, 193.1, 1269.3, 161.8, 1285.9, 130.6, 1329.6, 122.4, 1370, 104.5, 1412.2, 119.7, 1430.3, 149.8)
+
+[node name="CopaLejana_06_2" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=990364008]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(1397.8, 129, 1385.6, 164.1, 1355.1, 183.4, 1323.9, 191.1, 1293.5, 186.1, 1253.2, 182.5, 1242.7, 146.3, 1246.4, 112.5, 1250.9, 73.6, 1288.2, 58.6, 1324.7, 59.9, 1360.8, 66.7, 1378.4, 97.5)
+
+[node name="RamaLejana_06" type="Line2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=897919526]
+skew = 0.017453292
+points = PackedVector2Array(1325, 319, 1415, 219, 1455, 193)
+default_color = Color(0.101961, 0.219608, 0.160784, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="TroncoLejano_08" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=1250299254]
+skew = 0.017453292
+color = Color(0.094118, 0.215686, 0.160784, 1)
+polygon = PackedVector2Array(1523.5, 590, 1527.8, 229, 1531.7, 164, 1555.3, 152, 1563.5, 206, 1566.5, 590)
+
+[node name="CopaLejana_07_0" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=2007504877]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(1600, 199, 1575.6, 228.2, 1545.5, 245.2, 1514.8, 262.5, 1473.3, 264.9, 1452, 236, 1419.6, 215.6, 1430.8, 184.6, 1432.8, 148.6, 1479.4, 145.8, 1516.3, 125.7, 1547.3, 150.7, 1570.9, 171.7)
+
+[node name="CopaLejana_07_1" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=1195581814]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(1660.6, 173, 1664.3, 206.6, 1629.9, 228.7, 1588.4, 236.4, 1550.5, 226.7, 1515.9, 213.8, 1480.5, 190.8, 1474.9, 154.1, 1498.7, 120.9, 1543.2, 104.9, 1588.6, 108.2, 1629.4, 117.7, 1658.4, 141.7)
+
+[node name="CopaLejana_07_2" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=1711971590]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(1610.2, 124, 1595.8, 154.2, 1577.6, 181.9, 1546, 202.9, 1511.3, 186.6, 1475.5, 175.5, 1455, 143.2, 1453.1, 104.4, 1483.7, 79.5, 1508.3, 53.8, 1545.9, 45.4, 1572.6, 73, 1603.7, 89.9)
+
+[node name="TroncoLejano_09" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=658343631]
+skew = 0.017453292
+color = Color(0.094118, 0.215686, 0.160784, 1)
+polygon = PackedVector2Array(1744.5, 590, 1749.6, 156, 1754.2, 91, 1782.2, 79, 1791.9, 133, 1795.5, 590)
+
+[node name="CopaLejana_08_0" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=1395166509]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(1815.2, 126, 1793.1, 152.1, 1774.1, 176.4, 1740.5, 193.9, 1700.6, 187, 1672.5, 166.2, 1651.8, 141.2, 1646.3, 109.7, 1673.4, 86.4, 1703.8, 71.5, 1740.1, 60.3, 1771.1, 79, 1795.2, 99)
+
+[node name="CopaLejana_08_1" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=748570973]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(1897.7, 100, 1887.2, 132.8, 1861.7, 163.1, 1812.9, 160.3, 1771.7, 161.2, 1732, 146.6, 1713.9, 116.3, 1710.7, 83.1, 1729.2, 51.5, 1767.8, 31.2, 1814.3, 30.7, 1861, 37.6, 1882.2, 69.2)
+
+[node name="CopaLejana_08_2" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=989972435]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(1835.5, 51, 1834.2, 87.9, 1798.9, 103.8, 1769.3, 116.5, 1732.9, 122.1, 1699.7, 103.1, 1687.4, 68.4, 1696, 35.6, 1697.5, -3, 1737.4, -8.8, 1769, -12.4, 1805.7, -11.1, 1825.6, 18.4)
+
+[node name="RamaLejana_08" type="Line2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=750622648]
+skew = 0.017453292
+points = PackedVector2Array(1770, 241, 1860, 141, 1900, 115)
+default_color = Color(0.101961, 0.219608, 0.160784, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="TroncoLejano_10" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=726983965]
+skew = 0.017453292
+color = Color(0.094118, 0.215686, 0.160784, 1)
+polygon = PackedVector2Array(1953, 590, 1960.4, 220, 1967.1, 155, 2007.8, 143, 2021.8, 197, 2027, 590)
+
+[node name="CopaLejana_09_0" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=368501165]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(2031.9, 190, 2025.5, 221.2, 2005.4, 253.3, 1959.9, 254.2, 1918.1, 256.2, 1879.3, 239.3, 1865.1, 206.5, 1858.6, 172.2, 1888.2, 146.8, 1920.1, 127.9, 1959.8, 126.6, 1992.7, 141.2, 2034.3, 155.1)
+
+[node name="CopaLejana_09_1" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=1302705958]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(2115.8, 164, 2099.2, 193.7, 2079.1, 224.3, 2032.6, 222.7, 1993.1, 222.5, 1960.9, 204.8, 1935.8, 179.9, 1924, 145.9, 1949.9, 115.9, 1991.4, 102.3, 2034.8, 92.2, 2069.3, 114.2, 2103, 132.8)
+
+[node name="CopaLejana_09_2" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=1786477314]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(2061.1, 115, 2048.3, 148.9, 2024, 174.8, 1991.2, 195.7, 1955.2, 180.3, 1922.6, 164.7, 1911.7, 131.4, 1905.3, 97.1, 1916.7, 60.3, 1956, 51.7, 1990.3, 41.6, 2030.5, 46.1, 2051.3, 79.6)
+
+[node name="TroncoLejano_11" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=579402153]
+skew = 0.017453292
+color = Color(0.094118, 0.215686, 0.160784, 1)
+polygon = PackedVector2Array(2218, 590, 2224.4, 196, 2230.2, 131, 2265.4, 119, 2277.5, 173, 2282, 590)
+
+[node name="CopaLejana_10_0" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=1180471957]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(2280.8, 166, 2293, 200.4, 2252.8, 214.9, 2221.5, 240.8, 2178.5, 231.4, 2146.7, 210.2, 2125.3, 182.5, 2138.2, 152.1, 2150.4, 124.4, 2178.2, 99.8, 2220.8, 96.1, 2255, 114.6, 2283.6, 135.6)
+
+[node name="CopaLejana_10_1" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=153169413]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(2389.1, 140, 2375.1, 175.9, 2334.8, 195.6, 2292.5, 198.2, 2250.4, 203.7, 2223.4, 179.2, 2199.6, 155.2, 2190, 123, 2217.1, 96.7, 2246.6, 68.7, 2294.6, 68.9, 2332.9, 86.3, 2351.6, 113.3)
+
+[node name="CopaLejana_10_2" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=198371608]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(2305.8, 91, 2297, 119.2, 2281.8, 147.8, 2251.2, 171.5, 2214, 159.4, 2191.2, 133.4, 2158.4, 110.6, 2175.3, 75.4, 2189.1, 46.8, 2211, 15.1, 2249.6, 23.2, 2281.3, 35, 2312.8, 54.8)
+
+[node name="RamaLejana_10" type="Line2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=950620194]
+skew = 0.017453292
+points = PackedVector2Array(2250, 281, 2340, 181, 2380, 155)
+default_color = Color(0.101961, 0.219608, 0.160784, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="TroncoLejano_12" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=2031332647]
+skew = 0.017453292
+color = Color(0.094118, 0.215686, 0.160784, 1)
+polygon = PackedVector2Array(2400, 590, 2406, 209, 2411.4, 144, 2444.4, 132, 2455.8, 186, 2460, 590)
+
+[node name="CopaLejana_11_0" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=361186008]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(2466.5, 179, 2467.7, 211.1, 2431.6, 226.6, 2399.2, 238.9, 2364.2, 232.6, 2322.3, 226.3, 2308.7, 194.8, 2311.4, 163.7, 2317.2, 128.2, 2356.1, 108.6, 2401.7, 103, 2441, 120.8, 2453.5, 152.7)
+
+[node name="CopaLejana_11_1" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=1452800755]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(2558.8, 153, 2550, 186.9, 2516.4, 210.4, 2473.1, 214.6, 2432.2, 213.3, 2388.4, 202, 2388, 166.7, 2384.9, 138.7, 2384.7, 101.5, 2425.8, 80.3, 2474.8, 80.8, 2507, 105.7, 2539.6, 123.2)
+
+[node name="CopaLejana_11_2" type="Polygon2D" parent="BosqueAjustado/ArbolesLejanos" unique_id=557751702]
+skew = 0.017453292
+color = Color(0.113725, 0.239216, 0.176471, 1)
+polygon = PackedVector2Array(2489.1, 104, 2481.2, 134.4, 2458.1, 155.6, 2431.2, 184.9, 2397.3, 164.1, 2371.9, 145.8, 2338.3, 123.6, 2342, 85.3, 2371.1, 61.5, 2392.9, 32.8, 2429.7, 35.1, 2468.9, 37.3, 2483, 72.7)
+
+[node name="ArbolesMedios" type="Node2D" parent="BosqueAjustado" unique_id=848390792]
+skew = 0.017453292
+
+[node name="TroncoMedio_00" type="Polygon2D" parent="BosqueAjustado/ArbolesMedios" unique_id=1228622229]
+skew = 0.017453292
+color = Color(0.141176, 0.270588, 0.196078, 1)
+polygon = PackedVector2Array(51.5, 590, 56.9, 228, 61.5, 144, 106.2, 124, 119.3, 223, 128.5, 590)
+
+[node name="CortezaSombra_00" type="Line2D" parent="BosqueAjustado/ArbolesMedios" unique_id=700637778]
+skew = 0.017453292
+points = PackedVector2Array(69.2, 573, 80, 279, 80.8, 153)
+width = 11.0
+default_color = Color(0.101961, 0.215686, 0.160784, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="CopaMedia_00_0" type="Polygon2D" parent="BosqueAjustado/ArbolesMedios" unique_id=733843667]
+skew = 0.017453292
+color = Color(0.156863, 0.294118, 0.207843, 1)
+polygon = PackedVector2Array(116.5, 133, 117.4, 164.5, 79, 183.8, 38.2, 203.9, -15.5, 202.5, -56.4, 179.9, -67.2, 147.8, -79.9, 116.2, -61.4, 83.2, -6.8, 78.5, 35.6, 76, 87.8, 73.8, 116.9, 101.6)
+
+[node name="CopaMedia_00_1" type="Polygon2D" parent="BosqueAjustado/ArbolesMedios" unique_id=537894461]
+skew = 0.017453292
+color = Color(0.156863, 0.294118, 0.207843, 1)
+polygon = PackedVector2Array(251.6, 111, 239.5, 146.7, 200.6, 172.9, 149.1, 186.6, 103.6, 164.8, 70, 148.5, 51.4, 124.4, 36.7, 95.2, 59, 67.2, 103.7, 57.4, 147.1, 46.2, 188.1, 61, 220, 82)
+
+[node name="CopaMedia_00_2" type="Polygon2D" parent="BosqueAjustado/ArbolesMedios" unique_id=39293080]
+skew = 0.017453292
+color = Color(0.156863, 0.294118, 0.207843, 1)
+polygon = PackedVector2Array(171.5, 57, 188.5, 92, 142.5, 110.3, 99.7, 130.4, 50.8, 117.4, 4.6, 103.9, -23.5, 74.6, -4.2, 42.5, 3.2, 9.3, 44.2, -14.7, 99.6, -15.9, 145, 1.4, 177, 25.9)
+
+[node name="RamaMedia_00A" type="Line2D" parent="BosqueAjustado/ArbolesMedios" unique_id=807242066]
+skew = 0.017453292
+points = PackedVector2Array(90, 283, 33, 209, -14, 174)
+width = 22.0
+default_color = Color(0.141176, 0.270588, 0.196078, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RamaMedia_00B" type="Line2D" parent="BosqueAjustado/ArbolesMedios" unique_id=1057034326]
+skew = 0.017453292
+points = PackedVector2Array(90, 308, 150, 218, 182, 165)
+width = 17.0
+default_color = Color(0.141176, 0.270588, 0.196078, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="TroncoMedio_01" type="Polygon2D" parent="BosqueAjustado/ArbolesMedios" unique_id=1969119204]
+skew = 0.017453292
+color = Color(0.141176, 0.270588, 0.196078, 1)
+polygon = PackedVector2Array(444, 590, 449.7, 302, 454.7, 218, 502.2, 198, 516.2, 297, 526, 590)
+
+[node name="CortezaSombra_01" type="Line2D" parent="BosqueAjustado/ArbolesMedios" unique_id=124847182]
+skew = 0.017453292
+points = PackedVector2Array(462.9, 573, 474.3, 353, 475.2, 227)
+width = 11.0
+default_color = Color(0.101961, 0.215686, 0.160784, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="CopaMedia_01_0" type="Polygon2D" parent="BosqueAjustado/ArbolesMedios" unique_id=908095175]
+skew = 0.017453292
+color = Color(0.156863, 0.294118, 0.207843, 1)
+polygon = PackedVector2Array(525.8, 207, 497.1, 233.3, 475.1, 258.9, 431.3, 267.4, 387.9, 262.1, 344.8, 250.3, 326.2, 222, 316.4, 190.4, 341.3, 161.7, 386, 148.7, 431, 147.9, 475.7, 154.5, 517.6, 173.7)
+
+[node name="CopaMedia_01_1" type="Polygon2D" parent="BosqueAjustado/ArbolesMedios" unique_id=2106562916]
+skew = 0.017453292
+color = Color(0.156863, 0.294118, 0.207843, 1)
+polygon = PackedVector2Array(625, 185, 622.2, 216.5, 589.3, 240.9, 541.4, 246.2, 498.3, 239.4, 460.6, 225, 423.7, 202, 419, 167.2, 444.5, 135.7, 488.9, 114.5, 543, 115.6, 588.8, 129.6, 611, 157.3)
+
+[node name="CopaMedia_01_2" type="Polygon2D" parent="BosqueAjustado/ArbolesMedios" unique_id=385119414]
+skew = 0.017453292
+color = Color(0.156863, 0.294118, 0.207843, 1)
+polygon = PackedVector2Array(567.6, 131, 572.7, 162.3, 540.9, 187.4, 495, 206.2, 439.2, 202.7, 409.5, 172.2, 389.9, 145.6, 379.1, 114.7, 411.2, 90.8, 448.5, 75.3, 492.8, 67.7, 540.8, 74.6, 576.7, 98.3)
+
+[node name="RamaMedia_01A" type="Line2D" parent="BosqueAjustado/ArbolesMedios" unique_id=179958035]
+skew = 0.017453292
+points = PackedVector2Array(485, 357, 428, 283, 381, 248)
+width = 22.0
+default_color = Color(0.141176, 0.270588, 0.196078, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RamaMedia_01B" type="Line2D" parent="BosqueAjustado/ArbolesMedios" unique_id=1187918519]
+skew = 0.017453292
+points = PackedVector2Array(485, 382, 545, 292, 577, 239)
+width = 17.0
+default_color = Color(0.141176, 0.270588, 0.196078, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="TroncoMedio_02" type="Polygon2D" parent="BosqueAjustado/ArbolesMedios" unique_id=1267587404]
+skew = 0.017453292
+color = Color(0.141176, 0.270588, 0.196078, 1)
+polygon = PackedVector2Array(884.5, 590, 889.5, 304, 893.7, 220, 934.9, 200, 947, 299, 955.5, 590)
+
+[node name="CortezaSombra_02" type="Line2D" parent="BosqueAjustado/ArbolesMedios" unique_id=556765668]
+skew = 0.017453292
+points = PackedVector2Array(900.8, 573, 910.8, 355, 911.5, 229)
+width = 9.0
+default_color = Color(0.101961, 0.215686, 0.160784, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="CopaMedia_02_0" type="Polygon2D" parent="BosqueAjustado/ArbolesMedios" unique_id=1603114510]
+skew = 0.017453292
+color = Color(0.156863, 0.294118, 0.207843, 1)
+polygon = PackedVector2Array(940.7, 209, 932.8, 235.6, 903.6, 254.8, 866.3, 269.3, 813.1, 280.9, 775.4, 254.8, 741.1, 227.3, 740.3, 190.6, 786.3, 169.4, 813.3, 137.5, 868.2, 138.5, 905, 161.9, 956.1, 174.5)
+
+[node name="CopaMedia_02_1" type="Polygon2D" parent="BosqueAjustado/ArbolesMedios" unique_id=48995316]
+skew = 0.017453292
+color = Color(0.156863, 0.294118, 0.207843, 1)
+polygon = PackedVector2Array(1059.5, 187, 1066.5, 221.7, 1022.2, 240.9, 975.9, 245.3, 933.6, 240.9, 892.9, 228.6, 870.9, 202.1, 876.7, 172.8, 894.8, 146.6, 929.4, 126, 978.9, 112.3, 1018.2, 136.8, 1065.4, 152.7)
+
+[node name="CopaMedia_02_2" type="Polygon2D" parent="BosqueAjustado/ArbolesMedios" unique_id=829485905]
+skew = 0.017453292
+color = Color(0.156863, 0.294118, 0.207843, 1)
+polygon = PackedVector2Array(1032.9, 133, 1007.3, 164.2, 966.3, 180.4, 927.4, 194.1, 881.6, 192, 844.1, 174.4, 820.9, 148.2, 801.7, 114.7, 849.4, 94.6, 877, 66.2, 926.5, 76.6, 980.7, 72.1, 1002.2, 103.6)
+
+[node name="RamaMedia_02A" type="Line2D" parent="BosqueAjustado/ArbolesMedios" unique_id=702536445]
+skew = 0.017453292
+points = PackedVector2Array(920, 359, 863, 285, 816, 250)
+width = 22.0
+default_color = Color(0.141176, 0.270588, 0.196078, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RamaMedia_02B" type="Line2D" parent="BosqueAjustado/ArbolesMedios" unique_id=1766618262]
+skew = 0.017453292
+points = PackedVector2Array(920, 384, 980, 294, 1012, 241)
+width = 17.0
+default_color = Color(0.141176, 0.270588, 0.196078, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="TroncoMedio_03" type="Polygon2D" parent="BosqueAjustado/ArbolesMedios" unique_id=1277200116]
+skew = 0.017453292
+color = Color(0.141176, 0.270588, 0.196078, 1)
+polygon = PackedVector2Array(1277.5, 590, 1283.5, 213, 1288.5, 129, 1337.8, 109, 1352.3, 208, 1362.5, 590)
+
+[node name="CortezaSombra_03" type="Line2D" parent="BosqueAjustado/ArbolesMedios" unique_id=161707412]
+skew = 0.017453292
+points = PackedVector2Array(1297, 573, 1309, 264, 1309.8, 138)
+width = 9.0
+default_color = Color(0.101961, 0.215686, 0.160784, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="CopaMedia_03_0" type="Polygon2D" parent="BosqueAjustado/ArbolesMedios" unique_id=602717250]
+skew = 0.017453292
+color = Color(0.156863, 0.294118, 0.207843, 1)
+polygon = PackedVector2Array(1342.2, 118, 1352.6, 151.3, 1312.9, 172.6, 1267.3, 184, 1213.6, 189, 1180.8, 160.8, 1154.6, 134.1, 1160.4, 102.8, 1176.9, 73, 1217.7, 54, 1268, 48.2, 1316.7, 59.9, 1332.1, 91.7)
+
+[node name="CopaMedia_03_1" type="Polygon2D" parent="BosqueAjustado/ArbolesMedios" unique_id=98601631]
+skew = 0.017453292
+color = Color(0.156863, 0.294118, 0.207843, 1)
+polygon = PackedVector2Array(1452.1, 96, 1440.8, 121.9, 1416.2, 144.3, 1376.9, 159.5, 1326.5, 162, 1281.6, 144.1, 1271.4, 111, 1281.2, 82.6, 1298.3, 57.6, 1330.2, 36.3, 1375.7, 38.8, 1425.8, 38.7, 1457.8, 64.3)
+
+[node name="CopaMedia_03_2" type="Polygon2D" parent="BosqueAjustado/ArbolesMedios" unique_id=1598507556]
+skew = 0.017453292
+color = Color(0.156863, 0.294118, 0.207843, 1)
+polygon = PackedVector2Array(1432, 42, 1400.9, 71, 1368, 91, 1329.3, 113.4, 1275.2, 112, 1239, 86.4, 1205.6, 59.7, 1218.6, 26.4, 1241, -1.2, 1274.4, -29.3, 1327, -16.7, 1373.8, -12.5, 1419.6, 6.6)
+
+[node name="RamaMedia_03A" type="Line2D" parent="BosqueAjustado/ArbolesMedios" unique_id=1458550098]
+skew = 0.017453292
+points = PackedVector2Array(1320, 268, 1263, 194, 1216, 159)
+width = 22.0
+default_color = Color(0.141176, 0.270588, 0.196078, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RamaMedia_03B" type="Line2D" parent="BosqueAjustado/ArbolesMedios" unique_id=596181927]
+skew = 0.017453292
+points = PackedVector2Array(1320, 293, 1380, 203, 1412, 150)
+width = 17.0
+default_color = Color(0.141176, 0.270588, 0.196078, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="TroncoMedio_04" type="Polygon2D" parent="BosqueAjustado/ArbolesMedios" unique_id=712902428]
+skew = 0.017453292
+color = Color(0.141176, 0.270588, 0.196078, 1)
+polygon = PackedVector2Array(1658, 590, 1665.3, 314, 1671.5, 230, 1731.8, 210, 1749.5, 309, 1762, 590)
+
+[node name="CortezaSombra_04" type="Line2D" parent="BosqueAjustado/ArbolesMedios" unique_id=332516343]
+skew = 0.017453292
+points = PackedVector2Array(1681.9, 573, 1696.5, 365, 1697.5, 239)
+default_color = Color(0.101961, 0.215686, 0.160784, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="CopaMedia_04_0" type="Polygon2D" parent="BosqueAjustado/ArbolesMedios" unique_id=21440315]
+skew = 0.017453292
+color = Color(0.156863, 0.294118, 0.207843, 1)
+polygon = PackedVector2Array(1760.6, 219, 1721.7, 245.2, 1695.9, 267, 1656.7, 281.7, 1613.6, 272.9, 1572.8, 260.6, 1542.1, 235.5, 1544.4, 202.9, 1559.8, 169.9, 1603.1, 147.1, 1658.1, 148.6, 1711.5, 156.3, 1726, 191.3)
+
+[node name="CopaMedia_04_1" type="Polygon2D" parent="BosqueAjustado/ArbolesMedios" unique_id=1070331131]
+skew = 0.017453292
+color = Color(0.156863, 0.294118, 0.207843, 1)
+polygon = PackedVector2Array(1865.8, 197, 1832.8, 223.5, 1816.9, 255.3, 1766.6, 259.1, 1717.1, 262, 1677.7, 241.5, 1641.9, 215.1, 1640.8, 178.7, 1670.9, 148.5, 1714.9, 128.1, 1768.3, 126, 1811.2, 144, 1841.6, 167.4)
+
+[node name="CopaMedia_04_2" type="Polygon2D" parent="BosqueAjustado/ArbolesMedios" unique_id=394154777]
+skew = 0.017453292
+color = Color(0.156863, 0.294118, 0.207843, 1)
+polygon = PackedVector2Array(1792.6, 143, 1787.8, 170.9, 1758.3, 192.3, 1717.2, 202.8, 1675, 196.1, 1625.4, 189.4, 1617.2, 157.2, 1607.6, 127.2, 1637.7, 103.6, 1673.1, 86.6, 1718.4, 76.7, 1773.2, 79.7, 1798, 111.6)
+
+[node name="RamaMedia_04A" type="Line2D" parent="BosqueAjustado/ArbolesMedios" unique_id=1554167793]
+skew = 0.017453292
+points = PackedVector2Array(1710, 369, 1653, 295, 1606, 260)
+width = 22.0
+default_color = Color(0.141176, 0.270588, 0.196078, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RamaMedia_04B" type="Line2D" parent="BosqueAjustado/ArbolesMedios" unique_id=1772352599]
+skew = 0.017453292
+points = PackedVector2Array(1710, 394, 1770, 304, 1802, 251)
+width = 17.0
+default_color = Color(0.141176, 0.270588, 0.196078, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="TroncoMedio_05" type="Polygon2D" parent="BosqueAjustado/ArbolesMedios" unique_id=848535486]
+skew = 0.017453292
+color = Color(0.141176, 0.270588, 0.196078, 1)
+polygon = PackedVector2Array(2059.5, 590, 2065.2, 306, 2070, 222, 2117, 202, 2130.8, 301, 2140.5, 590)
+
+[node name="CortezaSombra_05" type="Line2D" parent="BosqueAjustado/ArbolesMedios" unique_id=162450015]
+skew = 0.017453292
+points = PackedVector2Array(2078.1, 573, 2089.5, 357, 2090.3, 231)
+width = 8.0
+default_color = Color(0.101961, 0.215686, 0.160784, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="CopaMedia_05_0" type="Polygon2D" parent="BosqueAjustado/ArbolesMedios" unique_id=835190362]
+skew = 0.017453292
+color = Color(0.156863, 0.294118, 0.207843, 1)
+polygon = PackedVector2Array(2138.1, 211, 2129.5, 243.3, 2090.8, 263.6, 2046.9, 274.5, 1996.3, 277.5, 1959, 254.8, 1932.5, 227.4, 1951.4, 197.6, 1963.1, 169.5, 1999.7, 150.4, 2049, 136, 2083.6, 165.2, 2129.1, 178.9)
+
+[node name="CopaMedia_05_1" type="Polygon2D" parent="BosqueAjustado/ArbolesMedios" unique_id=798932800]
+skew = 0.017453292
+color = Color(0.156863, 0.294118, 0.207843, 1)
+polygon = PackedVector2Array(2258.9, 189, 2239.5, 221.3, 2194.5, 235.7, 2155.6, 245.9, 2111.1, 247.1, 2074.2, 229.8, 2030.8, 207.3, 2054.7, 174.5, 2066.6, 143.8, 2106.4, 122.8, 2157.6, 121.7, 2211.1, 126.7, 2235.5, 158.1)
+
+[node name="CopaMedia_05_2" type="Polygon2D" parent="BosqueAjustado/ArbolesMedios" unique_id=2038201532]
+skew = 0.017453292
+color = Color(0.156863, 0.294118, 0.207843, 1)
+polygon = PackedVector2Array(2201.1, 135, 2181.8, 164.3, 2144.8, 181, 2108.4, 201.3, 2061.4, 194.4, 2023.8, 176.6, 1986.5, 152.6, 1993, 118.5, 2009.4, 85.1, 2055.1, 64.9, 2106.4, 79.4, 2157.5, 77.1, 2184, 105)
+
+[node name="RamaMedia_05A" type="Line2D" parent="BosqueAjustado/ArbolesMedios" unique_id=1105166174]
+skew = 0.017453292
+points = PackedVector2Array(2100, 361, 2043, 287, 1996, 252)
+width = 22.0
+default_color = Color(0.141176, 0.270588, 0.196078, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RamaMedia_05B" type="Line2D" parent="BosqueAjustado/ArbolesMedios" unique_id=97916801]
+skew = 0.017453292
+points = PackedVector2Array(2100, 386, 2160, 296, 2192, 243)
+width = 17.0
+default_color = Color(0.141176, 0.270588, 0.196078, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="TroncoMedio_06" type="Polygon2D" parent="BosqueAjustado/ArbolesMedios" unique_id=614352600]
+skew = 0.017453292
+color = Color(0.141176, 0.270588, 0.196078, 1)
+polygon = PackedVector2Array(2334.5, 590, 2340.2, 286, 2345, 202, 2392, 182, 2405.8, 281, 2415.5, 590)
+
+[node name="CortezaSombra_06" type="Line2D" parent="BosqueAjustado/ArbolesMedios" unique_id=342456709]
+skew = 0.017453292
+points = PackedVector2Array(2353.1, 573, 2364.5, 337, 2365.3, 211)
+width = 13.0
+default_color = Color(0.101961, 0.215686, 0.160784, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="CopaMedia_06_0" type="Polygon2D" parent="BosqueAjustado/ArbolesMedios" unique_id=1342935771]
+skew = 0.017453292
+color = Color(0.156863, 0.294118, 0.207843, 1)
+polygon = PackedVector2Array(2426.2, 191, 2400.2, 221.8, 2360.7, 238.8, 2320.9, 249.3, 2276.6, 248.3, 2221.9, 241.8, 2212.6, 206.6, 2221.6, 176.8, 2244.9, 153.5, 2276.2, 133.1, 2321.2, 130.8, 2370.2, 134.3, 2393.4, 162.5)
+
+[node name="CopaMedia_06_1" type="Polygon2D" parent="BosqueAjustado/ArbolesMedios" unique_id=165335448]
+skew = 0.017453292
+color = Color(0.156863, 0.294118, 0.207843, 1)
+polygon = PackedVector2Array(2508.5, 169, 2513, 200.8, 2478.1, 223.8, 2431.6, 231.3, 2384.9, 229.2, 2333.8, 218.7, 2327.1, 183.9, 2327.6, 154.2, 2350, 128.6, 2382, 103.8, 2431.8, 105.8, 2469.5, 122.3, 2504.3, 140.2)
+
+[node name="CopaMedia_06_2" type="Polygon2D" parent="BosqueAjustado/ArbolesMedios" unique_id=1662611363]
+skew = 0.017453292
+color = Color(0.156863, 0.294118, 0.207843, 1)
+polygon = PackedVector2Array(2480.4, 115, 2462.2, 146.2, 2423, 164, 2384.7, 188.2, 2335.2, 176.3, 2303.3, 154, 2275.1, 130.4, 2276, 99.8, 2302, 75.3, 2339.1, 60.3, 2384, 45.3, 2429.9, 59.5, 2452.2, 87.3)
+
+[node name="RamaMedia_06A" type="Line2D" parent="BosqueAjustado/ArbolesMedios" unique_id=540038892]
+skew = 0.017453292
+points = PackedVector2Array(2375, 341, 2318, 267, 2271, 232)
+width = 22.0
+default_color = Color(0.141176, 0.270588, 0.196078, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RamaMedia_06B" type="Line2D" parent="BosqueAjustado/ArbolesMedios" unique_id=1316890954]
+skew = 0.017453292
+points = PackedVector2Array(2375, 366, 2435, 276, 2467, 223)
+width = 17.0
+default_color = Color(0.141176, 0.270588, 0.196078, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="LianasColgantes" type="Node2D" parent="BosqueAjustado" unique_id=922933155]
+skew = 0.017453292
+
+[node name="LianaColgante_00" type="Line2D" parent="BosqueAjustado/LianasColgantes" unique_id=125222780]
+skew = 0.017453292
+points = PackedVector2Array(112, 74, 97, 132.8, 129, 191.6, 106, 284)
+width = 6.0
+default_color = Color(0.192157, 0.337255, 0.231373, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="HojaColgante_00_0" type="Polygon2D" parent="BosqueAjustado/LianasColgantes" unique_id=1635678676]
+skew = 0.017453292
+color = Color(0.211765, 0.392157, 0.262745, 1)
+polygon = PackedVector2Array(89.5, 143.5, 99.9, 140.9, 106.6, 126.4, 92.1, 133.1)
+
+[node name="HojaColgante_00_1" type="Polygon2D" parent="BosqueAjustado/LianasColgantes" unique_id=1835446425]
+skew = 0.017453292
+color = Color(0.211765, 0.392157, 0.262745, 1)
+polygon = PackedVector2Array(119.2, 185.4, 122.3, 195.7, 137.1, 201.6, 129.7, 187.5)
+
+[node name="LianaColgante_01" type="Line2D" parent="BosqueAjustado/LianasColgantes" unique_id=1154840071]
+skew = 0.017453292
+points = PackedVector2Array(315, 110, 300, 174.4, 332, 238.8, 309, 340)
+width = 6.0
+default_color = Color(0.192157, 0.337255, 0.231373, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="HojaColgante_01_0" type="Polygon2D" parent="BosqueAjustado/LianasColgantes" unique_id=2093870628]
+skew = 0.017453292
+color = Color(0.211765, 0.392157, 0.262745, 1)
+polygon = PackedVector2Array(292.5, 185.5, 302.9, 182.9, 309.6, 168.4, 295.1, 175.1)
+
+[node name="HojaColgante_01_1" type="Polygon2D" parent="BosqueAjustado/LianasColgantes" unique_id=633460724]
+skew = 0.017453292
+color = Color(0.211765, 0.392157, 0.262745, 1)
+polygon = PackedVector2Array(322.2, 232.6, 325.3, 242.9, 340.1, 248.8, 332.7, 234.7)
+
+[node name="LianaColgante_02" type="Line2D" parent="BosqueAjustado/LianasColgantes" unique_id=208802024]
+skew = 0.017453292
+points = PackedVector2Array(570, 80, 555, 129, 587, 178, 564, 255)
+width = 6.0
+default_color = Color(0.192157, 0.337255, 0.231373, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="HojaColgante_02_0" type="Polygon2D" parent="BosqueAjustado/LianasColgantes" unique_id=450608182]
+skew = 0.017453292
+color = Color(0.211765, 0.392157, 0.262745, 1)
+polygon = PackedVector2Array(547.5, 139, 557.9, 136.4, 564.6, 121.9, 550.1, 128.6)
+
+[node name="HojaColgante_02_1" type="Polygon2D" parent="BosqueAjustado/LianasColgantes" unique_id=889677869]
+skew = 0.017453292
+color = Color(0.211765, 0.392157, 0.262745, 1)
+polygon = PackedVector2Array(577.2, 171.8, 580.3, 182.1, 595.1, 188, 587.7, 173.9)
+
+[node name="LianaColgante_03" type="Line2D" parent="BosqueAjustado/LianasColgantes" unique_id=334833738]
+skew = 0.017453292
+points = PackedVector2Array(755, 55, 740, 112.4, 772, 169.8, 749, 260)
+width = 6.0
+default_color = Color(0.192157, 0.337255, 0.231373, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="HojaColgante_03_0" type="Polygon2D" parent="BosqueAjustado/LianasColgantes" unique_id=2144689967]
+skew = 0.017453292
+color = Color(0.211765, 0.392157, 0.262745, 1)
+polygon = PackedVector2Array(732.5, 123, 742.9, 120.4, 749.6, 105.9, 735.1, 112.6)
+
+[node name="HojaColgante_03_1" type="Polygon2D" parent="BosqueAjustado/LianasColgantes" unique_id=136246788]
+skew = 0.017453292
+color = Color(0.211765, 0.392157, 0.262745, 1)
+polygon = PackedVector2Array(762.2, 163.6, 765.3, 173.9, 780.1, 179.8, 772.7, 165.7)
+
+[node name="LianaColgante_04" type="Line2D" parent="BosqueAjustado/LianasColgantes" unique_id=1613090858]
+skew = 0.017453292
+points = PackedVector2Array(1130, 76, 1115, 143.2, 1147, 210.4, 1124, 316)
+width = 6.0
+default_color = Color(0.192157, 0.337255, 0.231373, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="HojaColgante_04_0" type="Polygon2D" parent="BosqueAjustado/LianasColgantes" unique_id=1280657125]
+skew = 0.017453292
+color = Color(0.211765, 0.392157, 0.262745, 1)
+polygon = PackedVector2Array(1107.5, 154.5, 1117.9, 151.9, 1124.6, 137.4, 1110.1, 144.1)
+
+[node name="HojaColgante_04_1" type="Polygon2D" parent="BosqueAjustado/LianasColgantes" unique_id=1623989496]
+skew = 0.017453292
+color = Color(0.211765, 0.392157, 0.262745, 1)
+polygon = PackedVector2Array(1137.2, 204.2, 1140.3, 214.5, 1155.1, 220.4, 1147.7, 206.3)
+
+[node name="LianaColgante_05" type="Line2D" parent="BosqueAjustado/LianasColgantes" unique_id=365474900]
+skew = 0.017453292
+points = PackedVector2Array(1455, 42, 1440, 106.4, 1472, 170.8, 1449, 272)
+width = 6.0
+default_color = Color(0.192157, 0.337255, 0.231373, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="HojaColgante_05_0" type="Polygon2D" parent="BosqueAjustado/LianasColgantes" unique_id=194077059]
+skew = 0.017453292
+color = Color(0.211765, 0.392157, 0.262745, 1)
+polygon = PackedVector2Array(1432.5, 117.5, 1442.9, 114.9, 1449.6, 100.4, 1435.1, 107.1)
+
+[node name="HojaColgante_05_1" type="Polygon2D" parent="BosqueAjustado/LianasColgantes" unique_id=1355021302]
+skew = 0.017453292
+color = Color(0.211765, 0.392157, 0.262745, 1)
+polygon = PackedVector2Array(1462.2, 164.6, 1465.3, 174.9, 1480.1, 180.8, 1472.7, 166.7)
+
+[node name="LianaColgante_06" type="Line2D" parent="BosqueAjustado/LianasColgantes" unique_id=416183944]
+skew = 0.017453292
+points = PackedVector2Array(1640, 97, 1625, 160, 1657, 223, 1634, 322)
+width = 6.0
+default_color = Color(0.192157, 0.337255, 0.231373, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="HojaColgante_06_0" type="Polygon2D" parent="BosqueAjustado/LianasColgantes" unique_id=1536862319]
+skew = 0.017453292
+color = Color(0.211765, 0.392157, 0.262745, 1)
+polygon = PackedVector2Array(1617.5, 171, 1627.9, 168.4, 1634.6, 153.9, 1620.1, 160.6)
+
+[node name="HojaColgante_06_1" type="Polygon2D" parent="BosqueAjustado/LianasColgantes" unique_id=513974068]
+skew = 0.017453292
+color = Color(0.211765, 0.392157, 0.262745, 1)
+polygon = PackedVector2Array(1647.2, 216.8, 1650.3, 227.1, 1665.1, 233, 1657.7, 218.9)
+
+[node name="LianaColgante_07" type="Line2D" parent="BosqueAjustado/LianasColgantes" unique_id=2055795585]
+skew = 0.017453292
+points = PackedVector2Array(1985, 45, 1970, 113.6, 2002, 182.2, 1979, 290)
+width = 6.0
+default_color = Color(0.192157, 0.337255, 0.231373, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="HojaColgante_07_0" type="Polygon2D" parent="BosqueAjustado/LianasColgantes" unique_id=371171225]
+skew = 0.017453292
+color = Color(0.211765, 0.392157, 0.262745, 1)
+polygon = PackedVector2Array(1962.5, 125, 1972.9, 122.4, 1979.6, 107.9, 1965.1, 114.6)
+
+[node name="HojaColgante_07_1" type="Polygon2D" parent="BosqueAjustado/LianasColgantes" unique_id=732514333]
+skew = 0.017453292
+color = Color(0.211765, 0.392157, 0.262745, 1)
+polygon = PackedVector2Array(1992.2, 176, 1995.3, 186.3, 2010.1, 192.2, 2002.7, 178.1)
+
+[node name="LianaColgante_08" type="Line2D" parent="BosqueAjustado/LianasColgantes" unique_id=950295666]
+skew = 0.017453292
+points = PackedVector2Array(2180, 80, 2165, 127.6, 2197, 175.2, 2174, 250)
+width = 6.0
+default_color = Color(0.192157, 0.337255, 0.231373, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="HojaColgante_08_0" type="Polygon2D" parent="BosqueAjustado/LianasColgantes" unique_id=906969987]
+skew = 0.017453292
+color = Color(0.211765, 0.392157, 0.262745, 1)
+polygon = PackedVector2Array(2157.5, 137.5, 2167.9, 134.9, 2174.6, 120.4, 2160.1, 127.1)
+
+[node name="HojaColgante_08_1" type="Polygon2D" parent="BosqueAjustado/LianasColgantes" unique_id=1170416429]
+skew = 0.017453292
+color = Color(0.211765, 0.392157, 0.262745, 1)
+polygon = PackedVector2Array(2187.2, 169, 2190.3, 179.3, 2205.1, 185.2, 2197.7, 171.1)
+
+[node name="LianaColgante_09" type="Line2D" parent="BosqueAjustado/LianasColgantes" unique_id=1055633966]
+skew = 0.017453292
+points = PackedVector2Array(2360, 88, 2345, 141.2, 2377, 194.4, 2354, 278)
+width = 6.0
+default_color = Color(0.192157, 0.337255, 0.231373, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="HojaColgante_09_0" type="Polygon2D" parent="BosqueAjustado/LianasColgantes" unique_id=779483646]
+skew = 0.017453292
+color = Color(0.211765, 0.392157, 0.262745, 1)
+polygon = PackedVector2Array(2337.5, 151.5, 2347.9, 148.9, 2354.6, 134.4, 2340.1, 141.1)
+
+[node name="HojaColgante_09_1" type="Polygon2D" parent="BosqueAjustado/LianasColgantes" unique_id=881740833]
+skew = 0.017453292
+color = Color(0.211765, 0.392157, 0.262745, 1)
+polygon = PackedVector2Array(2367.2, 188.2, 2370.3, 198.5, 2385.1, 204.4, 2377.7, 190.3)
+
+[node name="RaicesYLianasGigantes" type="Node2D" parent="BosqueAjustado" unique_id=1150579763]
+skew = 0.017453292
+
+[node name="SombraRaiz_1" type="Line2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=1336645116]
+skew = 0.017453292
+points = PackedVector2Array(240, 580, 244.5, 537.3, 255.9, 491.8, 257.9, 442, 241.3, 387.9, 213.3, 331, 191.5, 274.1, 188.5, 220, 200.7, 170.2, 212.3, 124.7, 210, 82)
+width = 43.0
+default_color = Color(0.07451, 0.176471, 0.133333, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RaizGigante_1" type="Line2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=691828421]
+skew = 0.017453292
+points = PackedVector2Array(235, 580, 239.5, 537.3, 250.9, 491.8, 252.9, 442, 236.3, 387.9, 208.3, 331, 186.5, 274.1, 183.5, 220, 195.7, 170.2, 207.3, 124.7, 205, 82)
+width = 30.0
+default_color = Color(0.219608, 0.415686, 0.258824, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="BrilloRaiz_1" type="Line2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=46532082]
+skew = 0.017453292
+points = PackedVector2Array(234.5, 537.3, 245.9, 491.8, 247.9, 442, 231.3, 387.9, 203.3, 331, 181.5, 274.1, 178.5, 220, 190.7, 170.2, 202.3, 124.7)
+width = 4.0
+default_color = Color(0.290196, 0.478431, 0.294118, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="BrazoLiana_1" type="Line2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=1630914010]
+skew = 0.017453292
+points = PackedVector2Array(186.5, 274.1, 251.5, 232.1, 301.5, 139.1)
+width = 13.0
+default_color = Color(0.141176, 0.294118, 0.196078, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="HojaLiana_1_1" type="Polygon2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=2063555220]
+skew = 0.017453292
+color = Color(0.254902, 0.431373, 0.27451, 1)
+polygon = PackedVector2Array(213.7, 439.9, 233.3, 439.6, 251.1, 416.5, 222.6, 422.5)
+
+[node name="HojaLiana_1_2" type="Polygon2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=653220214]
+skew = 0.017453292
+color = Color(0.254902, 0.431373, 0.27451, 1)
+polygon = PackedVector2Array(217.8, 313.4, 229.3, 329.3, 258.4, 330.7, 237.2, 310.7)
+
+[node name="HojaLiana_1_3" type="Polygon2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=1333765178]
+skew = 0.017453292
+color = Color(0.254902, 0.431373, 0.27451, 1)
+polygon = PackedVector2Array(156.5, 168.1, 176.1, 167.7, 193.9, 144.7, 165.4, 150.6)
+
+[node name="HojaLiana_1_4" type="Polygon2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=1515961036]
+skew = 0.017453292
+color = Color(0.254902, 0.431373, 0.27451, 1)
+polygon = PackedVector2Array(311, 121.6, 322.5, 137.4, 351.6, 138.8, 330.4, 118.9)
+
+[node name="SombraRaiz_2" type="Line2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=1658223253]
+skew = 0.017453292
+points = PackedVector2Array(725, 580, 727.7, 543.6, 724.5, 504.4, 729.3, 460.9, 749.8, 413.1, 779.9, 362.5, 804.7, 311.9, 813.7, 264.1, 809.9, 220.6, 806.6, 181.4, 815, 145)
+width = 35.0
+default_color = Color(0.07451, 0.176471, 0.133333, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RaizGigante_2" type="Line2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=1782613765]
+skew = 0.017453292
+points = PackedVector2Array(720, 580, 722.7, 543.6, 719.5, 504.4, 724.3, 460.9, 744.8, 413.1, 774.9, 362.5, 799.7, 311.9, 808.7, 264.1, 804.9, 220.6, 801.6, 181.4, 810, 145)
+width = 25.0
+default_color = Color(0.219608, 0.415686, 0.258824, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="BrilloRaiz_2" type="Line2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=1012220985]
+skew = 0.017453292
+points = PackedVector2Array(717.7, 543.6, 714.5, 504.4, 719.3, 460.9, 739.8, 413.1, 769.9, 362.5, 794.7, 311.9, 803.7, 264.1, 799.9, 220.6, 796.6, 181.4)
+width = 4.0
+default_color = Color(0.290196, 0.478431, 0.294118, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="BrazoLiana_2" type="Line2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=529592585]
+skew = 0.017453292
+points = PackedVector2Array(799.7, 311.9, 737.7, 269.9, 712.7, 176.9)
+width = 13.0
+default_color = Color(0.141176, 0.294118, 0.196078, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="HojaLiana_2_1" type="Polygon2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=998748244]
+skew = 0.017453292
+color = Color(0.254902, 0.431373, 0.27451, 1)
+polygon = PackedVector2Array(685.1, 458.8, 704.7, 458.5, 722.5, 435.4, 694, 441.4)
+
+[node name="HojaLiana_2_2" type="Polygon2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=1350099286]
+skew = 0.017453292
+color = Color(0.254902, 0.431373, 0.27451, 1)
+polygon = PackedVector2Array(784.4, 344.9, 795.9, 360.8, 825, 362.2, 803.8, 342.2)
+
+[node name="HojaLiana_2_3" type="Polygon2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=18170319]
+skew = 0.017453292
+color = Color(0.254902, 0.431373, 0.27451, 1)
+polygon = PackedVector2Array(765.6, 218.5, 785.2, 218.1, 803, 195.1, 774.5, 201)
+
+[node name="HojaLiana_2_4" type="Polygon2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=70158234]
+skew = 0.017453292
+color = Color(0.254902, 0.431373, 0.27451, 1)
+polygon = PackedVector2Array(722.2, 159.4, 733.8, 175.2, 762.8, 176.6, 741.6, 156.7)
+
+[node name="SombraRaiz_3" type="Line2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=1293209710]
+skew = 0.017453292
+points = PackedVector2Array(1100, 580, 1096.4, 547.6, 1097.4, 512.4, 1092.2, 472.9, 1074.8, 429.1, 1049.8, 382.5, 1028.9, 335.9, 1020.4, 292.1, 1021.9, 252.6, 1023, 217.4, 1015, 185)
+width = 43.0
+default_color = Color(0.07451, 0.176471, 0.133333, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RaizGigante_3" type="Line2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=1867934860]
+skew = 0.017453292
+points = PackedVector2Array(1095, 580, 1091.4, 547.6, 1092.4, 512.4, 1087.2, 472.9, 1069.8, 429.1, 1044.8, 382.5, 1023.9, 335.9, 1015.4, 292.1, 1016.9, 252.6, 1018, 217.4, 1010, 185)
+width = 30.0
+default_color = Color(0.219608, 0.415686, 0.258824, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="BrilloRaiz_3" type="Line2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=762075794]
+skew = 0.017453292
+points = PackedVector2Array(1086.4, 547.6, 1087.4, 512.4, 1082.2, 472.9, 1064.8, 429.1, 1039.8, 382.5, 1018.9, 335.9, 1010.4, 292.1, 1011.9, 252.6, 1013, 217.4)
+width = 4.0
+default_color = Color(0.290196, 0.478431, 0.294118, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="BrazoLiana_3" type="Line2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=1214935159]
+skew = 0.017453292
+points = PackedVector2Array(1023.9, 335.9, 1088.9, 293.9, 1138.9, 200.9)
+width = 13.0
+default_color = Color(0.141176, 0.294118, 0.196078, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="HojaLiana_3_1" type="Polygon2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=1568870454]
+skew = 0.017453292
+color = Color(0.254902, 0.431373, 0.27451, 1)
+polygon = PackedVector2Array(1048, 470.8, 1067.6, 470.5, 1085.4, 447.4, 1056.9, 453.4)
+
+[node name="HojaLiana_3_2" type="Polygon2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=523312949]
+skew = 0.017453292
+color = Color(0.254902, 0.431373, 0.27451, 1)
+polygon = PackedVector2Array(1054.3, 364.9, 1065.8, 380.8, 1094.9, 382.2, 1073.7, 362.2)
+
+[node name="HojaLiana_3_3" type="Polygon2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=1099142349]
+skew = 0.017453292
+color = Color(0.254902, 0.431373, 0.27451, 1)
+polygon = PackedVector2Array(977.7, 250.5, 997.3, 250.1, 1015.1, 227.1, 986.6, 233)
+
+[node name="HojaLiana_3_4" type="Polygon2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=406357487]
+skew = 0.017453292
+color = Color(0.254902, 0.431373, 0.27451, 1)
+polygon = PackedVector2Array(1148.5, 183.4, 1160, 199.2, 1189.1, 200.6, 1167.9, 180.7)
+
+[node name="SombraRaiz_4" type="Line2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=1854572772]
+skew = 0.017453292
+points = PackedVector2Array(1600, 580, 1616.7, 539.6, 1640.7, 496.4, 1654.8, 448.9, 1649.2, 397.1, 1631.6, 342.5, 1620.7, 287.9, 1629.5, 236.1, 1654.3, 188.6, 1678.4, 145.4, 1688, 105)
+width = 35.0
+default_color = Color(0.07451, 0.176471, 0.133333, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RaizGigante_4" type="Line2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=1657853366]
+skew = 0.017453292
+points = PackedVector2Array(1595, 580, 1611.7, 539.6, 1635.7, 496.4, 1649.8, 448.9, 1644.2, 397.1, 1626.6, 342.5, 1615.7, 287.9, 1624.5, 236.1, 1649.3, 188.6, 1673.4, 145.4, 1683, 105)
+width = 25.0
+default_color = Color(0.219608, 0.415686, 0.258824, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="BrilloRaiz_4" type="Line2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=1902597694]
+skew = 0.017453292
+points = PackedVector2Array(1606.7, 539.6, 1630.7, 496.4, 1644.8, 448.9, 1639.2, 397.1, 1621.6, 342.5, 1610.7, 287.9, 1619.5, 236.1, 1644.3, 188.6, 1668.4, 145.4)
+width = 4.0
+default_color = Color(0.290196, 0.478431, 0.294118, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="BrazoLiana_4" type="Line2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=1609195506]
+skew = 0.017453292
+points = PackedVector2Array(1615.7, 287.9, 1553.7, 245.9, 1528.7, 152.9)
+width = 13.0
+default_color = Color(0.141176, 0.294118, 0.196078, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="HojaLiana_4_1" type="Polygon2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=1423204630]
+skew = 0.017453292
+color = Color(0.254902, 0.431373, 0.27451, 1)
+polygon = PackedVector2Array(1610.5, 446.8, 1630.1, 446.5, 1647.9, 423.4, 1619.4, 429.4)
+
+[node name="HojaLiana_4_2" type="Polygon2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=1504616251]
+skew = 0.017453292
+color = Color(0.254902, 0.431373, 0.27451, 1)
+polygon = PackedVector2Array(1636.2, 324.9, 1647.7, 340.8, 1676.8, 342.2, 1655.6, 322.2)
+
+[node name="HojaLiana_4_3" type="Polygon2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=1880093886]
+skew = 0.017453292
+color = Color(0.254902, 0.431373, 0.27451, 1)
+polygon = PackedVector2Array(1610.1, 186.5, 1629.6, 186.1, 1647.5, 163.1, 1619, 169)
+
+[node name="HojaLiana_4_4" type="Polygon2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=709533358]
+skew = 0.017453292
+color = Color(0.254902, 0.431373, 0.27451, 1)
+polygon = PackedVector2Array(1538.2, 135.4, 1549.7, 151.2, 1578.8, 152.6, 1557.6, 132.7)
+
+[node name="SombraRaiz_5" type="Line2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=532223696]
+skew = 0.017453292
+points = PackedVector2Array(2070, 580, 2068.9, 545.1, 2076, 507.4, 2071.9, 465.4, 2045.8, 419.1, 2006.1, 370, 1973.9, 320.9, 1963.9, 274.6, 1971.9, 232.6, 1979.1, 194.9, 1970, 160)
+width = 43.0
+default_color = Color(0.07451, 0.176471, 0.133333, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RaizGigante_5" type="Line2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=2036580245]
+skew = 0.017453292
+points = PackedVector2Array(2065, 580, 2063.9, 545.1, 2071, 507.4, 2066.9, 465.4, 2040.8, 419.1, 2001.1, 370, 1968.9, 320.9, 1958.9, 274.6, 1966.9, 232.6, 1974.1, 194.9, 1965, 160)
+width = 30.0
+default_color = Color(0.219608, 0.415686, 0.258824, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="BrilloRaiz_5" type="Line2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=246171619]
+skew = 0.017453292
+points = PackedVector2Array(2058.9, 545.1, 2066, 507.4, 2061.9, 465.4, 2035.8, 419.1, 1996.1, 370, 1963.9, 320.9, 1953.9, 274.6, 1961.9, 232.6, 1969.1, 194.9)
+width = 4.0
+default_color = Color(0.290196, 0.478431, 0.294118, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="BrazoLiana_5" type="Line2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=1037672254]
+skew = 0.017453292
+points = PackedVector2Array(1968.9, 320.9, 2033.9, 278.9, 2083.9, 185.9)
+width = 13.0
+default_color = Color(0.141176, 0.294118, 0.196078, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="HojaLiana_5_1" type="Polygon2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=1930315351]
+skew = 0.017453292
+color = Color(0.254902, 0.431373, 0.27451, 1)
+polygon = PackedVector2Array(2027.7, 463.3, 2047.2, 463, 2065.1, 439.9, 2036.6, 445.9)
+
+[node name="HojaLiana_5_2" type="Polygon2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=1269565216]
+skew = 0.017453292
+color = Color(0.254902, 0.431373, 0.27451, 1)
+polygon = PackedVector2Array(2010.6, 352.4, 2022.2, 368.3, 2051.2, 369.7, 2030, 349.7)
+
+[node name="HojaLiana_5_3" type="Polygon2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=649507555]
+skew = 0.017453292
+color = Color(0.254902, 0.431373, 0.27451, 1)
+polygon = PackedVector2Array(1927.6, 230.5, 1947.2, 230.1, 1965, 207.1, 1936.6, 213)
+
+[node name="HojaLiana_5_4" type="Polygon2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=1462705618]
+skew = 0.017453292
+color = Color(0.254902, 0.431373, 0.27451, 1)
+polygon = PackedVector2Array(2093.4, 168.4, 2104.9, 184.2, 2134, 185.6, 2112.8, 165.7)
+
+[node name="SombraRaiz_6" type="Line2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=802881797]
+skew = 0.017453292
+points = PackedVector2Array(2300, 580, 2297.9, 551.6, 2302.2, 520.4, 2297.8, 484.9, 2276.3, 445.1, 2244.2, 402.5, 2217.9, 359.9, 2208.9, 320.1, 2213.9, 284.6, 2218.3, 253.4, 2210, 225)
+width = 35.0
+default_color = Color(0.07451, 0.176471, 0.133333, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RaizGigante_6" type="Line2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=1420543071]
+skew = 0.017453292
+points = PackedVector2Array(2295, 580, 2292.9, 551.6, 2297.2, 520.4, 2292.8, 484.9, 2271.3, 445.1, 2239.2, 402.5, 2212.9, 359.9, 2203.9, 320.1, 2208.9, 284.6, 2213.3, 253.4, 2205, 225)
+width = 25.0
+default_color = Color(0.219608, 0.415686, 0.258824, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="BrilloRaiz_6" type="Line2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=21345938]
+skew = 0.017453292
+points = PackedVector2Array(2287.9, 551.6, 2292.2, 520.4, 2287.8, 484.9, 2266.3, 445.1, 2234.2, 402.5, 2207.9, 359.9, 2198.9, 320.1, 2203.9, 284.6, 2208.3, 253.4)
+width = 4.0
+default_color = Color(0.290196, 0.478431, 0.294118, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="BrazoLiana_6" type="Line2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=1348282780]
+skew = 0.017453292
+points = PackedVector2Array(2212.9, 359.9, 2150.9, 317.9, 2125.9, 224.9)
+width = 13.0
+default_color = Color(0.141176, 0.294118, 0.196078, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="HojaLiana_6_1" type="Polygon2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=1046785487]
+skew = 0.017453292
+color = Color(0.254902, 0.431373, 0.27451, 1)
+polygon = PackedVector2Array(2253.6, 482.8, 2273.2, 482.5, 2291, 459.4, 2262.5, 465.4)
+
+[node name="HojaLiana_6_2" type="Polygon2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=285166174]
+skew = 0.017453292
+color = Color(0.254902, 0.431373, 0.27451, 1)
+polygon = PackedVector2Array(2248.7, 384.9, 2260.2, 400.8, 2289.3, 402.2, 2268.1, 382.2)
+
+[node name="HojaLiana_6_3" type="Polygon2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=2087082221]
+skew = 0.017453292
+color = Color(0.254902, 0.431373, 0.27451, 1)
+polygon = PackedVector2Array(2169.7, 282.5, 2189.3, 282.1, 2207.1, 259.1, 2178.6, 265)
+
+[node name="HojaLiana_6_4" type="Polygon2D" parent="BosqueAjustado/RaicesYLianasGigantes" unique_id=2147409563]
+skew = 0.017453292
+color = Color(0.254902, 0.431373, 0.27451, 1)
+polygon = PackedVector2Array(2135.4, 207.4, 2147, 223.2, 2176, 224.6, 2154.8, 204.7)
+
+[node name="RaicesEnSuelo" type="Node2D" parent="BosqueAjustado" unique_id=426287238]
+skew = 0.017453292
+
+[node name="RaizSuelo_1_1" type="Line2D" parent="BosqueAjustado/RaicesEnSuelo" unique_id=1243020411]
+skew = 0.017453292
+points = PackedVector2Array(95, 582, 47, 552, -12, 554, -50, 570)
+width = 15.0
+default_color = Color(0.129412, 0.262745, 0.180392, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RelieveSuelo_1_1" type="Line2D" parent="BosqueAjustado/RaicesEnSuelo" unique_id=2029452739]
+skew = 0.017453292
+points = PackedVector2Array(47, 549, -12, 551, -50, 567)
+width = 4.0
+default_color = Color(0.219608, 0.380392, 0.231373, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RaizSuelo_1_2" type="Line2D" parent="BosqueAjustado/RaicesEnSuelo" unique_id=848860640]
+skew = 0.017453292
+points = PackedVector2Array(95, 582, 143, 552, 202, 554, 240, 570)
+width = 15.0
+default_color = Color(0.129412, 0.262745, 0.180392, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RelieveSuelo_1_2" type="Line2D" parent="BosqueAjustado/RaicesEnSuelo" unique_id=989558974]
+skew = 0.017453292
+points = PackedVector2Array(143, 549, 202, 551, 240, 567)
+width = 4.0
+default_color = Color(0.219608, 0.380392, 0.231373, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RaizSuelo_2_1" type="Line2D" parent="BosqueAjustado/RaicesEnSuelo" unique_id=426035614]
+skew = 0.017453292
+points = PackedVector2Array(540, 582, 492, 552, 433, 554, 395, 570)
+width = 15.0
+default_color = Color(0.129412, 0.262745, 0.180392, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RelieveSuelo_2_1" type="Line2D" parent="BosqueAjustado/RaicesEnSuelo" unique_id=324390580]
+skew = 0.017453292
+points = PackedVector2Array(492, 549, 433, 551, 395, 567)
+width = 4.0
+default_color = Color(0.219608, 0.380392, 0.231373, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RaizSuelo_2_2" type="Line2D" parent="BosqueAjustado/RaicesEnSuelo" unique_id=1099988264]
+skew = 0.017453292
+points = PackedVector2Array(540, 582, 588, 552, 647, 554, 685, 570)
+width = 15.0
+default_color = Color(0.129412, 0.262745, 0.180392, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RelieveSuelo_2_2" type="Line2D" parent="BosqueAjustado/RaicesEnSuelo" unique_id=500403403]
+skew = 0.017453292
+points = PackedVector2Array(588, 549, 647, 551, 685, 567)
+width = 4.0
+default_color = Color(0.219608, 0.380392, 0.231373, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RaizSuelo_3_1" type="Line2D" parent="BosqueAjustado/RaicesEnSuelo" unique_id=450463921]
+skew = 0.017453292
+points = PackedVector2Array(960, 582, 912, 552, 853, 554, 815, 570)
+width = 15.0
+default_color = Color(0.129412, 0.262745, 0.180392, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RelieveSuelo_3_1" type="Line2D" parent="BosqueAjustado/RaicesEnSuelo" unique_id=1124378308]
+skew = 0.017453292
+points = PackedVector2Array(912, 549, 853, 551, 815, 567)
+width = 4.0
+default_color = Color(0.219608, 0.380392, 0.231373, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RaizSuelo_3_2" type="Line2D" parent="BosqueAjustado/RaicesEnSuelo" unique_id=1915249479]
+skew = 0.017453292
+points = PackedVector2Array(960, 582, 1008, 552, 1067, 554, 1105, 570)
+width = 15.0
+default_color = Color(0.129412, 0.262745, 0.180392, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RelieveSuelo_3_2" type="Line2D" parent="BosqueAjustado/RaicesEnSuelo" unique_id=683999031]
+skew = 0.017453292
+points = PackedVector2Array(1008, 549, 1067, 551, 1105, 567)
+width = 4.0
+default_color = Color(0.219608, 0.380392, 0.231373, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RaizSuelo_4_1" type="Line2D" parent="BosqueAjustado/RaicesEnSuelo" unique_id=58970467]
+skew = 0.017453292
+points = PackedVector2Array(1375, 582, 1327, 552, 1268, 554, 1230, 570)
+width = 15.0
+default_color = Color(0.129412, 0.262745, 0.180392, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RelieveSuelo_4_1" type="Line2D" parent="BosqueAjustado/RaicesEnSuelo" unique_id=1413531387]
+skew = 0.017453292
+points = PackedVector2Array(1327, 549, 1268, 551, 1230, 567)
+width = 4.0
+default_color = Color(0.219608, 0.380392, 0.231373, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RaizSuelo_4_2" type="Line2D" parent="BosqueAjustado/RaicesEnSuelo" unique_id=1600151684]
+skew = 0.017453292
+points = PackedVector2Array(1375, 582, 1423, 552, 1482, 554, 1520, 570)
+width = 15.0
+default_color = Color(0.129412, 0.262745, 0.180392, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RelieveSuelo_4_2" type="Line2D" parent="BosqueAjustado/RaicesEnSuelo" unique_id=181759766]
+skew = 0.017453292
+points = PackedVector2Array(1423, 549, 1482, 551, 1520, 567)
+width = 4.0
+default_color = Color(0.219608, 0.380392, 0.231373, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RaizSuelo_5_1" type="Line2D" parent="BosqueAjustado/RaicesEnSuelo" unique_id=831440318]
+skew = 0.017453292
+points = PackedVector2Array(1830, 582, 1782, 552, 1723, 554, 1685, 570)
+width = 15.0
+default_color = Color(0.129412, 0.262745, 0.180392, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RelieveSuelo_5_1" type="Line2D" parent="BosqueAjustado/RaicesEnSuelo" unique_id=720949385]
+skew = 0.017453292
+points = PackedVector2Array(1782, 549, 1723, 551, 1685, 567)
+width = 4.0
+default_color = Color(0.219608, 0.380392, 0.231373, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RaizSuelo_5_2" type="Line2D" parent="BosqueAjustado/RaicesEnSuelo" unique_id=1926249262]
+skew = 0.017453292
+points = PackedVector2Array(1830, 582, 1878, 552, 1937, 554, 1975, 570)
+width = 15.0
+default_color = Color(0.129412, 0.262745, 0.180392, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RelieveSuelo_5_2" type="Line2D" parent="BosqueAjustado/RaicesEnSuelo" unique_id=385893118]
+skew = 0.017453292
+points = PackedVector2Array(1878, 549, 1937, 551, 1975, 567)
+width = 4.0
+default_color = Color(0.219608, 0.380392, 0.231373, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RaizSuelo_6_1" type="Line2D" parent="BosqueAjustado/RaicesEnSuelo" unique_id=43707906]
+skew = 0.017453292
+points = PackedVector2Array(2200, 582, 2152, 552, 2093, 554, 2055, 570)
+width = 15.0
+default_color = Color(0.129412, 0.262745, 0.180392, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RelieveSuelo_6_1" type="Line2D" parent="BosqueAjustado/RaicesEnSuelo" unique_id=2024000443]
+skew = 0.017453292
+points = PackedVector2Array(2152, 549, 2093, 551, 2055, 567)
+width = 4.0
+default_color = Color(0.219608, 0.380392, 0.231373, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RaizSuelo_6_2" type="Line2D" parent="BosqueAjustado/RaicesEnSuelo" unique_id=983295837]
+skew = 0.017453292
+points = PackedVector2Array(2200, 582, 2248, 552, 2307, 554, 2345, 570)
+width = 15.0
+default_color = Color(0.129412, 0.262745, 0.180392, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="RelieveSuelo_6_2" type="Line2D" parent="BosqueAjustado/RaicesEnSuelo" unique_id=1936739689]
+skew = 0.017453292
+points = PackedVector2Array(2248, 549, 2307, 551, 2345, 567)
+width = 4.0
+default_color = Color(0.219608, 0.380392, 0.231373, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="MalezaMutanteFondo" type="Node2D" parent="BosqueAjustado" unique_id=20223305]
+skew = 0.017453292
+
+[node name="HojaMaleza_00_00" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=1268885378]
+skew = 0.017453292
+color = Color(0.192157, 0.368627, 0.235294, 1)
+polygon = PackedVector2Array(40, 580, 5, 514, 18, 486, 25, 516, 51, 580)
+
+[node name="HojaMaleza_00_01" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=1686792639]
+skew = 0.017453292
+color = Color(0.164706, 0.356863, 0.223529, 1)
+polygon = PackedVector2Array(44, 580, 28, 484, 41, 456, 48, 486, 59, 580)
+
+[node name="HojaMaleza_00_02" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=88883407]
+skew = 0.017453292
+color = Color(0.192157, 0.368627, 0.235294, 1)
+polygon = PackedVector2Array(48, 580, 38, 531, 51, 503, 58, 533, 67, 580)
+
+[node name="HojaMaleza_00_03" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=1142779387]
+skew = 0.017453292
+color = Color(0.164706, 0.356863, 0.223529, 1)
+polygon = PackedVector2Array(52, 580, 59, 482, 72, 454, 79, 484, 75, 580)
+
+[node name="HojaMaleza_00_04" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=427920345]
+skew = 0.017453292
+color = Color(0.192157, 0.368627, 0.235294, 1)
+polygon = PackedVector2Array(56, 580, 92, 482, 105, 454, 112, 484, 83, 580)
+
+[node name="BroteLuminoso_00_0" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=862348501]
+skew = 0.017453292
+color = Color(0.356863, 0.592157, 0.443137, 1)
+polygon = PackedVector2Array(90.6, 520, 89.7, 524, 87.3, 526.4, 84.7, 527.2, 81.9, 527.4, 79.7, 525.1, 77.7, 522.1, 78.6, 518.2, 79.6, 514.8, 81.8, 512.4, 84.8, 511.1, 87.4, 513.5, 88.9, 516.6)
+
+[node name="BroteLuminoso_00_1" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=1858784791]
+skew = 0.017453292
+color = Color(0.356863, 0.592157, 0.443137, 1)
+polygon = PackedVector2Array(56.2, 522, 56.9, 526.1, 54.7, 529.1, 51.7, 529.2, 48.9, 529.4, 46.6, 527.2, 45, 524, 44.7, 519.9, 47.1, 517.4, 49.2, 515.7, 51.8, 513.3, 54.3, 515.6, 56.7, 518)
+
+[node name="HojaMaleza_01_00" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=1385560310]
+skew = 0.017453292
+color = Color(0.192157, 0.368627, 0.235294, 1)
+polygon = PackedVector2Array(315, 580, 282, 485, 295, 457, 302, 487, 326, 580)
+
+[node name="HojaMaleza_01_01" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=1584329187]
+skew = 0.017453292
+color = Color(0.164706, 0.356863, 0.223529, 1)
+polygon = PackedVector2Array(319, 580, 302, 472, 315, 444, 322, 474, 334, 580)
+
+[node name="HojaMaleza_01_02" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=1038258692]
+skew = 0.017453292
+color = Color(0.192157, 0.368627, 0.235294, 1)
+polygon = PackedVector2Array(323, 580, 312, 502, 325, 474, 332, 504, 342, 580)
+
+[node name="HojaMaleza_01_03" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=1223076388]
+skew = 0.017453292
+color = Color(0.164706, 0.356863, 0.223529, 1)
+polygon = PackedVector2Array(327, 580, 335, 526, 348, 498, 355, 528, 350, 580)
+
+[node name="HojaMaleza_01_04" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=1023786184]
+skew = 0.017453292
+color = Color(0.192157, 0.368627, 0.235294, 1)
+polygon = PackedVector2Array(331, 580, 358, 468, 371, 440, 378, 470, 358, 580)
+
+[node name="BroteLuminoso_01_0" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=747698230]
+skew = 0.017453292
+color = Color(0.356863, 0.592157, 0.443137, 1)
+polygon = PackedVector2Array(321.2, 505, 320.7, 509, 318.7, 512.1, 315.8, 514, 312.7, 513, 309.9, 511, 310.1, 506.6, 309.3, 503.1, 309.9, 499, 312.8, 497.2, 315.8, 496.1, 318, 499.3, 320.2, 501.4)
+
+[node name="BroteLuminoso_01_1" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=1877409486]
+skew = 0.017453292
+color = Color(0.356863, 0.592157, 0.443137, 1)
+polygon = PackedVector2Array(349.5, 492, 348.8, 496.1, 346.4, 498.5, 343.7, 499.3, 341.2, 498.2, 338.3, 497.5, 337.3, 493.9, 336.7, 489.9, 338.7, 487, 340.7, 483.9, 343.7, 484.7, 346.7, 484.8, 348.7, 488)
+
+[node name="HojaMaleza_02_00" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=1271453844]
+skew = 0.017453292
+color = Color(0.192157, 0.368627, 0.235294, 1)
+polygon = PackedVector2Array(565, 580, 530, 509, 543, 481, 550, 511, 576, 580)
+
+[node name="HojaMaleza_02_01" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=724938327]
+skew = 0.017453292
+color = Color(0.164706, 0.356863, 0.223529, 1)
+polygon = PackedVector2Array(569, 580, 547, 511, 560, 483, 567, 513, 584, 580)
+
+[node name="HojaMaleza_02_02" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=988309002]
+skew = 0.017453292
+color = Color(0.192157, 0.368627, 0.235294, 1)
+polygon = PackedVector2Array(573, 580, 563, 526, 576, 498, 583, 528, 592, 580)
+
+[node name="HojaMaleza_02_03" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=330820879]
+skew = 0.017453292
+color = Color(0.164706, 0.356863, 0.223529, 1)
+polygon = PackedVector2Array(577, 580, 592, 488, 605, 460, 612, 490, 600, 580)
+
+[node name="HojaMaleza_02_04" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=1056430187]
+skew = 0.017453292
+color = Color(0.192157, 0.368627, 0.235294, 1)
+polygon = PackedVector2Array(581, 580, 601, 461, 614, 433, 621, 463, 608, 580)
+
+[node name="BroteLuminoso_02_0" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=359797472]
+skew = 0.017453292
+color = Color(0.356863, 0.592157, 0.443137, 1)
+polygon = PackedVector2Array(605.1, 508, 604.1, 511.6, 602.5, 514.7, 599.6, 515.1, 596.7, 516.2, 594.1, 513.8, 592.9, 510, 593.9, 506.3, 594.5, 502.7, 597, 501, 599.7, 500.8, 602.9, 500.5, 605.1, 503.7)
+
+[node name="BroteLuminoso_02_1" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=1182276732]
+skew = 0.017453292
+color = Color(0.356863, 0.592157, 0.443137, 1)
+polygon = PackedVector2Array(581.8, 525, 581.4, 528.8, 579.8, 532.4, 576.7, 532.8, 573.9, 532.4, 571.4, 530.4, 570.8, 526.7, 570.2, 523.1, 571.4, 519.5, 573.7, 516.9, 576.6, 518.2, 579.2, 518.9, 580.6, 521.8)
+
+[node name="HojaMaleza_03_00" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=1114630445]
+skew = 0.017453292
+color = Color(0.192157, 0.368627, 0.235294, 1)
+polygon = PackedVector2Array(855, 580, 823, 482, 836, 454, 843, 484, 866, 580)
+
+[node name="HojaMaleza_03_01" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=2027516317]
+skew = 0.017453292
+color = Color(0.164706, 0.356863, 0.223529, 1)
+polygon = PackedVector2Array(859, 580, 840, 508, 853, 480, 860, 510, 874, 580)
+
+[node name="HojaMaleza_03_02" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=639891098]
+skew = 0.017453292
+color = Color(0.192157, 0.368627, 0.235294, 1)
+polygon = PackedVector2Array(863, 580, 856, 532, 869, 504, 876, 534, 882, 580)
+
+[node name="HojaMaleza_03_03" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=1461046238]
+skew = 0.017453292
+color = Color(0.164706, 0.356863, 0.223529, 1)
+polygon = PackedVector2Array(867, 580, 881, 503, 894, 475, 901, 505, 890, 580)
+
+[node name="HojaMaleza_03_04" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=2131688173]
+skew = 0.017453292
+color = Color(0.192157, 0.368627, 0.235294, 1)
+polygon = PackedVector2Array(871, 580, 899, 528, 912, 500, 919, 530, 898, 580)
+
+[node name="BroteLuminoso_03_0" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=450280583]
+skew = 0.017453292
+color = Color(0.356863, 0.592157, 0.443137, 1)
+polygon = PackedVector2Array(869.8, 475, 867.4, 478.1, 866.6, 482, 863.6, 482, 860.6, 483.6, 859.2, 479.4, 856.5, 477.1, 856.9, 473, 858, 469.1, 860.6, 466.4, 863.7, 467.8, 866.2, 468.8, 868.6, 471.1)
+
+[node name="BroteLuminoso_03_1" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=749892594]
+skew = 0.017453292
+color = Color(0.356863, 0.592157, 0.443137, 1)
+polygon = PackedVector2Array(853.7, 504, 853.2, 507.7, 851.3, 510.3, 848.7, 511.7, 846, 511.2, 843.3, 509.5, 842.7, 505.7, 842, 502, 844.3, 499.6, 846, 497.1, 848.7, 496.6, 851, 498.2, 853.7, 500)
+
+[node name="HojaMaleza_04_00" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=2060257131]
+skew = 0.017453292
+color = Color(0.192157, 0.368627, 0.235294, 1)
+polygon = PackedVector2Array(1155, 580, 1123, 504, 1136, 476, 1143, 506, 1166, 580)
+
+[node name="HojaMaleza_04_01" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=497997288]
+skew = 0.017453292
+color = Color(0.164706, 0.356863, 0.223529, 1)
+polygon = PackedVector2Array(1159, 580, 1131, 481, 1144, 453, 1151, 483, 1174, 580)
+
+[node name="HojaMaleza_04_02" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=1963586745]
+skew = 0.017453292
+color = Color(0.192157, 0.368627, 0.235294, 1)
+polygon = PackedVector2Array(1163, 580, 1153, 513, 1166, 485, 1173, 515, 1182, 580)
+
+[node name="HojaMaleza_04_03" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=2058455168]
+skew = 0.017453292
+color = Color(0.164706, 0.356863, 0.223529, 1)
+polygon = PackedVector2Array(1167, 580, 1177, 519, 1190, 491, 1197, 521, 1190, 580)
+
+[node name="HojaMaleza_04_04" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=920134562]
+skew = 0.017453292
+color = Color(0.192157, 0.368627, 0.235294, 1)
+polygon = PackedVector2Array(1171, 580, 1200, 522, 1213, 494, 1220, 524, 1198, 580)
+
+[node name="BroteLuminoso_04_0" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=544751521]
+skew = 0.017453292
+color = Color(0.356863, 0.592157, 0.443137, 1)
+polygon = PackedVector2Array(1153.7, 466, 1152.6, 469.9, 1150.7, 473.1, 1147.8, 474.9, 1145.1, 472.8, 1142.4, 471.5, 1140.5, 468.1, 1140.5, 463.9, 1142.4, 460.6, 1145.1, 459.4, 1147.7, 458.4, 1150.9, 458.4, 1151.6, 462.8)
+
+[node name="BroteLuminoso_04_1" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=1006316003]
+skew = 0.017453292
+color = Color(0.356863, 0.592157, 0.443137, 1)
+polygon = PackedVector2Array(1178.3, 528, 1178.6, 531.9, 1176.5, 534.8, 1173.7, 535.8, 1171.1, 534.7, 1168.1, 533.7, 1166.7, 530.1, 1167.2, 526.1, 1168.5, 522.7, 1171.1, 521.2, 1173.6, 521.4, 1176.2, 521.8, 1178.4, 524.2)
+
+[node name="HojaMaleza_05_00" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=126757154]
+skew = 0.017453292
+color = Color(0.192157, 0.368627, 0.235294, 1)
+polygon = PackedVector2Array(1420, 580, 1375, 527, 1388, 499, 1395, 529, 1431, 580)
+
+[node name="HojaMaleza_05_01" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=706359663]
+skew = 0.017453292
+color = Color(0.164706, 0.356863, 0.223529, 1)
+polygon = PackedVector2Array(1424, 580, 1408, 467, 1421, 439, 1428, 469, 1439, 580)
+
+[node name="HojaMaleza_05_02" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=1467755063]
+skew = 0.017453292
+color = Color(0.192157, 0.368627, 0.235294, 1)
+polygon = PackedVector2Array(1428, 580, 1416, 533, 1429, 505, 1436, 535, 1447, 580)
+
+[node name="HojaMaleza_05_03" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=561422719]
+skew = 0.017453292
+color = Color(0.164706, 0.356863, 0.223529, 1)
+polygon = PackedVector2Array(1432, 580, 1448, 462, 1461, 434, 1468, 464, 1455, 580)
+
+[node name="HojaMaleza_05_04" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=1773188571]
+skew = 0.017453292
+color = Color(0.192157, 0.368627, 0.235294, 1)
+polygon = PackedVector2Array(1436, 580, 1459, 462, 1472, 434, 1479, 464, 1463, 580)
+
+[node name="BroteLuminoso_05_0" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=1498040597]
+skew = 0.017453292
+color = Color(0.356863, 0.592157, 0.443137, 1)
+polygon = PackedVector2Array(1471.7, 486, 1472, 490.2, 1469.7, 493.2, 1466.6, 493.1, 1463.6, 494.3, 1461.4, 491.5, 1461.1, 487.6, 1459.4, 483.8, 1461.9, 481.2, 1464, 479.1, 1466.7, 478.3, 1469.5, 479.3, 1470.6, 482.8)
+
+[node name="BroteLuminoso_05_1" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=1750352010]
+skew = 0.017453292
+color = Color(0.356863, 0.592157, 0.443137, 1)
+polygon = PackedVector2Array(1431.4, 526, 1429.8, 529.3, 1428.1, 531.9, 1425.7, 534.1, 1423.2, 532.3, 1420.2, 531.7, 1418.7, 528.1, 1420.1, 524.4, 1420.3, 520.4, 1422.9, 518.6, 1425.7, 517.8, 1428.9, 518.5, 1431.1, 521.7)
+
+[node name="HojaMaleza_06_00" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=699765062]
+skew = 0.017453292
+color = Color(0.192157, 0.368627, 0.235294, 1)
+polygon = PackedVector2Array(1715, 580, 1681, 473, 1694, 445, 1701, 475, 1726, 580)
+
+[node name="HojaMaleza_06_01" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=184354524]
+skew = 0.017453292
+color = Color(0.164706, 0.356863, 0.223529, 1)
+polygon = PackedVector2Array(1719, 580, 1688, 495, 1701, 467, 1708, 497, 1734, 580)
+
+[node name="HojaMaleza_06_02" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=814504855]
+skew = 0.017453292
+color = Color(0.192157, 0.368627, 0.235294, 1)
+polygon = PackedVector2Array(1723, 580, 1719, 474, 1732, 446, 1739, 476, 1742, 580)
+
+[node name="HojaMaleza_06_03" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=1168620791]
+skew = 0.017453292
+color = Color(0.164706, 0.356863, 0.223529, 1)
+polygon = PackedVector2Array(1727, 580, 1744, 479, 1757, 451, 1764, 481, 1750, 580)
+
+[node name="HojaMaleza_06_04" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=244033565]
+skew = 0.017453292
+color = Color(0.192157, 0.368627, 0.235294, 1)
+polygon = PackedVector2Array(1731, 580, 1764, 462, 1777, 434, 1784, 464, 1758, 580)
+
+[node name="BroteLuminoso_06_0" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=1700748015]
+skew = 0.017453292
+color = Color(0.356863, 0.592157, 0.443137, 1)
+polygon = PackedVector2Array(1759, 494, 1757.9, 497.4, 1755.9, 499.5, 1753.8, 502.3, 1751.1, 500.7, 1748.9, 498.8, 1747.4, 495.8, 1747, 492, 1747.9, 487.9, 1750.9, 486.7, 1753.8, 484.9, 1756.9, 486.4, 1757.8, 490.6)
+
+[node name="BroteLuminoso_06_1" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=862454781]
+skew = 0.017453292
+color = Color(0.356863, 0.592157, 0.443137, 1)
+polygon = PackedVector2Array(1714, 524, 1713.6, 527.2, 1712.3, 530.3, 1709.8, 532.3, 1707.1, 530.5, 1705.1, 528.6, 1703.7, 525.7, 1702.8, 521.9, 1705.1, 519.3, 1706.7, 516, 1709.8, 515.7, 1712, 518.2, 1714.3, 520.3)
+
+[node name="HojaMaleza_07_00" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=338991926]
+skew = 0.017453292
+color = Color(0.192157, 0.368627, 0.235294, 1)
+polygon = PackedVector2Array(1980, 580, 1937, 518, 1950, 490, 1957, 520, 1991, 580)
+
+[node name="HojaMaleza_07_01" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=760799125]
+skew = 0.017453292
+color = Color(0.164706, 0.356863, 0.223529, 1)
+polygon = PackedVector2Array(1984, 580, 1953, 467, 1966, 439, 1973, 469, 1999, 580)
+
+[node name="HojaMaleza_07_02" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=1890216073]
+skew = 0.017453292
+color = Color(0.192157, 0.368627, 0.235294, 1)
+polygon = PackedVector2Array(1988, 580, 1976, 515, 1989, 487, 1996, 517, 2007, 580)
+
+[node name="HojaMaleza_07_03" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=35010815]
+skew = 0.017453292
+color = Color(0.164706, 0.356863, 0.223529, 1)
+polygon = PackedVector2Array(1992, 580, 1999, 517, 2012, 489, 2019, 519, 2015, 580)
+
+[node name="HojaMaleza_07_04" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=1027928992]
+skew = 0.017453292
+color = Color(0.192157, 0.368627, 0.235294, 1)
+polygon = PackedVector2Array(1996, 580, 2021, 491, 2034, 463, 2041, 493, 2023, 580)
+
+[node name="BroteLuminoso_07_0" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=849144947]
+skew = 0.017453292
+color = Color(0.356863, 0.592157, 0.443137, 1)
+polygon = PackedVector2Array(1995, 497, 1994.7, 501, 1992.6, 504, 1989.8, 505.8, 1987, 503.9, 1983.9, 503, 1983.1, 498.9, 1982.8, 495, 1984.2, 491.3, 1986.6, 488.6, 1989.7, 489.7, 1992.2, 490.8, 1994.6, 493.1)
+
+[node name="BroteLuminoso_07_1" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=1104696540]
+skew = 0.017453292
+color = Color(0.356863, 0.592157, 0.443137, 1)
+polygon = PackedVector2Array(1987.6, 482, 1988.1, 486.3, 1985.9, 489.5, 1982.8, 490.9, 1979.7, 490.1, 1977, 487.9, 1977.2, 483.6, 1976, 480, 1977.9, 477.2, 1979.7, 474, 1982.7, 474.3, 1985.4, 475.4, 1987.3, 478.3)
+
+[node name="HojaMaleza_08_00" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=1727124926]
+skew = 0.017453292
+color = Color(0.192157, 0.368627, 0.235294, 1)
+polygon = PackedVector2Array(2310, 580, 2272, 519, 2285, 491, 2292, 521, 2321, 580)
+
+[node name="HojaMaleza_08_01" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=127217071]
+skew = 0.017453292
+color = Color(0.164706, 0.356863, 0.223529, 1)
+polygon = PackedVector2Array(2314, 580, 2297, 532, 2310, 504, 2317, 534, 2329, 580)
+
+[node name="HojaMaleza_08_02" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=305533135]
+skew = 0.017453292
+color = Color(0.192157, 0.368627, 0.235294, 1)
+polygon = PackedVector2Array(2318, 580, 2313, 529, 2326, 501, 2333, 531, 2337, 580)
+
+[node name="HojaMaleza_08_03" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=214013099]
+skew = 0.017453292
+color = Color(0.164706, 0.356863, 0.223529, 1)
+polygon = PackedVector2Array(2322, 580, 2331, 496, 2344, 468, 2351, 498, 2345, 580)
+
+[node name="HojaMaleza_08_04" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=724658402]
+skew = 0.017453292
+color = Color(0.192157, 0.368627, 0.235294, 1)
+polygon = PackedVector2Array(2326, 580, 2360, 502, 2373, 474, 2380, 504, 2353, 580)
+
+[node name="BroteLuminoso_08_0" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=844745982]
+skew = 0.017453292
+color = Color(0.356863, 0.592157, 0.443137, 1)
+polygon = PackedVector2Array(2325.9, 493, 2325.9, 497.1, 2322.9, 498.5, 2320.7, 500.3, 2317.6, 501.5, 2315.3, 498.5, 2314.9, 494.7, 2314.5, 491.2, 2315, 487.1, 2317.9, 485.7, 2320.6, 486.3, 2323.8, 485.6, 2324.6, 489.8)
+
+[node name="BroteLuminoso_08_1" type="Polygon2D" parent="BosqueAjustado/MalezaMutanteFondo" unique_id=1386726140]
+skew = 0.017453292
+color = Color(0.356863, 0.592157, 0.443137, 1)
+polygon = PackedVector2Array(2359.7, 524, 2358.8, 527.4, 2357, 529.8, 2354.8, 532.9, 2351.8, 531.6, 2349.3, 529.6, 2348.1, 525.9, 2348.4, 522.2, 2349.2, 518.4, 2351.8, 516.4, 2354.8, 515.4, 2357.6, 517.1, 2359.8, 519.9)
+
+[node name="BrotesYDetalles" type="Node2D" parent="BosqueAjustado" unique_id=1011088646]
+skew = 0.017453292
+
+[node name="Brote_00" type="Line2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=479980927]
+skew = 0.017453292
+points = PackedVector2Array(210, 580, 201, 542, 213, 506, 206, 472)
+width = 5.0
+default_color = Color(0.215686, 0.411765, 0.254902, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="HojaBrote_00_0" type="Polygon2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=2032124053]
+skew = 0.017453292
+color = Color(0.290196, 0.482353, 0.294118, 1)
+polygon = PackedVector2Array(180.2, 541.2, 192.7, 540.3, 203.4, 524.9, 185.3, 529.7)
+
+[node name="HojaBrote_00_1" type="Polygon2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=819323267]
+skew = 0.017453292
+color = Color(0.290196, 0.482353, 0.294118, 1)
+polygon = PackedVector2Array(217, 500, 222.4, 511.4, 240.5, 515.8, 229.6, 500.6)
+
+[node name="HojaBrote_00_2" type="Polygon2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=1306984097]
+skew = 0.017453292
+color = Color(0.290196, 0.482353, 0.294118, 1)
+polygon = PackedVector2Array(188.2, 491.2, 200.7, 490.3, 211.4, 474.9, 193.3, 479.7)
+
+[node name="Brote_01" type="Line2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=1499567930]
+skew = 0.017453292
+points = PackedVector2Array(430, 580, 421, 542, 433, 506, 426, 472)
+width = 5.0
+default_color = Color(0.215686, 0.411765, 0.254902, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="HojaBrote_01_0" type="Polygon2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=2072972481]
+skew = 0.017453292
+color = Color(0.290196, 0.482353, 0.294118, 1)
+polygon = PackedVector2Array(400.2, 541.2, 412.7, 540.3, 423.4, 524.9, 405.3, 529.7)
+
+[node name="HojaBrote_01_1" type="Polygon2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=1314785754]
+skew = 0.017453292
+color = Color(0.290196, 0.482353, 0.294118, 1)
+polygon = PackedVector2Array(437, 500, 442.4, 511.4, 460.5, 515.8, 449.6, 500.6)
+
+[node name="HojaBrote_01_2" type="Polygon2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=68879916]
+skew = 0.017453292
+color = Color(0.290196, 0.482353, 0.294118, 1)
+polygon = PackedVector2Array(408.2, 491.2, 420.7, 490.3, 431.4, 474.9, 413.3, 479.7)
+
+[node name="Brote_02" type="Line2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=38097961]
+skew = 0.017453292
+points = PackedVector2Array(815, 580, 806, 542, 818, 506, 811, 472)
+width = 5.0
+default_color = Color(0.215686, 0.411765, 0.254902, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="HojaBrote_02_0" type="Polygon2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=47386563]
+skew = 0.017453292
+color = Color(0.290196, 0.482353, 0.294118, 1)
+polygon = PackedVector2Array(785.2, 541.2, 797.7, 540.3, 808.4, 524.9, 790.3, 529.7)
+
+[node name="HojaBrote_02_1" type="Polygon2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=555340261]
+skew = 0.017453292
+color = Color(0.290196, 0.482353, 0.294118, 1)
+polygon = PackedVector2Array(822, 500, 827.4, 511.4, 845.5, 515.8, 834.6, 500.6)
+
+[node name="HojaBrote_02_2" type="Polygon2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=1215792822]
+skew = 0.017453292
+color = Color(0.290196, 0.482353, 0.294118, 1)
+polygon = PackedVector2Array(793.2, 491.2, 805.7, 490.3, 816.4, 474.9, 798.3, 479.7)
+
+[node name="Brote_03" type="Line2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=294645356]
+skew = 0.017453292
+points = PackedVector2Array(1040, 580, 1031, 542, 1043, 506, 1036, 472)
+width = 5.0
+default_color = Color(0.215686, 0.411765, 0.254902, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="HojaBrote_03_0" type="Polygon2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=1805552835]
+skew = 0.017453292
+color = Color(0.290196, 0.482353, 0.294118, 1)
+polygon = PackedVector2Array(1010.2, 541.2, 1022.7, 540.3, 1033.4, 524.9, 1015.3, 529.7)
+
+[node name="HojaBrote_03_1" type="Polygon2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=1357149954]
+skew = 0.017453292
+color = Color(0.290196, 0.482353, 0.294118, 1)
+polygon = PackedVector2Array(1047, 500, 1052.4, 511.4, 1070.5, 515.8, 1059.6, 500.6)
+
+[node name="HojaBrote_03_2" type="Polygon2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=944018600]
+skew = 0.017453292
+color = Color(0.290196, 0.482353, 0.294118, 1)
+polygon = PackedVector2Array(1018.2, 491.2, 1030.7, 490.3, 1041.4, 474.9, 1023.3, 479.7)
+
+[node name="Brote_04" type="Line2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=1971873826]
+skew = 0.017453292
+points = PackedVector2Array(1230, 580, 1221, 542, 1233, 506, 1226, 472)
+width = 5.0
+default_color = Color(0.215686, 0.411765, 0.254902, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="HojaBrote_04_0" type="Polygon2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=247280845]
+skew = 0.017453292
+color = Color(0.290196, 0.482353, 0.294118, 1)
+polygon = PackedVector2Array(1200.2, 541.2, 1212.7, 540.3, 1223.4, 524.9, 1205.3, 529.7)
+
+[node name="HojaBrote_04_1" type="Polygon2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=1495571921]
+skew = 0.017453292
+color = Color(0.290196, 0.482353, 0.294118, 1)
+polygon = PackedVector2Array(1237, 500, 1242.4, 511.4, 1260.5, 515.8, 1249.6, 500.6)
+
+[node name="HojaBrote_04_2" type="Polygon2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=1816240151]
+skew = 0.017453292
+color = Color(0.290196, 0.482353, 0.294118, 1)
+polygon = PackedVector2Array(1208.2, 491.2, 1220.7, 490.3, 1231.4, 474.9, 1213.3, 479.7)
+
+[node name="Brote_05" type="Line2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=440763690]
+skew = 0.017453292
+points = PackedVector2Array(1500, 580, 1491, 542, 1503, 506, 1496, 472)
+width = 5.0
+default_color = Color(0.215686, 0.411765, 0.254902, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="HojaBrote_05_0" type="Polygon2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=1415742393]
+skew = 0.017453292
+color = Color(0.290196, 0.482353, 0.294118, 1)
+polygon = PackedVector2Array(1470.2, 541.2, 1482.7, 540.3, 1493.4, 524.9, 1475.3, 529.7)
+
+[node name="HojaBrote_05_1" type="Polygon2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=1874939037]
+skew = 0.017453292
+color = Color(0.290196, 0.482353, 0.294118, 1)
+polygon = PackedVector2Array(1507, 500, 1512.4, 511.4, 1530.5, 515.8, 1519.6, 500.6)
+
+[node name="HojaBrote_05_2" type="Polygon2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=1866752753]
+skew = 0.017453292
+color = Color(0.290196, 0.482353, 0.294118, 1)
+polygon = PackedVector2Array(1478.2, 491.2, 1490.7, 490.3, 1501.4, 474.9, 1483.3, 479.7)
+
+[node name="Brote_06" type="Line2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=1557031175]
+skew = 0.017453292
+points = PackedVector2Array(1880, 580, 1871, 542, 1883, 506, 1876, 472)
+width = 5.0
+default_color = Color(0.215686, 0.411765, 0.254902, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="HojaBrote_06_0" type="Polygon2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=188706558]
+skew = 0.017453292
+color = Color(0.290196, 0.482353, 0.294118, 1)
+polygon = PackedVector2Array(1850.2, 541.2, 1862.7, 540.3, 1873.4, 524.9, 1855.3, 529.7)
+
+[node name="HojaBrote_06_1" type="Polygon2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=874156037]
+skew = 0.017453292
+color = Color(0.290196, 0.482353, 0.294118, 1)
+polygon = PackedVector2Array(1887, 500, 1892.4, 511.4, 1910.5, 515.8, 1899.6, 500.6)
+
+[node name="HojaBrote_06_2" type="Polygon2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=364859402]
+skew = 0.017453292
+color = Color(0.290196, 0.482353, 0.294118, 1)
+polygon = PackedVector2Array(1858.2, 491.2, 1870.7, 490.3, 1881.4, 474.9, 1863.3, 479.7)
+
+[node name="Brote_07" type="Line2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=710253484]
+skew = 0.017453292
+points = PackedVector2Array(2160, 580, 2151, 542, 2163, 506, 2156, 472)
+width = 5.0
+default_color = Color(0.215686, 0.411765, 0.254902, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="HojaBrote_07_0" type="Polygon2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=1925970981]
+skew = 0.017453292
+color = Color(0.290196, 0.482353, 0.294118, 1)
+polygon = PackedVector2Array(2130.2, 541.2, 2142.7, 540.3, 2153.4, 524.9, 2135.3, 529.7)
+
+[node name="HojaBrote_07_1" type="Polygon2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=1849398974]
+skew = 0.017453292
+color = Color(0.290196, 0.482353, 0.294118, 1)
+polygon = PackedVector2Array(2167, 500, 2172.4, 511.4, 2190.5, 515.8, 2179.6, 500.6)
+
+[node name="HojaBrote_07_2" type="Polygon2D" parent="BosqueAjustado/BrotesYDetalles" unique_id=1255786735]
+skew = 0.017453292
+color = Color(0.290196, 0.482353, 0.294118, 1)
+polygon = PackedVector2Array(2138.2, 491.2, 2150.7, 490.3, 2161.4, 474.9, 2143.3, 479.7)

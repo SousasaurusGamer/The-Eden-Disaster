@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://b44n2ouuaimgu"]
+
+[ext_resource type="Script" uid="uid://dnvpjspeqniqs" path="res://scripts/jefe_planta.gd" id="1_fl5vu"]
+[ext_resource type="PackedScene" path="res://scenes/boss/planta_carnivora.tscn" id="2_inprp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_op1xx"]
+size = Vector2(318, 306)
+
+[node name="JefePlanta" type="StaticBody2D" unique_id=1188613141]
+script = ExtResource("1_fl5vu")
+
+[node name="PlantaCarnivoraPoligonos" parent="." unique_id=1343700053 instance=ExtResource("2_inprp")]
+z_index = -1
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=315945001]
+position = Vector2(-2, -142)
+shape = SubResource("RectangleShape2D_op1xx")
+
+[node name="PuntoDisparo" type="Marker2D" parent="." unique_id=2104534649]
+position = Vector2(-183, -189)
+
+[node name="TemporizadorAtaque" type="Timer" parent="." unique_id=1142181110]

@@ -1,0 +1,76 @@
+[gd_scene load_steps=2 format=3]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_main"]
+size = Vector2(102, 16)
+
+[node name="RamaPlataforma" type="StaticBody2D"]
+collision_layer = 1
+collision_mask = 1
+
+[node name="RamaPrincipal" type="Polygon2D" parent="."]
+color = Color(0.333333, 0.278431, 0.184314, 1.0)
+polygon = PackedVector2Array(-51, -8, -40, -12, -23, -10, -12, -16, 10, -13, 28, -17, 51, -10, 52, 6, 32, 9, 10, 7, -8, 9, -26, 6, -50, 7)
+
+[node name="SombraInferior" type="Polygon2D" parent="."]
+color = Color(0.196078, 0.176471, 0.141176, 1.0)
+polygon = PackedVector2Array(-50, 3, -25, 4, -8, 6, 10, 4, 30, 6, 52, 2, 52, 7, 32, 9, 10, 7, -8, 9, -26, 6, -50, 7)
+
+[node name="BordeSuperior" type="Polygon2D" parent="."]
+color = Color(0.454902, 0.388235, 0.278431, 1.0)
+polygon = PackedVector2Array(-50, -11, -39, -14, -23, -12, -12, -18, 10, -15, 28, -19, 51, -12, 49, -8, 28, -13, 9, -10, -12, -12, -25, -7, -42, -9)
+
+[node name="Musgo" type="Polygon2D" parent="."]
+color = Color(0.227451, 0.415686, 0.250980, 1.0)
+polygon = PackedVector2Array(-51, -13, -40, -18, -32, -14, -24, -20, -16, -16, -5, -21, 5, -17, 18, -20, 28, -16, 39, -19, 50, -12, 42, -11, 29, -12, 14, -12, -5, -12, -23, -11, -38, -12)
+
+[node name="Grieta" type="Line2D" parent="."]
+points = PackedVector2Array(-30, -4, -18, 0, -8, -4, 3, 1)
+width = 2.0
+default_color = Color(0.223529, 0.180392, 0.149020, 1.0)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+
+[node name="Veta" type="Line2D" parent="."]
+points = PackedVector2Array(15, -4, 27, -6, 42, -3)
+width = 2.0
+default_color = Color(0.513725, 0.419608, 0.290196, 1.0)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+
+[node name="LianaColgante1" type="Line2D" parent="."]
+points = PackedVector2Array(-27, 5, -30, 18, -25, 29, -29, 37)
+width = 3.0
+default_color = Color(0.203922, 0.364706, 0.235294, 1.0)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+
+[node name="LianaColgante2" type="Line2D" parent="."]
+points = PackedVector2Array(28, 4, 34, 15, 30, 25)
+width = 3.0
+default_color = Color(0.203922, 0.364706, 0.235294, 1.0)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+
+[node name="Hoja1" type="Polygon2D" parent="."]
+color = Color(0.294118, 0.525490, 0.321569, 1.0)
+polygon = PackedVector2Array(-30, 19, -43, 15, -36, 26)
+
+[node name="Hoja2" type="Polygon2D" parent="."]
+color = Color(0.258824, 0.427451, 0.262745, 1.0)
+polygon = PackedVector2Array(32, 16, 42, 11, 39, 24)
+
+[node name="Pasto1" type="Polygon2D" parent="."]
+color = Color(0.329412, 0.505882, 0.290196, 1.0)
+polygon = PackedVector2Array(-44, -12, -40, -25, -37, -12)
+
+[node name="Pasto2" type="Polygon2D" parent="."]
+color = Color(0.278431, 0.474510, 0.294118, 1.0)
+polygon = PackedVector2Array(7, -15, 12, -27, 17, -15)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 0)
+shape = SubResource("RectangleShape2D_main")

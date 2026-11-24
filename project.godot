@@ -11,13 +11,14 @@ config_version=5
 [application]
 
 config/name="TheEdenDisaster"
-run/main_scene="uid://cap31o2f8dawg"
+run/main_scene="uid://d0lxghfldtxj6"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [autoload]
 
 GameState="*res://scripts/game_state.gd"
+SceneTransition="*uid://d1jv0lbru66ul"
 
 [display]
 

@@ -2,9 +2,18 @@
 
 [ext_resource type="PackedScene" uid="uid://bs4wjh4g2wxnf" path="res://scenes/player/steve.tscn" id="1_ikrkf"]
 [ext_resource type="PackedScene" uid="uid://dxbq7pncklnoo" path="res://scenes/ui/hud.tscn" id="2_71ufu"]
+[ext_resource type="PackedScene" uid="uid://b44n2ouuaimgu" path="res://scenes/boss/jefe_planta.tscn" id="3_71ufu"]
+[ext_resource type="Script" uid="uid://c4q4bpdwpo4ei" path="res://scripts/hud_jefe.gd" id="3_pidvd"]
+[ext_resource type="Script" uid="uid://bblh0xhpdxu4c" path="res://scripts/control_pinchos_aleatorios.gd" id="6_dkjeq"]
+[ext_resource type="Script" uid="uid://d15ile5ww0a2c" path="res://scripts/control_pinchos.gd" id="6_vutt5"]
+[ext_resource type="PackedScene" uid="uid://b5vt0rcocx6g3" path="res://scenes/boss/plataforma_temporal.tscn" id="7_dkjeq"]
+[ext_resource type="Script" uid="uid://viquf2saa5ht" path="res://scripts/control_pinchos_permanentes.gd" id="7_pidvd"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_op1xx"]
 size = Vector2(1432, 42)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kmatr"]
+bg_color = Color(0.9, 0.24299997, 0.24299997, 1)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_kmatr"]
 size = Vector2(35, 646)
@@ -12,9 +21,11 @@ size = Vector2(35, 646)
 [node name="Invernadero" type="Node2D" unique_id=901466039]
 
 [node name="FondoTemporal" type="ColorRect" parent="." unique_id=1084933701]
+z_index = -2
+offset_left = -5.0
 offset_top = -7.0
 offset_right = 1459.0
-offset_bottom = 650.0
+offset_bottom = 659.0
 color = Color(0.25065672, 0.3163744, 0.38215223, 1)
 
 [node name="Suelo" type="StaticBody2D" parent="." unique_id=1815186442]
@@ -35,36 +46,118 @@ debug_color = Color(0, 0.6, 0.69803923, 0)
 position = Vector2(100, 600)
 
 [node name="Camera2D" parent="Steve" index="3" unique_id=1693207895]
-limit_left = -45
-limit_right = 1500
+limit_left = -3
+limit_right = 1453
 limit_bottom = 652
 
 [node name="HUD" parent="." unique_id=265695125 instance=ExtResource("2_71ufu")]
 
-[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=2073522055]
-position = Vector2(-21, 300)
+[node name="HUDJefe" type="CanvasLayer" parent="." unique_id=1954161754]
+script = ExtResource("3_pidvd")
 
-[node name="ColorRect" type="ColorRect" parent="StaticBody2D" unique_id=1643565935]
-offset_left = -11.0
-offset_top = -309.0
-offset_right = 20.0
-offset_bottom = 332.0
+[node name="Contenedor" type="ColorRect" parent="HUDJefe" unique_id=1116841903]
+offset_left = 356.0
+offset_top = 20.0
+offset_right = 796.0
+offset_bottom = 85.0
+color = Color(1, 1, 1, 0)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1992225443]
-position = Vector2(2.5, 5)
-shape = SubResource("RectangleShape2D_kmatr")
+[node name="Titulo" type="Label" parent="HUDJefe/Contenedor" unique_id=411444509]
+layout_mode = 0
+offset_right = 440.0
+offset_bottom = 24.0
+theme_override_font_sizes/font_size = 22
+text = "PLANTA MUTANTE  -  FASE 1
+"
+horizontal_alignment = 1
+
+[node name="BarraVida" type="ProgressBar" parent="HUDJefe/Contenedor" unique_id=354102635]
+layout_mode = 0
+offset_top = 28.0
+offset_right = 440.0
+offset_bottom = 55.0
+theme_override_styles/fill = SubResource("StyleBoxFlat_kmatr")
+max_value = 200.0
+value = 200.0
+show_percentage = false
+
+[node name="JefePlanta" parent="." unique_id=1188613141 instance=ExtResource("3_71ufu")]
+position = Vector2(1062, 610)
+
+[node name="ControlPinchos" type="Node2D" parent="." unique_id=1885701288 node_paths=PackedStringArray("jefe")]
+script = ExtResource("6_vutt5")
+jefe = NodePath("../JefePlanta")
+altura_suelo = 610.0
+
+[node name="TimerAtaques" type="Timer" parent="ControlPinchos" unique_id=1103027472]
+
+[node name="PinchosAleatoriso" type="Node2D" parent="." unique_id=486391857]
+
+[node name="ControlPinchosAleatorios2" type="Node2D" parent="PinchosAleatoriso" unique_id=1566690672 node_paths=PackedStringArray("jefe")]
+script = ExtResource("6_dkjeq")
+jefe = NodePath("../../JefePlanta")
+altura_suelo = 610.0
+
+[node name="TimerAleatorio" type="Timer" parent="PinchosAleatoriso/ControlPinchosAleatorios2" unique_id=495706388]
+wait_time = 4.0
+one_shot = true
+
+[node name="ControlPinchosAleatorios3" type="Node2D" parent="PinchosAleatoriso" unique_id=599913570 node_paths=PackedStringArray("jefe")]
+script = ExtResource("6_dkjeq")
+jefe = NodePath("../../JefePlanta")
+altura_suelo = 610.0
+
+[node name="TimerAleatorio" type="Timer" parent="PinchosAleatoriso/ControlPinchosAleatorios3" unique_id=1038866505]
+wait_time = 4.0
+one_shot = true
+
+[node name="ControlPinchosAleatorios4" type="Node2D" parent="PinchosAleatoriso" unique_id=394941868 node_paths=PackedStringArray("jefe")]
+script = ExtResource("6_dkjeq")
+jefe = NodePath("../../JefePlanta")
+altura_suelo = 610.0
+
+[node name="TimerAleatorio" type="Timer" parent="PinchosAleatoriso/ControlPinchosAleatorios4" unique_id=76759350]
+wait_time = 4.0
+one_shot = true
+
+[node name="ControlPinchosAleatorios5" type="Node2D" parent="PinchosAleatoriso" unique_id=1556556023 node_paths=PackedStringArray("jefe")]
+script = ExtResource("6_dkjeq")
+jefe = NodePath("../../JefePlanta")
+altura_suelo = 610.0
+
+[node name="TimerAleatorio" type="Timer" parent="PinchosAleatoriso/ControlPinchosAleatorios5" unique_id=35481286]
+wait_time = 4.0
+one_shot = true
+
+[node name="PlataformaTemporal" parent="." unique_id=1748668339 node_paths=PackedStringArray("jefe") instance=ExtResource("7_dkjeq")]
+position = Vector2(220, 495)
+jefe = NodePath("../JefePlanta")
+
+[node name="PlataformaTemporal2" parent="." unique_id=939206833 node_paths=PackedStringArray("jefe") instance=ExtResource("7_dkjeq")]
+position = Vector2(489, 499)
+jefe = NodePath("../JefePlanta")
+
+[node name="PlataformaTemporal3" parent="." unique_id=680056963 node_paths=PackedStringArray("jefe") instance=ExtResource("7_dkjeq")]
+position = Vector2(726, 498)
+jefe = NodePath("../JefePlanta")
 
 [node name="StaticBody2D2" type="StaticBody2D" parent="." unique_id=1770278595]
 position = Vector2(1469, 306)
 
-[node name="ColorRect" type="ColorRect" parent="StaticBody2D2" unique_id=1317130754]
-offset_left = -13.0
-offset_top = -314.0
-offset_right = 18.0
-offset_bottom = 318.0
-
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2" unique_id=600735044]
-position = Vector2(2, 4)
+position = Vector2(5, 23)
 shape = SubResource("RectangleShape2D_kmatr")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=2073522055]
+position = Vector2(-21, 300)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1992225443]
+position = Vector2(4, 19)
+shape = SubResource("RectangleShape2D_kmatr")
+
+[node name="ControlPinchosPermanentes" type="Node2D" parent="." unique_id=966751319 node_paths=PackedStringArray("jefe")]
+rotation = 0.0004783503
+script = ExtResource("7_pidvd")
+jefe = NodePath("../JefePlanta")
 
 [editable path="Steve"]

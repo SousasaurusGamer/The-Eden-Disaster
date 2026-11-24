@@ -22,7 +22,7 @@ func _process(_delta: float) -> void:
 			GameState.save_player(player)
 
 		player_near = false
-		get_tree().change_scene_to_file.call_deferred(destination_scene)
+		SceneTransition.cambiar_escena(destination_scene)
 
 
 func _on_body_entered(body: Node2D) -> void:

@@ -2,41 +2,46 @@
 
 [ext_resource type="PackedScene" uid="uid://bs4wjh4g2wxnf" path="res://scenes/player/steve.tscn" id="1_mn1kt"]
 [ext_resource type="PackedScene" uid="uid://dxbq7pncklnoo" path="res://scenes/ui/hud.tscn" id="2_ckjj0"]
-[ext_resource type="PackedScene" uid="uid://bhjhv3042iaxg" path="res://scenes/enemies/plant_enemy.tscn" id="3_ah1ng"]
-[ext_resource type="PackedScene" uid="uid://6y3s3ddlm6sa" path="res://scenes/enemies/spore_shooter.tscn" id="4_gqnp5"]
-[ext_resource type="PackedScene" uid="uid://clb203aksgex6" path="res://scenes/player/ammo_pickup.tscn" id="5_51tph"]
+[ext_resource type="PackedScene" path="res://scenes/props/arbol_mutante_oscuro.tscn" id="4_ckjj0"]
+[ext_resource type="PackedScene" path="res://scenes/props/suelo_vegetal_oscuro.tscn" id="4_gqnp5"]
+[ext_resource type="PackedScene" uid="uid://n225p55tdbsw" path="res://scenes/props/fondo_bosque_mutante.tscn" id="6_51tph"]
 [ext_resource type="Script" uid="uid://fhsnhe1y21om" path="res://scripts/scene_door.gd" id="6_gqnp5"]
+[ext_resource type="PackedScene" path="res://scenes/props/tronco_obstaculo.tscn" id="7_7sk7b"]
+[ext_resource type="PackedScene" path="res://scenes/props/rama_plataforma.tscn" id="8_ggbsf"]
+[ext_resource type="PackedScene" path="res://scenes/props/entrada_invernadero.tscn" id="9_ggbsf"]
+[ext_resource type="PackedScene" uid="uid://6y3s3ddlm6sa" path="res://scenes/enemies/spore_shooter.tscn" id="10_7383w"]
+[ext_resource type="PackedScene" uid="uid://bhjhv3042iaxg" path="res://scenes/enemies/plant_enemy.tscn" id="11_iamyx"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_op1xx"]
-size = Vector2(1145, 42)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_pmlil"]
-size = Vector2(40, 108)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_7sk7b"]
-size = Vector2(71, 12)
+size = Vector2(1185, 30)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_kmatr"]
 size = Vector2(54, 68)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7383w"]
+size = Vector2(41, 658.5)
+
 [node name="CamninoInvernadero" type="Node2D" unique_id=901466039]
 
 [node name="FondoTemporal" type="ColorRect" parent="." unique_id=1084933701]
+modulate = Color(1, 1, 1, 0.74509805)
+z_index = -6
 offset_right = 1162.0
 offset_bottom = 650.0
-color = Color(0.015686275, 0.16470589, 0, 1)
+color = Color(0.13293979, 0.27580273, 0.15753582, 1)
 
 [node name="Suelo" type="StaticBody2D" parent="." unique_id=1815186442]
+z_index = -3
 
 [node name="ColorRect" type="ColorRect" parent="Suelo" unique_id=463342805]
 offset_left = 1.0
 offset_top = 610.0
 offset_right = 1157.0
 offset_bottom = 650.0
-color = Color(0.3764706, 0.41960785, 0.4627451, 1)
+color = Color(0.19215687, 0.2627451, 0.16078432, 1)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Suelo" unique_id=1159307698]
-position = Vector2(582.5, 631)
+position = Vector2(562.5, 637)
 shape = SubResource("RectangleShape2D_op1xx")
 debug_color = Color(0, 0.6, 0.69803923, 0)
 
@@ -49,62 +54,9 @@ limit_bottom = 658
 
 [node name="HUD" parent="." unique_id=265695125 instance=ExtResource("2_ckjj0")]
 
-[node name="Muro02" type="StaticBody2D" parent="." unique_id=1852028674]
-position = Vector2(344, 608)
-
-[node name="ColorRect" type="ColorRect" parent="Muro02" unique_id=492506215]
-offset_left = -20.0
-offset_top = -109.0
-offset_right = 20.0
-color = Color(0.19793725, 0.19793722, 0.19793722, 1)
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Muro02" unique_id=1635325844]
-position = Vector2(-1, -56)
-shape = SubResource("RectangleShape2D_pmlil")
-
-[node name="Muro03" type="StaticBody2D" parent="." unique_id=1959882797]
-position = Vector2(797, 610)
-
-[node name="ColorRect" type="ColorRect" parent="Muro03" unique_id=131174422]
-offset_left = -20.0
-offset_top = -109.0
-offset_right = 20.0
-color = Color(0.19793725, 0.19793722, 0.19793722, 1)
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Muro03" unique_id=2052913834]
-position = Vector2(-1, -56)
-shape = SubResource("RectangleShape2D_pmlil")
-
-[node name="Plataforma01" type="StaticBody2D" parent="." unique_id=584712177]
-position = Vector2(591, 485)
-
-[node name="ColorRect" type="ColorRect" parent="Plataforma01" unique_id=1297020736]
-offset_left = -34.0
-offset_right = 36.0
-offset_bottom = 12.0
-color = Color(0.18072194, 0.18072197, 0.18072197, 1)
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Plataforma01" unique_id=2109020637]
-position = Vector2(1.5, 6)
-shape = SubResource("RectangleShape2D_7sk7b")
-
-[node name="PlantEnemy" parent="." unique_id=530101187 instance=ExtResource("3_ah1ng")]
-position = Vector2(452, 606)
-
-[node name="SporeShooter" parent="." unique_id=428102256 instance=ExtResource("4_gqnp5")]
-position = Vector2(790, 499)
-
-[node name="PlantEnemy2" parent="." unique_id=1643090887 instance=ExtResource("3_ah1ng")]
-position = Vector2(617, 606)
-
-[node name="AmmoPickup" parent="." unique_id=1355191995 instance=ExtResource("5_51tph")]
-position = Vector2(851, 602)
-
-[node name="AmmoPickup2" parent="." unique_id=141528703 instance=ExtResource("5_51tph")]
-position = Vector2(886, 601)
-
 [node name="DoorInvernadero" type="Area2D" parent="." unique_id=614099325]
-position = Vector2(1056, 604)
+z_index = -1
+position = Vector2(1115, 605)
 script = ExtResource("6_gqnp5")
 destination_scene = "uid://couffylpjkfwp"
 
@@ -116,5 +68,88 @@ offset_right = 20.0
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DoorInvernadero" unique_id=1903043732]
 position = Vector2(0, -34)
 shape = SubResource("RectangleShape2D_kmatr")
+
+[node name="VegetacionFondo" type="Node2D" parent="." unique_id=1245879727]
+z_index = -2
+
+[node name="SueloVegetalOscuro" parent="VegetacionFondo" unique_id=1657021174 instance=ExtResource("4_gqnp5")]
+position = Vector2(7, 620)
+
+[node name="SueloVegetalOscuro2" parent="VegetacionFondo" unique_id=800511145 instance=ExtResource("4_gqnp5")]
+position = Vector2(249, 620)
+
+[node name="ArbolMutanteOscuro5" parent="VegetacionFondo" unique_id=581886506 instance=ExtResource("4_ckjj0")]
+position = Vector2(451, 641)
+rotation = 0.49392816
+
+[node name="SueloVegetalOscuro3" parent="VegetacionFondo" unique_id=1186313649 instance=ExtResource("4_gqnp5")]
+position = Vector2(496, 622)
+
+[node name="SueloVegetalOscuro4" parent="VegetacionFondo" unique_id=621694300 instance=ExtResource("4_gqnp5")]
+position = Vector2(737, 625)
+
+[node name="SueloVegetalOscuro5" parent="VegetacionFondo" unique_id=367096901 instance=ExtResource("4_gqnp5")]
+position = Vector2(913, 631)
+
+[node name="FondoBosqueMutante" parent="." unique_id=574409992 instance=ExtResource("6_51tph")]
+z_index = -6
+position = Vector2(53, 57)
+
+[node name="Arboles" type="Node2D" parent="." unique_id=1612509058]
+z_index = -1
+
+[node name="ArbolMutanteOscuro" parent="Arboles" unique_id=1132699007 instance=ExtResource("4_ckjj0")]
+position = Vector2(131, 620)
+
+[node name="ArbolMutanteOscuro2" parent="Arboles" unique_id=2094532551 instance=ExtResource("4_ckjj0")]
+position = Vector2(339, 618)
+
+[node name="ArbolMutanteOscuro3" parent="Arboles" unique_id=142332469 instance=ExtResource("4_ckjj0")]
+position = Vector2(972, 611)
+
+[node name="ArbolMutanteOscuro4" parent="Arboles" unique_id=671399462 instance=ExtResource("4_ckjj0")]
+position = Vector2(768.99994, 620)
+rotation = -0.40491638
+
+[node name="TroncoObstaculo" parent="." unique_id=539194985 instance=ExtResource("7_7sk7b")]
+position = Vector2(344, 620)
+
+[node name="TroncoObstaculo2" parent="." unique_id=1162506069 instance=ExtResource("7_7sk7b")]
+position = Vector2(822, 622)
+
+[node name="RamaPlataforma" parent="." unique_id=242596925 instance=ExtResource("8_ggbsf")]
+position = Vector2(572, 496)
+
+[node name="EntradaInvernaderoMini" parent="." unique_id=1237481167 instance=ExtResource("9_ggbsf")]
+position = Vector2(1117, 610)
+
+[node name="SporeShooter" parent="." unique_id=428102256 instance=ExtResource("10_7383w")]
+position = Vector2(826, 508)
+
+[node name="SporeShooter2" parent="." unique_id=18329182 instance=ExtResource("10_7383w")]
+position = Vector2(550, 486)
+
+[node name="PlantEnemy" parent="." unique_id=530101187 instance=ExtResource("11_iamyx")]
+position = Vector2(421, 604)
+
+[node name="PlantEnemy2" parent="." unique_id=1724485022 instance=ExtResource("11_iamyx")]
+position = Vector2(713, 610)
+
+[node name="PlantEnemy3" parent="." unique_id=576147494 instance=ExtResource("11_iamyx")]
+position = Vector2(222, 609)
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="." unique_id=67617884]
+position = Vector2(222, 609)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2" unique_id=1927714244]
+position = Vector2(957, -278)
+shape = SubResource("RectangleShape2D_7383w")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1931610390]
+position = Vector2(222, 609)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1478023787]
+position = Vector2(-244, -278)
+shape = SubResource("RectangleShape2D_7383w")
 
 [editable path="Steve"]

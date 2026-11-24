@@ -1,0 +1,108 @@
+[gd_scene format=3]
+
+[node name="ArbolMutanteOscuro" type="Node2D"]
+z_index = -4
+
+[node name="RaizIzquierda" type="Polygon2D" parent="."]
+color = Color(0.152941, 0.223529, 0.172549, 1.000000)
+polygon = PackedVector2Array(-18, -34, -40, -19, -79, -5, -82, 0, -8, 0, 0, -22)
+
+[node name="RaizDerecha" type="Polygon2D" parent="."]
+color = Color(0.203922, 0.274510, 0.215686, 1.000000)
+polygon = PackedVector2Array(12, -35, 45, -20, 78, -6, 82, 0, 7, 0, 0, -16)
+
+[node name="RamaIzquierda" type="Line2D" parent="."]
+points = PackedVector2Array(-12, -220, -67, -266, -120, -288)
+width = 20.0
+default_color = Color(0.172549, 0.239216, 0.176471, 1.000000)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+
+[node name="RamaDerecha" type="Line2D" parent="."]
+points = PackedVector2Array(13, -219, 72, -268, 132, -298)
+width = 22.0
+default_color = Color(0.160784, 0.231373, 0.180392, 1.000000)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+
+[node name="RamaAlta" type="Line2D" parent="."]
+points = PackedVector2Array(0, -259, 5, -315, 36, -353)
+width = 14.0
+default_color = Color(0.168627, 0.243137, 0.180392, 1.000000)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+
+[node name="Tronco" type="Polygon2D" parent="."]
+color = Color(0.239216, 0.286275, 0.203922, 1.000000)
+polygon = PackedVector2Array(-38, 0, -29, -95, -21, -177, -18, -265, -5, -306, 16, -289, 25, -200, 32, -113, 43, 0, 18, -8, -8, -9)
+
+[node name="SombraTronco" type="Polygon2D" parent="."]
+color = Color(0.156863, 0.215686, 0.172549, 1.000000)
+polygon = PackedVector2Array(-38, 0, -29, -95, -21, -177, -18, -265, -5, -306, 0, -284, -3, -197, -9, -120, -12, -10)
+
+[node name="Corteza" type="Line2D" parent="."]
+points = PackedVector2Array(-11, -97, 0, -129, -5, -160, 6, -194)
+width = 4.0
+default_color = Color(0.337255, 0.388235, 0.270588, 1.000000)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+
+[node name="CopaIzquierda" type="Polygon2D" parent="."]
+color = Color(0.145098, 0.262745, 0.203922, 1.000000)
+polygon = PackedVector2Array(-158, -286, -158, -317, -136, -336, -130, -361, -104, -371, -82, -361, -56, -375, -26, -359, -12, -330, -30, -301, -65, -287, -101, -294, -131, -281)
+
+[node name="CopaCentro" type="Polygon2D" parent="."]
+color = Color(0.176471, 0.294118, 0.219608, 1.000000)
+polygon = PackedVector2Array(-99, -325, -96, -363, -70, -389, -52, -412, -17, -407, 6, -418, 42, -400, 70, -381, 86, -344, 63, -315, 20, -323, -14, -313, -54, -326)
+
+[node name="CopaDerecha" type="Polygon2D" parent="."]
+color = Color(0.156863, 0.274510, 0.211765, 1.000000)
+polygon = PackedVector2Array(0, -306, 14, -337, 38, -360, 80, -370, 106, -362, 131, -339, 157, -326, 154, -295, 134, -283, 99, -293, 64, -279, 31, -288)
+
+[node name="CopaSombra" type="Polygon2D" parent="."]
+color = Color(0.125490, 0.231373, 0.188235, 1.000000)
+polygon = PackedVector2Array(-49, -327, -25, -350, 7, -341, 36, -355, 66, -334, 47, -313, 13, -304, -20, -312)
+
+[node name="LianaIzquierda" type="Line2D" parent="."]
+points = PackedVector2Array(-128, -313, -115, -278, -123, -238, -109, -201, -120, -167)
+width = 7.0
+default_color = Color(0.231373, 0.384314, 0.266667, 1.000000)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+
+[node name="LianaDerecha" type="Line2D" parent="."]
+points = PackedVector2Array(126, -318, 117, -271, 137, -236, 123, -198, 133, -174)
+width = 7.0
+default_color = Color(0.219608, 0.360784, 0.254902, 1.000000)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+
+[node name="HojaLiana1" type="Polygon2D" parent="."]
+color = Color(0.207843, 0.345098, 0.231373, 1.000000)
+polygon = PackedVector2Array(-122, -230, -138, -240, -149, -227, -131, -219)
+
+[node name="HojaLiana2" type="Polygon2D" parent="."]
+color = Color(0.227451, 0.384314, 0.250980, 1.000000)
+polygon = PackedVector2Array(124, -257, 141, -264, 148, -251, 132, -242)
+
+[node name="HojaCopa1" type="Polygon2D" parent="."]
+color = Color(0.203922, 0.341176, 0.247059, 1.000000)
+polygon = PackedVector2Array(-112, -335, -91, -347, -83, -336, -106, -322)
+
+[node name="HojaCopa2" type="Polygon2D" parent="."]
+color = Color(0.211765, 0.360784, 0.243137, 1.000000)
+polygon = PackedVector2Array(80, -343, 102, -353, 109, -334, 87, -325)
+
+[node name="FlorApagada1" type="Polygon2D" parent="."]
+color = Color(0.509804, 0.411765, 0.466667, 1.000000)
+polygon = PackedVector2Array(-104, -226, -99, -233, -94, -226, -99, -219)
+
+[node name="FlorApagada2" type="Polygon2D" parent="."]
+color = Color(0.517647, 0.450980, 0.419608, 1.000000)
+polygon = PackedVector2Array(132, -198, 137, -205, 142, -198, 137, -191)
