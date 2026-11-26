@@ -6,6 +6,7 @@
 radius = 4.0
 
 [node name="Bullet" type="Area2D" unique_id=664791649]
+collision_layer = 8
 script = ExtResource("1_2as5g")
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=660640526]

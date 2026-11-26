@@ -1,0 +1,144 @@
+[gd_scene format=3 uid="uid://d07h7vpyduxvn"]
+
+[node name="BrotesMutantesAviso" type="Node2D" unique_id=102050685]
+
+[node name="RaicesAdvertencia" type="Node2D" parent="." unique_id=24252828]
+visible = false
+modulate = Color(1, 0.00999999, 0.00999999, 1)
+
+[node name="SombraDeRaices" type="Polygon2D" parent="RaicesAdvertencia" unique_id=1331591433]
+modulate = Color(1, 0.00999999, 0.00999999, 1)
+color = Color(0.090196, 0.176471, 0.160784, 1)
+polygon = PackedVector2Array(-53, -1, -44, -6, -29, -2, -18, -6, -1, -5, 12, -8, 31, -3, 50, -6, 54, 0, -53, 0)
+
+[node name="RaizAntesDeEmerger0" type="Polygon2D" parent="RaicesAdvertencia" unique_id=995862174]
+modulate = Color(1, 0.00999999, 0.00999999, 1)
+color = Color(0.235294, 0.34902, 0.258824, 1)
+polygon = PackedVector2Array(-51.71, 1.14, -42.76, -4.51, -22, -1.5, 0, -4.5, 16.93, -1.5, 35.86, -3.5, 52.43, 0.43, 53.57, -4.43, 36.14, -8.5, 17.07, -6.5, 0, -9.5, -22, -6.5, -43.24, -9.49, -54.29, -3.14)
+
+[node name="RaizAntesDeEmerger1" type="Polygon2D" parent="RaicesAdvertencia" unique_id=132389163]
+modulate = Color(1, 0.00999999, 0.00999999, 1)
+color = Color(0.235294, 0.34902, 0.258824, 1)
+polygon = PackedVector2Array(-39.33, 1.88, -25.88, -3, -5.95, 0, 14.95, -4, 37.58, 0.95, 38.42, -2.95, 15.05, -8, -6.05, -4, -26.12, -7, -40.67, -1.88)
+
+[node name="Brotes" type="Node2D" parent="." unique_id=700868824]
+
+[node name="BroteSombra0" type="Polygon2D" parent="Brotes" unique_id=2104043659]
+color = Color(0.145098, 0.270588, 0.207843, 1)
+polygon = PackedVector2Array(-46, 0, -46, -4, -43, -9, -31, -3, -33, 0)
+
+[node name="BroteMutante0" type="Polygon2D" parent="Brotes" unique_id=399831090]
+color = Color(0.243137, 0.419608, 0.25098, 1)
+polygon = PackedVector2Array(-45, -1, -46, -5, -44, -6.48, -42, -9, -38, -4.86, -32, -3, -34, -1)
+
+[node name="EspinaPequena0" type="Polygon2D" parent="Brotes" unique_id=943396549]
+color = Color(0.717647, 0.631373, 0.423529, 1)
+polygon = PackedVector2Array(-35, -3.6, -32, -5.4, -32, -2.7)
+
+[node name="BroteSombra1" type="Polygon2D" parent="Brotes" unique_id=820262443]
+color = Color(0.145098, 0.270588, 0.207843, 1)
+polygon = PackedVector2Array(-29, 0, -29, -4, -20, -14, -14, -3, -16, 0)
+
+[node name="BroteMutante1" type="Polygon2D" parent="Brotes" unique_id=84722219]
+color = Color(0.329412, 0.545098, 0.294118, 1)
+polygon = PackedVector2Array(-28, -1, -29, -5, -21, -10.08, -19, -14, -15, -7.56, -15, -3, -17, -1)
+
+[node name="EspinaPequena1" type="Polygon2D" parent="Brotes" unique_id=2116310690]
+color = Color(0.717647, 0.631373, 0.423529, 1)
+polygon = PackedVector2Array(-18, -5.6, -15, -8.4, -15, -4.2)
+
+[node name="BroteSombra2" type="Polygon2D" parent="Brotes" unique_id=74400967]
+color = Color(0.145098, 0.270588, 0.207843, 1)
+polygon = PackedVector2Array(-9, 0, -9, -4, -3, -20, 6, -3, 4, 0)
+
+[node name="BroteMutante2" type="Polygon2D" parent="Brotes" unique_id=1086989652]
+color = Color(0.243137, 0.419608, 0.25098, 1)
+polygon = PackedVector2Array(-8, -1, -9, -5, -4, -14.4, -2, -20, 2, -10.8, 5, -3, 3, -1)
+
+[node name="EspinaPequena2" type="Polygon2D" parent="Brotes" unique_id=1330582199]
+color = Color(0.717647, 0.631373, 0.423529, 1)
+polygon = PackedVector2Array(2, -8, 5, -12, 5, -6)
+
+[node name="BroteSombra3" type="Polygon2D" parent="Brotes" unique_id=383984984]
+color = Color(0.145098, 0.270588, 0.207843, 1)
+polygon = PackedVector2Array(13, 0, 13, -4, 17, -12, 28, -3, 26, 0)
+
+[node name="BroteMutante3" type="Polygon2D" parent="Brotes" unique_id=501550504]
+color = Color(0.329412, 0.545098, 0.294118, 1)
+polygon = PackedVector2Array(14, -1, 13, -5, 16, -8.64, 18, -12, 22, -6.48, 27, -3, 25, -1)
+
+[node name="EspinaPequena3" type="Polygon2D" parent="Brotes" unique_id=1015028000]
+color = Color(0.717647, 0.631373, 0.423529, 1)
+polygon = PackedVector2Array(24, -4.8, 27, -7.2, 27, -3.6)
+
+[node name="BroteSombra4" type="Polygon2D" parent="Brotes" unique_id=345701915]
+color = Color(0.145098, 0.270588, 0.207843, 1)
+polygon = PackedVector2Array(31, 0, 31, -4, 40, -10, 46, -3, 44, 0)
+
+[node name="BroteMutante4" type="Polygon2D" parent="Brotes" unique_id=883045731]
+color = Color(0.243137, 0.419608, 0.25098, 1)
+polygon = PackedVector2Array(32, -1, 31, -5, 39, -7.2, 41, -10, 45, -5.4, 45, -3, 43, -1)
+
+[node name="EspinaPequena4" type="Polygon2D" parent="Brotes" unique_id=722412281]
+color = Color(0.717647, 0.631373, 0.423529, 1)
+polygon = PackedVector2Array(42, -4, 45, -6, 45, -3)
+
+[node name="LuzAdvertencia" type="Node2D" parent="." unique_id=1502133857]
+
+[node name="VenaDeRaiz0" type="Line2D" parent="LuzAdvertencia" unique_id=1358001904]
+points = PackedVector2Array(-53, -1, -43, -7, -22, -4, 0, -7, 17, -4, 36, -6, 53, -2)
+width = 0.85
+default_color = Color(0.811765, 0.458824, 0.380392, 1)
+antialiased = true
+
+[node name="VenaDeRaiz1" type="Line2D" parent="LuzAdvertencia" unique_id=2127130618]
+points = PackedVector2Array(-40, 0, -26, -5, -6, -2, 15, -6, 38, -1)
+width = 0.85
+default_color = Color(0.811765, 0.458824, 0.380392, 1)
+antialiased = true
+
+[node name="VenaBrote0" type="Line2D" parent="LuzAdvertencia" unique_id=568164081]
+points = PackedVector2Array(-39, -1, -43, -6.3)
+width = 1.0
+default_color = Color(0.941176, 0.65098, 0.462745, 1)
+antialiased = true
+
+[node name="VenaBrote1" type="Line2D" parent="LuzAdvertencia" unique_id=1610177311]
+points = PackedVector2Array(-22, -1, -20, -9.8)
+width = 1.0
+default_color = Color(0.941176, 0.65098, 0.462745, 1)
+antialiased = true
+
+[node name="VenaBrote2" type="Line2D" parent="LuzAdvertencia" unique_id=704775712]
+points = PackedVector2Array(-2, -1, -3, -14)
+width = 1.0
+default_color = Color(0.941176, 0.65098, 0.462745, 1)
+antialiased = true
+
+[node name="VenaBrote3" type="Line2D" parent="LuzAdvertencia" unique_id=1107471722]
+points = PackedVector2Array(20, -1, 17, -8.4)
+width = 1.0
+default_color = Color(0.941176, 0.65098, 0.462745, 1)
+antialiased = true
+
+[node name="VenaBrote4" type="Line2D" parent="LuzAdvertencia" unique_id=45208691]
+points = PackedVector2Array(38, -1, 40, -7)
+width = 1.0
+default_color = Color(0.941176, 0.65098, 0.462745, 1)
+antialiased = true
+
+[node name="SenalPeligro0" type="Polygon2D" parent="LuzAdvertencia" unique_id=1658945671]
+color = Color(0.941176, 0.65098, 0.462745, 1)
+polygon = PackedVector2Array(-29.5, -3, -30.25, -1.96, -31.75, -1.96, -32.5, -3, -31.75, -4.04, -30.25, -4.04)
+
+[node name="SenalPeligro1" type="Polygon2D" parent="LuzAdvertencia" unique_id=1546957616]
+color = Color(0.941176, 0.65098, 0.462745, 1)
+polygon = PackedVector2Array(-13.5, -2, -14.25, -0.96, -15.75, -0.96, -16.5, -2, -15.75, -3.04, -14.25, -3.04)
+
+[node name="SenalPeligro2" type="Polygon2D" parent="LuzAdvertencia" unique_id=1942124053]
+color = Color(0.941176, 0.65098, 0.462745, 1)
+polygon = PackedVector2Array(7.5, -4, 6.75, -2.96, 5.25, -2.96, 4.5, -4, 5.25, -5.04, 6.75, -5.04)
+
+[node name="SenalPeligro3" type="Polygon2D" parent="LuzAdvertencia" unique_id=147565327]
+color = Color(0.941176, 0.65098, 0.462745, 1)
+polygon = PackedVector2Array(29.5, -5, 28.75, -3.96, 27.25, -3.96, 26.5, -5, 27.25, -6.04, 28.75, -6.04)

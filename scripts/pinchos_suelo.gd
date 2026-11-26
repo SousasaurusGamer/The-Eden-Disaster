@@ -2,8 +2,8 @@ extends Area2D
 
 @export var dano: int = 8
 
-@onready var aviso: ColorRect = $AvisoVisual
-@onready var pinchos: Polygon2D = $PinchosVisual
+@onready var aviso: Node2D = $AvisoVisual
+@onready var pinchos: Node2D = $PinchosVisual
 @onready var colision: CollisionShape2D = $CollisionShape2D
 @onready var timer_aviso: Timer = $TimerAviso
 @onready var timer_activo: Timer = $TimerActivo

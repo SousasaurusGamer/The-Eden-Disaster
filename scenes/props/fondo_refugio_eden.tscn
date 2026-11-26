@@ -1,0 +1,4785 @@
+[gd_scene format=3 uid="uid://da3cohkgv4ppm"]
+
+[node name="FondoRefugioEdenMejorado" type="Node2D" unique_id=869970891]
+z_index = -15
+
+[node name="01_FondoMetalico" type="Node2D" parent="." unique_id=601711759]
+
+[node name="FondoTotal001" type="ColorRect" parent="01_FondoMetalico" unique_id=1770190288]
+offset_right = 1360.0
+offset_bottom = 640.0
+mouse_filter = 2
+color = Color(0.12549, 0.172549, 0.207843, 1)
+
+[node name="SombraSuperior001" type="ColorRect" parent="01_FondoMetalico" unique_id=1165896353]
+offset_right = 1360.0
+offset_bottom = 115.0
+mouse_filter = 2
+color = Color(0.078431, 0.121569, 0.156863, 1)
+
+[node name="TramoPared001" type="ColorRect" parent="01_FondoMetalico" unique_id=191642070]
+offset_top = 115.0
+offset_right = 1360.0
+offset_bottom = 545.0
+mouse_filter = 2
+color = Color(0.207843, 0.286275, 0.321569, 1)
+
+[node name="BrilloCentro001" type="ColorRect" parent="01_FondoMetalico" unique_id=564664047]
+offset_left = 345.0
+offset_top = 121.0
+offset_right = 975.0
+offset_bottom = 526.0
+mouse_filter = 2
+color = Color(0.25098, 0.333333, 0.356863, 1)
+
+[node name="PanelPared001" type="ColorRect" parent="01_FondoMetalico" unique_id=1350612403]
+offset_left = 3.0
+offset_top = 129.0
+offset_right = 132.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.227451, 0.309804, 0.34902, 1)
+
+[node name="SombraPanel001" type="ColorRect" parent="01_FondoMetalico" unique_id=1926245387]
+offset_left = 3.0
+offset_top = 129.0
+offset_right = 16.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.145098, 0.219608, 0.258824, 0.4)
+
+[node name="BordePanel001" type="ColorRect" parent="01_FondoMetalico" unique_id=357040589]
+offset_left = 132.0
+offset_top = 129.0
+offset_right = 135.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.082353, 0.152941, 0.188235, 1)
+
+[node name="UnionPlaca001" type="ColorRect" parent="01_FondoMetalico" unique_id=1155435669]
+offset_left = 31.0
+offset_top = 271.0
+offset_right = 127.0
+offset_bottom = 273.0
+mouse_filter = 2
+color = Color(0.137255, 0.231373, 0.270588, 0.4)
+
+[node name="UnionPlaca002" type="ColorRect" parent="01_FondoMetalico" unique_id=1219422653]
+offset_left = 31.0
+offset_top = 390.0
+offset_right = 127.0
+offset_bottom = 392.0
+mouse_filter = 2
+color = Color(0.137255, 0.231373, 0.270588, 0.4)
+
+[node name="RivetShadow001" type="ColorRect" parent="01_FondoMetalico" unique_id=1574818092]
+offset_left = 11.0
+offset_top = 141.0
+offset_right = 17.0
+offset_bottom = 147.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet001" type="ColorRect" parent="01_FondoMetalico" unique_id=813097643]
+offset_left = 13.0
+offset_top = 142.0
+offset_right = 16.0
+offset_bottom = 145.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow002" type="ColorRect" parent="01_FondoMetalico" unique_id=1743354130]
+offset_left = 122.0
+offset_top = 141.0
+offset_right = 128.0
+offset_bottom = 147.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet002" type="ColorRect" parent="01_FondoMetalico" unique_id=1112732604]
+offset_left = 124.0
+offset_top = 142.0
+offset_right = 127.0
+offset_bottom = 145.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow003" type="ColorRect" parent="01_FondoMetalico" unique_id=217112528]
+offset_left = 11.0
+offset_top = 260.0
+offset_right = 17.0
+offset_bottom = 266.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet003" type="ColorRect" parent="01_FondoMetalico" unique_id=2078737504]
+offset_left = 13.0
+offset_top = 261.0
+offset_right = 16.0
+offset_bottom = 264.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow004" type="ColorRect" parent="01_FondoMetalico" unique_id=1245344116]
+offset_left = 122.0
+offset_top = 260.0
+offset_right = 128.0
+offset_bottom = 266.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet004" type="ColorRect" parent="01_FondoMetalico" unique_id=394533048]
+offset_left = 124.0
+offset_top = 261.0
+offset_right = 127.0
+offset_bottom = 264.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow005" type="ColorRect" parent="01_FondoMetalico" unique_id=1685187283]
+offset_left = 11.0
+offset_top = 381.0
+offset_right = 17.0
+offset_bottom = 387.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet005" type="ColorRect" parent="01_FondoMetalico" unique_id=386925283]
+offset_left = 13.0
+offset_top = 382.0
+offset_right = 16.0
+offset_bottom = 385.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow006" type="ColorRect" parent="01_FondoMetalico" unique_id=2072688349]
+offset_left = 122.0
+offset_top = 381.0
+offset_right = 128.0
+offset_bottom = 387.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet006" type="ColorRect" parent="01_FondoMetalico" unique_id=46340371]
+offset_left = 124.0
+offset_top = 382.0
+offset_right = 127.0
+offset_bottom = 385.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow007" type="ColorRect" parent="01_FondoMetalico" unique_id=3499023]
+offset_left = 11.0
+offset_top = 517.0
+offset_right = 17.0
+offset_bottom = 523.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet007" type="ColorRect" parent="01_FondoMetalico" unique_id=464901639]
+offset_left = 13.0
+offset_top = 518.0
+offset_right = 16.0
+offset_bottom = 521.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow008" type="ColorRect" parent="01_FondoMetalico" unique_id=669407340]
+offset_left = 122.0
+offset_top = 517.0
+offset_right = 128.0
+offset_bottom = 523.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet008" type="ColorRect" parent="01_FondoMetalico" unique_id=148876386]
+offset_left = 124.0
+offset_top = 518.0
+offset_right = 127.0
+offset_bottom = 521.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="PanelPared002" type="ColorRect" parent="01_FondoMetalico" unique_id=719073872]
+offset_left = 139.0
+offset_top = 129.0
+offset_right = 268.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.203922, 0.290196, 0.32549, 1)
+
+[node name="SombraPanel002" type="ColorRect" parent="01_FondoMetalico" unique_id=1217976549]
+offset_left = 139.0
+offset_top = 129.0
+offset_right = 152.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.145098, 0.219608, 0.258824, 0.4)
+
+[node name="BordePanel002" type="ColorRect" parent="01_FondoMetalico" unique_id=348156386]
+offset_left = 268.0
+offset_top = 129.0
+offset_right = 271.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.082353, 0.152941, 0.188235, 1)
+
+[node name="UnionPlaca003" type="ColorRect" parent="01_FondoMetalico" unique_id=947041825]
+offset_left = 167.0
+offset_top = 271.0
+offset_right = 263.0
+offset_bottom = 273.0
+mouse_filter = 2
+color = Color(0.137255, 0.231373, 0.270588, 0.4)
+
+[node name="UnionPlaca004" type="ColorRect" parent="01_FondoMetalico" unique_id=530553338]
+offset_left = 167.0
+offset_top = 390.0
+offset_right = 263.0
+offset_bottom = 392.0
+mouse_filter = 2
+color = Color(0.137255, 0.231373, 0.270588, 0.4)
+
+[node name="RivetShadow009" type="ColorRect" parent="01_FondoMetalico" unique_id=597073030]
+offset_left = 147.0
+offset_top = 141.0
+offset_right = 153.0
+offset_bottom = 147.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet009" type="ColorRect" parent="01_FondoMetalico" unique_id=1653279446]
+offset_left = 149.0
+offset_top = 142.0
+offset_right = 152.0
+offset_bottom = 145.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow010" type="ColorRect" parent="01_FondoMetalico" unique_id=1161793211]
+offset_left = 258.0
+offset_top = 141.0
+offset_right = 264.0
+offset_bottom = 147.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet010" type="ColorRect" parent="01_FondoMetalico" unique_id=1987804281]
+offset_left = 260.0
+offset_top = 142.0
+offset_right = 263.0
+offset_bottom = 145.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow011" type="ColorRect" parent="01_FondoMetalico" unique_id=1135081539]
+offset_left = 147.0
+offset_top = 260.0
+offset_right = 153.0
+offset_bottom = 266.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet011" type="ColorRect" parent="01_FondoMetalico" unique_id=1541005807]
+offset_left = 149.0
+offset_top = 261.0
+offset_right = 152.0
+offset_bottom = 264.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow012" type="ColorRect" parent="01_FondoMetalico" unique_id=1829987633]
+offset_left = 258.0
+offset_top = 260.0
+offset_right = 264.0
+offset_bottom = 266.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet012" type="ColorRect" parent="01_FondoMetalico" unique_id=845624405]
+offset_left = 260.0
+offset_top = 261.0
+offset_right = 263.0
+offset_bottom = 264.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow013" type="ColorRect" parent="01_FondoMetalico" unique_id=1460426713]
+offset_left = 147.0
+offset_top = 381.0
+offset_right = 153.0
+offset_bottom = 387.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet013" type="ColorRect" parent="01_FondoMetalico" unique_id=1925856249]
+offset_left = 149.0
+offset_top = 382.0
+offset_right = 152.0
+offset_bottom = 385.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow014" type="ColorRect" parent="01_FondoMetalico" unique_id=34885308]
+offset_left = 258.0
+offset_top = 381.0
+offset_right = 264.0
+offset_bottom = 387.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet014" type="ColorRect" parent="01_FondoMetalico" unique_id=1262412912]
+offset_left = 260.0
+offset_top = 382.0
+offset_right = 263.0
+offset_bottom = 385.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow015" type="ColorRect" parent="01_FondoMetalico" unique_id=474383367]
+offset_left = 147.0
+offset_top = 517.0
+offset_right = 153.0
+offset_bottom = 523.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet015" type="ColorRect" parent="01_FondoMetalico" unique_id=825279923]
+offset_left = 149.0
+offset_top = 518.0
+offset_right = 152.0
+offset_bottom = 521.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow016" type="ColorRect" parent="01_FondoMetalico" unique_id=1922213005]
+offset_left = 258.0
+offset_top = 517.0
+offset_right = 264.0
+offset_bottom = 523.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet016" type="ColorRect" parent="01_FondoMetalico" unique_id=369465338]
+offset_left = 260.0
+offset_top = 518.0
+offset_right = 263.0
+offset_bottom = 521.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="PanelPared003" type="ColorRect" parent="01_FondoMetalico" unique_id=524877388]
+offset_left = 275.0
+offset_top = 129.0
+offset_right = 404.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.227451, 0.309804, 0.34902, 1)
+
+[node name="SombraPanel003" type="ColorRect" parent="01_FondoMetalico" unique_id=1450986582]
+offset_left = 275.0
+offset_top = 129.0
+offset_right = 288.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.145098, 0.219608, 0.258824, 0.4)
+
+[node name="BordePanel003" type="ColorRect" parent="01_FondoMetalico" unique_id=1549609226]
+offset_left = 404.0
+offset_top = 129.0
+offset_right = 407.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.082353, 0.152941, 0.188235, 1)
+
+[node name="UnionPlaca005" type="ColorRect" parent="01_FondoMetalico" unique_id=2114966311]
+offset_left = 303.0
+offset_top = 271.0
+offset_right = 399.0
+offset_bottom = 273.0
+mouse_filter = 2
+color = Color(0.137255, 0.231373, 0.270588, 0.4)
+
+[node name="UnionPlaca006" type="ColorRect" parent="01_FondoMetalico" unique_id=2096782293]
+offset_left = 303.0
+offset_top = 390.0
+offset_right = 399.0
+offset_bottom = 392.0
+mouse_filter = 2
+color = Color(0.137255, 0.231373, 0.270588, 0.4)
+
+[node name="RivetShadow017" type="ColorRect" parent="01_FondoMetalico" unique_id=265365999]
+offset_left = 283.0
+offset_top = 141.0
+offset_right = 289.0
+offset_bottom = 147.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet017" type="ColorRect" parent="01_FondoMetalico" unique_id=770089689]
+offset_left = 285.0
+offset_top = 142.0
+offset_right = 288.0
+offset_bottom = 145.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow018" type="ColorRect" parent="01_FondoMetalico" unique_id=372991188]
+offset_left = 394.0
+offset_top = 141.0
+offset_right = 400.0
+offset_bottom = 147.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet018" type="ColorRect" parent="01_FondoMetalico" unique_id=728862968]
+offset_left = 396.0
+offset_top = 142.0
+offset_right = 399.0
+offset_bottom = 145.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow019" type="ColorRect" parent="01_FondoMetalico" unique_id=1080719993]
+offset_left = 283.0
+offset_top = 260.0
+offset_right = 289.0
+offset_bottom = 266.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet019" type="ColorRect" parent="01_FondoMetalico" unique_id=465576473]
+offset_left = 285.0
+offset_top = 261.0
+offset_right = 288.0
+offset_bottom = 264.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow020" type="ColorRect" parent="01_FondoMetalico" unique_id=1209606862]
+offset_left = 394.0
+offset_top = 260.0
+offset_right = 400.0
+offset_bottom = 266.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet020" type="ColorRect" parent="01_FondoMetalico" unique_id=247365032]
+offset_left = 396.0
+offset_top = 261.0
+offset_right = 399.0
+offset_bottom = 264.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow021" type="ColorRect" parent="01_FondoMetalico" unique_id=1428360531]
+offset_left = 283.0
+offset_top = 381.0
+offset_right = 289.0
+offset_bottom = 387.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet021" type="ColorRect" parent="01_FondoMetalico" unique_id=326648099]
+offset_left = 285.0
+offset_top = 382.0
+offset_right = 288.0
+offset_bottom = 385.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow022" type="ColorRect" parent="01_FondoMetalico" unique_id=2033170899]
+offset_left = 394.0
+offset_top = 381.0
+offset_right = 400.0
+offset_bottom = 387.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet022" type="ColorRect" parent="01_FondoMetalico" unique_id=1304819926]
+offset_left = 396.0
+offset_top = 382.0
+offset_right = 399.0
+offset_bottom = 385.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow023" type="ColorRect" parent="01_FondoMetalico" unique_id=381238717]
+offset_left = 283.0
+offset_top = 517.0
+offset_right = 289.0
+offset_bottom = 523.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet023" type="ColorRect" parent="01_FondoMetalico" unique_id=2142426261]
+offset_left = 285.0
+offset_top = 518.0
+offset_right = 288.0
+offset_bottom = 521.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow024" type="ColorRect" parent="01_FondoMetalico" unique_id=1398614392]
+offset_left = 394.0
+offset_top = 517.0
+offset_right = 400.0
+offset_bottom = 523.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet024" type="ColorRect" parent="01_FondoMetalico" unique_id=1133359125]
+offset_left = 396.0
+offset_top = 518.0
+offset_right = 399.0
+offset_bottom = 521.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="PanelPared004" type="ColorRect" parent="01_FondoMetalico" unique_id=646199005]
+offset_left = 411.0
+offset_top = 129.0
+offset_right = 540.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.203922, 0.290196, 0.32549, 1)
+
+[node name="SombraPanel004" type="ColorRect" parent="01_FondoMetalico" unique_id=2057565370]
+offset_left = 411.0
+offset_top = 129.0
+offset_right = 424.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.145098, 0.219608, 0.258824, 0.4)
+
+[node name="BordePanel004" type="ColorRect" parent="01_FondoMetalico" unique_id=832635624]
+offset_left = 540.0
+offset_top = 129.0
+offset_right = 543.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.082353, 0.152941, 0.188235, 1)
+
+[node name="UnionPlaca007" type="ColorRect" parent="01_FondoMetalico" unique_id=3239049]
+offset_left = 439.0
+offset_top = 271.0
+offset_right = 535.0
+offset_bottom = 273.0
+mouse_filter = 2
+color = Color(0.137255, 0.231373, 0.270588, 0.4)
+
+[node name="UnionPlaca008" type="ColorRect" parent="01_FondoMetalico" unique_id=1345576607]
+offset_left = 439.0
+offset_top = 390.0
+offset_right = 535.0
+offset_bottom = 392.0
+mouse_filter = 2
+color = Color(0.137255, 0.231373, 0.270588, 0.4)
+
+[node name="RivetShadow025" type="ColorRect" parent="01_FondoMetalico" unique_id=1595546196]
+offset_left = 419.0
+offset_top = 141.0
+offset_right = 425.0
+offset_bottom = 147.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet025" type="ColorRect" parent="01_FondoMetalico" unique_id=1962126816]
+offset_left = 421.0
+offset_top = 142.0
+offset_right = 424.0
+offset_bottom = 145.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow026" type="ColorRect" parent="01_FondoMetalico" unique_id=1417192478]
+offset_left = 530.0
+offset_top = 141.0
+offset_right = 536.0
+offset_bottom = 147.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet026" type="ColorRect" parent="01_FondoMetalico" unique_id=1388493537]
+offset_left = 532.0
+offset_top = 142.0
+offset_right = 535.0
+offset_bottom = 145.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow027" type="ColorRect" parent="01_FondoMetalico" unique_id=35957307]
+offset_left = 419.0
+offset_top = 260.0
+offset_right = 425.0
+offset_bottom = 266.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet027" type="ColorRect" parent="01_FondoMetalico" unique_id=572079825]
+offset_left = 421.0
+offset_top = 261.0
+offset_right = 424.0
+offset_bottom = 264.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow028" type="ColorRect" parent="01_FondoMetalico" unique_id=1484120276]
+offset_left = 530.0
+offset_top = 260.0
+offset_right = 536.0
+offset_bottom = 266.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet028" type="ColorRect" parent="01_FondoMetalico" unique_id=537997633]
+offset_left = 532.0
+offset_top = 261.0
+offset_right = 535.0
+offset_bottom = 264.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow029" type="ColorRect" parent="01_FondoMetalico" unique_id=385566900]
+offset_left = 419.0
+offset_top = 381.0
+offset_right = 425.0
+offset_bottom = 387.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet029" type="ColorRect" parent="01_FondoMetalico" unique_id=916601765]
+offset_left = 421.0
+offset_top = 382.0
+offset_right = 424.0
+offset_bottom = 385.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow030" type="ColorRect" parent="01_FondoMetalico" unique_id=762298991]
+offset_left = 530.0
+offset_top = 381.0
+offset_right = 536.0
+offset_bottom = 387.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet030" type="ColorRect" parent="01_FondoMetalico" unique_id=303469235]
+offset_left = 532.0
+offset_top = 382.0
+offset_right = 535.0
+offset_bottom = 385.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow031" type="ColorRect" parent="01_FondoMetalico" unique_id=1659465026]
+offset_left = 419.0
+offset_top = 517.0
+offset_right = 425.0
+offset_bottom = 523.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet031" type="ColorRect" parent="01_FondoMetalico" unique_id=611939929]
+offset_left = 421.0
+offset_top = 518.0
+offset_right = 424.0
+offset_bottom = 521.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow032" type="ColorRect" parent="01_FondoMetalico" unique_id=234945255]
+offset_left = 530.0
+offset_top = 517.0
+offset_right = 536.0
+offset_bottom = 523.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet032" type="ColorRect" parent="01_FondoMetalico" unique_id=1523817470]
+offset_left = 532.0
+offset_top = 518.0
+offset_right = 535.0
+offset_bottom = 521.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="PanelPared005" type="ColorRect" parent="01_FondoMetalico" unique_id=2022271497]
+offset_left = 547.0
+offset_top = 129.0
+offset_right = 676.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.227451, 0.309804, 0.34902, 1)
+
+[node name="SombraPanel005" type="ColorRect" parent="01_FondoMetalico" unique_id=1826274897]
+offset_left = 547.0
+offset_top = 129.0
+offset_right = 560.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.145098, 0.219608, 0.258824, 0.4)
+
+[node name="BordePanel005" type="ColorRect" parent="01_FondoMetalico" unique_id=1755421033]
+offset_left = 676.0
+offset_top = 129.0
+offset_right = 679.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.082353, 0.152941, 0.188235, 1)
+
+[node name="UnionPlaca009" type="ColorRect" parent="01_FondoMetalico" unique_id=532836127]
+offset_left = 575.0
+offset_top = 271.0
+offset_right = 671.0
+offset_bottom = 273.0
+mouse_filter = 2
+color = Color(0.137255, 0.231373, 0.270588, 0.4)
+
+[node name="UnionPlaca010" type="ColorRect" parent="01_FondoMetalico" unique_id=895137724]
+offset_left = 575.0
+offset_top = 390.0
+offset_right = 671.0
+offset_bottom = 392.0
+mouse_filter = 2
+color = Color(0.137255, 0.231373, 0.270588, 0.4)
+
+[node name="RivetShadow033" type="ColorRect" parent="01_FondoMetalico" unique_id=144548836]
+offset_left = 555.0
+offset_top = 141.0
+offset_right = 561.0
+offset_bottom = 147.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet033" type="ColorRect" parent="01_FondoMetalico" unique_id=1003807114]
+offset_left = 557.0
+offset_top = 142.0
+offset_right = 560.0
+offset_bottom = 145.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow034" type="ColorRect" parent="01_FondoMetalico" unique_id=1971283823]
+offset_left = 666.0
+offset_top = 141.0
+offset_right = 672.0
+offset_bottom = 147.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet034" type="ColorRect" parent="01_FondoMetalico" unique_id=1055406149]
+offset_left = 668.0
+offset_top = 142.0
+offset_right = 671.0
+offset_bottom = 145.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow035" type="ColorRect" parent="01_FondoMetalico" unique_id=2132000146]
+offset_left = 555.0
+offset_top = 260.0
+offset_right = 561.0
+offset_bottom = 266.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet035" type="ColorRect" parent="01_FondoMetalico" unique_id=1465859298]
+offset_left = 557.0
+offset_top = 261.0
+offset_right = 560.0
+offset_bottom = 264.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow036" type="ColorRect" parent="01_FondoMetalico" unique_id=640108105]
+offset_left = 666.0
+offset_top = 260.0
+offset_right = 672.0
+offset_bottom = 266.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet036" type="ColorRect" parent="01_FondoMetalico" unique_id=1994062692]
+offset_left = 668.0
+offset_top = 261.0
+offset_right = 671.0
+offset_bottom = 264.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow037" type="ColorRect" parent="01_FondoMetalico" unique_id=49818428]
+offset_left = 555.0
+offset_top = 381.0
+offset_right = 561.0
+offset_bottom = 387.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet037" type="ColorRect" parent="01_FondoMetalico" unique_id=1594023743]
+offset_left = 557.0
+offset_top = 382.0
+offset_right = 560.0
+offset_bottom = 385.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow038" type="ColorRect" parent="01_FondoMetalico" unique_id=1461585781]
+offset_left = 666.0
+offset_top = 381.0
+offset_right = 672.0
+offset_bottom = 387.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet038" type="ColorRect" parent="01_FondoMetalico" unique_id=146976927]
+offset_left = 668.0
+offset_top = 382.0
+offset_right = 671.0
+offset_bottom = 385.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow039" type="ColorRect" parent="01_FondoMetalico" unique_id=1446226446]
+offset_left = 555.0
+offset_top = 517.0
+offset_right = 561.0
+offset_bottom = 523.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet039" type="ColorRect" parent="01_FondoMetalico" unique_id=1659806158]
+offset_left = 557.0
+offset_top = 518.0
+offset_right = 560.0
+offset_bottom = 521.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow040" type="ColorRect" parent="01_FondoMetalico" unique_id=1711432135]
+offset_left = 666.0
+offset_top = 517.0
+offset_right = 672.0
+offset_bottom = 523.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet040" type="ColorRect" parent="01_FondoMetalico" unique_id=1331980931]
+offset_left = 668.0
+offset_top = 518.0
+offset_right = 671.0
+offset_bottom = 521.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="PanelPared006" type="ColorRect" parent="01_FondoMetalico" unique_id=169219391]
+offset_left = 683.0
+offset_top = 129.0
+offset_right = 812.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.203922, 0.290196, 0.32549, 1)
+
+[node name="SombraPanel006" type="ColorRect" parent="01_FondoMetalico" unique_id=670063738]
+offset_left = 683.0
+offset_top = 129.0
+offset_right = 696.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.145098, 0.219608, 0.258824, 0.4)
+
+[node name="BordePanel006" type="ColorRect" parent="01_FondoMetalico" unique_id=1129407440]
+offset_left = 812.0
+offset_top = 129.0
+offset_right = 815.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.082353, 0.152941, 0.188235, 1)
+
+[node name="UnionPlaca011" type="ColorRect" parent="01_FondoMetalico" unique_id=2140291980]
+offset_left = 711.0
+offset_top = 271.0
+offset_right = 807.0
+offset_bottom = 273.0
+mouse_filter = 2
+color = Color(0.137255, 0.231373, 0.270588, 0.4)
+
+[node name="UnionPlaca012" type="ColorRect" parent="01_FondoMetalico" unique_id=551445183]
+offset_left = 711.0
+offset_top = 390.0
+offset_right = 807.0
+offset_bottom = 392.0
+mouse_filter = 2
+color = Color(0.137255, 0.231373, 0.270588, 0.4)
+
+[node name="RivetShadow041" type="ColorRect" parent="01_FondoMetalico" unique_id=399764941]
+offset_left = 691.0
+offset_top = 141.0
+offset_right = 697.0
+offset_bottom = 147.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet041" type="ColorRect" parent="01_FondoMetalico" unique_id=325944765]
+offset_left = 693.0
+offset_top = 142.0
+offset_right = 696.0
+offset_bottom = 145.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow042" type="ColorRect" parent="01_FondoMetalico" unique_id=1025734950]
+offset_left = 802.0
+offset_top = 141.0
+offset_right = 808.0
+offset_bottom = 147.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet042" type="ColorRect" parent="01_FondoMetalico" unique_id=2026388536]
+offset_left = 804.0
+offset_top = 142.0
+offset_right = 807.0
+offset_bottom = 145.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow043" type="ColorRect" parent="01_FondoMetalico" unique_id=1156686952]
+offset_left = 691.0
+offset_top = 260.0
+offset_right = 697.0
+offset_bottom = 266.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet043" type="ColorRect" parent="01_FondoMetalico" unique_id=1703862883]
+offset_left = 693.0
+offset_top = 261.0
+offset_right = 696.0
+offset_bottom = 264.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow044" type="ColorRect" parent="01_FondoMetalico" unique_id=2105985532]
+offset_left = 802.0
+offset_top = 260.0
+offset_right = 808.0
+offset_bottom = 266.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet044" type="ColorRect" parent="01_FondoMetalico" unique_id=2130261154]
+offset_left = 804.0
+offset_top = 261.0
+offset_right = 807.0
+offset_bottom = 264.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow045" type="ColorRect" parent="01_FondoMetalico" unique_id=1008257394]
+offset_left = 691.0
+offset_top = 381.0
+offset_right = 697.0
+offset_bottom = 387.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet045" type="ColorRect" parent="01_FondoMetalico" unique_id=594548916]
+offset_left = 693.0
+offset_top = 382.0
+offset_right = 696.0
+offset_bottom = 385.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow046" type="ColorRect" parent="01_FondoMetalico" unique_id=1095296966]
+offset_left = 802.0
+offset_top = 381.0
+offset_right = 808.0
+offset_bottom = 387.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet046" type="ColorRect" parent="01_FondoMetalico" unique_id=104620047]
+offset_left = 804.0
+offset_top = 382.0
+offset_right = 807.0
+offset_bottom = 385.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow047" type="ColorRect" parent="01_FondoMetalico" unique_id=1638855680]
+offset_left = 691.0
+offset_top = 517.0
+offset_right = 697.0
+offset_bottom = 523.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet047" type="ColorRect" parent="01_FondoMetalico" unique_id=432892613]
+offset_left = 693.0
+offset_top = 518.0
+offset_right = 696.0
+offset_bottom = 521.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow048" type="ColorRect" parent="01_FondoMetalico" unique_id=1512163081]
+offset_left = 802.0
+offset_top = 517.0
+offset_right = 808.0
+offset_bottom = 523.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet048" type="ColorRect" parent="01_FondoMetalico" unique_id=636184401]
+offset_left = 804.0
+offset_top = 518.0
+offset_right = 807.0
+offset_bottom = 521.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="PanelPared007" type="ColorRect" parent="01_FondoMetalico" unique_id=1636416935]
+offset_left = 819.0
+offset_top = 129.0
+offset_right = 948.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.227451, 0.309804, 0.34902, 1)
+
+[node name="SombraPanel007" type="ColorRect" parent="01_FondoMetalico" unique_id=1426197290]
+offset_left = 819.0
+offset_top = 129.0
+offset_right = 832.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.145098, 0.219608, 0.258824, 0.4)
+
+[node name="BordePanel007" type="ColorRect" parent="01_FondoMetalico" unique_id=1862131840]
+offset_left = 948.0
+offset_top = 129.0
+offset_right = 951.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.082353, 0.152941, 0.188235, 1)
+
+[node name="UnionPlaca013" type="ColorRect" parent="01_FondoMetalico" unique_id=874905758]
+offset_left = 847.0
+offset_top = 271.0
+offset_right = 943.0
+offset_bottom = 273.0
+mouse_filter = 2
+color = Color(0.137255, 0.231373, 0.270588, 0.4)
+
+[node name="UnionPlaca014" type="ColorRect" parent="01_FondoMetalico" unique_id=1979136166]
+offset_left = 847.0
+offset_top = 390.0
+offset_right = 943.0
+offset_bottom = 392.0
+mouse_filter = 2
+color = Color(0.137255, 0.231373, 0.270588, 0.4)
+
+[node name="RivetShadow049" type="ColorRect" parent="01_FondoMetalico" unique_id=1935302348]
+offset_left = 827.0
+offset_top = 141.0
+offset_right = 833.0
+offset_bottom = 147.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet049" type="ColorRect" parent="01_FondoMetalico" unique_id=1536358755]
+offset_left = 829.0
+offset_top = 142.0
+offset_right = 832.0
+offset_bottom = 145.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow050" type="ColorRect" parent="01_FondoMetalico" unique_id=1204636670]
+offset_left = 938.0
+offset_top = 141.0
+offset_right = 944.0
+offset_bottom = 147.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet050" type="ColorRect" parent="01_FondoMetalico" unique_id=1407240003]
+offset_left = 940.0
+offset_top = 142.0
+offset_right = 943.0
+offset_bottom = 145.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow051" type="ColorRect" parent="01_FondoMetalico" unique_id=1435825190]
+offset_left = 827.0
+offset_top = 260.0
+offset_right = 833.0
+offset_bottom = 266.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet051" type="ColorRect" parent="01_FondoMetalico" unique_id=1624660446]
+offset_left = 829.0
+offset_top = 261.0
+offset_right = 832.0
+offset_bottom = 264.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow052" type="ColorRect" parent="01_FondoMetalico" unique_id=565128981]
+offset_left = 938.0
+offset_top = 260.0
+offset_right = 944.0
+offset_bottom = 266.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet052" type="ColorRect" parent="01_FondoMetalico" unique_id=1812816527]
+offset_left = 940.0
+offset_top = 261.0
+offset_right = 943.0
+offset_bottom = 264.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow053" type="ColorRect" parent="01_FondoMetalico" unique_id=95946776]
+offset_left = 827.0
+offset_top = 381.0
+offset_right = 833.0
+offset_bottom = 387.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet053" type="ColorRect" parent="01_FondoMetalico" unique_id=773259481]
+offset_left = 829.0
+offset_top = 382.0
+offset_right = 832.0
+offset_bottom = 385.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow054" type="ColorRect" parent="01_FondoMetalico" unique_id=405196247]
+offset_left = 938.0
+offset_top = 381.0
+offset_right = 944.0
+offset_bottom = 387.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet054" type="ColorRect" parent="01_FondoMetalico" unique_id=1552052091]
+offset_left = 940.0
+offset_top = 382.0
+offset_right = 943.0
+offset_bottom = 385.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow055" type="ColorRect" parent="01_FondoMetalico" unique_id=124614292]
+offset_left = 827.0
+offset_top = 517.0
+offset_right = 833.0
+offset_bottom = 523.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet055" type="ColorRect" parent="01_FondoMetalico" unique_id=1244673814]
+offset_left = 829.0
+offset_top = 518.0
+offset_right = 832.0
+offset_bottom = 521.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow056" type="ColorRect" parent="01_FondoMetalico" unique_id=167706038]
+offset_left = 938.0
+offset_top = 517.0
+offset_right = 944.0
+offset_bottom = 523.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet056" type="ColorRect" parent="01_FondoMetalico" unique_id=1362772232]
+offset_left = 940.0
+offset_top = 518.0
+offset_right = 943.0
+offset_bottom = 521.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="PanelPared008" type="ColorRect" parent="01_FondoMetalico" unique_id=551811820]
+offset_left = 955.0
+offset_top = 129.0
+offset_right = 1084.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.203922, 0.290196, 0.32549, 1)
+
+[node name="SombraPanel008" type="ColorRect" parent="01_FondoMetalico" unique_id=1907303186]
+offset_left = 955.0
+offset_top = 129.0
+offset_right = 968.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.145098, 0.219608, 0.258824, 0.4)
+
+[node name="BordePanel008" type="ColorRect" parent="01_FondoMetalico" unique_id=1010260724]
+offset_left = 1084.0
+offset_top = 129.0
+offset_right = 1087.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.082353, 0.152941, 0.188235, 1)
+
+[node name="UnionPlaca015" type="ColorRect" parent="01_FondoMetalico" unique_id=1055623588]
+offset_left = 983.0
+offset_top = 271.0
+offset_right = 1079.0
+offset_bottom = 273.0
+mouse_filter = 2
+color = Color(0.137255, 0.231373, 0.270588, 0.4)
+
+[node name="UnionPlaca016" type="ColorRect" parent="01_FondoMetalico" unique_id=1669747546]
+offset_left = 983.0
+offset_top = 390.0
+offset_right = 1079.0
+offset_bottom = 392.0
+mouse_filter = 2
+color = Color(0.137255, 0.231373, 0.270588, 0.4)
+
+[node name="RivetShadow057" type="ColorRect" parent="01_FondoMetalico" unique_id=1919521138]
+offset_left = 963.0
+offset_top = 141.0
+offset_right = 969.0
+offset_bottom = 147.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet057" type="ColorRect" parent="01_FondoMetalico" unique_id=370191708]
+offset_left = 965.0
+offset_top = 142.0
+offset_right = 968.0
+offset_bottom = 145.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow058" type="ColorRect" parent="01_FondoMetalico" unique_id=828546186]
+offset_left = 1074.0
+offset_top = 141.0
+offset_right = 1080.0
+offset_bottom = 147.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet058" type="ColorRect" parent="01_FondoMetalico" unique_id=517097657]
+offset_left = 1076.0
+offset_top = 142.0
+offset_right = 1079.0
+offset_bottom = 145.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow059" type="ColorRect" parent="01_FondoMetalico" unique_id=1125815754]
+offset_left = 963.0
+offset_top = 260.0
+offset_right = 969.0
+offset_bottom = 266.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet059" type="ColorRect" parent="01_FondoMetalico" unique_id=1119392413]
+offset_left = 965.0
+offset_top = 261.0
+offset_right = 968.0
+offset_bottom = 264.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow060" type="ColorRect" parent="01_FondoMetalico" unique_id=1580479297]
+offset_left = 1074.0
+offset_top = 260.0
+offset_right = 1080.0
+offset_bottom = 266.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet060" type="ColorRect" parent="01_FondoMetalico" unique_id=561390290]
+offset_left = 1076.0
+offset_top = 261.0
+offset_right = 1079.0
+offset_bottom = 264.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow061" type="ColorRect" parent="01_FondoMetalico" unique_id=531371988]
+offset_left = 963.0
+offset_top = 381.0
+offset_right = 969.0
+offset_bottom = 387.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet061" type="ColorRect" parent="01_FondoMetalico" unique_id=68312775]
+offset_left = 965.0
+offset_top = 382.0
+offset_right = 968.0
+offset_bottom = 385.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow062" type="ColorRect" parent="01_FondoMetalico" unique_id=1669633906]
+offset_left = 1074.0
+offset_top = 381.0
+offset_right = 1080.0
+offset_bottom = 387.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet062" type="ColorRect" parent="01_FondoMetalico" unique_id=1576828532]
+offset_left = 1076.0
+offset_top = 382.0
+offset_right = 1079.0
+offset_bottom = 385.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow063" type="ColorRect" parent="01_FondoMetalico" unique_id=1262185679]
+offset_left = 963.0
+offset_top = 517.0
+offset_right = 969.0
+offset_bottom = 523.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet063" type="ColorRect" parent="01_FondoMetalico" unique_id=1766781094]
+offset_left = 965.0
+offset_top = 518.0
+offset_right = 968.0
+offset_bottom = 521.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow064" type="ColorRect" parent="01_FondoMetalico" unique_id=1213686936]
+offset_left = 1074.0
+offset_top = 517.0
+offset_right = 1080.0
+offset_bottom = 523.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet064" type="ColorRect" parent="01_FondoMetalico" unique_id=1247600470]
+offset_left = 1076.0
+offset_top = 518.0
+offset_right = 1079.0
+offset_bottom = 521.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="PanelPared009" type="ColorRect" parent="01_FondoMetalico" unique_id=614505156]
+offset_left = 1091.0
+offset_top = 129.0
+offset_right = 1220.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.227451, 0.309804, 0.34902, 1)
+
+[node name="SombraPanel009" type="ColorRect" parent="01_FondoMetalico" unique_id=47594246]
+offset_left = 1091.0
+offset_top = 129.0
+offset_right = 1104.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.145098, 0.219608, 0.258824, 0.4)
+
+[node name="BordePanel009" type="ColorRect" parent="01_FondoMetalico" unique_id=981852296]
+offset_left = 1220.0
+offset_top = 129.0
+offset_right = 1223.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.082353, 0.152941, 0.188235, 1)
+
+[node name="UnionPlaca017" type="ColorRect" parent="01_FondoMetalico" unique_id=156840882]
+offset_left = 1119.0
+offset_top = 271.0
+offset_right = 1215.0
+offset_bottom = 273.0
+mouse_filter = 2
+color = Color(0.137255, 0.231373, 0.270588, 0.4)
+
+[node name="UnionPlaca018" type="ColorRect" parent="01_FondoMetalico" unique_id=2012452551]
+offset_left = 1119.0
+offset_top = 390.0
+offset_right = 1215.0
+offset_bottom = 392.0
+mouse_filter = 2
+color = Color(0.137255, 0.231373, 0.270588, 0.4)
+
+[node name="RivetShadow065" type="ColorRect" parent="01_FondoMetalico" unique_id=118142594]
+offset_left = 1099.0
+offset_top = 141.0
+offset_right = 1105.0
+offset_bottom = 147.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet065" type="ColorRect" parent="01_FondoMetalico" unique_id=1157984918]
+offset_left = 1101.0
+offset_top = 142.0
+offset_right = 1104.0
+offset_bottom = 145.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow066" type="ColorRect" parent="01_FondoMetalico" unique_id=2057344349]
+offset_left = 1210.0
+offset_top = 141.0
+offset_right = 1216.0
+offset_bottom = 147.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet066" type="ColorRect" parent="01_FondoMetalico" unique_id=1853686905]
+offset_left = 1212.0
+offset_top = 142.0
+offset_right = 1215.0
+offset_bottom = 145.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow067" type="ColorRect" parent="01_FondoMetalico" unique_id=1796867946]
+offset_left = 1099.0
+offset_top = 260.0
+offset_right = 1105.0
+offset_bottom = 266.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet067" type="ColorRect" parent="01_FondoMetalico" unique_id=832309214]
+offset_left = 1101.0
+offset_top = 261.0
+offset_right = 1104.0
+offset_bottom = 264.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow068" type="ColorRect" parent="01_FondoMetalico" unique_id=1089634948]
+offset_left = 1210.0
+offset_top = 260.0
+offset_right = 1216.0
+offset_bottom = 266.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet068" type="ColorRect" parent="01_FondoMetalico" unique_id=2098320658]
+offset_left = 1212.0
+offset_top = 261.0
+offset_right = 1215.0
+offset_bottom = 264.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow069" type="ColorRect" parent="01_FondoMetalico" unique_id=1086978622]
+offset_left = 1099.0
+offset_top = 381.0
+offset_right = 1105.0
+offset_bottom = 387.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet069" type="ColorRect" parent="01_FondoMetalico" unique_id=1084239581]
+offset_left = 1101.0
+offset_top = 382.0
+offset_right = 1104.0
+offset_bottom = 385.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow070" type="ColorRect" parent="01_FondoMetalico" unique_id=1933002433]
+offset_left = 1210.0
+offset_top = 381.0
+offset_right = 1216.0
+offset_bottom = 387.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet070" type="ColorRect" parent="01_FondoMetalico" unique_id=655753336]
+offset_left = 1212.0
+offset_top = 382.0
+offset_right = 1215.0
+offset_bottom = 385.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow071" type="ColorRect" parent="01_FondoMetalico" unique_id=619430756]
+offset_left = 1099.0
+offset_top = 517.0
+offset_right = 1105.0
+offset_bottom = 523.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet071" type="ColorRect" parent="01_FondoMetalico" unique_id=2075876389]
+offset_left = 1101.0
+offset_top = 518.0
+offset_right = 1104.0
+offset_bottom = 521.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow072" type="ColorRect" parent="01_FondoMetalico" unique_id=1263882417]
+offset_left = 1210.0
+offset_top = 517.0
+offset_right = 1216.0
+offset_bottom = 523.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet072" type="ColorRect" parent="01_FondoMetalico" unique_id=704743896]
+offset_left = 1212.0
+offset_top = 518.0
+offset_right = 1215.0
+offset_bottom = 521.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="PanelPared010" type="ColorRect" parent="01_FondoMetalico" unique_id=715768348]
+offset_left = 1227.0
+offset_top = 129.0
+offset_right = 1356.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.203922, 0.290196, 0.32549, 1)
+
+[node name="SombraPanel010" type="ColorRect" parent="01_FondoMetalico" unique_id=1396430575]
+offset_left = 1227.0
+offset_top = 129.0
+offset_right = 1240.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.145098, 0.219608, 0.258824, 0.4)
+
+[node name="BordePanel010" type="ColorRect" parent="01_FondoMetalico" unique_id=897906182]
+offset_left = 1356.0
+offset_top = 129.0
+offset_right = 1359.0
+offset_bottom = 533.0
+mouse_filter = 2
+color = Color(0.082353, 0.152941, 0.188235, 1)
+
+[node name="UnionPlaca019" type="ColorRect" parent="01_FondoMetalico" unique_id=983539465]
+offset_left = 1255.0
+offset_top = 271.0
+offset_right = 1351.0
+offset_bottom = 273.0
+mouse_filter = 2
+color = Color(0.137255, 0.231373, 0.270588, 0.4)
+
+[node name="UnionPlaca020" type="ColorRect" parent="01_FondoMetalico" unique_id=1409463558]
+offset_left = 1255.0
+offset_top = 390.0
+offset_right = 1351.0
+offset_bottom = 392.0
+mouse_filter = 2
+color = Color(0.137255, 0.231373, 0.270588, 0.4)
+
+[node name="RivetShadow073" type="ColorRect" parent="01_FondoMetalico" unique_id=1884964315]
+offset_left = 1235.0
+offset_top = 141.0
+offset_right = 1241.0
+offset_bottom = 147.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet073" type="ColorRect" parent="01_FondoMetalico" unique_id=963517752]
+offset_left = 1237.0
+offset_top = 142.0
+offset_right = 1240.0
+offset_bottom = 145.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow074" type="ColorRect" parent="01_FondoMetalico" unique_id=1660411235]
+offset_left = 1346.0
+offset_top = 141.0
+offset_right = 1352.0
+offset_bottom = 147.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet074" type="ColorRect" parent="01_FondoMetalico" unique_id=600606769]
+offset_left = 1348.0
+offset_top = 142.0
+offset_right = 1351.0
+offset_bottom = 145.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow075" type="ColorRect" parent="01_FondoMetalico" unique_id=260971283]
+offset_left = 1235.0
+offset_top = 260.0
+offset_right = 1241.0
+offset_bottom = 266.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet075" type="ColorRect" parent="01_FondoMetalico" unique_id=394287836]
+offset_left = 1237.0
+offset_top = 261.0
+offset_right = 1240.0
+offset_bottom = 264.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow076" type="ColorRect" parent="01_FondoMetalico" unique_id=1807897181]
+offset_left = 1346.0
+offset_top = 260.0
+offset_right = 1352.0
+offset_bottom = 266.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet076" type="ColorRect" parent="01_FondoMetalico" unique_id=1732965526]
+offset_left = 1348.0
+offset_top = 261.0
+offset_right = 1351.0
+offset_bottom = 264.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow077" type="ColorRect" parent="01_FondoMetalico" unique_id=836949400]
+offset_left = 1235.0
+offset_top = 381.0
+offset_right = 1241.0
+offset_bottom = 387.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet077" type="ColorRect" parent="01_FondoMetalico" unique_id=1665652834]
+offset_left = 1237.0
+offset_top = 382.0
+offset_right = 1240.0
+offset_bottom = 385.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow078" type="ColorRect" parent="01_FondoMetalico" unique_id=175444177]
+offset_left = 1346.0
+offset_top = 381.0
+offset_right = 1352.0
+offset_bottom = 387.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet078" type="ColorRect" parent="01_FondoMetalico" unique_id=493927423]
+offset_left = 1348.0
+offset_top = 382.0
+offset_right = 1351.0
+offset_bottom = 385.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow079" type="ColorRect" parent="01_FondoMetalico" unique_id=673211351]
+offset_left = 1235.0
+offset_top = 517.0
+offset_right = 1241.0
+offset_bottom = 523.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet079" type="ColorRect" parent="01_FondoMetalico" unique_id=1226277969]
+offset_left = 1237.0
+offset_top = 518.0
+offset_right = 1240.0
+offset_bottom = 521.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow080" type="ColorRect" parent="01_FondoMetalico" unique_id=1974479732]
+offset_left = 1346.0
+offset_top = 517.0
+offset_right = 1352.0
+offset_bottom = 523.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet080" type="ColorRect" parent="01_FondoMetalico" unique_id=1850654714]
+offset_left = 1348.0
+offset_top = 518.0
+offset_right = 1351.0
+offset_bottom = 521.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow081" type="ColorRect" parent="01_FondoMetalico" unique_id=322624064]
+offset_left = 1371.0
+offset_top = 141.0
+offset_right = 1377.0
+offset_bottom = 147.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="RivetShadow083" type="ColorRect" parent="01_FondoMetalico" unique_id=513506380]
+offset_left = 1371.0
+offset_top = 260.0
+offset_right = 1377.0
+offset_bottom = 266.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="RivetShadow085" type="ColorRect" parent="01_FondoMetalico" unique_id=1054685101]
+offset_left = 1371.0
+offset_top = 381.0
+offset_right = 1377.0
+offset_bottom = 387.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="RivetShadow087" type="ColorRect" parent="01_FondoMetalico" unique_id=185307756]
+offset_left = 1371.0
+offset_top = 517.0
+offset_right = 1377.0
+offset_bottom = 523.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="ZonaBaja001" type="ColorRect" parent="01_FondoMetalico" unique_id=983684996]
+offset_top = 457.0
+offset_right = 1360.0
+offset_bottom = 545.0
+mouse_filter = 2
+color = Color(0.141176, 0.227451, 0.258824, 0.8)
+
+[node name="ZonaBajaBrillo001" type="ColorRect" parent="01_FondoMetalico" unique_id=191093389]
+offset_top = 456.0
+offset_right = 1360.0
+offset_bottom = 459.0
+mouse_filter = 2
+color = Color(0.360784, 0.462745, 0.462745, 0.533333)
+
+[node name="SombraBase001" type="ColorRect" parent="01_FondoMetalico" unique_id=610148398]
+offset_top = 535.0
+offset_right = 1360.0
+offset_bottom = 542.0
+mouse_filter = 2
+color = Color(0.047059, 0.105882, 0.141176, 1)
+
+[node name="02_VigasYTecho" type="Node2D" parent="." unique_id=195880616]
+
+[node name="VigaSuperiorOscura001" type="ColorRect" parent="02_VigasYTecho" unique_id=1660914736]
+offset_top = 9.0
+offset_right = 1360.0
+offset_bottom = 33.0
+mouse_filter = 2
+color = Color(0.066667, 0.121569, 0.156863, 1)
+
+[node name="VigaBorde001" type="ColorRect" parent="02_VigasYTecho" unique_id=2137663110]
+offset_top = 27.0
+offset_right = 1360.0
+offset_bottom = 32.0
+mouse_filter = 2
+color = Color(0.341176, 0.419608, 0.439216, 1)
+
+[node name="LaminaTecho001" type="ColorRect" parent="02_VigasYTecho" unique_id=160667273]
+offset_top = 40.0
+offset_right = 1360.0
+offset_bottom = 64.0
+mouse_filter = 2
+color = Color(0.156863, 0.231373, 0.266667, 1)
+
+[node name="LaminaBrillo001" type="ColorRect" parent="02_VigasYTecho" unique_id=558942337]
+offset_top = 40.0
+offset_right = 1360.0
+offset_bottom = 42.0
+mouse_filter = 2
+color = Color(0.478431, 0.580392, 0.564706, 0.266667)
+
+[node name="VigaHorizontal001" type="ColorRect" parent="02_VigasYTecho" unique_id=1210504095]
+offset_top = 111.0
+offset_right = 1360.0
+offset_bottom = 125.0
+mouse_filter = 2
+color = Color(0.086275, 0.160784, 0.2, 1)
+
+[node name="VigaMetalica001" type="ColorRect" parent="02_VigasYTecho" unique_id=120704712]
+offset_top = 120.0
+offset_right = 1360.0
+offset_bottom = 125.0
+mouse_filter = 2
+color = Color(0.380392, 0.478431, 0.501961, 1)
+
+[node name="VigaHorizontal002" type="ColorRect" parent="02_VigasYTecho" unique_id=243203255]
+offset_top = 126.0
+offset_right = 1360.0
+offset_bottom = 132.0
+mouse_filter = 2
+color = Color(0.082353, 0.141176, 0.172549, 1)
+
+[node name="SombraPilar001" type="ColorRect" parent="02_VigasYTecho" unique_id=133851588]
+offset_left = 10.0
+offset_top = 94.0
+offset_right = 41.0
+offset_bottom = 545.0
+mouse_filter = 2
+color = Color(0.090196, 0.160784, 0.2, 0.6)
+
+[node name="Pilar001" type="ColorRect" parent="02_VigasYTecho" unique_id=766446082]
+offset_left = 18.0
+offset_top = 106.0
+offset_right = 35.0
+offset_bottom = 531.0
+mouse_filter = 2
+color = Color(0.254902, 0.341176, 0.376471, 1)
+
+[node name="PilarLuz001" type="ColorRect" parent="02_VigasYTecho" unique_id=475730967]
+offset_left = 20.0
+offset_top = 106.0
+offset_right = 24.0
+offset_bottom = 526.0
+mouse_filter = 2
+color = Color(0.396078, 0.478431, 0.478431, 1)
+
+[node name="PilarBorde001" type="ColorRect" parent="02_VigasYTecho" unique_id=1489758015]
+offset_left = 33.0
+offset_top = 106.0
+offset_right = 37.0
+offset_bottom = 526.0
+mouse_filter = 2
+color = Color(0.109804, 0.2, 0.235294, 1)
+
+[node name="RivetShadow089" type="ColorRect" parent="02_VigasYTecho" unique_id=2130407085]
+offset_left = 22.0
+offset_top = 141.0
+offset_right = 28.0
+offset_bottom = 147.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet089" type="ColorRect" parent="02_VigasYTecho" unique_id=1730300877]
+offset_left = 24.0
+offset_top = 142.0
+offset_right = 27.0
+offset_bottom = 145.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow090" type="ColorRect" parent="02_VigasYTecho" unique_id=1642813430]
+offset_left = 22.0
+offset_top = 275.0
+offset_right = 28.0
+offset_bottom = 281.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet090" type="ColorRect" parent="02_VigasYTecho" unique_id=1747105720]
+offset_left = 24.0
+offset_top = 276.0
+offset_right = 27.0
+offset_bottom = 279.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow091" type="ColorRect" parent="02_VigasYTecho" unique_id=164669683]
+offset_left = 22.0
+offset_top = 409.0
+offset_right = 28.0
+offset_bottom = 415.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet091" type="ColorRect" parent="02_VigasYTecho" unique_id=1832528887]
+offset_left = 24.0
+offset_top = 410.0
+offset_right = 27.0
+offset_bottom = 413.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow092" type="ColorRect" parent="02_VigasYTecho" unique_id=1304486944]
+offset_left = 22.0
+offset_top = 525.0
+offset_right = 28.0
+offset_bottom = 531.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet092" type="ColorRect" parent="02_VigasYTecho" unique_id=640380237]
+offset_left = 24.0
+offset_top = 526.0
+offset_right = 27.0
+offset_bottom = 529.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RefuerzoPilar001" type="ColorRect" parent="02_VigasYTecho" unique_id=542277626]
+offset_left = 14.0
+offset_top = 112.0
+offset_right = 40.0
+offset_bottom = 126.0
+mouse_filter = 2
+color = Color(0.388235, 0.482353, 0.498039, 1)
+
+[node name="SombraRefuerzo001" type="ColorRect" parent="02_VigasYTecho" unique_id=650560219]
+offset_left = 14.0
+offset_top = 125.0
+offset_right = 40.0
+offset_bottom = 128.0
+mouse_filter = 2
+color = Color(0.141176, 0.231373, 0.266667, 1)
+
+[node name="SombraPilar002" type="ColorRect" parent="02_VigasYTecho" unique_id=939999228]
+offset_left = 336.0
+offset_top = 94.0
+offset_right = 367.0
+offset_bottom = 545.0
+mouse_filter = 2
+color = Color(0.090196, 0.160784, 0.2, 0.6)
+
+[node name="Pilar002" type="ColorRect" parent="02_VigasYTecho" unique_id=375545409]
+offset_left = 344.0
+offset_top = 106.0
+offset_right = 361.0
+offset_bottom = 531.0
+mouse_filter = 2
+color = Color(0.254902, 0.341176, 0.376471, 1)
+
+[node name="PilarLuz002" type="ColorRect" parent="02_VigasYTecho" unique_id=1387928464]
+offset_left = 346.0
+offset_top = 106.0
+offset_right = 350.0
+offset_bottom = 526.0
+mouse_filter = 2
+color = Color(0.396078, 0.478431, 0.478431, 1)
+
+[node name="PilarBorde002" type="ColorRect" parent="02_VigasYTecho" unique_id=486978033]
+offset_left = 359.0
+offset_top = 106.0
+offset_right = 363.0
+offset_bottom = 526.0
+mouse_filter = 2
+color = Color(0.109804, 0.2, 0.235294, 1)
+
+[node name="RivetShadow093" type="ColorRect" parent="02_VigasYTecho" unique_id=1651466974]
+offset_left = 348.0
+offset_top = 141.0
+offset_right = 354.0
+offset_bottom = 147.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet093" type="ColorRect" parent="02_VigasYTecho" unique_id=1513174581]
+offset_left = 350.0
+offset_top = 142.0
+offset_right = 353.0
+offset_bottom = 145.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow094" type="ColorRect" parent="02_VigasYTecho" unique_id=1350687356]
+offset_left = 348.0
+offset_top = 275.0
+offset_right = 354.0
+offset_bottom = 281.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet094" type="ColorRect" parent="02_VigasYTecho" unique_id=907957737]
+offset_left = 350.0
+offset_top = 276.0
+offset_right = 353.0
+offset_bottom = 279.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow095" type="ColorRect" parent="02_VigasYTecho" unique_id=888515430]
+offset_left = 348.0
+offset_top = 409.0
+offset_right = 354.0
+offset_bottom = 415.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet095" type="ColorRect" parent="02_VigasYTecho" unique_id=923888800]
+offset_left = 350.0
+offset_top = 410.0
+offset_right = 353.0
+offset_bottom = 413.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow096" type="ColorRect" parent="02_VigasYTecho" unique_id=1181974255]
+offset_left = 348.0
+offset_top = 525.0
+offset_right = 354.0
+offset_bottom = 531.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet096" type="ColorRect" parent="02_VigasYTecho" unique_id=1874258537]
+offset_left = 350.0
+offset_top = 526.0
+offset_right = 353.0
+offset_bottom = 529.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RefuerzoPilar002" type="ColorRect" parent="02_VigasYTecho" unique_id=1499250471]
+offset_left = 340.0
+offset_top = 112.0
+offset_right = 366.0
+offset_bottom = 126.0
+mouse_filter = 2
+color = Color(0.388235, 0.482353, 0.498039, 1)
+
+[node name="SombraRefuerzo002" type="ColorRect" parent="02_VigasYTecho" unique_id=619762140]
+offset_left = 340.0
+offset_top = 125.0
+offset_right = 366.0
+offset_bottom = 128.0
+mouse_filter = 2
+color = Color(0.141176, 0.231373, 0.266667, 1)
+
+[node name="SombraPilar003" type="ColorRect" parent="02_VigasYTecho" unique_id=168590784]
+offset_left = 668.0
+offset_top = 94.0
+offset_right = 699.0
+offset_bottom = 545.0
+mouse_filter = 2
+color = Color(0.090196, 0.160784, 0.2, 0.6)
+
+[node name="Pilar003" type="ColorRect" parent="02_VigasYTecho" unique_id=650761020]
+offset_left = 676.0
+offset_top = 106.0
+offset_right = 693.0
+offset_bottom = 531.0
+mouse_filter = 2
+color = Color(0.254902, 0.341176, 0.376471, 1)
+
+[node name="PilarLuz003" type="ColorRect" parent="02_VigasYTecho" unique_id=1240326612]
+offset_left = 678.0
+offset_top = 106.0
+offset_right = 682.0
+offset_bottom = 526.0
+mouse_filter = 2
+color = Color(0.396078, 0.478431, 0.478431, 1)
+
+[node name="PilarBorde003" type="ColorRect" parent="02_VigasYTecho" unique_id=432449711]
+offset_left = 691.0
+offset_top = 106.0
+offset_right = 695.0
+offset_bottom = 526.0
+mouse_filter = 2
+color = Color(0.109804, 0.2, 0.235294, 1)
+
+[node name="RivetShadow097" type="ColorRect" parent="02_VigasYTecho" unique_id=255675154]
+offset_left = 680.0
+offset_top = 141.0
+offset_right = 686.0
+offset_bottom = 147.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet097" type="ColorRect" parent="02_VigasYTecho" unique_id=2077863050]
+offset_left = 682.0
+offset_top = 142.0
+offset_right = 685.0
+offset_bottom = 145.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow098" type="ColorRect" parent="02_VigasYTecho" unique_id=572736747]
+offset_left = 680.0
+offset_top = 275.0
+offset_right = 686.0
+offset_bottom = 281.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet098" type="ColorRect" parent="02_VigasYTecho" unique_id=130386329]
+offset_left = 682.0
+offset_top = 276.0
+offset_right = 685.0
+offset_bottom = 279.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow099" type="ColorRect" parent="02_VigasYTecho" unique_id=1597155995]
+offset_left = 680.0
+offset_top = 409.0
+offset_right = 686.0
+offset_bottom = 415.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet099" type="ColorRect" parent="02_VigasYTecho" unique_id=268183349]
+offset_left = 682.0
+offset_top = 410.0
+offset_right = 685.0
+offset_bottom = 413.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow100" type="ColorRect" parent="02_VigasYTecho" unique_id=2068667923]
+offset_left = 680.0
+offset_top = 525.0
+offset_right = 686.0
+offset_bottom = 531.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet100" type="ColorRect" parent="02_VigasYTecho" unique_id=685707713]
+offset_left = 682.0
+offset_top = 526.0
+offset_right = 685.0
+offset_bottom = 529.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RefuerzoPilar003" type="ColorRect" parent="02_VigasYTecho" unique_id=1489681064]
+offset_left = 672.0
+offset_top = 112.0
+offset_right = 698.0
+offset_bottom = 126.0
+mouse_filter = 2
+color = Color(0.388235, 0.482353, 0.498039, 1)
+
+[node name="SombraRefuerzo003" type="ColorRect" parent="02_VigasYTecho" unique_id=1690594694]
+offset_left = 672.0
+offset_top = 125.0
+offset_right = 698.0
+offset_bottom = 128.0
+mouse_filter = 2
+color = Color(0.141176, 0.231373, 0.266667, 1)
+
+[node name="SombraPilar004" type="ColorRect" parent="02_VigasYTecho" unique_id=631721890]
+offset_left = 1001.0
+offset_top = 94.0
+offset_right = 1032.0
+offset_bottom = 545.0
+mouse_filter = 2
+color = Color(0.090196, 0.160784, 0.2, 0.6)
+
+[node name="Pilar004" type="ColorRect" parent="02_VigasYTecho" unique_id=1853904132]
+offset_left = 1009.0
+offset_top = 106.0
+offset_right = 1026.0
+offset_bottom = 531.0
+mouse_filter = 2
+color = Color(0.254902, 0.341176, 0.376471, 1)
+
+[node name="PilarLuz004" type="ColorRect" parent="02_VigasYTecho" unique_id=374915983]
+offset_left = 1011.0
+offset_top = 106.0
+offset_right = 1015.0
+offset_bottom = 526.0
+mouse_filter = 2
+color = Color(0.396078, 0.478431, 0.478431, 1)
+
+[node name="PilarBorde004" type="ColorRect" parent="02_VigasYTecho" unique_id=569298785]
+offset_left = 1024.0
+offset_top = 106.0
+offset_right = 1028.0
+offset_bottom = 526.0
+mouse_filter = 2
+color = Color(0.109804, 0.2, 0.235294, 1)
+
+[node name="RivetShadow101" type="ColorRect" parent="02_VigasYTecho" unique_id=1235242201]
+offset_left = 1013.0
+offset_top = 141.0
+offset_right = 1019.0
+offset_bottom = 147.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet101" type="ColorRect" parent="02_VigasYTecho" unique_id=2094746026]
+offset_left = 1015.0
+offset_top = 142.0
+offset_right = 1018.0
+offset_bottom = 145.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow102" type="ColorRect" parent="02_VigasYTecho" unique_id=1097850589]
+offset_left = 1013.0
+offset_top = 275.0
+offset_right = 1019.0
+offset_bottom = 281.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet102" type="ColorRect" parent="02_VigasYTecho" unique_id=567804219]
+offset_left = 1015.0
+offset_top = 276.0
+offset_right = 1018.0
+offset_bottom = 279.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow103" type="ColorRect" parent="02_VigasYTecho" unique_id=220327707]
+offset_left = 1013.0
+offset_top = 409.0
+offset_right = 1019.0
+offset_bottom = 415.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet103" type="ColorRect" parent="02_VigasYTecho" unique_id=1734758538]
+offset_left = 1015.0
+offset_top = 410.0
+offset_right = 1018.0
+offset_bottom = 413.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow104" type="ColorRect" parent="02_VigasYTecho" unique_id=1888752316]
+offset_left = 1013.0
+offset_top = 525.0
+offset_right = 1019.0
+offset_bottom = 531.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet104" type="ColorRect" parent="02_VigasYTecho" unique_id=733230433]
+offset_left = 1015.0
+offset_top = 526.0
+offset_right = 1018.0
+offset_bottom = 529.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RefuerzoPilar004" type="ColorRect" parent="02_VigasYTecho" unique_id=1931457053]
+offset_left = 1005.0
+offset_top = 112.0
+offset_right = 1031.0
+offset_bottom = 126.0
+mouse_filter = 2
+color = Color(0.388235, 0.482353, 0.498039, 1)
+
+[node name="SombraRefuerzo004" type="ColorRect" parent="02_VigasYTecho" unique_id=618793369]
+offset_left = 1005.0
+offset_top = 125.0
+offset_right = 1031.0
+offset_bottom = 128.0
+mouse_filter = 2
+color = Color(0.141176, 0.231373, 0.266667, 1)
+
+[node name="SombraPilar005" type="ColorRect" parent="02_VigasYTecho" unique_id=530556746]
+offset_left = 1324.0
+offset_top = 94.0
+offset_right = 1355.0
+offset_bottom = 545.0
+mouse_filter = 2
+color = Color(0.090196, 0.160784, 0.2, 0.6)
+
+[node name="Pilar005" type="ColorRect" parent="02_VigasYTecho" unique_id=1809122715]
+offset_left = 1332.0
+offset_top = 106.0
+offset_right = 1349.0
+offset_bottom = 531.0
+mouse_filter = 2
+color = Color(0.254902, 0.341176, 0.376471, 1)
+
+[node name="PilarLuz005" type="ColorRect" parent="02_VigasYTecho" unique_id=1015042852]
+offset_left = 1334.0
+offset_top = 106.0
+offset_right = 1338.0
+offset_bottom = 526.0
+mouse_filter = 2
+color = Color(0.396078, 0.478431, 0.478431, 1)
+
+[node name="PilarBorde005" type="ColorRect" parent="02_VigasYTecho" unique_id=422464281]
+offset_left = 1347.0
+offset_top = 106.0
+offset_right = 1351.0
+offset_bottom = 526.0
+mouse_filter = 2
+color = Color(0.109804, 0.2, 0.235294, 1)
+
+[node name="RivetShadow105" type="ColorRect" parent="02_VigasYTecho" unique_id=1876913770]
+offset_left = 1336.0
+offset_top = 141.0
+offset_right = 1342.0
+offset_bottom = 147.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet105" type="ColorRect" parent="02_VigasYTecho" unique_id=1475590312]
+offset_left = 1338.0
+offset_top = 142.0
+offset_right = 1341.0
+offset_bottom = 145.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow106" type="ColorRect" parent="02_VigasYTecho" unique_id=1626801173]
+offset_left = 1336.0
+offset_top = 275.0
+offset_right = 1342.0
+offset_bottom = 281.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet106" type="ColorRect" parent="02_VigasYTecho" unique_id=288270522]
+offset_left = 1338.0
+offset_top = 276.0
+offset_right = 1341.0
+offset_bottom = 279.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow107" type="ColorRect" parent="02_VigasYTecho" unique_id=405855306]
+offset_left = 1336.0
+offset_top = 409.0
+offset_right = 1342.0
+offset_bottom = 415.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet107" type="ColorRect" parent="02_VigasYTecho" unique_id=873482266]
+offset_left = 1338.0
+offset_top = 410.0
+offset_right = 1341.0
+offset_bottom = 413.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow108" type="ColorRect" parent="02_VigasYTecho" unique_id=663904164]
+offset_left = 1336.0
+offset_top = 525.0
+offset_right = 1342.0
+offset_bottom = 531.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet108" type="ColorRect" parent="02_VigasYTecho" unique_id=798156042]
+offset_left = 1338.0
+offset_top = 526.0
+offset_right = 1341.0
+offset_bottom = 529.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RefuerzoPilar005" type="ColorRect" parent="02_VigasYTecho" unique_id=728566225]
+offset_left = 1328.0
+offset_top = 112.0
+offset_right = 1354.0
+offset_bottom = 126.0
+mouse_filter = 2
+color = Color(0.388235, 0.482353, 0.498039, 1)
+
+[node name="SombraRefuerzo005" type="ColorRect" parent="02_VigasYTecho" unique_id=430308939]
+offset_left = 1328.0
+offset_top = 125.0
+offset_right = 1354.0
+offset_bottom = 128.0
+mouse_filter = 2
+color = Color(0.141176, 0.231373, 0.266667, 1)
+
+[node name="03_CablesYTuberias" type="Node2D" parent="." unique_id=174811703]
+
+[node name="TuboSuperior001" type="Line2D" parent="03_CablesYTuberias" unique_id=143325886]
+points = PackedVector2Array(0, 79, 270, 79, 285, 93, 461, 93, 485, 79, 820, 79, 841, 90, 1360, 90)
+width = 11.0
+default_color = Color(0.086275, 0.160784, 0.2, 1)
+antialiased = true
+
+[node name="TuboBordeLuz001" type="Line2D" parent="03_CablesYTuberias" unique_id=452506592]
+points = PackedVector2Array(0, 76, 270, 76, 285, 90, 461, 90, 485, 76, 820, 76, 841, 87, 1360, 87)
+width = 3.0
+default_color = Color(0.443137, 0.545098, 0.513725, 1)
+antialiased = true
+
+[node name="CableSeñal001" type="Line2D" parent="03_CablesYTuberias" unique_id=1619296811]
+points = PackedVector2Array(1, 101, 223, 101, 249, 112, 630, 112, 651, 103, 1005, 103, 1032, 113, 1359, 113)
+width = 2.0
+default_color = Color(0.34902, 0.482353, 0.47451, 1)
+antialiased = true
+
+[node name="TuboIzquierdo001" type="Line2D" parent="03_CablesYTuberias" unique_id=1262149936]
+points = PackedVector2Array(45, 152, 45, 218, 78, 218, 78, 472)
+default_color = Color(0.105882, 0.207843, 0.243137, 1)
+antialiased = true
+
+[node name="TuboIzquierdoBrillo001" type="Line2D" parent="03_CablesYTuberias" unique_id=1670643404]
+points = PackedVector2Array(43, 152, 43, 218, 76, 218, 76, 472)
+width = 2.0
+default_color = Color(0.407843, 0.521569, 0.513725, 1)
+antialiased = true
+
+[node name="TuboDerecho001" type="Line2D" parent="03_CablesYTuberias" unique_id=723758521]
+points = PackedVector2Array(1314, 150, 1314, 214, 1286, 214, 1286, 462)
+width = 12.0
+default_color = Color(0.078431, 0.168627, 0.207843, 1)
+antialiased = true
+
+[node name="TuboDerechoBrillo001" type="Line2D" parent="03_CablesYTuberias" unique_id=341891725]
+points = PackedVector2Array(1310, 150, 1310, 214, 1282, 214, 1282, 462)
+width = 3.0
+default_color = Color(0.388235, 0.513725, 0.498039, 1)
+antialiased = true
+
+[node name="AbrazaderaSombra001" type="ColorRect" parent="03_CablesYTuberias" unique_id=1731702230]
+offset_left = 34.0
+offset_top = 185.0
+offset_right = 60.0
+offset_bottom = 197.0
+mouse_filter = 2
+color = Color(0.078431, 0.156863, 0.196078, 1)
+
+[node name="Abrazadera001" type="ColorRect" parent="03_CablesYTuberias" unique_id=506423316]
+offset_left = 35.0
+offset_top = 186.0
+offset_right = 59.0
+offset_bottom = 193.0
+mouse_filter = 2
+color = Color(0.419608, 0.505882, 0.513725, 1)
+
+[node name="AbrazaderaSombra002" type="ColorRect" parent="03_CablesYTuberias" unique_id=926570953]
+offset_left = 64.0
+offset_top = 304.0
+offset_right = 90.0
+offset_bottom = 316.0
+mouse_filter = 2
+color = Color(0.078431, 0.156863, 0.196078, 1)
+
+[node name="Abrazadera002" type="ColorRect" parent="03_CablesYTuberias" unique_id=821240342]
+offset_left = 65.0
+offset_top = 305.0
+offset_right = 89.0
+offset_bottom = 312.0
+mouse_filter = 2
+color = Color(0.419608, 0.505882, 0.513725, 1)
+
+[node name="AbrazaderaSombra003" type="ColorRect" parent="03_CablesYTuberias" unique_id=1748013451]
+offset_left = 1274.0
+offset_top = 297.0
+offset_right = 1300.0
+offset_bottom = 309.0
+mouse_filter = 2
+color = Color(0.078431, 0.156863, 0.196078, 1)
+
+[node name="Abrazadera003" type="ColorRect" parent="03_CablesYTuberias" unique_id=1994106152]
+offset_left = 1275.0
+offset_top = 298.0
+offset_right = 1299.0
+offset_bottom = 305.0
+mouse_filter = 2
+color = Color(0.419608, 0.505882, 0.513725, 1)
+
+[node name="AbrazaderaSombra004" type="ColorRect" parent="03_CablesYTuberias" unique_id=1102015118]
+offset_left = 1302.0
+offset_top = 184.0
+offset_right = 1328.0
+offset_bottom = 196.0
+mouse_filter = 2
+color = Color(0.078431, 0.156863, 0.196078, 1)
+
+[node name="Abrazadera004" type="ColorRect" parent="03_CablesYTuberias" unique_id=20284718]
+offset_left = 1303.0
+offset_top = 185.0
+offset_right = 1327.0
+offset_bottom = 192.0
+mouse_filter = 2
+color = Color(0.419608, 0.505882, 0.513725, 1)
+
+[node name="04_CuadrosDePared" type="Node2D" parent="." unique_id=830289575]
+
+[node name="PanelSenalOscuro001" type="ColorRect" parent="04_CuadrosDePared" unique_id=1692304187]
+offset_left = 100.0
+offset_top = 167.0
+offset_right = 340.0
+offset_bottom = 266.0
+mouse_filter = 2
+color = Color(0.113725, 0.188235, 0.219608, 1)
+
+[node name="PanelSenalMetal001" type="ColorRect" parent="04_CuadrosDePared" unique_id=1130771091]
+offset_left = 107.0
+offset_top = 174.0
+offset_right = 333.0
+offset_bottom = 258.0
+mouse_filter = 2
+color = Color(0.258824, 0.380392, 0.4, 1)
+
+[node name="FranjaLetrero001" type="ColorRect" parent="04_CuadrosDePared" unique_id=1308937676]
+offset_left = 113.0
+offset_top = 180.0
+offset_right = 327.0
+offset_bottom = 186.0
+mouse_filter = 2
+color = Color(0.486275, 0.635294, 0.560784, 1)
+
+[node name="Letrero001" type="Label" parent="04_CuadrosDePared" unique_id=1999098622]
+offset_left = 116.0
+offset_top = 188.0
+offset_right = 326.0
+offset_bottom = 212.0
+theme_override_colors/font_color = Color(0.862745, 0.901961, 0.823529, 1)
+theme_override_font_sizes/font_size = 14
+text = "REFUGIO  /  SECTOR 07"
+
+[node name="SubLetrero001" type="Label" parent="04_CuadrosDePared" unique_id=300482053]
+offset_left = 116.0
+offset_top = 220.0
+offset_right = 328.0
+offset_bottom = 240.0
+theme_override_colors/font_color = Color(0.694118, 0.8, 0.74902, 1)
+theme_override_font_sizes/font_size = 11
+text = "ACCESO A SUMINISTROS"
+
+[node name="RivetShadow109" type="ColorRect" parent="04_CuadrosDePared" unique_id=1880920906]
+offset_left = 106.0
+offset_top = 175.0
+offset_right = 112.0
+offset_bottom = 181.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet109" type="ColorRect" parent="04_CuadrosDePared" unique_id=1748226173]
+offset_left = 108.0
+offset_top = 176.0
+offset_right = 111.0
+offset_bottom = 179.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow110" type="ColorRect" parent="04_CuadrosDePared" unique_id=236628929]
+offset_left = 106.0
+offset_top = 250.0
+offset_right = 112.0
+offset_bottom = 256.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet110" type="ColorRect" parent="04_CuadrosDePared" unique_id=584670829]
+offset_left = 108.0
+offset_top = 251.0
+offset_right = 111.0
+offset_bottom = 254.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow111" type="ColorRect" parent="04_CuadrosDePared" unique_id=516867377]
+offset_left = 322.0
+offset_top = 175.0
+offset_right = 328.0
+offset_bottom = 181.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet111" type="ColorRect" parent="04_CuadrosDePared" unique_id=1758469062]
+offset_left = 324.0
+offset_top = 176.0
+offset_right = 327.0
+offset_bottom = 179.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow112" type="ColorRect" parent="04_CuadrosDePared" unique_id=2029407171]
+offset_left = 322.0
+offset_top = 250.0
+offset_right = 328.0
+offset_bottom = 256.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet112" type="ColorRect" parent="04_CuadrosDePared" unique_id=1701894256]
+offset_left = 324.0
+offset_top = 251.0
+offset_right = 327.0
+offset_bottom = 254.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="TableroMarco001" type="ColorRect" parent="04_CuadrosDePared" unique_id=853321041]
+offset_left = 133.0
+offset_top = 310.0
+offset_right = 295.0
+offset_bottom = 431.0
+mouse_filter = 2
+color = Color(0.109804, 0.184314, 0.215686, 1)
+
+[node name="TableroInterior001" type="ColorRect" parent="04_CuadrosDePared" unique_id=2137930721]
+offset_left = 140.0
+offset_top = 318.0
+offset_right = 288.0
+offset_bottom = 423.0
+mouse_filter = 2
+color = Color(0.298039, 0.352941, 0.352941, 1)
+
+[node name="PapelAviso001" type="ColorRect" parent="04_CuadrosDePared" unique_id=363180251]
+offset_left = 149.0
+offset_top = 328.0
+offset_right = 216.0
+offset_bottom = 404.0
+mouse_filter = 2
+color = Color(0.686275, 0.705882, 0.635294, 1)
+
+[node name="PapelAviso002" type="ColorRect" parent="04_CuadrosDePared" unique_id=1179721400]
+offset_left = 221.0
+offset_top = 332.0
+offset_right = 279.0
+offset_bottom = 384.0
+mouse_filter = 2
+color = Color(0.631373, 0.678431, 0.611765, 1)
+
+[node name="RenglonesAviso001" type="ColorRect" parent="04_CuadrosDePared" unique_id=1040397302]
+offset_left = 158.0
+offset_top = 345.0
+offset_right = 206.0
+offset_bottom = 348.0
+mouse_filter = 2
+color = Color(0.439216, 0.541176, 0.517647, 1)
+
+[node name="RenglonesAviso002" type="ColorRect" parent="04_CuadrosDePared" unique_id=1632862271]
+offset_left = 158.0
+offset_top = 356.0
+offset_right = 206.0
+offset_bottom = 359.0
+mouse_filter = 2
+color = Color(0.439216, 0.541176, 0.517647, 1)
+
+[node name="RenglonesAviso003" type="ColorRect" parent="04_CuadrosDePared" unique_id=543403435]
+offset_left = 158.0
+offset_top = 367.0
+offset_right = 206.0
+offset_bottom = 370.0
+mouse_filter = 2
+color = Color(0.439216, 0.541176, 0.517647, 1)
+
+[node name="RenglonesAviso004" type="ColorRect" parent="04_CuadrosDePared" unique_id=73245612]
+offset_left = 158.0
+offset_top = 381.0
+offset_right = 206.0
+offset_bottom = 384.0
+mouse_filter = 2
+color = Color(0.439216, 0.541176, 0.517647, 1)
+
+[node name="RenglonesAviso005" type="ColorRect" parent="04_CuadrosDePared" unique_id=1451011752]
+offset_left = 227.0
+offset_top = 347.0
+offset_right = 271.0
+offset_bottom = 350.0
+mouse_filter = 2
+color = Color(0.439216, 0.541176, 0.517647, 1)
+
+[node name="RenglonesAviso006" type="ColorRect" parent="04_CuadrosDePared" unique_id=46104566]
+offset_left = 227.0
+offset_top = 358.0
+offset_right = 271.0
+offset_bottom = 361.0
+mouse_filter = 2
+color = Color(0.439216, 0.541176, 0.517647, 1)
+
+[node name="RenglonesAviso007" type="ColorRect" parent="04_CuadrosDePared" unique_id=781007986]
+offset_left = 227.0
+offset_top = 369.0
+offset_right = 271.0
+offset_bottom = 372.0
+mouse_filter = 2
+color = Color(0.439216, 0.541176, 0.517647, 1)
+
+[node name="Chincheta001" type="ColorRect" parent="04_CuadrosDePared" unique_id=182054714]
+offset_left = 180.0
+offset_top = 326.0
+offset_right = 185.0
+offset_bottom = 331.0
+mouse_filter = 2
+color = Color(0.827451, 0.682353, 0.4, 1)
+
+[node name="Chincheta002" type="ColorRect" parent="04_CuadrosDePared" unique_id=706044402]
+offset_left = 250.0
+offset_top = 330.0
+offset_right = 255.0
+offset_bottom = 335.0
+mouse_filter = 2
+color = Color(0.827451, 0.682353, 0.4, 1)
+
+[node name="MarcoInvestigacion001" type="ColorRect" parent="04_CuadrosDePared" unique_id=512890303]
+offset_left = 418.0
+offset_top = 158.0
+offset_right = 920.0
+offset_bottom = 206.0
+mouse_filter = 2
+color = Color(0.094118, 0.172549, 0.203922, 1)
+
+[node name="BarraSenal001" type="ColorRect" parent="04_CuadrosDePared" unique_id=468435164]
+offset_left = 423.0
+offset_top = 162.0
+offset_right = 914.0
+offset_bottom = 201.0
+mouse_filter = 2
+color = Color(0.152941, 0.301961, 0.313725, 1)
+
+[node name="AcentoSenal001" type="ColorRect" parent="04_CuadrosDePared" unique_id=2022706449]
+offset_left = 423.0
+offset_top = 163.0
+offset_right = 430.0
+offset_bottom = 200.0
+mouse_filter = 2
+color = Color(0.513725, 0.776471, 0.647059, 1)
+
+[node name="LetreroLab001" type="Label" parent="04_CuadrosDePared" unique_id=1993761231]
+offset_left = 445.0
+offset_top = 165.0
+offset_right = 895.0
+offset_bottom = 190.0
+theme_override_colors/font_color = Color(0.870588, 0.956863, 0.87451, 1)
+theme_override_font_sizes/font_size = 21
+text = "PUESTO DE INVESTIGACIÓN"
+horizontal_alignment = 1
+
+[node name="SubtituloLab001" type="Label" parent="04_CuadrosDePared" unique_id=593435936]
+offset_left = 447.0
+offset_top = 190.0
+offset_right = 892.0
+offset_bottom = 206.0
+theme_override_colors/font_color = Color(0.576471, 0.733333, 0.670588, 1)
+theme_override_font_sizes/font_size = 10
+text = "PROYECTO EDÉN  //  ANÁLISIS E-01"
+horizontal_alignment = 1
+
+[node name="PanelMedico001" type="ColorRect" parent="04_CuadrosDePared" unique_id=1526907020]
+offset_left = 1086.0
+offset_top = 175.0
+offset_right = 1261.0
+offset_bottom = 249.0
+mouse_filter = 2
+color = Color(0.094118, 0.176471, 0.215686, 1)
+
+[node name="PanelMedicoInterior001" type="ColorRect" parent="04_CuadrosDePared" unique_id=73472956]
+offset_left = 1092.0
+offset_top = 181.0
+offset_right = 1255.0
+offset_bottom = 243.0
+mouse_filter = 2
+color = Color(0.25098, 0.364706, 0.384314, 1)
+
+[node name="CruzMedVertical001" type="ColorRect" parent="04_CuadrosDePared" unique_id=1156151055]
+offset_left = 1109.0
+offset_top = 188.0
+offset_right = 1121.0
+offset_bottom = 224.0
+mouse_filter = 2
+color = Color(0.615686, 0.901961, 0.764706, 1)
+
+[node name="CruzMedHorizontal001" type="ColorRect" parent="04_CuadrosDePared" unique_id=1492351914]
+offset_left = 1098.0
+offset_top = 200.0
+offset_right = 1132.0
+offset_bottom = 212.0
+mouse_filter = 2
+color = Color(0.615686, 0.901961, 0.764706, 1)
+
+[node name="TituloMed001" type="Label" parent="04_CuadrosDePared" unique_id=1136414921]
+offset_left = 1145.0
+offset_top = 190.0
+offset_right = 1245.0
+offset_bottom = 210.0
+theme_override_colors/font_color = Color(0.898039, 0.945098, 0.886275, 1)
+theme_override_font_sizes/font_size = 14
+text = "MED BAY"
+
+[node name="SubMed001" type="Label" parent="04_CuadrosDePared" unique_id=475933701]
+offset_left = 1145.0
+offset_top = 216.0
+offset_right = 1250.0
+offset_bottom = 228.0
+theme_override_colors/font_color = Color(0.662745, 0.792157, 0.764706, 1)
+theme_override_font_sizes/font_size = 10
+text = "ZONA MÉDICA"
+
+[node name="TapaderaAcero001" type="ColorRect" parent="04_CuadrosDePared" unique_id=2069637063]
+offset_left = 358.0
+offset_top = 323.0
+offset_right = 402.0
+offset_bottom = 401.0
+mouse_filter = 2
+color = Color(0.14902, 0.247059, 0.282353, 1)
+
+[node name="TapaderaBorde001" type="ColorRect" parent="04_CuadrosDePared" unique_id=1222821140]
+offset_left = 362.0
+offset_top = 328.0
+offset_right = 397.0
+offset_bottom = 394.0
+mouse_filter = 2
+color = Color(0.278431, 0.380392, 0.415686, 1)
+
+[node name="TapaderaBorde002" type="ColorRect" parent="04_CuadrosDePared" unique_id=771935449]
+offset_left = 367.0
+offset_top = 335.0
+offset_right = 392.0
+offset_bottom = 383.0
+mouse_filter = 2
+color = Color(0.168627, 0.290196, 0.313725, 1)
+
+[node name="RivetShadow113" type="ColorRect" parent="04_CuadrosDePared" unique_id=1616964385]
+offset_left = 363.0
+offset_top = 333.0
+offset_right = 369.0
+offset_bottom = 339.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet113" type="ColorRect" parent="04_CuadrosDePared" unique_id=469542735]
+offset_left = 365.0
+offset_top = 334.0
+offset_right = 368.0
+offset_bottom = 337.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow114" type="ColorRect" parent="04_CuadrosDePared" unique_id=586995769]
+offset_left = 392.0
+offset_top = 333.0
+offset_right = 398.0
+offset_bottom = 339.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet114" type="ColorRect" parent="04_CuadrosDePared" unique_id=482067083]
+offset_left = 394.0
+offset_top = 334.0
+offset_right = 397.0
+offset_bottom = 337.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow115" type="ColorRect" parent="04_CuadrosDePared" unique_id=214162617]
+offset_left = 363.0
+offset_top = 381.0
+offset_right = 369.0
+offset_bottom = 387.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet115" type="ColorRect" parent="04_CuadrosDePared" unique_id=944555713]
+offset_left = 365.0
+offset_top = 382.0
+offset_right = 368.0
+offset_bottom = 385.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow116" type="ColorRect" parent="04_CuadrosDePared" unique_id=241426350]
+offset_left = 392.0
+offset_top = 381.0
+offset_right = 398.0
+offset_bottom = 387.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet116" type="ColorRect" parent="04_CuadrosDePared" unique_id=298951587]
+offset_left = 394.0
+offset_top = 382.0
+offset_right = 397.0
+offset_bottom = 385.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="TapaderaAcero002" type="ColorRect" parent="04_CuadrosDePared" unique_id=741548310]
+offset_left = 971.0
+offset_top = 323.0
+offset_right = 1015.0
+offset_bottom = 401.0
+mouse_filter = 2
+color = Color(0.14902, 0.247059, 0.282353, 1)
+
+[node name="TapaderaBorde003" type="ColorRect" parent="04_CuadrosDePared" unique_id=1238433332]
+offset_left = 975.0
+offset_top = 328.0
+offset_right = 1010.0
+offset_bottom = 394.0
+mouse_filter = 2
+color = Color(0.278431, 0.380392, 0.415686, 1)
+
+[node name="TapaderaBorde004" type="ColorRect" parent="04_CuadrosDePared" unique_id=1371398023]
+offset_left = 980.0
+offset_top = 335.0
+offset_right = 1005.0
+offset_bottom = 383.0
+mouse_filter = 2
+color = Color(0.168627, 0.290196, 0.313725, 1)
+
+[node name="RivetShadow117" type="ColorRect" parent="04_CuadrosDePared" unique_id=2067684102]
+offset_left = 976.0
+offset_top = 333.0
+offset_right = 982.0
+offset_bottom = 339.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet117" type="ColorRect" parent="04_CuadrosDePared" unique_id=821970860]
+offset_left = 978.0
+offset_top = 334.0
+offset_right = 981.0
+offset_bottom = 337.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow118" type="ColorRect" parent="04_CuadrosDePared" unique_id=23394593]
+offset_left = 1005.0
+offset_top = 333.0
+offset_right = 1011.0
+offset_bottom = 339.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet118" type="ColorRect" parent="04_CuadrosDePared" unique_id=820320327]
+offset_left = 1007.0
+offset_top = 334.0
+offset_right = 1010.0
+offset_bottom = 337.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow119" type="ColorRect" parent="04_CuadrosDePared" unique_id=554438659]
+offset_left = 976.0
+offset_top = 381.0
+offset_right = 982.0
+offset_bottom = 387.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet119" type="ColorRect" parent="04_CuadrosDePared" unique_id=568551860]
+offset_left = 978.0
+offset_top = 382.0
+offset_right = 981.0
+offset_bottom = 385.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow120" type="ColorRect" parent="04_CuadrosDePared" unique_id=432144960]
+offset_left = 1005.0
+offset_top = 381.0
+offset_right = 1011.0
+offset_bottom = 387.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet120" type="ColorRect" parent="04_CuadrosDePared" unique_id=1884018527]
+offset_left = 1007.0
+offset_top = 382.0
+offset_right = 1010.0
+offset_bottom = 385.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="05_LaboratorioMural" type="Node2D" parent="." unique_id=474544833]
+
+[node name="MonitorSombra001" type="ColorRect" parent="05_LaboratorioMural" unique_id=926808985]
+offset_left = 458.0
+offset_top = 268.0
+offset_right = 878.0
+offset_bottom = 420.0
+mouse_filter = 2
+color = Color(0.113725, 0.192157, 0.227451, 1)
+
+[node name="MonitorMarco001" type="ColorRect" parent="05_LaboratorioMural" unique_id=983646016]
+offset_left = 466.0
+offset_top = 274.0
+offset_right = 868.0
+offset_bottom = 411.0
+mouse_filter = 2
+color = Color(0.403922, 0.501961, 0.517647, 1)
+
+[node name="MonitorInterior001" type="ColorRect" parent="05_LaboratorioMural" unique_id=1537325703]
+offset_left = 472.0
+offset_top = 280.0
+offset_right = 861.0
+offset_bottom = 405.0
+mouse_filter = 2
+color = Color(0.094118, 0.172549, 0.203922, 1)
+
+[node name="PanelMonitor1001" type="ColorRect" parent="05_LaboratorioMural" unique_id=1012132927]
+offset_left = 481.0
+offset_top = 290.0
+offset_right = 707.0
+offset_bottom = 396.0
+mouse_filter = 2
+color = Color(0.070588, 0.156863, 0.188235, 1)
+
+[node name="GrafCuadriculaVertical001" type="ColorRect" parent="05_LaboratorioMural" unique_id=579273369]
+offset_left = 499.0
+offset_top = 297.0
+offset_right = 500.0
+offset_bottom = 389.0
+mouse_filter = 2
+color = Color(0.298039, 0.458824, 0.423529, 0.333333)
+
+[node name="GrafCuadriculaVertical002" type="ColorRect" parent="05_LaboratorioMural" unique_id=484632211]
+offset_left = 524.0
+offset_top = 297.0
+offset_right = 525.0
+offset_bottom = 389.0
+mouse_filter = 2
+color = Color(0.298039, 0.458824, 0.423529, 0.333333)
+
+[node name="GrafCuadriculaVertical003" type="ColorRect" parent="05_LaboratorioMural" unique_id=175837228]
+offset_left = 549.0
+offset_top = 297.0
+offset_right = 550.0
+offset_bottom = 389.0
+mouse_filter = 2
+color = Color(0.298039, 0.458824, 0.423529, 0.333333)
+
+[node name="GrafCuadriculaVertical004" type="ColorRect" parent="05_LaboratorioMural" unique_id=186807996]
+offset_left = 574.0
+offset_top = 297.0
+offset_right = 575.0
+offset_bottom = 389.0
+mouse_filter = 2
+color = Color(0.298039, 0.458824, 0.423529, 0.333333)
+
+[node name="GrafCuadriculaVertical005" type="ColorRect" parent="05_LaboratorioMural" unique_id=739219200]
+offset_left = 599.0
+offset_top = 297.0
+offset_right = 600.0
+offset_bottom = 389.0
+mouse_filter = 2
+color = Color(0.298039, 0.458824, 0.423529, 0.333333)
+
+[node name="GrafCuadriculaVertical006" type="ColorRect" parent="05_LaboratorioMural" unique_id=1921688814]
+offset_left = 624.0
+offset_top = 297.0
+offset_right = 625.0
+offset_bottom = 389.0
+mouse_filter = 2
+color = Color(0.298039, 0.458824, 0.423529, 0.333333)
+
+[node name="GrafCuadriculaVertical007" type="ColorRect" parent="05_LaboratorioMural" unique_id=1843215991]
+offset_left = 649.0
+offset_top = 297.0
+offset_right = 650.0
+offset_bottom = 389.0
+mouse_filter = 2
+color = Color(0.298039, 0.458824, 0.423529, 0.333333)
+
+[node name="GrafCuadriculaVertical008" type="ColorRect" parent="05_LaboratorioMural" unique_id=162407333]
+offset_left = 674.0
+offset_top = 297.0
+offset_right = 675.0
+offset_bottom = 389.0
+mouse_filter = 2
+color = Color(0.298039, 0.458824, 0.423529, 0.333333)
+
+[node name="GrafCuadriculaVertical009" type="ColorRect" parent="05_LaboratorioMural" unique_id=1413307046]
+offset_left = 699.0
+offset_top = 297.0
+offset_right = 700.0
+offset_bottom = 389.0
+mouse_filter = 2
+color = Color(0.298039, 0.458824, 0.423529, 0.333333)
+
+[node name="GrafCuadriculaHorizontal001" type="ColorRect" parent="05_LaboratorioMural" unique_id=1346226994]
+offset_left = 487.0
+offset_top = 308.0
+offset_right = 701.0
+offset_bottom = 309.0
+mouse_filter = 2
+color = Color(0.294118, 0.423529, 0.411765, 0.4)
+
+[node name="GrafCuadriculaHorizontal002" type="ColorRect" parent="05_LaboratorioMural" unique_id=634853558]
+offset_left = 487.0
+offset_top = 329.0
+offset_right = 701.0
+offset_bottom = 330.0
+mouse_filter = 2
+color = Color(0.294118, 0.423529, 0.411765, 0.4)
+
+[node name="GrafCuadriculaHorizontal003" type="ColorRect" parent="05_LaboratorioMural" unique_id=1296704220]
+offset_left = 487.0
+offset_top = 350.0
+offset_right = 701.0
+offset_bottom = 351.0
+mouse_filter = 2
+color = Color(0.294118, 0.423529, 0.411765, 0.4)
+
+[node name="GrafCuadriculaHorizontal004" type="ColorRect" parent="05_LaboratorioMural" unique_id=1558881545]
+offset_left = 487.0
+offset_top = 371.0
+offset_right = 701.0
+offset_bottom = 372.0
+mouse_filter = 2
+color = Color(0.294118, 0.423529, 0.411765, 0.4)
+
+[node name="GrafCuadriculaHorizontal005" type="ColorRect" parent="05_LaboratorioMural" unique_id=433228572]
+offset_left = 487.0
+offset_top = 392.0
+offset_right = 701.0
+offset_bottom = 393.0
+mouse_filter = 2
+color = Color(0.294118, 0.423529, 0.411765, 0.4)
+
+[node name="GrafCurva001" type="Line2D" parent="05_LaboratorioMural" unique_id=1709484961]
+points = PackedVector2Array(489, 363, 514, 357, 539, 369, 567, 351, 594, 340, 620, 347, 647, 322, 675, 320, 699, 306)
+width = 3.0
+default_color = Color(0.498039, 0.909804, 0.709804, 1)
+antialiased = true
+
+[node name="GrafCurva2001" type="Line2D" parent="05_LaboratorioMural" unique_id=710544074]
+points = PackedVector2Array(489, 375, 511, 371, 540, 370, 565, 363, 593, 371, 623, 349, 650, 359, 677, 343, 699, 351)
+width = 1.5
+default_color = Color(0.443137, 0.647059, 0.701961, 1)
+antialiased = true
+
+[node name="E01001" type="Label" parent="05_LaboratorioMural" unique_id=982462162]
+offset_left = 488.0
+offset_top = 289.0
+offset_right = 692.0
+offset_bottom = 305.0
+theme_override_colors/font_color = Color(0.643137, 0.831373, 0.729412, 1)
+theme_override_font_sizes/font_size = 10
+text = "E-01 / LIVE ANALYSIS"
+
+[node name="PanelMonitor2001" type="ColorRect" parent="05_LaboratorioMural" unique_id=653748892]
+offset_left = 714.0
+offset_top = 290.0
+offset_right = 849.0
+offset_bottom = 396.0
+mouse_filter = 2
+color = Color(0.086275, 0.192157, 0.227451, 1)
+
+[node name="E01002" type="Label" parent="05_LaboratorioMural" unique_id=426361147]
+offset_left = 725.0
+offset_top = 297.0
+offset_right = 840.0
+offset_bottom = 315.0
+theme_override_colors/font_color = Color(0.701961, 0.827451, 0.807843, 1)
+theme_override_font_sizes/font_size = 10
+text = "ESTADO"
+
+[node name="E01003" type="Label" parent="05_LaboratorioMural" unique_id=187190476]
+offset_left = 724.0
+offset_top = 318.0
+offset_right = 844.0
+offset_bottom = 336.0
+theme_override_colors/font_color = Color(0.945098, 0.819608, 0.545098, 1)
+theme_override_font_sizes/font_size = 11
+text = "EN ESTUDIO"
+
+[node name="BarraEstadistica001" type="ColorRect" parent="05_LaboratorioMural" unique_id=206944431]
+offset_left = 726.0
+offset_top = 370.0
+offset_right = 733.0
+offset_bottom = 388.0
+mouse_filter = 2
+color = Color(0.368627, 0.670588, 0.576471, 1)
+
+[node name="BarraEstadistica002" type="ColorRect" parent="05_LaboratorioMural" unique_id=533124640]
+offset_left = 738.0
+offset_top = 364.0
+offset_right = 745.0
+offset_bottom = 388.0
+mouse_filter = 2
+color = Color(0.368627, 0.670588, 0.576471, 1)
+
+[node name="BarraEstadistica003" type="ColorRect" parent="05_LaboratorioMural" unique_id=1060695989]
+offset_left = 750.0
+offset_top = 359.0
+offset_right = 757.0
+offset_bottom = 388.0
+mouse_filter = 2
+color = Color(0.368627, 0.670588, 0.576471, 1)
+
+[node name="BarraEstadistica004" type="ColorRect" parent="05_LaboratorioMural" unique_id=1957768199]
+offset_left = 762.0
+offset_top = 344.0
+offset_right = 769.0
+offset_bottom = 388.0
+mouse_filter = 2
+color = Color(0.368627, 0.670588, 0.576471, 1)
+
+[node name="BarraEstadistica005" type="ColorRect" parent="05_LaboratorioMural" unique_id=1592528239]
+offset_left = 774.0
+offset_top = 352.0
+offset_right = 781.0
+offset_bottom = 388.0
+mouse_filter = 2
+color = Color(0.368627, 0.670588, 0.576471, 1)
+
+[node name="BarraEstadistica006" type="ColorRect" parent="05_LaboratorioMural" unique_id=2053549557]
+offset_left = 786.0
+offset_top = 335.0
+offset_right = 793.0
+offset_bottom = 388.0
+mouse_filter = 2
+color = Color(0.368627, 0.670588, 0.576471, 1)
+
+[node name="BarraEstadistica007" type="ColorRect" parent="05_LaboratorioMural" unique_id=841198280]
+offset_left = 798.0
+offset_top = 318.0
+offset_right = 805.0
+offset_bottom = 388.0
+mouse_filter = 2
+color = Color(0.368627, 0.670588, 0.576471, 1)
+
+[node name="BarraEstadistica008" type="ColorRect" parent="05_LaboratorioMural" unique_id=2035210363]
+offset_left = 810.0
+offset_top = 340.0
+offset_right = 817.0
+offset_bottom = 388.0
+mouse_filter = 2
+color = Color(0.568627, 0.772549, 0.65098, 1)
+
+[node name="BarraEstadistica009" type="ColorRect" parent="05_LaboratorioMural" unique_id=2060994637]
+offset_left = 822.0
+offset_top = 326.0
+offset_right = 829.0
+offset_bottom = 388.0
+mouse_filter = 2
+color = Color(0.568627, 0.772549, 0.65098, 1)
+
+[node name="LuzPared001" type="ColorRect" parent="05_LaboratorioMural" unique_id=1130383541]
+offset_left = 475.0
+offset_top = 411.0
+offset_right = 482.0
+offset_bottom = 415.0
+mouse_filter = 2
+color = Color(0.458824, 0.862745, 0.690196, 1)
+
+[node name="LuzPared002" type="ColorRect" parent="05_LaboratorioMural" unique_id=234334004]
+offset_left = 486.0
+offset_top = 411.0
+offset_right = 493.0
+offset_bottom = 415.0
+mouse_filter = 2
+color = Color(0.47451, 0.580392, 0.611765, 1)
+
+[node name="LuzPared003" type="ColorRect" parent="05_LaboratorioMural" unique_id=20618217]
+offset_left = 497.0
+offset_top = 411.0
+offset_right = 504.0
+offset_bottom = 415.0
+mouse_filter = 2
+color = Color(0.47451, 0.580392, 0.611765, 1)
+
+[node name="Canaleta001" type="ColorRect" parent="05_LaboratorioMural" unique_id=1138665716]
+offset_left = 536.0
+offset_top = 419.0
+offset_right = 544.0
+offset_bottom = 454.0
+mouse_filter = 2
+color = Color(0.094118, 0.203922, 0.227451, 1)
+
+[node name="CanaletaBrillo001" type="ColorRect" parent="05_LaboratorioMural" unique_id=1436933905]
+offset_left = 538.0
+offset_top = 421.0
+offset_right = 540.0
+offset_bottom = 453.0
+mouse_filter = 2
+color = Color(0.447059, 0.564706, 0.545098, 1)
+
+[node name="CajaElectricidad001" type="ColorRect" parent="05_LaboratorioMural" unique_id=869057811]
+offset_left = 925.0
+offset_top = 274.0
+offset_right = 998.0
+offset_bottom = 385.0
+mouse_filter = 2
+color = Color(0.168627, 0.270588, 0.298039, 1)
+
+[node name="CajaElectricidadPanel001" type="ColorRect" parent="05_LaboratorioMural" unique_id=455962812]
+offset_left = 931.0
+offset_top = 280.0
+offset_right = 992.0
+offset_bottom = 378.0
+mouse_filter = 2
+color = Color(0.282353, 0.415686, 0.423529, 1)
+
+[node name="Pantallita001" type="ColorRect" parent="05_LaboratorioMural" unique_id=728675090]
+offset_left = 938.0
+offset_top = 293.0
+offset_right = 983.0
+offset_bottom = 321.0
+mouse_filter = 2
+color = Color(0.078431, 0.184314, 0.215686, 1)
+
+[node name="EquipoLab001" type="Label" parent="05_LaboratorioMural" unique_id=449619520]
+offset_left = 948.0
+offset_top = 296.0
+offset_right = 984.0
+offset_bottom = 316.0
+theme_override_colors/font_color = Color(0.564706, 0.898039, 0.713725, 1)
+theme_override_font_sizes/font_size = 13
+text = "01"
+
+[node name="LedVerde001" type="ColorRect" parent="05_LaboratorioMural" unique_id=697900198]
+offset_left = 941.0
+offset_top = 336.0
+offset_right = 948.0
+offset_bottom = 343.0
+mouse_filter = 2
+color = Color(0.521569, 0.85098, 0.690196, 1)
+
+[node name="LedRojo001" type="ColorRect" parent="05_LaboratorioMural" unique_id=559202349]
+offset_left = 956.0
+offset_top = 336.0
+offset_right = 963.0
+offset_bottom = 343.0
+mouse_filter = 2
+color = Color(0.827451, 0.678431, 0.443137, 1)
+
+[node name="RejillaEquipos001" type="ColorRect" parent="05_LaboratorioMural" unique_id=1528840465]
+offset_left = 940.0
+offset_top = 353.0
+offset_right = 983.0
+offset_bottom = 356.0
+mouse_filter = 2
+color = Color(0.101961, 0.243137, 0.270588, 1)
+
+[node name="RejillaEquipos002" type="ColorRect" parent="05_LaboratorioMural" unique_id=964921704]
+offset_left = 940.0
+offset_top = 364.0
+offset_right = 983.0
+offset_bottom = 367.0
+mouse_filter = 2
+color = Color(0.101961, 0.243137, 0.270588, 1)
+
+[node name="06_LaboratorioIzqYDetalleMedico" type="Node2D" parent="." unique_id=274410570]
+
+[node name="VentilaMarco001" type="ColorRect" parent="06_LaboratorioIzqYDetalleMedico" unique_id=906908820]
+offset_left = 56.0
+offset_top = 271.0
+offset_right = 123.0
+offset_bottom = 341.0
+mouse_filter = 2
+color = Color(0.078431, 0.160784, 0.203922, 1)
+
+[node name="VentilaInterior001" type="ColorRect" parent="06_LaboratorioIzqYDetalleMedico" unique_id=1603616948]
+offset_left = 62.0
+offset_top = 277.0
+offset_right = 117.0
+offset_bottom = 335.0
+mouse_filter = 2
+color = Color(0.215686, 0.321569, 0.356863, 1)
+
+[node name="VentilaRaya001" type="ColorRect" parent="06_LaboratorioIzqYDetalleMedico" unique_id=1423241777]
+offset_left = 68.0
+offset_top = 283.0
+offset_right = 111.0
+offset_bottom = 287.0
+mouse_filter = 2
+color = Color(0.082353, 0.184314, 0.223529, 1)
+
+[node name="VentilaRaya002" type="ColorRect" parent="06_LaboratorioIzqYDetalleMedico" unique_id=1400344734]
+offset_left = 68.0
+offset_top = 292.0
+offset_right = 111.0
+offset_bottom = 296.0
+mouse_filter = 2
+color = Color(0.082353, 0.184314, 0.223529, 1)
+
+[node name="VentilaRaya003" type="ColorRect" parent="06_LaboratorioIzqYDetalleMedico" unique_id=1854456519]
+offset_left = 68.0
+offset_top = 301.0
+offset_right = 111.0
+offset_bottom = 305.0
+mouse_filter = 2
+color = Color(0.082353, 0.184314, 0.223529, 1)
+
+[node name="VentilaRaya004" type="ColorRect" parent="06_LaboratorioIzqYDetalleMedico" unique_id=751535179]
+offset_left = 68.0
+offset_top = 310.0
+offset_right = 111.0
+offset_bottom = 314.0
+mouse_filter = 2
+color = Color(0.082353, 0.184314, 0.223529, 1)
+
+[node name="VentilaRaya005" type="ColorRect" parent="06_LaboratorioIzqYDetalleMedico" unique_id=1552508892]
+offset_left = 68.0
+offset_top = 319.0
+offset_right = 111.0
+offset_bottom = 323.0
+mouse_filter = 2
+color = Color(0.082353, 0.184314, 0.223529, 1)
+
+[node name="VentilaRaya006" type="ColorRect" parent="06_LaboratorioIzqYDetalleMedico" unique_id=443626658]
+offset_left = 68.0
+offset_top = 328.0
+offset_right = 111.0
+offset_bottom = 332.0
+mouse_filter = 2
+color = Color(0.082353, 0.184314, 0.223529, 1)
+
+[node name="MarcoMedico001" type="ColorRect" parent="06_LaboratorioIzqYDetalleMedico" unique_id=886911539]
+offset_left = 1106.0
+offset_top = 291.0
+offset_right = 1288.0
+offset_bottom = 413.0
+mouse_filter = 2
+color = Color(0.12549, 0.219608, 0.25098, 1)
+
+[node name="InteriorMedico001" type="ColorRect" parent="06_LaboratorioIzqYDetalleMedico" unique_id=1433611110]
+offset_left = 1113.0
+offset_top = 298.0
+offset_right = 1281.0
+offset_bottom = 406.0
+mouse_filter = 2
+color = Color(0.188235, 0.305882, 0.333333, 1)
+
+[node name="MedioPantalla001" type="ColorRect" parent="06_LaboratorioIzqYDetalleMedico" unique_id=200040933]
+offset_left = 1121.0
+offset_top = 307.0
+offset_right = 1273.0
+offset_bottom = 387.0
+mouse_filter = 2
+color = Color(0.098039, 0.203922, 0.239216, 1)
+
+[node name="Pulso001" type="Line2D" parent="06_LaboratorioIzqYDetalleMedico" unique_id=424588236]
+points = PackedVector2Array(1128, 352, 1149, 352, 1156, 341, 1164, 369, 1174, 319, 1186, 355, 1205, 355, 1214, 344, 1223, 355, 1265, 355)
+width = 2.0
+default_color = Color(0.556863, 0.788235, 0.694118, 1)
+antialiased = true
+
+[node name="MedPanel001" type="Label" parent="06_LaboratorioIzqYDetalleMedico" unique_id=971492489]
+offset_left = 1128.0
+offset_top = 313.0
+offset_right = 1270.0
+offset_bottom = 329.0
+theme_override_colors/font_color = Color(0.698039, 0.839216, 0.784314, 1)
+theme_override_font_sizes/font_size = 10
+text = "ESTADO  /  ESTABLE"
+
+[node name="MiniLed001" type="ColorRect" parent="06_LaboratorioIzqYDetalleMedico" unique_id=1436982842]
+offset_left = 1130.0
+offset_top = 394.0
+offset_right = 1137.0
+offset_bottom = 399.0
+mouse_filter = 2
+color = Color(0.635294, 0.87451, 0.694118, 1)
+
+[node name="MiniLed002" type="ColorRect" parent="06_LaboratorioIzqYDetalleMedico" unique_id=77107122]
+offset_left = 1142.0
+offset_top = 394.0
+offset_right = 1149.0
+offset_bottom = 399.0
+mouse_filter = 2
+color = Color(0.835294, 0.709804, 0.423529, 1)
+
+[node name="TuberiaMedica001" type="Line2D" parent="06_LaboratorioIzqYDetalleMedico" unique_id=1273047163]
+points = PackedVector2Array(1064, 269, 1064, 437, 1086, 437)
+width = 7.0
+default_color = Color(0.137255, 0.239216, 0.278431, 1)
+antialiased = true
+
+[node name="TuberiaMedicaLuz001" type="Line2D" parent="06_LaboratorioIzqYDetalleMedico" unique_id=1370427533]
+points = PackedVector2Array(1061, 269, 1061, 437, 1086, 437)
+width = 2.0
+default_color = Color(0.505882, 0.603922, 0.568627, 1)
+antialiased = true
+
+[node name="07_Luminarias" type="Node2D" parent="." unique_id=860872699]
+
+[node name="HazLuz001" type="Polygon2D" parent="07_Luminarias" unique_id=1953043197]
+color = Color(0.639216, 0.831373, 0.729412, 0.054902)
+polygon = PackedVector2Array(212, 143, 248, 143, 375, 484, 85, 484)
+
+[node name="HazLuzCentro001" type="Polygon2D" parent="07_Luminarias" unique_id=527086924]
+color = Color(0.709804, 0.894118, 0.772549, 0.078431)
+polygon = PackedVector2Array(218, 154, 242, 154, 315, 423, 145, 423)
+
+[node name="CableDeLampara001" type="ColorRect" parent="07_Luminarias" unique_id=572059458]
+offset_left = 228.0
+offset_top = 30.0
+offset_right = 232.0
+offset_bottom = 123.0
+mouse_filter = 2
+color = Color(0.078431, 0.121569, 0.156863, 1)
+
+[node name="AbrazaderaLampara001" type="ColorRect" parent="07_Luminarias" unique_id=368081623]
+offset_left = 214.0
+offset_top = 112.0
+offset_right = 246.0
+offset_bottom = 125.0
+mouse_filter = 2
+color = Color(0.439216, 0.517647, 0.494118, 1)
+
+[node name="LamparaMarco001" type="Polygon2D" parent="07_Luminarias" unique_id=820436053]
+color = Color(0.12549, 0.231373, 0.262745, 1)
+polygon = PackedVector2Array(197, 121, 263, 121, 271, 136, 189, 136)
+
+[node name="CristalLampara001" type="ColorRect" parent="07_Luminarias" unique_id=210646481]
+offset_left = 204.0
+offset_top = 131.0
+offset_right = 256.0
+offset_bottom = 138.0
+mouse_filter = 2
+color = Color(0.729412, 0.835294, 0.729412, 1)
+
+[node name="CentroLampara001" type="ColorRect" parent="07_Luminarias" unique_id=322118014]
+offset_left = 214.0
+offset_top = 135.0
+offset_right = 246.0
+offset_bottom = 140.0
+mouse_filter = 2
+color = Color(0.882353, 0.968627, 0.819608, 1)
+
+[node name="FlejeSuperior001" type="ColorRect" parent="07_Luminarias" unique_id=716699133]
+offset_left = 209.0
+offset_top = 116.0
+offset_right = 251.0
+offset_bottom = 121.0
+mouse_filter = 2
+color = Color(0.623529, 0.709804, 0.666667, 1)
+
+[node name="LEDTecho001" type="ColorRect" parent="07_Luminarias" unique_id=510951566]
+offset_left = 215.0
+offset_top = 145.0
+offset_right = 245.0
+offset_bottom = 147.0
+mouse_filter = 2
+color = Color(0.847059, 0.929412, 0.745098, 0.4)
+
+[node name="HazLuz002" type="Polygon2D" parent="07_Luminarias" unique_id=259726139]
+color = Color(0.639216, 0.831373, 0.729412, 0.054902)
+polygon = PackedVector2Array(652, 143, 688, 143, 815, 484, 525, 484)
+
+[node name="HazLuzCentro002" type="Polygon2D" parent="07_Luminarias" unique_id=832232553]
+color = Color(0.709804, 0.894118, 0.772549, 0.078431)
+polygon = PackedVector2Array(658, 154, 682, 154, 755, 423, 585, 423)
+
+[node name="CableDeLampara002" type="ColorRect" parent="07_Luminarias" unique_id=2127497460]
+offset_left = 668.0
+offset_top = 30.0
+offset_right = 672.0
+offset_bottom = 123.0
+mouse_filter = 2
+color = Color(0.078431, 0.121569, 0.156863, 1)
+
+[node name="AbrazaderaLampara002" type="ColorRect" parent="07_Luminarias" unique_id=2042858974]
+offset_left = 654.0
+offset_top = 112.0
+offset_right = 686.0
+offset_bottom = 125.0
+mouse_filter = 2
+color = Color(0.439216, 0.517647, 0.494118, 1)
+
+[node name="LamparaMarco002" type="Polygon2D" parent="07_Luminarias" unique_id=1533631394]
+color = Color(0.12549, 0.231373, 0.262745, 1)
+polygon = PackedVector2Array(637, 121, 703, 121, 711, 136, 629, 136)
+
+[node name="CristalLampara002" type="ColorRect" parent="07_Luminarias" unique_id=383852628]
+offset_left = 644.0
+offset_top = 131.0
+offset_right = 696.0
+offset_bottom = 138.0
+mouse_filter = 2
+color = Color(0.729412, 0.835294, 0.729412, 1)
+
+[node name="CentroLampara002" type="ColorRect" parent="07_Luminarias" unique_id=478109854]
+offset_left = 654.0
+offset_top = 135.0
+offset_right = 686.0
+offset_bottom = 140.0
+mouse_filter = 2
+color = Color(0.882353, 0.968627, 0.819608, 1)
+
+[node name="FlejeSuperior002" type="ColorRect" parent="07_Luminarias" unique_id=324734330]
+offset_left = 649.0
+offset_top = 116.0
+offset_right = 691.0
+offset_bottom = 121.0
+mouse_filter = 2
+color = Color(0.623529, 0.709804, 0.666667, 1)
+
+[node name="LEDTecho002" type="ColorRect" parent="07_Luminarias" unique_id=1950172561]
+offset_left = 655.0
+offset_top = 145.0
+offset_right = 685.0
+offset_bottom = 147.0
+mouse_filter = 2
+color = Color(0.847059, 0.929412, 0.745098, 0.4)
+
+[node name="HazLuz003" type="Polygon2D" parent="07_Luminarias" unique_id=536123708]
+color = Color(0.639216, 0.831373, 0.729412, 0.054902)
+polygon = PackedVector2Array(1092, 143, 1128, 143, 1255, 484, 965, 484)
+
+[node name="HazLuzCentro003" type="Polygon2D" parent="07_Luminarias" unique_id=1342212705]
+color = Color(0.709804, 0.894118, 0.772549, 0.078431)
+polygon = PackedVector2Array(1098, 154, 1122, 154, 1195, 423, 1025, 423)
+
+[node name="CableDeLampara003" type="ColorRect" parent="07_Luminarias" unique_id=1926518020]
+offset_left = 1108.0
+offset_top = 30.0
+offset_right = 1112.0
+offset_bottom = 123.0
+mouse_filter = 2
+color = Color(0.078431, 0.121569, 0.156863, 1)
+
+[node name="AbrazaderaLampara003" type="ColorRect" parent="07_Luminarias" unique_id=2107432035]
+offset_left = 1094.0
+offset_top = 112.0
+offset_right = 1126.0
+offset_bottom = 125.0
+mouse_filter = 2
+color = Color(0.439216, 0.517647, 0.494118, 1)
+
+[node name="LamparaMarco003" type="Polygon2D" parent="07_Luminarias" unique_id=2145323246]
+color = Color(0.12549, 0.231373, 0.262745, 1)
+polygon = PackedVector2Array(1077, 121, 1143, 121, 1151, 136, 1069, 136)
+
+[node name="CristalLampara003" type="ColorRect" parent="07_Luminarias" unique_id=1164958629]
+offset_left = 1084.0
+offset_top = 131.0
+offset_right = 1136.0
+offset_bottom = 138.0
+mouse_filter = 2
+color = Color(0.729412, 0.835294, 0.729412, 1)
+
+[node name="CentroLampara003" type="ColorRect" parent="07_Luminarias" unique_id=1274135428]
+offset_left = 1094.0
+offset_top = 135.0
+offset_right = 1126.0
+offset_bottom = 140.0
+mouse_filter = 2
+color = Color(0.882353, 0.968627, 0.819608, 1)
+
+[node name="FlejeSuperior003" type="ColorRect" parent="07_Luminarias" unique_id=1762554329]
+offset_left = 1089.0
+offset_top = 116.0
+offset_right = 1131.0
+offset_bottom = 121.0
+mouse_filter = 2
+color = Color(0.623529, 0.709804, 0.666667, 1)
+
+[node name="LEDTecho003" type="ColorRect" parent="07_Luminarias" unique_id=1442671172]
+offset_left = 1095.0
+offset_top = 145.0
+offset_right = 1125.0
+offset_bottom = 147.0
+mouse_filter = 2
+color = Color(0.847059, 0.929412, 0.745098, 0.4)
+
+[node name="AlarmaSombra001" type="ColorRect" parent="07_Luminarias" unique_id=1625829924]
+offset_left = 995.0
+offset_top = 135.0
+offset_right = 1023.0
+offset_bottom = 159.0
+mouse_filter = 2
+color = Color(0.105882, 0.207843, 0.231373, 1)
+
+[node name="AlarmaBase001" type="ColorRect" parent="07_Luminarias" unique_id=1465958142]
+offset_left = 1001.0
+offset_top = 139.0
+offset_right = 1017.0
+offset_bottom = 150.0
+mouse_filter = 2
+color = Color(0.447059, 0.529412, 0.509804, 1)
+
+[node name="AlarmaRoja001" type="ColorRect" parent="07_Luminarias" unique_id=578281832]
+offset_left = 1004.0
+offset_top = 135.0
+offset_right = 1014.0
+offset_bottom = 143.0
+mouse_filter = 2
+color = Color(0.862745, 0.596078, 0.466667, 1)
+
+[node name="08_SueloVisualDecorativo" type="Node2D" parent="." unique_id=1323839529]
+
+[node name="SombraSuelo001" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1328703730]
+offset_top = 540.0
+offset_right = 1360.0
+offset_bottom = 553.0
+mouse_filter = 2
+color = Color(0.082353, 0.152941, 0.192157, 1)
+
+[node name="PisoFondo001" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=789154684]
+offset_top = 551.0
+offset_right = 1360.0
+offset_bottom = 640.0
+mouse_filter = 2
+color = Color(0.184314, 0.247059, 0.278431, 1)
+
+[node name="FranjaPiso001" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=828464917]
+offset_top = 550.0
+offset_right = 1360.0
+offset_bottom = 555.0
+mouse_filter = 2
+color = Color(0.392157, 0.501961, 0.501961, 1)
+
+[node name="FranjaSueloOscura001" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=68623185]
+offset_top = 559.0
+offset_right = 1360.0
+offset_bottom = 568.0
+mouse_filter = 2
+color = Color(0.101961, 0.168627, 0.207843, 1)
+
+[node name="Plancha001" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=803025072]
+offset_top = 570.0
+offset_right = 1360.0
+offset_bottom = 632.0
+mouse_filter = 2
+color = Color(0.160784, 0.223529, 0.262745, 1)
+
+[node name="JuntaPiso001" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1338728391]
+offset_top = 567.0
+offset_right = 3.0
+offset_bottom = 635.0
+mouse_filter = 2
+color = Color(0.113725, 0.184314, 0.219608, 1)
+
+[node name="RivetShadow121" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1702802657]
+offset_left = 11.0
+offset_top = 578.0
+offset_right = 17.0
+offset_bottom = 584.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet121" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1140406887]
+offset_left = 13.0
+offset_top = 579.0
+offset_right = 16.0
+offset_bottom = 582.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow122" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=865950639]
+offset_left = 11.0
+offset_top = 616.0
+offset_right = 17.0
+offset_bottom = 622.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet122" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=2036039818]
+offset_left = 13.0
+offset_top = 617.0
+offset_right = 16.0
+offset_bottom = 620.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="JuntaPiso002" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=157071699]
+offset_left = 170.0
+offset_top = 567.0
+offset_right = 173.0
+offset_bottom = 635.0
+mouse_filter = 2
+color = Color(0.113725, 0.184314, 0.219608, 1)
+
+[node name="RivetShadow123" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=879594872]
+offset_left = 181.0
+offset_top = 578.0
+offset_right = 187.0
+offset_bottom = 584.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet123" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1891436853]
+offset_left = 183.0
+offset_top = 579.0
+offset_right = 186.0
+offset_bottom = 582.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow124" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1745953581]
+offset_left = 181.0
+offset_top = 616.0
+offset_right = 187.0
+offset_bottom = 622.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet124" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1038613363]
+offset_left = 183.0
+offset_top = 617.0
+offset_right = 186.0
+offset_bottom = 620.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="JuntaPiso003" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=830681539]
+offset_left = 340.0
+offset_top = 567.0
+offset_right = 343.0
+offset_bottom = 635.0
+mouse_filter = 2
+color = Color(0.113725, 0.184314, 0.219608, 1)
+
+[node name="RivetShadow125" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=369098371]
+offset_left = 351.0
+offset_top = 578.0
+offset_right = 357.0
+offset_bottom = 584.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet125" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=855761272]
+offset_left = 353.0
+offset_top = 579.0
+offset_right = 356.0
+offset_bottom = 582.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow126" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=805087582]
+offset_left = 351.0
+offset_top = 616.0
+offset_right = 357.0
+offset_bottom = 622.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet126" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1833093050]
+offset_left = 353.0
+offset_top = 617.0
+offset_right = 356.0
+offset_bottom = 620.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="JuntaPiso004" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1729071769]
+offset_left = 510.0
+offset_top = 567.0
+offset_right = 513.0
+offset_bottom = 635.0
+mouse_filter = 2
+color = Color(0.113725, 0.184314, 0.219608, 1)
+
+[node name="RivetShadow127" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1554050465]
+offset_left = 521.0
+offset_top = 578.0
+offset_right = 527.0
+offset_bottom = 584.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet127" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=764784735]
+offset_left = 523.0
+offset_top = 579.0
+offset_right = 526.0
+offset_bottom = 582.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow128" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=290269843]
+offset_left = 521.0
+offset_top = 616.0
+offset_right = 527.0
+offset_bottom = 622.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet128" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1164730480]
+offset_left = 523.0
+offset_top = 617.0
+offset_right = 526.0
+offset_bottom = 620.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="JuntaPiso005" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1530676881]
+offset_left = 680.0
+offset_top = 567.0
+offset_right = 683.0
+offset_bottom = 635.0
+mouse_filter = 2
+color = Color(0.113725, 0.184314, 0.219608, 1)
+
+[node name="RivetShadow129" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=54767737]
+offset_left = 691.0
+offset_top = 578.0
+offset_right = 697.0
+offset_bottom = 584.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet129" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=188127033]
+offset_left = 693.0
+offset_top = 579.0
+offset_right = 696.0
+offset_bottom = 582.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow130" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1842261146]
+offset_left = 691.0
+offset_top = 616.0
+offset_right = 697.0
+offset_bottom = 622.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet130" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=482677528]
+offset_left = 693.0
+offset_top = 617.0
+offset_right = 696.0
+offset_bottom = 620.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="JuntaPiso006" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=378471418]
+offset_left = 850.0
+offset_top = 567.0
+offset_right = 853.0
+offset_bottom = 635.0
+mouse_filter = 2
+color = Color(0.113725, 0.184314, 0.219608, 1)
+
+[node name="RivetShadow131" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1156134096]
+offset_left = 861.0
+offset_top = 578.0
+offset_right = 867.0
+offset_bottom = 584.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet131" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=2100346252]
+offset_left = 863.0
+offset_top = 579.0
+offset_right = 866.0
+offset_bottom = 582.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow132" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=497911911]
+offset_left = 861.0
+offset_top = 616.0
+offset_right = 867.0
+offset_bottom = 622.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet132" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1024513706]
+offset_left = 863.0
+offset_top = 617.0
+offset_right = 866.0
+offset_bottom = 620.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="JuntaPiso007" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1755787502]
+offset_left = 1020.0
+offset_top = 567.0
+offset_right = 1023.0
+offset_bottom = 635.0
+mouse_filter = 2
+color = Color(0.113725, 0.184314, 0.219608, 1)
+
+[node name="RivetShadow133" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=261372422]
+offset_left = 1031.0
+offset_top = 578.0
+offset_right = 1037.0
+offset_bottom = 584.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet133" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1906486924]
+offset_left = 1033.0
+offset_top = 579.0
+offset_right = 1036.0
+offset_bottom = 582.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow134" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1779831218]
+offset_left = 1031.0
+offset_top = 616.0
+offset_right = 1037.0
+offset_bottom = 622.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet134" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=504157933]
+offset_left = 1033.0
+offset_top = 617.0
+offset_right = 1036.0
+offset_bottom = 620.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="JuntaPiso008" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1430565539]
+offset_left = 1190.0
+offset_top = 567.0
+offset_right = 1193.0
+offset_bottom = 635.0
+mouse_filter = 2
+color = Color(0.113725, 0.184314, 0.219608, 1)
+
+[node name="RivetShadow135" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1265941759]
+offset_left = 1201.0
+offset_top = 578.0
+offset_right = 1207.0
+offset_bottom = 584.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet135" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1090951769]
+offset_left = 1203.0
+offset_top = 579.0
+offset_right = 1206.0
+offset_bottom = 582.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow136" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1974762481]
+offset_left = 1201.0
+offset_top = 616.0
+offset_right = 1207.0
+offset_bottom = 622.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet136" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=2000869038]
+offset_left = 1203.0
+offset_top = 617.0
+offset_right = 1206.0
+offset_bottom = 620.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="JuntaPiso009" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1931647260]
+offset_left = 1360.0
+offset_top = 567.0
+offset_right = 1363.0
+offset_bottom = 635.0
+mouse_filter = 2
+color = Color(0.113725, 0.184314, 0.219608, 1)
+
+[node name="RivetShadow137" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=820075995]
+offset_left = 1371.0
+offset_top = 578.0
+offset_right = 1377.0
+offset_bottom = 584.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="RivetShadow138" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1852273844]
+offset_left = 1371.0
+offset_top = 616.0
+offset_right = 1377.0
+offset_bottom = 622.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="RayonMetal001" type="Line2D" parent="08_SueloVisualDecorativo" unique_id=512977422]
+points = PackedVector2Array(165, 597, 174, 599)
+width = 1.0
+default_color = Color(0.376471, 0.443137, 0.462745, 0.266667)
+antialiased = true
+
+[node name="RayonMetal002" type="Line2D" parent="08_SueloVisualDecorativo" unique_id=535504219]
+points = PackedVector2Array(1210, 627, 1225, 629)
+width = 1.0
+default_color = Color(0.376471, 0.443137, 0.462745, 0.266667)
+antialiased = true
+
+[node name="RayonMetal003" type="Line2D" parent="08_SueloVisualDecorativo" unique_id=1698395659]
+points = PackedVector2Array(320, 609, 345, 607)
+width = 1.0
+default_color = Color(0.376471, 0.443137, 0.462745, 0.266667)
+antialiased = true
+
+[node name="RayonMetal004" type="Line2D" parent="08_SueloVisualDecorativo" unique_id=1607721993]
+points = PackedVector2Array(71, 576, 89, 574)
+width = 1.0
+default_color = Color(0.376471, 0.443137, 0.462745, 0.266667)
+antialiased = true
+
+[node name="RayonMetal005" type="Line2D" parent="08_SueloVisualDecorativo" unique_id=261223280]
+points = PackedVector2Array(72, 580, 97, 580)
+width = 1.0
+default_color = Color(0.376471, 0.443137, 0.462745, 0.266667)
+antialiased = true
+
+[node name="RayonMetal006" type="Line2D" parent="08_SueloVisualDecorativo" unique_id=1737737720]
+points = PackedVector2Array(1089, 593, 1099, 594)
+width = 1.0
+default_color = Color(0.376471, 0.443137, 0.462745, 0.266667)
+antialiased = true
+
+[node name="RayonMetal007" type="Line2D" parent="08_SueloVisualDecorativo" unique_id=2094771192]
+points = PackedVector2Array(989, 595, 1001, 596)
+width = 1.0
+default_color = Color(0.376471, 0.443137, 0.462745, 0.266667)
+antialiased = true
+
+[node name="RayonMetal008" type="Line2D" parent="08_SueloVisualDecorativo" unique_id=2069202724]
+points = PackedVector2Array(962, 625, 972, 626)
+width = 1.0
+default_color = Color(0.376471, 0.443137, 0.462745, 0.266667)
+antialiased = true
+
+[node name="RayonMetal009" type="Line2D" parent="08_SueloVisualDecorativo" unique_id=2092038978]
+points = PackedVector2Array(1123, 611, 1134, 612)
+width = 1.0
+default_color = Color(0.376471, 0.443137, 0.462745, 0.266667)
+antialiased = true
+
+[node name="RayonMetal010" type="Line2D" parent="08_SueloVisualDecorativo" unique_id=1389768241]
+points = PackedVector2Array(472, 593, 496, 594)
+width = 1.0
+default_color = Color(0.376471, 0.443137, 0.462745, 0.266667)
+antialiased = true
+
+[node name="RayonMetal011" type="Line2D" parent="08_SueloVisualDecorativo" unique_id=341773622]
+points = PackedVector2Array(572, 581, 583, 583)
+width = 1.0
+default_color = Color(0.376471, 0.443137, 0.462745, 0.266667)
+antialiased = true
+
+[node name="RayonMetal012" type="Line2D" parent="08_SueloVisualDecorativo" unique_id=1230680455]
+points = PackedVector2Array(735, 628, 745, 630)
+width = 1.0
+default_color = Color(0.376471, 0.443137, 0.462745, 0.266667)
+antialiased = true
+
+[node name="RayonMetal013" type="Line2D" parent="08_SueloVisualDecorativo" unique_id=1937755794]
+points = PackedVector2Array(696, 601, 716, 600)
+width = 1.0
+default_color = Color(0.376471, 0.443137, 0.462745, 0.266667)
+antialiased = true
+
+[node name="RayonMetal014" type="Line2D" parent="08_SueloVisualDecorativo" unique_id=2032512117]
+points = PackedVector2Array(795, 591, 814, 590)
+width = 1.0
+default_color = Color(0.376471, 0.443137, 0.462745, 0.266667)
+antialiased = true
+
+[node name="RayonMetal015" type="Line2D" parent="08_SueloVisualDecorativo" unique_id=2103623484]
+points = PackedVector2Array(244, 609, 259, 611)
+width = 1.0
+default_color = Color(0.376471, 0.443137, 0.462745, 0.266667)
+antialiased = true
+
+[node name="RayonMetal016" type="Line2D" parent="08_SueloVisualDecorativo" unique_id=1951615207]
+points = PackedVector2Array(652, 576, 669, 574)
+width = 1.0
+default_color = Color(0.376471, 0.443137, 0.462745, 0.266667)
+antialiased = true
+
+[node name="PlacaSuelo001" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=471643846]
+offset_left = 116.0
+offset_top = 581.0
+offset_right = 208.0
+offset_bottom = 613.0
+mouse_filter = 2
+color = Color(0.109804, 0.203922, 0.243137, 1)
+
+[node name="RejillaPiso001" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=768617563]
+offset_left = 122.0
+offset_top = 588.0
+offset_right = 202.0
+offset_bottom = 608.0
+mouse_filter = 2
+color = Color(0.321569, 0.419608, 0.427451, 1)
+
+[node name="HuecoRejilla001" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1806522341]
+offset_left = 124.0
+offset_top = 592.0
+offset_right = 129.0
+offset_bottom = 604.0
+mouse_filter = 2
+color = Color(0.090196, 0.164706, 0.196078, 1)
+
+[node name="HuecoRejilla002" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=829925556]
+offset_left = 133.0
+offset_top = 592.0
+offset_right = 138.0
+offset_bottom = 604.0
+mouse_filter = 2
+color = Color(0.090196, 0.164706, 0.196078, 1)
+
+[node name="HuecoRejilla003" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=678101965]
+offset_left = 142.0
+offset_top = 592.0
+offset_right = 147.0
+offset_bottom = 604.0
+mouse_filter = 2
+color = Color(0.090196, 0.164706, 0.196078, 1)
+
+[node name="HuecoRejilla004" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1653058348]
+offset_left = 151.0
+offset_top = 592.0
+offset_right = 156.0
+offset_bottom = 604.0
+mouse_filter = 2
+color = Color(0.090196, 0.164706, 0.196078, 1)
+
+[node name="HuecoRejilla005" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1096817836]
+offset_left = 160.0
+offset_top = 592.0
+offset_right = 165.0
+offset_bottom = 604.0
+mouse_filter = 2
+color = Color(0.090196, 0.164706, 0.196078, 1)
+
+[node name="HuecoRejilla006" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=284443356]
+offset_left = 169.0
+offset_top = 592.0
+offset_right = 174.0
+offset_bottom = 604.0
+mouse_filter = 2
+color = Color(0.090196, 0.164706, 0.196078, 1)
+
+[node name="HuecoRejilla007" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1605804687]
+offset_left = 178.0
+offset_top = 592.0
+offset_right = 183.0
+offset_bottom = 604.0
+mouse_filter = 2
+color = Color(0.090196, 0.164706, 0.196078, 1)
+
+[node name="HuecoRejilla008" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=981175933]
+offset_left = 187.0
+offset_top = 592.0
+offset_right = 192.0
+offset_bottom = 604.0
+mouse_filter = 2
+color = Color(0.090196, 0.164706, 0.196078, 1)
+
+[node name="HuecoRejilla009" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=42860601]
+offset_left = 196.0
+offset_top = 592.0
+offset_right = 201.0
+offset_bottom = 604.0
+mouse_filter = 2
+color = Color(0.090196, 0.164706, 0.196078, 1)
+
+[node name="PlacaSuelo002" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=2115597924]
+offset_left = 603.0
+offset_top = 581.0
+offset_right = 695.0
+offset_bottom = 613.0
+mouse_filter = 2
+color = Color(0.109804, 0.203922, 0.243137, 1)
+
+[node name="RejillaPiso002" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=144716121]
+offset_left = 609.0
+offset_top = 588.0
+offset_right = 689.0
+offset_bottom = 608.0
+mouse_filter = 2
+color = Color(0.321569, 0.419608, 0.427451, 1)
+
+[node name="HuecoRejilla010" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1515188311]
+offset_left = 611.0
+offset_top = 592.0
+offset_right = 616.0
+offset_bottom = 604.0
+mouse_filter = 2
+color = Color(0.090196, 0.164706, 0.196078, 1)
+
+[node name="HuecoRejilla011" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=248902238]
+offset_left = 620.0
+offset_top = 592.0
+offset_right = 625.0
+offset_bottom = 604.0
+mouse_filter = 2
+color = Color(0.090196, 0.164706, 0.196078, 1)
+
+[node name="HuecoRejilla012" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1568040014]
+offset_left = 629.0
+offset_top = 592.0
+offset_right = 634.0
+offset_bottom = 604.0
+mouse_filter = 2
+color = Color(0.090196, 0.164706, 0.196078, 1)
+
+[node name="HuecoRejilla013" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=965529036]
+offset_left = 638.0
+offset_top = 592.0
+offset_right = 643.0
+offset_bottom = 604.0
+mouse_filter = 2
+color = Color(0.090196, 0.164706, 0.196078, 1)
+
+[node name="HuecoRejilla014" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=612590320]
+offset_left = 647.0
+offset_top = 592.0
+offset_right = 652.0
+offset_bottom = 604.0
+mouse_filter = 2
+color = Color(0.090196, 0.164706, 0.196078, 1)
+
+[node name="HuecoRejilla015" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1991267607]
+offset_left = 656.0
+offset_top = 592.0
+offset_right = 661.0
+offset_bottom = 604.0
+mouse_filter = 2
+color = Color(0.090196, 0.164706, 0.196078, 1)
+
+[node name="HuecoRejilla016" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1743652794]
+offset_left = 665.0
+offset_top = 592.0
+offset_right = 670.0
+offset_bottom = 604.0
+mouse_filter = 2
+color = Color(0.090196, 0.164706, 0.196078, 1)
+
+[node name="HuecoRejilla017" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1425536477]
+offset_left = 674.0
+offset_top = 592.0
+offset_right = 679.0
+offset_bottom = 604.0
+mouse_filter = 2
+color = Color(0.090196, 0.164706, 0.196078, 1)
+
+[node name="HuecoRejilla018" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=2104454244]
+offset_left = 683.0
+offset_top = 592.0
+offset_right = 688.0
+offset_bottom = 604.0
+mouse_filter = 2
+color = Color(0.090196, 0.164706, 0.196078, 1)
+
+[node name="PlacaSuelo003" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=986390704]
+offset_left = 1176.0
+offset_top = 581.0
+offset_right = 1268.0
+offset_bottom = 613.0
+mouse_filter = 2
+color = Color(0.109804, 0.203922, 0.243137, 1)
+
+[node name="RejillaPiso003" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=493364845]
+offset_left = 1182.0
+offset_top = 588.0
+offset_right = 1262.0
+offset_bottom = 608.0
+mouse_filter = 2
+color = Color(0.321569, 0.419608, 0.427451, 1)
+
+[node name="HuecoRejilla019" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1708018006]
+offset_left = 1184.0
+offset_top = 592.0
+offset_right = 1189.0
+offset_bottom = 604.0
+mouse_filter = 2
+color = Color(0.090196, 0.164706, 0.196078, 1)
+
+[node name="HuecoRejilla020" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1247856186]
+offset_left = 1193.0
+offset_top = 592.0
+offset_right = 1198.0
+offset_bottom = 604.0
+mouse_filter = 2
+color = Color(0.090196, 0.164706, 0.196078, 1)
+
+[node name="HuecoRejilla021" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1319030203]
+offset_left = 1202.0
+offset_top = 592.0
+offset_right = 1207.0
+offset_bottom = 604.0
+mouse_filter = 2
+color = Color(0.090196, 0.164706, 0.196078, 1)
+
+[node name="HuecoRejilla022" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=19976793]
+offset_left = 1211.0
+offset_top = 592.0
+offset_right = 1216.0
+offset_bottom = 604.0
+mouse_filter = 2
+color = Color(0.090196, 0.164706, 0.196078, 1)
+
+[node name="HuecoRejilla023" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1791063527]
+offset_left = 1220.0
+offset_top = 592.0
+offset_right = 1225.0
+offset_bottom = 604.0
+mouse_filter = 2
+color = Color(0.090196, 0.164706, 0.196078, 1)
+
+[node name="HuecoRejilla024" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=202820699]
+offset_left = 1229.0
+offset_top = 592.0
+offset_right = 1234.0
+offset_bottom = 604.0
+mouse_filter = 2
+color = Color(0.090196, 0.164706, 0.196078, 1)
+
+[node name="HuecoRejilla025" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=526918334]
+offset_left = 1238.0
+offset_top = 592.0
+offset_right = 1243.0
+offset_bottom = 604.0
+mouse_filter = 2
+color = Color(0.090196, 0.164706, 0.196078, 1)
+
+[node name="HuecoRejilla026" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=565880366]
+offset_left = 1247.0
+offset_top = 592.0
+offset_right = 1252.0
+offset_bottom = 604.0
+mouse_filter = 2
+color = Color(0.090196, 0.164706, 0.196078, 1)
+
+[node name="HuecoRejilla027" type="ColorRect" parent="08_SueloVisualDecorativo" unique_id=1294405244]
+offset_left = 1256.0
+offset_top = 592.0
+offset_right = 1261.0
+offset_bottom = 604.0
+mouse_filter = 2
+color = Color(0.090196, 0.164706, 0.196078, 1)
+
+[node name="09_DetallesAmbientales" type="Node2D" parent="." unique_id=694923713]
+
+[node name="BandaPeligro001" type="Polygon2D" parent="09_DetallesAmbientales" unique_id=2053854567]
+color = Color(0.607843, 0.576471, 0.380392, 0.470588)
+polygon = PackedVector2Array(25, 534, 32, 534, 28, 543, 21, 543)
+
+[node name="BandaPeligro002" type="Polygon2D" parent="09_DetallesAmbientales" unique_id=793150137]
+color = Color(0.607843, 0.576471, 0.380392, 0.470588)
+polygon = PackedVector2Array(36, 534, 43, 534, 39, 543, 32, 543)
+
+[node name="BandaPeligro003" type="Polygon2D" parent="09_DetallesAmbientales" unique_id=39503531]
+color = Color(0.607843, 0.576471, 0.380392, 0.470588)
+polygon = PackedVector2Array(47, 534, 54, 534, 50, 543, 43, 543)
+
+[node name="BandaPeligro004" type="Polygon2D" parent="09_DetallesAmbientales" unique_id=355590190]
+color = Color(0.607843, 0.576471, 0.380392, 0.470588)
+polygon = PackedVector2Array(58, 534, 65, 534, 61, 543, 54, 543)
+
+[node name="BandaPeligro005" type="Polygon2D" parent="09_DetallesAmbientales" unique_id=97657998]
+color = Color(0.607843, 0.576471, 0.380392, 0.470588)
+polygon = PackedVector2Array(1300, 534, 1307, 534, 1303, 543, 1296, 543)
+
+[node name="BandaPeligro006" type="Polygon2D" parent="09_DetallesAmbientales" unique_id=680746792]
+color = Color(0.607843, 0.576471, 0.380392, 0.470588)
+polygon = PackedVector2Array(1311, 534, 1318, 534, 1314, 543, 1307, 543)
+
+[node name="BandaPeligro007" type="Polygon2D" parent="09_DetallesAmbientales" unique_id=44240244]
+color = Color(0.607843, 0.576471, 0.380392, 0.470588)
+polygon = PackedVector2Array(1322, 534, 1329, 534, 1325, 543, 1318, 543)
+
+[node name="BandaPeligro008" type="Polygon2D" parent="09_DetallesAmbientales" unique_id=2026104065]
+color = Color(0.607843, 0.576471, 0.380392, 0.470588)
+polygon = PackedVector2Array(1333, 534, 1340, 534, 1336, 543, 1329, 543)
+
+[node name="ParcheRemache001" type="ColorRect" parent="09_DetallesAmbientales" unique_id=1402124159]
+offset_left = 411.0
+offset_top = 232.0
+offset_right = 435.0
+offset_bottom = 246.0
+mouse_filter = 2
+color = Color(0.258824, 0.368627, 0.388235, 1)
+
+[node name="ParcheRemacheLuz001" type="ColorRect" parent="09_DetallesAmbientales" unique_id=1089861390]
+offset_left = 413.0
+offset_top = 234.0
+offset_right = 433.0
+offset_bottom = 236.0
+mouse_filter = 2
+color = Color(0.462745, 0.584314, 0.541176, 1)
+
+[node name="RivetShadow139" type="ColorRect" parent="09_DetallesAmbientales" unique_id=1048260225]
+offset_left = 412.0
+offset_top = 240.0
+offset_right = 418.0
+offset_bottom = 246.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet139" type="ColorRect" parent="09_DetallesAmbientales" unique_id=1506078671]
+offset_left = 414.0
+offset_top = 241.0
+offset_right = 417.0
+offset_bottom = 244.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow140" type="ColorRect" parent="09_DetallesAmbientales" unique_id=53491763]
+offset_left = 427.0
+offset_top = 240.0
+offset_right = 433.0
+offset_bottom = 246.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet140" type="ColorRect" parent="09_DetallesAmbientales" unique_id=1429600163]
+offset_left = 429.0
+offset_top = 241.0
+offset_right = 432.0
+offset_bottom = 244.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="ParcheRemache002" type="ColorRect" parent="09_DetallesAmbientales" unique_id=1846458113]
+offset_left = 884.0
+offset_top = 215.0
+offset_right = 908.0
+offset_bottom = 229.0
+mouse_filter = 2
+color = Color(0.258824, 0.368627, 0.388235, 1)
+
+[node name="ParcheRemacheLuz002" type="ColorRect" parent="09_DetallesAmbientales" unique_id=2009886962]
+offset_left = 886.0
+offset_top = 217.0
+offset_right = 906.0
+offset_bottom = 219.0
+mouse_filter = 2
+color = Color(0.462745, 0.584314, 0.541176, 1)
+
+[node name="RivetShadow141" type="ColorRect" parent="09_DetallesAmbientales" unique_id=1833019372]
+offset_left = 885.0
+offset_top = 223.0
+offset_right = 891.0
+offset_bottom = 229.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet141" type="ColorRect" parent="09_DetallesAmbientales" unique_id=1769922700]
+offset_left = 887.0
+offset_top = 224.0
+offset_right = 890.0
+offset_bottom = 227.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow142" type="ColorRect" parent="09_DetallesAmbientales" unique_id=793793801]
+offset_left = 900.0
+offset_top = 223.0
+offset_right = 906.0
+offset_bottom = 229.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet142" type="ColorRect" parent="09_DetallesAmbientales" unique_id=500318999]
+offset_left = 902.0
+offset_top = 224.0
+offset_right = 905.0
+offset_bottom = 227.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="ParcheRemache003" type="ColorRect" parent="09_DetallesAmbientales" unique_id=1059248408]
+offset_left = 1244.0
+offset_top = 441.0
+offset_right = 1268.0
+offset_bottom = 455.0
+mouse_filter = 2
+color = Color(0.258824, 0.368627, 0.388235, 1)
+
+[node name="ParcheRemacheLuz003" type="ColorRect" parent="09_DetallesAmbientales" unique_id=1855429933]
+offset_left = 1246.0
+offset_top = 443.0
+offset_right = 1266.0
+offset_bottom = 445.0
+mouse_filter = 2
+color = Color(0.462745, 0.584314, 0.541176, 1)
+
+[node name="RivetShadow143" type="ColorRect" parent="09_DetallesAmbientales" unique_id=918682033]
+offset_left = 1245.0
+offset_top = 449.0
+offset_right = 1251.0
+offset_bottom = 455.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet143" type="ColorRect" parent="09_DetallesAmbientales" unique_id=1707061469]
+offset_left = 1247.0
+offset_top = 450.0
+offset_right = 1250.0
+offset_bottom = 453.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow144" type="ColorRect" parent="09_DetallesAmbientales" unique_id=902093790]
+offset_left = 1260.0
+offset_top = 449.0
+offset_right = 1266.0
+offset_bottom = 455.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet144" type="ColorRect" parent="09_DetallesAmbientales" unique_id=276191343]
+offset_left = 1262.0
+offset_top = 450.0
+offset_right = 1265.0
+offset_bottom = 453.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="ParcheRemache004" type="ColorRect" parent="09_DetallesAmbientales" unique_id=1239962212]
+offset_left = 58.0
+offset_top = 436.0
+offset_right = 82.0
+offset_bottom = 450.0
+mouse_filter = 2
+color = Color(0.258824, 0.368627, 0.388235, 1)
+
+[node name="ParcheRemacheLuz004" type="ColorRect" parent="09_DetallesAmbientales" unique_id=678320173]
+offset_left = 60.0
+offset_top = 438.0
+offset_right = 80.0
+offset_bottom = 440.0
+mouse_filter = 2
+color = Color(0.462745, 0.584314, 0.541176, 1)
+
+[node name="RivetShadow145" type="ColorRect" parent="09_DetallesAmbientales" unique_id=256088398]
+offset_left = 59.0
+offset_top = 444.0
+offset_right = 65.0
+offset_bottom = 450.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet145" type="ColorRect" parent="09_DetallesAmbientales" unique_id=1724582892]
+offset_left = 61.0
+offset_top = 445.0
+offset_right = 64.0
+offset_bottom = 448.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow146" type="ColorRect" parent="09_DetallesAmbientales" unique_id=1448277531]
+offset_left = 74.0
+offset_top = 444.0
+offset_right = 80.0
+offset_bottom = 450.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet146" type="ColorRect" parent="09_DetallesAmbientales" unique_id=2013337097]
+offset_left = 76.0
+offset_top = 445.0
+offset_right = 79.0
+offset_bottom = 448.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="ParcheRemache005" type="ColorRect" parent="09_DetallesAmbientales" unique_id=695469883]
+offset_left = 346.0
+offset_top = 444.0
+offset_right = 370.0
+offset_bottom = 458.0
+mouse_filter = 2
+color = Color(0.258824, 0.368627, 0.388235, 1)
+
+[node name="ParcheRemacheLuz005" type="ColorRect" parent="09_DetallesAmbientales" unique_id=606842005]
+offset_left = 348.0
+offset_top = 446.0
+offset_right = 368.0
+offset_bottom = 448.0
+mouse_filter = 2
+color = Color(0.462745, 0.584314, 0.541176, 1)
+
+[node name="RivetShadow147" type="ColorRect" parent="09_DetallesAmbientales" unique_id=253944965]
+offset_left = 347.0
+offset_top = 452.0
+offset_right = 353.0
+offset_bottom = 458.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet147" type="ColorRect" parent="09_DetallesAmbientales" unique_id=526882337]
+offset_left = 349.0
+offset_top = 453.0
+offset_right = 352.0
+offset_bottom = 456.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow148" type="ColorRect" parent="09_DetallesAmbientales" unique_id=1115702567]
+offset_left = 362.0
+offset_top = 452.0
+offset_right = 368.0
+offset_bottom = 458.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet148" type="ColorRect" parent="09_DetallesAmbientales" unique_id=1716521712]
+offset_left = 364.0
+offset_top = 453.0
+offset_right = 367.0
+offset_bottom = 456.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="ParcheRemache006" type="ColorRect" parent="09_DetallesAmbientales" unique_id=5187477]
+offset_left = 1050.0
+offset_top = 482.0
+offset_right = 1074.0
+offset_bottom = 496.0
+mouse_filter = 2
+color = Color(0.258824, 0.368627, 0.388235, 1)
+
+[node name="ParcheRemacheLuz006" type="ColorRect" parent="09_DetallesAmbientales" unique_id=885458171]
+offset_left = 1052.0
+offset_top = 484.0
+offset_right = 1072.0
+offset_bottom = 486.0
+mouse_filter = 2
+color = Color(0.462745, 0.584314, 0.541176, 1)
+
+[node name="RivetShadow149" type="ColorRect" parent="09_DetallesAmbientales" unique_id=1148817426]
+offset_left = 1051.0
+offset_top = 490.0
+offset_right = 1057.0
+offset_bottom = 496.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet149" type="ColorRect" parent="09_DetallesAmbientales" unique_id=77142298]
+offset_left = 1053.0
+offset_top = 491.0
+offset_right = 1056.0
+offset_bottom = 494.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="RivetShadow150" type="ColorRect" parent="09_DetallesAmbientales" unique_id=1096065370]
+offset_left = 1066.0
+offset_top = 490.0
+offset_right = 1072.0
+offset_bottom = 496.0
+mouse_filter = 2
+color = Color(0.058824, 0.117647, 0.14902, 1)
+
+[node name="Rivet150" type="ColorRect" parent="09_DetallesAmbientales" unique_id=1925914907]
+offset_left = 1068.0
+offset_top = 491.0
+offset_right = 1071.0
+offset_bottom = 494.0
+mouse_filter = 2
+color = Color(0.494118, 0.572549, 0.588235, 1)
+
+[node name="ManchaPared001" type="ColorRect" parent="09_DetallesAmbientales" unique_id=538899272]
+offset_left = 157.0
+offset_top = 470.0
+offset_right = 166.0
+offset_bottom = 535.0
+mouse_filter = 2
+color = Color(0.101961, 0.219608, 0.266667, 0.239216)
+
+[node name="ManchaPared002" type="ColorRect" parent="09_DetallesAmbientales" unique_id=1773089325]
+offset_left = 287.0
+offset_top = 470.0
+offset_right = 293.0
+offset_bottom = 523.0
+mouse_filter = 2
+color = Color(0.101961, 0.219608, 0.266667, 0.239216)
+
+[node name="ManchaPared003" type="ColorRect" parent="09_DetallesAmbientales" unique_id=1533066242]
+offset_left = 504.0
+offset_top = 470.0
+offset_right = 516.0
+offset_bottom = 510.0
+mouse_filter = 2
+color = Color(0.101961, 0.219608, 0.266667, 0.239216)
+
+[node name="ManchaPared004" type="ColorRect" parent="09_DetallesAmbientales" unique_id=694800344]
+offset_left = 782.0
+offset_top = 470.0
+offset_right = 794.0
+offset_bottom = 512.0
+mouse_filter = 2
+color = Color(0.101961, 0.219608, 0.266667, 0.239216)
+
+[node name="ManchaPared005" type="ColorRect" parent="09_DetallesAmbientales" unique_id=223516303]
+offset_left = 970.0
+offset_top = 470.0
+offset_right = 975.0
+offset_bottom = 525.0
+mouse_filter = 2
+color = Color(0.101961, 0.219608, 0.266667, 0.239216)
+
+[node name="ManchaPared006" type="ColorRect" parent="09_DetallesAmbientales" unique_id=180226599]
+offset_left = 1212.0
+offset_top = 470.0
+offset_right = 1217.0
+offset_bottom = 521.0
+mouse_filter = 2
+color = Color(0.101961, 0.219608, 0.266667, 0.239216)

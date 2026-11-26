@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://b5vt0rcocx6g3"]
 
 [ext_resource type="Script" uid="uid://cpbsgk6dl4rej" path="res://scripts/plataforma_temporal.gd" id="1_gyek2"]
+[ext_resource type="PackedScene" path="res://scenes/props/plataforma_mutante.tscn" id="2_fxtqj"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_op1xx"]
 size = Vector2(130, 14)
@@ -14,17 +15,22 @@ script = ExtResource("1_gyek2")
 [node name="Visual" type="Node2D" parent="." unique_id=955671849]
 
 [node name="RaizBase" type="ColorRect" parent="Visual" unique_id=1095589670]
+visible = false
 offset_left = -65.0
 offset_right = 65.0
 offset_bottom = 14.0
 color = Color(0.29803923, 0.22352941, 0.15294118, 1)
 
 [node name="Musgo" type="ColorRect" parent="Visual" unique_id=1933520960]
+visible = false
 offset_left = -65.0
 offset_top = -5.0
 offset_right = 65.0
 offset_bottom = 1.0
 color = Color(0.3137255, 0.5137255, 0.2901961, 1)
+
+[node name="PlataformaMutanteVisual" parent="Visual" unique_id=2118951250 instance=ExtResource("2_fxtqj")]
+position = Vector2(-1, 1)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=730312105]
 position = Vector2(0, 7)

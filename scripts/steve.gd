@@ -14,6 +14,9 @@ extends CharacterBody2D
 const BULLET_SCENE = preload("res://scenes/player/bullet.tscn")
 const DEFEAT_SCENE = preload("res://scenes/ui/pantalla_derrota.tscn")
 
+const VIDA_BASE: int = 100
+const RECARGA_BASE: float = 2.0
+
 
 # Movimiento
 const SPEED = 200.0
@@ -56,21 +59,39 @@ var charge_time = 0.0
 var is_charging = false
 var tiempo_disparo: float = 0.0
 
+var vida_maxima_mejorada: int = 100
+var recarga_mejorada: float = 2.0
+var multiplicador_dano: float = 1.0
+
+
+
 func _ready() -> void:
 	add_to_group("player")
 
+	# Calcular las mejoras compradas
+	aplicar_mejoras()
+
 	if GameState.has_saved_stats:
+		# Conservar las estadisticas al cambiar de nivel
 		health = clampi(GameState.health, 1, max_health)
 		ammo = clampi(GameState.ammo, 0, max_ammo)
-		municion_reserva = clampi(GameState.municion_reserva, 0, reserva_maxima)
+		municion_reserva = clampi(
+			GameState.municion_reserva,
+			0,
+			reserva_maxima
+		)
 	else:
+		# Nuevo intento: comenzar con la vida mejorada
 		health = max_health
 		ammo = max_ammo
 		municion_reserva = 0
 
-	print("Vida de Steve: ", health)
+	print("Vida de Steve: ", health, "/", max_health)
 	print("Municion de Steve: ", ammo)
 	print("Municion de reserva: ", municion_reserva)
+	print("Multiplicador de dano: ", multiplicador_dano)
+	print("Tiempo de recarga: ", recarga_mejorada)
+
 	
 
 func _physics_process(delta: float) -> void:
@@ -190,7 +211,7 @@ func deal_damage() -> void:
 
 		if body.is_in_group("enemies") and body.has_method("take_damage") and not enemigos_golpeados.has(body):
 			enemigos_golpeados.append(body)
-			body.take_damage(ATTACK_DAMAGE)
+			body.take_damage(calcular_dano_mejorado(ATTACK_DAMAGE))
 			print("Enemigo golpeado: ", body.name)
 
 
@@ -261,7 +282,7 @@ func shoot(charged: bool = false) -> void:
 
 	# Disparo cargado
 	if charged:
-		bullet.damage = 30
+		bullet.damage = calcular_dano_mejorado(30)
 		bullet.speed = 450.0
 		bullet.scale = Vector2(1.8, 1.8)
 
@@ -270,7 +291,7 @@ func shoot(charged: bool = false) -> void:
 
 	# Disparo normal
 	else:
-		bullet.damage = 10
+		bullet.damage = calcular_dano_mejorado(10)
 		ammo -= 1
 		print("Disparo normal")
 
@@ -327,7 +348,7 @@ func recargar_automaticamente() -> void:
 	print("Steve esta recargando...")
 
 	# Esperar 2 segundos
-	await get_tree().create_timer(2.0).timeout
+	await get_tree().create_timer(recarga_mejorada).timeout
 
 	if not is_inside_tree() or is_dead:
 		return
@@ -346,3 +367,21 @@ func recargar_automaticamente() -> void:
 	print("Recarga terminada")
 	print("Balas principales: ", ammo, "/", max_ammo)
 	print("Balas guardadas: ", municion_reserva)
+
+
+func aplicar_mejoras() -> void:
+	# VIDA: +10 HP por nivel
+	vida_maxima_mejorada = VIDA_BASE + GameState.mejoras_vida * 10
+
+	# Actualizar tambien la vida maxima real de Steve
+	max_health = vida_maxima_mejorada
+
+	# DANO: +5% por nivel
+	multiplicador_dano = 1.0 + GameState.mejoras_dano * 0.05
+
+	# RECARGA: -0.1 segundos por nivel
+	recarga_mejorada = RECARGA_BASE - GameState.mejoras_recarga * 0.1
+
+
+func calcular_dano_mejorado(dano_base: int) -> int:
+	return roundi(dano_base * multiplicador_dano)

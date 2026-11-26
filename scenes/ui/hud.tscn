@@ -28,6 +28,17 @@ mouse_filter = 2
 value = 100.0
 show_percentage = false
 
+[node name="HealthText" type="Label" parent="Control/HealthBar" unique_id=656260451]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "100 / 100 HP"
+horizontal_alignment = 1
+vertical_alignment = 1
+
 [node name="AmmoLabel" type="Label" parent="Control" unique_id=1442843454]
 layout_mode = 0
 offset_left = 20.0

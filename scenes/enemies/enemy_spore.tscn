@@ -6,6 +6,7 @@
 radius = 6.0
 
 [node name="EnemySpore" type="Area2D" unique_id=647333233]
+collision_layer = 16
 script = ExtResource("1_62db7")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1314353214]

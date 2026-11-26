@@ -8,7 +8,7 @@ const ESCENA_PINCHOS = preload(
 
 @export var inicio_suelo: float = 0.0
 @export var fin_suelo: float = 1152.0
-@export var altura_suelo: float = 610.0
+@export var altura_suelo: float = 590.0
 
 @export var ancho_pinchos: float = 100.0
 @export var tiempo_advertencia: float = 3.5

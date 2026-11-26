@@ -1,22 +1,24 @@
 [gd_scene format=3 uid="uid://c0cwv64jhygkr"]
 
+[ext_resource type="PackedScene" uid="uid://da3cohkgv4ppm" path="res://scenes/props/fondo_refugio_eden.tscn" id="1_77qpt"]
 [ext_resource type="PackedScene" uid="uid://bs4wjh4g2wxnf" path="res://scenes/player/steve.tscn" id="1_bni87"]
 [ext_resource type="PackedScene" uid="uid://dxbq7pncklnoo" path="res://scenes/ui/hud.tscn" id="2_xdkps"]
 [ext_resource type="PackedScene" uid="uid://bbko7wv2to7tu" path="res://scenes/levels/exit_door.tscn" id="3_dat4c"]
 [ext_resource type="Script" uid="uid://fhsnhe1y21om" path="res://scripts/scene_door.gd" id="4_3chtq"]
 [ext_resource type="PackedScene" uid="uid://cfvgpb6ujyr5t" path="res://scenes/props/cama_refugio.tscn" id="5_xdkps"]
 [ext_resource type="PackedScene" uid="uid://jffie53pn3fb" path="res://scenes/props/estanteria_refugio.tscn" id="6_qyd2l"]
-[ext_resource type="PackedScene" uid="uid://dj8yfaxkx3y1w" path="res://scenes/props/caja_madera.tscn" id="7_bml70"]
 [ext_resource type="PackedScene" uid="uid://cnskv3ubhq2be" path="res://scenes/props/foco_colgante.tscn" id="8_7o2m7"]
-[ext_resource type="PackedScene" uid="uid://cnhbyi06iv7q1" path="res://scenes/props/decoracion_fondo.tscn" id="9_7o2m7"]
-[ext_resource type="PackedScene" uid="uid://dfawt4h4eh715" path="res://scenes/props/mesa_refugio.tscn" id="10_887tc"]
-[ext_resource type="PackedScene" uid="uid://clb203aksgex6" path="res://scenes/player/ammo_pickup.tscn" id="11_ec8m4"]
+[ext_resource type="PackedScene" path="res://scenes/props/mesa_investigacion.tscn" id="8_77qpt"]
+[ext_resource type="PackedScene" path="res://scenes/props/puerta_refugio_reforzada.tscn" id="11_2xutp"]
+[ext_resource type="PackedScene" uid="uid://sraeciu0wnxt" path="res://scenes/npc/npc_refugio.tscn" id="12_2xutp"]
+[ext_resource type="PackedScene" uid="uid://7ylw67e5mkw3" path="res://scenes/props/nota_recuerdo.tscn" id="12_ec8m4"]
+[ext_resource type="Texture2D" uid="uid://cnhsmtuiaacgt" path="res://assets/recuerdos/Informe E-01 Alerta Biológica.png" id="13_2xutp"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_op1xx"]
-size = Vector2(1412, 34)
+size = Vector2(1412, 86)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3chtq"]
-size = Vector2(52, 79)
+size = Vector2(108, 156.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_887tc"]
 size = Vector2(41, 658.5)
@@ -24,80 +26,19 @@ size = Vector2(41, 658.5)
 [node name="Refugio" type="Node2D" unique_id=901466039]
 
 [node name="FondoTemporal" type="ColorRect" parent="." unique_id=1084933701]
+visible = false
 z_index = -10
 offset_right = 1400.0
 offset_bottom = 650.0
 color = Color(0.28627452, 0.3372549, 0.36078432, 1)
 
-[node name="DecoracionFondo" parent="." unique_id=716682926 instance=ExtResource("9_7o2m7")]
-position = Vector2(-7, -44)
-
-[node name="ParedesRefugio" type="Node2D" parent="." unique_id=1375593919]
-z_index = -10
-position = Vector2(5, 6)
-
-[node name="FranjaSuperior" type="ColorRect" parent="ParedesRefugio" unique_id=731715746]
-offset_right = 1400.0
-offset_bottom = 35.0
-color = Color(0.45490196, 0.5019608, 0.5176471, 1)
-
-[node name="SombraSuperior" type="ColorRect" parent="ParedesRefugio" unique_id=1196332489]
-offset_top = 35.0
-offset_right = 1400.0
-offset_bottom = 43.0
-color = Color(0.1882353, 0.22745098, 0.25490198, 1)
-
-[node name="ParedInterior" type="ColorRect" parent="ParedesRefugio" unique_id=2145506536]
-offset_top = 460.0
-offset_right = 1400.0
-offset_bottom = 580.0
-color = Color(0.23137255, 0.28235295, 0.30588236, 1)
-
-[node name="LineaHorizontal" type="ColorRect" parent="ParedesRefugio" unique_id=1786078347]
-offset_top = 280.0
-offset_right = 1400.0
-offset_bottom = 285.0
-color = Color(0.34509805, 0.39607844, 0.41960785, 1)
-
-[node name="Columna1" type="ColorRect" parent="ParedesRefugio" unique_id=636397607]
-offset_left = 350.0
-offset_top = 40.0
-offset_right = 360.0
-offset_bottom = 580.0
-color = Color(0.19215687, 0.23921569, 0.26666668, 1)
-
-[node name="Columna2" type="ColorRect" parent="ParedesRefugio" unique_id=1572794495]
-offset_left = 700.0
-offset_top = 40.0
-offset_right = 710.0
-offset_bottom = 580.0
-color = Color(0.19215687, 0.23921569, 0.26666668, 1)
-
-[node name="Columna3" type="ColorRect" parent="ParedesRefugio" unique_id=1006394803]
-offset_left = 1050.0
-offset_top = 40.0
-offset_right = 1060.0
-offset_bottom = 580.0
-color = Color(0.19215687, 0.23921569, 0.26666668, 1)
-
-[node name="BordeInferior" type="ColorRect" parent="ParedesRefugio" unique_id=1368901516]
-offset_top = 570.0
-offset_right = 1400.0
-offset_bottom = 580.0
-color = Color(0.6, 0.6431373, 0.6431373, 1)
-
-[node name="Label" type="Label" parent="ParedesRefugio" unique_id=2145320762]
-offset_left = 480.0
-offset_top = 130.0
-offset_right = 606.0
-offset_bottom = 164.0
-theme_override_colors/font_color = Color(0.6627451, 0.9137255, 0.6901961, 1)
-theme_override_font_sizes/font_size = 24
-text = "SAFE ZONE"
+[node name="FondoRefugioEdenMejorado" parent="." unique_id=1663649357 instance=ExtResource("1_77qpt")]
+position = Vector2(2, 13)
 
 [node name="Suelo" type="StaticBody2D" parent="." unique_id=1815186442]
 
 [node name="ColorRect" type="ColorRect" parent="Suelo" unique_id=463342805]
+visible = false
 offset_left = 6.0
 offset_top = 577.0
 offset_right = 1401.0
@@ -105,7 +46,7 @@ offset_bottom = 650.0
 color = Color(0.3764706, 0.41960785, 0.4627451, 1)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Suelo" unique_id=1159307698]
-position = Vector2(698, 643)
+position = Vector2(698, 617)
 shape = SubResource("RectangleShape2D_op1xx")
 debug_color = Color(0, 0.6, 0.69803923, 0)
 
@@ -114,162 +55,42 @@ z_index = 5
 position = Vector2(100, 600)
 
 [node name="Camera2D" parent="Steve" index="3" unique_id=1693207895]
-limit_right = 1400
+limit_right = 1368
 limit_bottom = 658
 
 [node name="HUD" parent="." unique_id=265695125 instance=ExtResource("2_xdkps")]
 
 [node name="SalidaRefugio" parent="." unique_id=759371311 instance=ExtResource("3_dat4c")]
-position = Vector2(1254, 535)
+z_index = -2
+position = Vector2(1235, 498)
 script = ExtResource("4_3chtq")
 destination_scene = "uid://bwvrs6sy8y8jf"
 
 [node name="ColorRect2" type="ColorRect" parent="SalidaRefugio" unique_id=1846252287]
 z_index = -2
-offset_left = -1.0
-offset_right = 39.0
-offset_bottom = 70.0
+offset_left = 3.0
+offset_top = 4.0
+offset_right = 43.0
+offset_bottom = 74.0
 color = Color(0.0028182059, 0.23702261, 0.00089795137, 1)
 metadata/_edit_use_anchors_ = true
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="SalidaRefugio" unique_id=123722435]
-position = Vector2(20, 31)
+z_index = 2
+position = Vector2(21, -1)
 shape = SubResource("RectangleShape2D_3chtq")
-
-[node name="EstanteriaRefugio" parent="." unique_id=1061127050 instance=ExtResource("6_qyd2l")]
-position = Vector2(382, 594)
-
-[node name="CamaRefugio" parent="." unique_id=349099528 instance=ExtResource("5_xdkps")]
-position = Vector2(186, 592)
-
-[node name="Cajas" type="Node2D" parent="." unique_id=2096043057]
-position = Vector2(-19, -17)
-
-[node name="CajaMadera" parent="Cajas" unique_id=72915883 instance=ExtResource("7_bml70")]
-position = Vector2(766, 613)
-
-[node name="CajaMadera3" parent="Cajas" unique_id=490731969 instance=ExtResource("7_bml70")]
-position = Vector2(686, 613)
-
-[node name="CajaMadera2" parent="Cajas" unique_id=517277110 instance=ExtResource("7_bml70")]
-position = Vector2(766, 533)
-
-[node name="CajaMadera4" parent="Cajas" unique_id=1714691210 instance=ExtResource("7_bml70")]
-position = Vector2(686, 534)
 
 [node name="Focos" type="Node2D" parent="." unique_id=1165751355]
 position = Vector2(766, 613)
 
 [node name="FocoColgante" parent="Focos" unique_id=447179231 instance=ExtResource("8_7o2m7")]
-position = Vector2(-562, -595)
+position = Vector2(-530, -586)
 
 [node name="FocoColgante2" parent="Focos" unique_id=1303109907 instance=ExtResource("8_7o2m7")]
-position = Vector2(390, -590)
+position = Vector2(-93, -590)
 
 [node name="FocoColgante3" parent="Focos" unique_id=1703567903 instance=ExtResource("8_7o2m7")]
-position = Vector2(-60, -594)
-
-[node name="BidonAgua" type="Node2D" parent="." unique_id=256121377]
-position = Vector2(939, 499)
-
-[node name="Cuerpo" type="ColorRect" parent="BidonAgua" unique_id=825691538]
-offset_top = -75.0
-offset_right = 48.0
-color = Color(0.39931238, 0.79063445, 0.99984306, 1)
-metadata/_edit_use_anchors_ = true
-
-[node name="BordeSuperior" type="ColorRect" parent="BidonAgua" unique_id=857331924]
-offset_left = -3.0
-offset_top = -75.0
-offset_right = 51.0
-offset_bottom = -66.0
-color = Color(0.5176471, 0.5921569, 0.6, 1)
-metadata/_edit_use_anchors_ = true
-
-[node name="BordeInferior" type="ColorRect" parent="BidonAgua" unique_id=1209196206]
-offset_left = -3.0
-offset_top = -8.0
-offset_right = 51.0
-color = Color(0.2627451, 0.36078432, 0.3764706, 1)
-metadata/_edit_use_anchors_ = true
-
-[node name="FranjaCentral" type="ColorRect" parent="BidonAgua" unique_id=736991232]
-offset_top = -40.0
-offset_right = 48.0
-offset_bottom = -33.0
-color = Color(0.2509804, 0.3647059, 0.38039216, 1)
-metadata/_edit_use_anchors_ = true
-
-[node name="Tapa" type="ColorRect" parent="BidonAgua" unique_id=1622721409]
-offset_left = 15.0
-offset_top = -82.0
-offset_right = 33.0
-offset_bottom = -75.0
-color = Color(0.6431373, 0.7058824, 0.69803923, 1)
-metadata/_edit_use_anchors_ = true
-
-[node name="BidonAgua2" type="Node2D" parent="." unique_id=552337069]
-position = Vector2(942, 580)
-
-[node name="Cuerpo" type="ColorRect" parent="BidonAgua2" unique_id=1984473971]
-offset_top = -75.0
-offset_right = 48.0
-color = Color(0.39931238, 0.79063445, 0.99984306, 1)
-metadata/_edit_use_anchors_ = true
-
-[node name="BordeSuperior" type="ColorRect" parent="BidonAgua2" unique_id=1698549414]
-offset_left = -3.0
-offset_top = -75.0
-offset_right = 51.0
-offset_bottom = -66.0
-color = Color(0.5176471, 0.5921569, 0.6, 1)
-metadata/_edit_use_anchors_ = true
-
-[node name="BordeInferior" type="ColorRect" parent="BidonAgua2" unique_id=1044277568]
-offset_left = -3.0
-offset_top = -8.0
-offset_right = 51.0
-color = Color(0.2627451, 0.36078432, 0.3764706, 1)
-metadata/_edit_use_anchors_ = true
-
-[node name="FranjaCentral" type="ColorRect" parent="BidonAgua2" unique_id=1955342]
-offset_top = -40.0
-offset_right = 48.0
-offset_bottom = -33.0
-color = Color(0.2509804, 0.3647059, 0.38039216, 1)
-metadata/_edit_use_anchors_ = true
-
-[node name="Tapa" type="ColorRect" parent="BidonAgua2" unique_id=288176474]
-offset_left = 15.0
-offset_top = -82.0
-offset_right = 33.0
-offset_bottom = -75.0
-color = Color(0.6431373, 0.7058824, 0.69803923, 1)
-metadata/_edit_use_anchors_ = true
-
-[node name="MesaRefugio" parent="." unique_id=476277961 instance=ExtResource("10_887tc")]
-z_index = 0
-position = Vector2(1111, 604)
-
-[node name="Municiones" type="Node2D" parent="." unique_id=1421650870]
-
-[node name="AmmoPickup" parent="Municiones" unique_id=1355191995 instance=ExtResource("11_ec8m4")]
-position = Vector2(1086, 554)
-
-[node name="AmmoPickup2" parent="Municiones" unique_id=1732901833 instance=ExtResource("11_ec8m4")]
-position = Vector2(1108, 554)
-
-[node name="AmmoPickup3" parent="Municiones" unique_id=1927966833 instance=ExtResource("11_ec8m4")]
-position = Vector2(1131, 555)
-
-[node name="AmmoPickup4" parent="Municiones" unique_id=228825599 instance=ExtResource("11_ec8m4")]
-position = Vector2(1086, 535)
-
-[node name="AmmoPickup5" parent="Municiones" unique_id=1816120155 instance=ExtResource("11_ec8m4")]
-position = Vector2(1109, 535)
-
-[node name="AmmoPickup6" parent="Municiones" unique_id=1797977530 instance=ExtResource("11_ec8m4")]
-position = Vector2(1131, 535)
+position = Vector2(246, -748)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=2050378800]
 
@@ -280,7 +101,98 @@ shape = SubResource("RectangleShape2D_887tc")
 [node name="StaticBody2D2" type="StaticBody2D" parent="." unique_id=1151456823]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2" unique_id=1072035211]
-position = Vector2(1419, 327)
+position = Vector2(1385, 332)
 shape = SubResource("RectangleShape2D_887tc")
 
+[node name="Maria" parent="." unique_id=88952096 instance=ExtResource("12_2xutp")]
+position = Vector2(382, 567)
+nombre_npc = "Maria"
+dialogo = "Hola... No te había visto antes por aquí.
+¿Cómo te llamas?
+¿Steve? Mucho gusto.
+¿Me estás diciendo que no recuerdas nada de tu pasado?
+Cuando comenzó el desastre, mi familia y yo intentamos escapar.
+Una de esas plantas mutantes nos encontró.
+Yo conseguí sobrevivir, pero mi familia no.
+Por favor, Steve... ten cuidado ahí fuera."
+
+[node name="Marcus" parent="." unique_id=1064914055 instance=ExtResource("12_2xutp")]
+position = Vector2(1065, 561)
+nombre_npc = "Marcus"
+dialogo = "¡Alto! ¿Quién eres?
+¿Steve? Nunca te había visto por aquí.
+¿Perdiste la memoria? Qué extraño...
+Cuando comenzó el desastre, una planta mutante atacó a mi mejor amigo.
+Intenté salvarlo, pero no pude.
+Desde entonces protejo este refugio.
+Puedes quedarte, pero no causes problemas.
+Y ten cuidado ahí fuera, Steve."
+
+[node name="Elena" parent="." unique_id=1747372533 instance=ExtResource("12_2xutp")]
+position = Vector2(702, 561)
+nombre_npc = "Elena"
+dialogo = "Espera... Tu rostro me resulta familiar.
+¿Dijiste que te llamas Steve?
+¿Despertaste en un laboratorio sin recuerdos?
+Espera un momento...
+tu y yo heramos compañeros antes del desastre, trabajábamos con plantas experimentales.
+Algo salió mal y comenzaron los ataques.
+Busca las notas de investigación, Steve.
+Tal vez recuerdes quién eras realmente.
+Y si encuentras algo del Proyecto Edén, avísame.
+"
+
+[node name="MesaInvestigacionElena" parent="." unique_id=315156142 instance=ExtResource("8_77qpt")]
+z_index = -1
+position = Vector2(825, 568)
+
+[node name="EstanteriaRefugioMejorada" parent="." unique_id=1163407960 instance=ExtResource("6_qyd2l")]
+z_index = -1
+position = Vector2(534, 561)
+
+[node name="CamaRefugioDetallada" parent="." unique_id=1412450871 instance=ExtResource("5_xdkps")]
+z_index = -1
+position = Vector2(221, 576)
+
+[node name="PuertaRefugioReforzada" parent="." unique_id=1352788613 instance=ExtResource("11_2xutp")]
+position = Vector2(1252, 564)
+
+[node name="InformeE01" parent="." unique_id=875965010 instance=ExtResource("12_ec8m4")]
+position = Vector2(847, 515.99994)
+id_nota = "nota_003"
+titulo_nota = "ARCHIVO 003 - COMPUESTO E-01"
+contenido = "INFORME DEL COMPUESTO E-01
+
+El fertilizante Edén fue desarrollado para restaurar plantas dañadas.
+
+Su fórmula experimental contiene nutrientes concentrados, un catalizador regenerativo y un regulador de crecimiento.
+
+Las primeras pruebas fueron exitosas: las plantas recuperaban su vitalidad rápidamente.
+
+Sin embargo, se detectaron anomalías en el regulador.
+
+Se requiere una muestra de una planta mutante para confirmar la causa."
+imagen_recuerdo = ExtResource("13_2xutp")
+pensamiento_steve = "Conozco esta fórmula...
+El regulador podría ser el problema.
+Necesito conseguir una muestra mutante.
+Quizá Elena pueda ayudarme a analizarla."
+
+[node name="Visual" parent="InformeE01" index="0" unique_id=1946781650]
+position = Vector2(-1.8845801, -7.031892)
+
+[node name="Papel" parent="InformeE01/Visual" index="0" unique_id=1266493994]
+offset_right = 23.0
+offset_bottom = -5.0
+color = Color(0.8352941, 0.78039217, 0.6313726, 1)
+
+[node name="Marca" parent="InformeE01/Visual" index="1" unique_id=1117225557]
+offset_right = 18.0
+offset_bottom = -15.0
+color = Color(0.20392157, 0.36862746, 0.3137255, 1)
+
+[node name="CollisionShape2D" parent="InformeE01" index="1" unique_id=463882369]
+position = Vector2(1.0327747, -1.983223)
+
 [editable path="Steve"]
+[editable path="InformeE01"]

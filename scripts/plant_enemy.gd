@@ -1,5 +1,11 @@
-
 extends CharacterBody2D
+
+const CAJA_MUNICION = preload(
+	"res://scenes/player/ammo_pickup.tscn"
+)
+
+@export_range(0.0, 1.0, 0.05)
+var probabilidad_municion: float = 0.60
 
 @export var max_health: int = 30
 @export var move_speed: float = 65.0
@@ -11,7 +17,7 @@ extends CharacterBody2D
 var health: int
 var attack_timer: float = 0.0
 var player: CharacterBody2D
-
+var derrotado: bool = false
 
 func _ready() -> void:
 	# Registrar al enemigo para las colisiones y ataques
@@ -54,10 +60,30 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 
 
+func soltar_municion() -> void:
+	if randf() > probabilidad_municion:
+		return
+
+	var caja = CAJA_MUNICION.instantiate()
+
+	get_tree().current_scene.add_child(caja)
+
+	caja.global_position = global_position + Vector2(0, -12)
+
+	print("El enemigo solto municion")
+
+
+
 func take_damage(amount: int) -> void:
+	if derrotado:
+		return
+
 	health -= amount
 	print("Vida del enemigo: ", health)
 
 	if health <= 0:
+		derrotado = true
 		print("Enemigo derrotado")
+
+		soltar_municion()
 		queue_free()

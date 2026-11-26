@@ -9,6 +9,8 @@
 [ext_resource type="PackedScene" uid="uid://crrgqxdo37xru" path="res://scenes/props/capsula_grande.tscn" id="6_drsfp"]
 [ext_resource type="PackedScene" uid="uid://bbko7wv2to7tu" path="res://scenes/levels/exit_door.tscn" id="6_gkwyn"]
 [ext_resource type="PackedScene" uid="uid://dsnoxm8fq8wdh" path="res://scenes/props/panel_emegencia.tscn" id="7_drsfp"]
+[ext_resource type="PackedScene" uid="uid://7ylw67e5mkw3" path="res://scenes/props/nota_recuerdo.tscn" id="10_a668s"]
+[ext_resource type="Texture2D" uid="uid://bsh08deoeyxnh" path="res://assets/recuerdos/Experimento botánico sin control.png" id="11_avfp2"]
 
 [sub_resource type="Gradient" id="Gradient_i88o1"]
 offsets = PackedFloat32Array(0, 0.5, 1)
@@ -224,5 +226,23 @@ shape = SubResource("RectangleShape2D_kmatr")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2" unique_id=1441967770]
 position = Vector2(1648, 319)
 shape = SubResource("RectangleShape2D_kmatr")
+
+[node name="NotaRecuerdo" parent="." unique_id=875965010 instance=ExtResource("10_a668s")]
+position = Vector2(957, 602)
+contenido = "Registro de investigación 001.
+
+Elena y yo comenzamos el Proyecto Edén con un solo objetivo: restaurar la naturaleza.
+
+Las primeras pruebas fueron un éxito.
+
+Pero durante el experimento final, algo salió mal.
+
+Las plantas comenzaron a crecer sin control.
+
+"
+imagen_recuerdo = ExtResource("11_avfp2")
+pensamiento_steve = "Recuerdo las alarmas, los gritos y una luz verde...
+Después de eso, todo está borroso.
+¿Por qué no puedo recordar qué ocurrió?"
 
 [editable path="Steve"]

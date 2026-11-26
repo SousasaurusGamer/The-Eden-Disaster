@@ -1,0 +1,281 @@
+[gd_scene format=3 uid="uid://3hdiwntp1d1a"]
+
+[node name="VenenoMutanteVisual" type="Node2D" unique_id=549031659]
+
+[node name="Aura" type="Node2D" parent="." unique_id=874474042]
+
+[node name="HaloLejano" type="Polygon2D" parent="Aura" unique_id=228245383]
+color = Color(0.411765, 0.905882, 0.513725, 0.098039)
+polygon = PackedVector2Array(20.3, 0, 19.91, 3.765, 18.755, 7.386, 16.879, 10.723, 14.354, 13.647, 11.278, 16.047, 7.768, 17.831, 3.96, 18.929, 0, 19.3, -3.96, 18.929, -7.768, 17.831, -11.278, 16.047, -14.354, 13.647, -16.879, 10.723, -18.755, 7.386, -19.91, 3.765, -20.3, 0, -19.91, -3.765, -18.755, -7.386, -16.879, -10.723, -14.354, -13.647, -11.278, -16.047, -7.768, -17.831, -3.96, -18.929, 0, -19.3, 3.96, -18.929, 7.768, -17.831, 11.278, -16.047, 14.354, -13.647, 16.879, -10.723, 18.755, -7.386, 19.91, -3.765)
+
+[node name="HaloInterior" type="Polygon2D" parent="Aura" unique_id=390139133]
+color = Color(0.631373, 0.956863, 0.376471, 0.160784)
+polygon = PackedVector2Array(15.7, 0, 15.398, 3.004, 14.505, 5.893, 13.054, 8.556, 11.102, 10.889, 8.722, 12.805, 6.008, 14.228, 3.063, 15.104, 0, 15.4, -3.063, 15.104, -6.008, 14.228, -8.722, 12.805, -11.102, 10.889, -13.054, 8.556, -14.505, 5.893, -15.398, 3.004, -15.7, 0, -15.398, -3.004, -14.505, -5.893, -13.054, -8.556, -11.102, -10.889, -8.722, -12.805, -6.008, -14.228, -3.063, -15.104, 0, -15.4, 3.063, -15.104, 6.008, -14.228, 8.722, -12.805, 11.102, -10.889, 13.054, -8.556, 14.505, -5.893, 15.398, -3.004)
+
+[node name="HaloOscuro" type="Polygon2D" parent="Aura" unique_id=1030946172]
+color = Color(0.066667, 0.227451, 0.203922, 0.564706)
+polygon = PackedVector2Array(12.7, 0, 12.382, 2.693, 11.442, 5.25, 9.929, 7.544, 7.918, 9.46, 5.51, 10.902, 2.826, 11.797, 0, 12.1, -2.826, 11.797, -5.51, 10.902, -7.918, 9.46, -9.929, 7.544, -11.442, 5.25, -12.382, 2.693, -12.7, 0, -12.382, -2.693, -11.442, -5.25, -9.929, -7.544, -7.918, -9.46, -5.51, -10.902, -2.826, -11.797, 0, -12.1, 2.826, -11.797, 5.51, -10.902, 7.918, -9.46, 9.929, -7.544, 11.442, -5.25, 12.382, -2.693)
+
+[node name="Membrana" type="Node2D" parent="." unique_id=166563635]
+
+[node name="Espinas" type="Node2D" parent="." unique_id=1659826506]
+
+[node name="HojaEspinosa_00" type="Polygon2D" parent="Espinas" unique_id=1376630431]
+color = Color(0.254902, 0.427451, 0.211765, 1)
+polygon = PackedVector2Array(-6.887, -5.668, -10.549, -7.305, -15.649, -7.016, -12.04, -3.165, -8.75, -0.493)
+
+[node name="EspinaLateral_00" type="Polygon2D" parent="Espinas" unique_id=1598597993]
+color = Color(0.662745, 0.698039, 0.364706, 1)
+polygon = PackedVector2Array(-10.888, -6.364, -11.001, -9.594, -13.142, -6.007)
+
+[node name="HojaEspinosa_01" type="Polygon2D" parent="Espinas" unique_id=1806437127]
+color = Color(0.364706, 0.556863, 0.247059, 1)
+polygon = PackedVector2Array(-0.165, -9.315, -1.238, -13.18, -4.759, -17.056, -5.378, -11.689, -5.34, -7.452)
+
+[node name="EspinaLateral_01" type="Polygon2D" parent="Espinas" unique_id=1669802813]
+color = Color(0.662745, 0.698039, 0.364706, 1)
+polygon = PackedVector2Array(-2.179, -12.841, 0.238, -14.986, -3.891, -14.35)
+
+[node name="HojaEspinosa_02" type="Polygon2D" parent="Espinas" unique_id=609355327]
+color = Color(0.231373, 0.4, 0.203922, 1)
+polygon = PackedVector2Array(6.868, -6.871, 8.951, -10.299, 9.43, -15.644, 5.031, -12.296, 1.967, -9.368)
+
+[node name="EspinaLateral_02" type="Polygon2D" parent="Espinas" unique_id=1355387960]
+color = Color(0.662745, 0.698039, 0.364706, 1)
+polygon = PackedVector2Array(8.06, -10.753, 11.278, -10.46, 7.988, -13.034)
+
+[node name="HojaEspinosa_03" type="Polygon2D" parent="Espinas" unique_id=719009603]
+color = Color(0.447059, 0.607843, 0.254902, 1)
+polygon = PackedVector2Array(8.916, 0.257, 12.813, -0.693, 18.263, -4.567, 11.453, -4.878, 7.216, -4.973)
+
+[node name="EspinaLateral_03" type="Polygon2D" parent="Espinas" unique_id=709169320]
+color = Color(0.662745, 0.698039, 0.364706, 1)
+polygon = PackedVector2Array(12.504, -1.644, 14.572, 0.838, 14.066, -3.309)
+
+[node name="HojaEspinosa_04" type="Polygon2D" parent="Espinas" unique_id=1838874929]
+color = Color(0.254902, 0.427451, 0.211765, 1)
+polygon = PackedVector2Array(6.284, 6.878, 9.644, 9.068, 14.359, 9.377, 11.764, 5.212, 8.933, 2.058)
+
+[node name="EspinaLateral_04" type="Polygon2D" parent="Espinas" unique_id=419145094]
+color = Color(0.662745, 0.698039, 0.364706, 1)
+polygon = PackedVector2Array(10.126, 8.192, 9.733, 11.399, 12.409, 8.191)
+
+[node name="HojaEspinosa_05" type="Polygon2D" parent="Espinas" unique_id=937844091]
+color = Color(0.364706, 0.556863, 0.247059, 1)
+polygon = PackedVector2Array(0.002, 9.715, 0.953, 13.612, 4.221, 17.197, 5.138, 12.252, 5.233, 8.015)
+
+[node name="EspinaLateral_05" type="Polygon2D" parent="Espinas" unique_id=106898730]
+color = Color(0.662745, 0.698039, 0.364706, 1)
+polygon = PackedVector2Array(1.904, 13.303, -0.578, 15.371, 3.568, 14.865)
+
+[node name="HojaEspinosa_06" type="Polygon2D" parent="Espinas" unique_id=1926759568]
+color = Color(0.231373, 0.4, 0.203922, 1)
+polygon = PackedVector2Array(-6.676, 5.916, -8.866, 9.276, -9.917, 15.34, -5.01, 11.396, -1.856, 8.565)
+
+[node name="EspinaLateral_06" type="Polygon2D" parent="Espinas" unique_id=1288360943]
+color = Color(0.662745, 0.698039, 0.364706, 1)
+polygon = PackedVector2Array(-7.989, 9.758, -11.196, 9.364, -7.989, 12.041)
+
+[node name="HojaEspinosa_07" type="Polygon2D" parent="Espinas" unique_id=462506321]
+color = Color(0.447059, 0.607843, 0.254902, 1)
+polygon = PackedVector2Array(-9.262, -1.004, -13.231, -0.424, -18.611, 2.828, -12.271, 3.87, -8.062, 4.364)
+
+[node name="EspinaLateral_07" type="Polygon2D" parent="Espinas" unique_id=2137069622]
+color = Color(0.662745, 0.698039, 0.364706, 1)
+polygon = PackedVector2Array(-13.013, 0.552, -14.839, -2.114, -14.725, 2.062)
+
+[node name="Cuerpo" type="Node2D" parent="." unique_id=937437788]
+
+[node name="BordeVaina" type="Polygon2D" parent="Cuerpo" unique_id=1492327022]
+color = Color(0.121569, 0.278431, 0.215686, 1)
+polygon = PackedVector2Array(11, 0, 10.813, 1.911, 10.257, 3.757, 9.352, 5.475, 8.129, 7.006, 6.629, 8.299, 4.903, 9.31, 3.01, 10.003, 1.015, 10.356, -1.015, 10.356, -3.01, 10.003, -4.903, 9.31, -6.629, 8.299, -8.129, 7.006, -9.352, 5.475, -10.257, 3.757, -10.813, 1.911, -11, 0, -10.813, -1.911, -10.257, -3.757, -9.352, -5.475, -8.129, -7.006, -6.629, -8.299, -4.903, -9.31, -3.01, -10.003, -1.015, -10.356, 1.015, -10.356, 3.01, -10.003, 4.903, -9.31, 6.629, -8.299, 8.129, -7.006, 9.352, -5.475, 10.257, -3.757, 10.813, -1.911)
+
+[node name="VainaOliva" type="Polygon2D" parent="Cuerpo" unique_id=684036422]
+color = Color(0.309804, 0.490196, 0.243137, 1)
+polygon = PackedVector2Array(9.2, -0.35, 8.991, 1.521, 8.374, 3.311, 7.376, 4.94, 6.04, 6.338, 4.425, 7.444, 2.601, 8.21, 0.648, 8.601, -1.348, 8.601, -3.301, 8.21, -5.125, 7.444, -6.74, 6.338, -8.076, 4.94, -9.074, 3.311, -9.691, 1.521, -9.9, -0.35, -9.691, -2.221, -9.074, -4.011, -8.076, -5.64, -6.74, -7.038, -5.125, -8.144, -3.301, -8.91, -1.348, -9.301, 0.648, -9.301, 2.601, -8.91, 4.425, -8.144, 6.04, -7.038, 7.376, -5.64, 8.374, -4.011, 8.991, -2.221)
+
+[node name="SombraInferior" type="Polygon2D" parent="Cuerpo" unique_id=2038708871]
+color = Color(0.156863, 0.290196, 0.223529, 0.717647)
+polygon = PackedVector2Array(9.1, 0, 8.901, 1.778, 8.313, 3.478, 7.362, 5.026, 6.089, 6.354, 4.55, 7.405, 2.812, 8.132, 0.951, 8.503, -0.951, 8.503, -2.812, 8.132, -4.55, 7.405, -6.089, 6.354, -7.362, 5.026, -8.313, 3.478, -8.901, 1.778, -9.1, 0, 8.95, 0, -8.9, 0)
+
+[node name="VainaMedia" type="Polygon2D" parent="Cuerpo" unique_id=1937873810]
+color = Color(0.494118, 0.737255, 0.301961, 1)
+polygon = PackedVector2Array(4.95, -1.8, 4.693, -0.236, 3.942, 1.201, 2.758, 2.394, 1.238, 3.248, -0.496, 3.694, -2.304, 3.694, -4.038, 3.248, -5.558, 2.394, -6.742, 1.201, -7.493, -0.236, -7.75, -1.8, -7.493, -3.364, -6.742, -4.801, -5.558, -5.994, -4.038, -6.848, -2.304, -7.294, -0.496, -7.294, 1.238, -6.848, 2.758, -5.994, 3.942, -4.801, 4.693, -3.364)
+
+[node name="SacoVeneno" type="Polygon2D" parent="Cuerpo" unique_id=349630156]
+color = Color(0.709804, 0.937255, 0.407843, 1)
+polygon = PackedVector2Array(3.5, -1.35, 3.338, -0.224, 2.864, 0.825, 2.109, 1.726, 1.125, 2.417, -0.021, 2.852, -1.25, 3, -2.479, 2.852, -3.625, 2.417, -4.609, 1.726, -5.364, 0.825, -5.838, -0.224, -6, -1.35, -5.838, -2.476, -5.364, -3.525, -4.609, -4.426, -3.625, -5.117, -2.479, -5.552, -1.25, -5.7, -0.021, -5.552, 1.125, -5.117, 2.109, -4.426, 2.864, -3.525, 3.338, -2.476)
+
+[node name="NucleoToxico" type="Polygon2D" parent="Cuerpo" unique_id=1269149913]
+color = Color(0.882353, 1, 0.6, 1)
+polygon = PackedVector2Array(1.65, -1.3, 1.506, -0.404, 1.087, 0.405, 0.434, 1.046, -0.388, 1.458, -1.3, 1.6, -2.212, 1.458, -3.034, 1.046, -3.687, 0.405, -4.106, -0.404, -4.25, -1.3, -4.106, -2.196, -3.687, -3.005, -3.034, -3.646, -2.212, -4.058, -1.3, -4.2, -0.388, -4.058, 0.434, -3.646, 1.087, -3.005, 1.506, -2.196)
+
+[node name="Venas" type="Node2D" parent="." unique_id=187652234]
+
+[node name="VenaHoja_00" type="Line2D" parent="Venas" unique_id=948593873]
+points = PackedVector2Array(-7.903, -2.845, -12.028, -4.968, -13.748, -5.8)
+width = 0.72
+default_color = Color(0.603922, 0.796078, 0.329412, 0.733333)
+antialiased = true
+
+[node name="VenaHoja_01" type="Line2D" parent="Venas" unique_id=1864128792]
+points = PackedVector2Array(-2.988, -8.299, -3.981, -12.83, -4.484, -14.817)
+width = 0.72
+default_color = Color(0.603922, 0.796078, 0.329412, 0.733333)
+antialiased = true
+
+[node name="VenaHoja_02" type="Line2D" parent="Venas" unique_id=1665368746]
+points = PackedVector2Array(4.195, -8.233, 6.818, -12.059, 7.986, -13.911)
+width = 0.72
+default_color = Color(0.603922, 0.796078, 0.329412, 0.733333)
+antialiased = true
+
+[node name="VenaHoja_03" type="Line2D" parent="Venas" unique_id=660299788]
+points = PackedVector2Array(7.989, -2.596, 12.549, -3.447, 16.016, -4.363)
+width = 0.72
+default_color = Color(0.603922, 0.796078, 0.329412, 0.733333)
+antialiased = true
+
+[node name="VenaHoja_04" type="Line2D" parent="Venas" unique_id=30686319]
+points = PackedVector2Array(7.729, 4.249, 11.471, 6.991, 12.672, 7.879)
+width = 0.72
+default_color = Color(0.603922, 0.796078, 0.329412, 0.733333)
+antialiased = true
+
+[node name="VenaHoja_05" type="Line2D" parent="Venas" unique_id=2105760762]
+points = PackedVector2Array(2.855, 8.788, 3.706, 13.348, 4.017, 14.951)
+width = 0.72
+default_color = Color(0.603922, 0.796078, 0.329412, 0.733333)
+antialiased = true
+
+[node name="VenaHoja_06" type="Line2D" parent="Venas" unique_id=1993764918]
+points = PackedVector2Array(-4.047, 7.361, -6.789, 11.103, -8.419, 13.653)
+width = 0.72
+default_color = Color(0.603922, 0.796078, 0.329412, 0.733333)
+antialiased = true
+
+[node name="VenaHoja_07" type="Line2D" parent="Venas" unique_id=790883315]
+points = PackedVector2Array(-8.608, 1.924, -13.228, 2.342, -16.355, 2.836)
+width = 0.72
+default_color = Color(0.603922, 0.796078, 0.329412, 0.733333)
+antialiased = true
+
+[node name="Venilla_00" type="Line2D" parent="Venas" unique_id=1450556488]
+points = PackedVector2Array(3.332, -1.609, 5.751, -1.889, 8.098, -3.468)
+width = 0.7
+default_color = Color(0.670588, 0.870588, 0.364706, 0.780392)
+antialiased = true
+
+[node name="Venilla_01" type="Line2D" parent="Venas" unique_id=2102196134]
+points = PackedVector2Array(3.378, 1.509, 5.152, 3.177, 7.872, 3.954)
+width = 0.7
+default_color = Color(0.670588, 0.870588, 0.364706, 0.780392)
+antialiased = true
+
+[node name="Venilla_02" type="Line2D" parent="Venas" unique_id=635170727]
+points = PackedVector2Array(1.579, 3.346, 1.836, 5.768, 3.393, 8.129)
+width = 0.7
+default_color = Color(0.670588, 0.870588, 0.364706, 0.780392)
+antialiased = true
+
+[node name="Venilla_03" type="Line2D" parent="Venas" unique_id=1766941452]
+points = PackedVector2Array(-1.963, 3.136, -3.861, 4.662, -5.008, 7.247)
+width = 0.7
+default_color = Color(0.670588, 0.870588, 0.364706, 0.780392)
+antialiased = true
+
+[node name="Venilla_04" type="Line2D" parent="Venas" unique_id=1697036979]
+points = PackedVector2Array(-3.577, -0.946, -5.596, -2.307, -8.406, -2.635)
+width = 0.7
+default_color = Color(0.670588, 0.870588, 0.364706, 0.780392)
+antialiased = true
+
+[node name="Venilla_05" type="Line2D" parent="Venas" unique_id=1640486948]
+points = PackedVector2Array(-0.415, -3.677, 0.122, -6.052, -0.589, -8.789)
+width = 0.7
+default_color = Color(0.670588, 0.870588, 0.364706, 0.780392)
+antialiased = true
+
+[node name="Detalles" type="Node2D" parent="." unique_id=2124596685]
+
+[node name="Nodulo_00" type="Polygon2D" parent="Detalles" unique_id=231195391]
+color = Color(0.647059, 0.823529, 0.368627, 1)
+polygon = PackedVector2Array(-5.4, -4.2, -5.547, -3.705, -5.95, -3.343, -6.5, -3.21, -7.05, -3.343, -7.453, -3.705, -7.6, -4.2, -7.453, -4.695, -7.05, -5.057, -6.5, -5.19, -5.95, -5.057, -5.547, -4.695)
+
+[node name="Nodulo_01" type="Polygon2D" parent="Detalles" unique_id=970751625]
+color = Color(0.647059, 0.823529, 0.368627, 1)
+polygon = PackedVector2Array(-3.7, 5.25, -3.821, 5.655, -4.15, 5.951, -4.6, 6.06, -5.05, 5.951, -5.379, 5.655, -5.5, 5.25, -5.379, 4.845, -5.05, 4.549, -4.6, 4.44, -4.15, 4.549, -3.821, 4.845)
+
+[node name="Nodulo_02" type="Polygon2D" parent="Detalles" unique_id=443393079]
+color = Color(0.647059, 0.823529, 0.368627, 1)
+polygon = PackedVector2Array(6.4, 4.9, 6.266, 5.35, 5.9, 5.679, 5.4, 5.8, 4.9, 5.679, 4.534, 5.35, 4.4, 4.9, 4.534, 4.45, 4.9, 4.121, 5.4, 4, 5.9, 4.121, 6.266, 4.45)
+
+[node name="Nodulo_03" type="Polygon2D" parent="Detalles" unique_id=908838794]
+color = Color(0.647059, 0.823529, 0.368627, 1)
+polygon = PackedVector2Array(8.05, -3.3, 7.95, -2.962, 7.675, -2.715, 7.3, -2.625, 6.925, -2.715, 6.65, -2.962, 6.55, -3.3, 6.65, -3.637, 6.925, -3.885, 7.3, -3.975, 7.675, -3.885, 7.95, -3.638)
+
+[node name="Nodulo_04" type="Polygon2D" parent="Detalles" unique_id=565196012]
+color = Color(0.647059, 0.823529, 0.368627, 1)
+polygon = PackedVector2Array(3.05, -7.3, 2.95, -6.962, 2.675, -6.715, 2.3, -6.625, 1.925, -6.715, 1.65, -6.962, 1.55, -7.3, 1.65, -7.637, 1.925, -7.885, 2.3, -7.975, 2.675, -7.885, 2.95, -7.638)
+
+[node name="Espora_00" type="Polygon2D" parent="Detalles" unique_id=892910320]
+color = Color(0.658824, 0.988235, 0.462745, 0.729412)
+polygon = PackedVector2Array(-15.25, 2.4, -15.458, 3.175, -16.025, 3.742, -16.8, 3.95, -17.575, 3.742, -18.142, 3.175, -18.35, 2.4, -18.142, 1.625, -17.575, 1.058, -16.8, 0.85, -16.025, 1.058, -15.458, 1.625)
+
+[node name="Espora_01" type="Polygon2D" parent="Detalles" unique_id=1856834903]
+color = Color(0.658824, 0.988235, 0.462745, 0.729412)
+polygon = PackedVector2Array(-19.65, 5.1, -19.764, 5.525, -20.075, 5.836, -20.5, 5.95, -20.925, 5.836, -21.236, 5.525, -21.35, 5.1, -21.236, 4.675, -20.925, 4.364, -20.5, 4.25, -20.075, 4.364, -19.764, 4.675)
+
+[node name="Espora_02" type="Polygon2D" parent="Detalles" unique_id=1247735374]
+color = Color(0.658824, 0.988235, 0.462745, 0.729412)
+polygon = PackedVector2Array(16.75, -9.2, 16.636, -8.775, 16.325, -8.464, 15.9, -8.35, 15.475, -8.464, 15.164, -8.775, 15.05, -9.2, 15.164, -9.625, 15.475, -9.936, 15.9, -10.05, 16.325, -9.936, 16.636, -9.625)
+
+[node name="CicatrizSuperior" type="Line2D" parent="Detalles" unique_id=1495111585]
+points = PackedVector2Array(-7.3, -5.2, -5.9, -7, -3.5, -7.3)
+width = 0.85
+default_color = Color(0.156863, 0.278431, 0.207843, 0.729412)
+antialiased = true
+
+[node name="CicatrizLateral" type="Line2D" parent="Detalles" unique_id=1382946175]
+points = PackedVector2Array(6.6, 1.7, 7.6, 2.6, 6.4, 4.1)
+width = 0.75
+default_color = Color(0.098039, 0.231373, 0.215686, 0.768627)
+antialiased = true
+
+[node name="Reflejos" type="Node2D" parent="." unique_id=83943069]
+
+[node name="LuzCentral" type="Polygon2D" parent="Reflejos" unique_id=74696578]
+color = Color(0.976471, 1, 0.862745, 1)
+polygon = PackedVector2Array(-0.75, -2.2, -0.864, -1.683, -1.189, -1.245, -1.676, -0.953, -2.25, -0.85, -2.824, -0.953, -3.311, -1.245, -3.636, -1.683, -3.75, -2.2, -3.636, -2.717, -3.311, -3.155, -2.824, -3.447, -2.25, -3.55, -1.676, -3.447, -1.189, -3.155, -0.864, -2.717)
+
+[node name="PuntoBrillo_00" type="Polygon2D" parent="Reflejos" unique_id=43333238]
+color = Color(0.878431, 1, 0.619608, 1)
+polygon = PackedVector2Array(-6.348, -4.4, -6.43, -4.188, -6.639, -4.075, -6.876, -4.114, -7.031, -4.287, -7.031, -4.513, -6.876, -4.686, -6.639, -4.725, -6.43, -4.612)
+
+[node name="PuntoBrillo_01" type="Polygon2D" parent="Reflejos" unique_id=97839855]
+color = Color(0.878431, 1, 0.619608, 1)
+polygon = PackedVector2Array(-4.512, 5.05, -4.579, 5.224, -4.75, 5.316, -4.944, 5.284, -5.071, 5.142, -5.071, 4.958, -4.944, 4.816, -4.75, 4.784, -4.579, 4.876)
+
+[node name="PuntoBrillo_02" type="Polygon2D" parent="Reflejos" unique_id=1069534931]
+color = Color(0.878431, 1, 0.619608, 1)
+polygon = PackedVector2Array(5.52, 4.7, 5.445, 4.893, 5.256, 4.995, 5.04, 4.96, 4.899, 4.803, 4.899, 4.597, 5.04, 4.44, 5.256, 4.405, 5.445, 4.507)
+
+[node name="PuntoBrillo_03" type="Polygon2D" parent="Reflejos" unique_id=2073457117]
+color = Color(0.878431, 1, 0.619608, 1)
+polygon = PackedVector2Array(7.34, -3.5, 7.284, -3.355, 7.142, -3.278, 6.98, -3.305, 6.874, -3.423, 6.874, -3.577, 6.98, -3.695, 7.142, -3.722, 7.284, -3.645)
+
+[node name="PuntoBrillo_04" type="Polygon2D" parent="Reflejos" unique_id=1750842269]
+color = Color(0.878431, 1, 0.619608, 1)
+polygon = PackedVector2Array(2.34, -7.5, 2.284, -7.355, 2.142, -7.278, 1.98, -7.305, 1.874, -7.423, 1.874, -7.577, 1.98, -7.695, 2.142, -7.722, 2.284, -7.645)
+
+[node name="BrilloEspora_00" type="Polygon2D" parent="Reflejos" unique_id=1890249260]
+color = Color(0.929412, 1, 0.807843, 1)
+polygon = PackedVector2Array(-16.43, 2.15, -16.548, 2.514, -16.858, 2.74, -17.242, 2.74, -17.552, 2.514, -17.67, 2.15, -17.552, 1.786, -17.242, 1.56, -16.858, 1.56, -16.548, 1.786)
+
+[node name="BrilloEspora_01" type="Polygon2D" parent="Reflejos" unique_id=1047383080]
+color = Color(0.929412, 1, 0.807843, 1)
+polygon = PackedVector2Array(-20.41, 4.85, -20.475, 5.05, -20.645, 5.173, -20.855, 5.173, -21.025, 5.05, -21.09, 4.85, -21.025, 4.65, -20.855, 4.527, -20.645, 4.527, -20.475, 4.65)
+
+[node name="BrilloEspora_02" type="Polygon2D" parent="Reflejos" unique_id=692813911]
+color = Color(0.929412, 1, 0.807843, 1)
+polygon = PackedVector2Array(15.99, -9.45, 15.925, -9.25, 15.755, -9.127, 15.545, -9.127, 15.375, -9.25, 15.31, -9.45, 15.375, -9.65, 15.545, -9.773, 15.755, -9.773, 15.925, -9.65)

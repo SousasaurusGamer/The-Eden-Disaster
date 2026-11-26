@@ -32,6 +32,8 @@ func jugar() -> void:
 	GameState.ammo = 24
 	GameState.municion_reserva = 0
 
+	GameState.notas_encontradas.clear()
+	GameState.datos_notas.clear()
 	SceneTransition.cambiar_escena(escena_primer_nivel)
 
 

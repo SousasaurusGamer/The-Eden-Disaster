@@ -6,8 +6,7 @@ const ESCENA_PINCHOS = preload("res://scenes/boss/pinchos_suelo.tscn")
 
 @export var limite_izquierdo: float = 100.0
 @export var limite_derecho: float = 1100.0
-@export var altura_suelo: float = 580.0
-
+@export var altura_suelo: float = 590.0
 @onready var timer: Timer = $TimerAleatorio
 
 

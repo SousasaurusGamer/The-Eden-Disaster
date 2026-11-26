@@ -1,0 +1,469 @@
+[gd_scene load_steps=1 format=3]
+
+[node name="EspinasMutantesActivas" type="Node2D"]
+
+[node name="HojasPunzantes" type="Node2D" parent="."]
+
+[node name="RaicesOscuras" type="Node2D" parent="."]
+
+[node name="RaicesSuperiores" type="Node2D" parent="."]
+
+[node name="HojaBaja" type="Node2D" parent="."]
+
+[node name="Detalles" type="Node2D" parent="."]
+
+[node name="SombraProfunda" type="Polygon2D" parent="RaicesOscuras"]
+color = Color(0.090196, 0.176471, 0.160784, 1)
+polygon = PackedVector2Array(-52.00, 0.00, -46.00, -8.00, -33.00, -11.00, -16.00, -8.00, -1.00, -11.00, 21.00, -8.00, 35.00, -12.00, 53.00, -5.00, 53.00, 2.00, -52.00, 2.00)
+
+[node name="LianaTorcida1" type="Polygon2D" parent="RaicesSuperiores"]
+color = Color(0.160784, 0.274510, 0.227451, 1)
+polygon = PackedVector2Array(-51.78, 3.02, -41.87, -6.04, -28.61, -8.54, -15.86, -1.58, 3.74, -3.07, 21.92, -9.50, 43.76, -3.27, 53.44, 3.95, 56.56, 0.05, 46.24, -8.73, 22.08, -16.50, 2.26, -10.93, -14.14, -10.42, -27.39, -17.46, -46.13, -13.96, -56.22, -1.02)
+
+[node name="VenaLiana1" type="Line2D" parent="Detalles"]
+points = PackedVector2Array(-44.00, -12.00, -28.00, -15.00, -15.00, -8.00, 3.00, -9.00, 22.00, -15.00, 45.00, -8.00)
+width = 1.05
+default_color = Color(0.435294, 0.635294, 0.364706, 1)
+antialiased = true
+
+[node name="LianaTorcida2" type="Polygon2D" parent="RaicesSuperiores"]
+color = Color(0.235294, 0.349020, 0.258824, 1)
+polygon = PackedVector2Array(-54.58, -1.03, -34.44, -2.52, -13.66, 4.49, 6.60, -5.54, 22.88, -1.00, 37.89, -5.50, 53.11, -1.14, 54.89, -6.86, 38.11, -12.50, 23.12, -9.00, 5.40, -14.46, -14.34, -4.49, -33.56, -11.48, -55.42, -6.97)
+
+[node name="VenaLiana2" type="Line2D" parent="Detalles"]
+points = PackedVector2Array(-34.00, -9.00, -14.00, -2.00, 6.00, -12.00, 23.00, -7.00, 38.00, -11.00)
+width = 1.05
+default_color = Color(0.435294, 0.635294, 0.364706, 1)
+antialiased = true
+
+[node name="LianaTorcida3" type="Polygon2D" parent="RaicesSuperiores"]
+color = Color(0.160784, 0.274510, 0.227451, 1)
+polygon = PackedVector2Array(-46.97, 3.82, -35.78, 1.33, -15.90, -3.50, 7.28, 0.44, 27.00, 3.00, 48.49, -0.54, 47.51, -7.46, 27.00, -5.00, 8.72, -8.44, -16.10, -12.50, -38.22, -7.33, -49.03, -1.82)
+
+[node name="VenaLiana3" type="Line2D" parent="Detalles"]
+points = PackedVector2Array(-37.00, -5.00, -16.00, -10.00, 8.00, -6.00, 27.00, -3.00)
+width = 1.05
+default_color = Color(0.588235, 0.839216, 0.411765, 1)
+antialiased = true
+
+[node name="HojaSuelo1" type="Polygon2D" parent="HojaBaja"]
+color = Color(0.329412, 0.545098, 0.294118, 1)
+polygon = PackedVector2Array(-50.00, -1.00, -46.00, -7.00, -40.00, -13.00, -34.00, -8.00, -37.00, -2.00)
+
+[node name="HojaSueloVena1" type="Line2D" parent="Detalles"]
+points = PackedVector2Array(-46.00, -3.00, -41.00, -9.00, -37.00, -4.00)
+width = 0.70
+default_color = Color(0.435294, 0.635294, 0.364706, 1)
+antialiased = true
+
+[node name="HojaSuelo2" type="Polygon2D" parent="HojaBaja"]
+color = Color(0.235294, 0.349020, 0.258824, 1)
+polygon = PackedVector2Array(-38.00, -3.00, -34.00, -9.00, -28.00, -15.00, -22.00, -10.00, -25.00, -4.00)
+
+[node name="HojaSueloVena2" type="Line2D" parent="Detalles"]
+points = PackedVector2Array(-34.00, -5.00, -29.00, -11.00, -25.00, -6.00)
+width = 0.70
+default_color = Color(0.435294, 0.635294, 0.364706, 1)
+antialiased = true
+
+[node name="HojaSuelo3" type="Polygon2D" parent="HojaBaja"]
+color = Color(0.329412, 0.545098, 0.294118, 1)
+polygon = PackedVector2Array(-25.00, 1.00, -21.00, -5.00, -15.00, -11.00, -9.00, -6.00, -12.00, 0.00)
+
+[node name="HojaSueloVena3" type="Line2D" parent="Detalles"]
+points = PackedVector2Array(-21.00, -1.00, -16.00, -7.00, -12.00, -2.00)
+width = 0.70
+default_color = Color(0.435294, 0.635294, 0.364706, 1)
+antialiased = true
+
+[node name="HojaSuelo4" type="Polygon2D" parent="HojaBaja"]
+color = Color(0.235294, 0.349020, 0.258824, 1)
+polygon = PackedVector2Array(-6.00, -3.00, -2.00, -9.00, 4.00, -15.00, 10.00, -10.00, 7.00, -4.00)
+
+[node name="HojaSueloVena4" type="Line2D" parent="Detalles"]
+points = PackedVector2Array(-2.00, -5.00, 3.00, -11.00, 7.00, -6.00)
+width = 0.70
+default_color = Color(0.435294, 0.635294, 0.364706, 1)
+antialiased = true
+
+[node name="HojaSuelo5" type="Polygon2D" parent="HojaBaja"]
+color = Color(0.329412, 0.545098, 0.294118, 1)
+polygon = PackedVector2Array(12.00, -1.00, 16.00, -7.00, 22.00, -13.00, 28.00, -8.00, 25.00, -2.00)
+
+[node name="HojaSueloVena5" type="Line2D" parent="Detalles"]
+points = PackedVector2Array(16.00, -3.00, 21.00, -9.00, 25.00, -4.00)
+width = 0.70
+default_color = Color(0.435294, 0.635294, 0.364706, 1)
+antialiased = true
+
+[node name="HojaSuelo6" type="Polygon2D" parent="HojaBaja"]
+color = Color(0.235294, 0.349020, 0.258824, 1)
+polygon = PackedVector2Array(23.00, -4.00, 27.00, -10.00, 33.00, -16.00, 39.00, -11.00, 36.00, -5.00)
+
+[node name="HojaSueloVena6" type="Line2D" parent="Detalles"]
+points = PackedVector2Array(27.00, -6.00, 32.00, -12.00, 36.00, -7.00)
+width = 0.70
+default_color = Color(0.435294, 0.635294, 0.364706, 1)
+antialiased = true
+
+[node name="HojaSuelo7" type="Polygon2D" parent="HojaBaja"]
+color = Color(0.329412, 0.545098, 0.294118, 1)
+polygon = PackedVector2Array(39.00, 1.00, 43.00, -5.00, 49.00, -11.00, 55.00, -6.00, 52.00, 0.00)
+
+[node name="HojaSueloVena7" type="Line2D" parent="Detalles"]
+points = PackedVector2Array(43.00, -1.00, 48.00, -7.00, 52.00, -2.00)
+width = 0.70
+default_color = Color(0.435294, 0.635294, 0.364706, 1)
+antialiased = true
+
+[node name="EspinasDeFondo" type="Node2D" parent="."]
+
+[node name="SombraEspina0" type="Polygon2D" parent="EspinasDeFondo"]
+color = Color(0.090196, 0.176471, 0.160784, 1)
+polygon = PackedVector2Array(-46.00, 1.00, -49.00, -10.89, -42.00, -29.00, -28.00, -8.91, -31.00, 1.00)
+
+[node name="SombraEspina1" type="Polygon2D" parent="EspinasDeFondo"]
+color = Color(0.090196, 0.176471, 0.160784, 1)
+polygon = PackedVector2Array(-29.00, 1.00, -32.00, -15.84, -23.00, -44.00, -11.00, -12.96, -14.00, 1.00)
+
+[node name="SombraEspina2" type="Polygon2D" parent="EspinasDeFondo"]
+color = Color(0.090196, 0.176471, 0.160784, 1)
+polygon = PackedVector2Array(-9.00, 1.00, -12.00, -20.46, 4.00, -58.00, 9.00, -16.74, 6.00, 1.00)
+
+[node name="SombraEspina3" type="Polygon2D" parent="EspinasDeFondo"]
+color = Color(0.090196, 0.176471, 0.160784, 1)
+polygon = PackedVector2Array(12.00, 1.00, 9.00, -16.50, 19.00, -46.00, 30.00, -13.50, 27.00, 1.00)
+
+[node name="SombraEspina4" type="Polygon2D" parent="EspinasDeFondo"]
+color = Color(0.090196, 0.176471, 0.160784, 1)
+polygon = PackedVector2Array(30.00, 1.00, 27.00, -12.87, 42.00, -35.00, 48.00, -10.53, 45.00, 1.00)
+
+[node name="BordeHueso0" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.145098, 0.270588, 0.207843, 1)
+polygon = PackedVector2Array(-45.00, -4.00, -46.44, -12.00, -43.40, -12.19, -45.00, -23.74, -41.00, -31.00, -37.00, -20.11, -29.80, -11.86, -29.00, -8.00, -32.60, -1.00, -40.00, -2.00)
+
+[node name="EspinaCarnivora0" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.329412, 0.545098, 0.294118, 1)
+polygon = PackedVector2Array(-46.00, -6.00, -47.44, -14.00, -44.40, -14.19, -46.00, -25.74, -42.00, -33.00, -38.00, -22.11, -30.80, -13.86, -30.00, -10.00, -33.60, -3.00, -41.00, -4.00)
+
+[node name="SombraLateral0" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.203922, 0.317647, 0.227451, 1)
+polygon = PackedVector2Array(-44.00, -10.00, -43.60, -14.52, -46.00, -25.41, -42.00, -33.00, -43.00, -21.45, -39.00, -10.56, -39.00, -6.00)
+
+[node name="ReflejoBorde0" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.435294, 0.635294, 0.364706, 1)
+polygon = PackedVector2Array(-42.00, -33.00, -39.00, -23.10, -34.00, -10.56, -33.00, -7.00, -36.00, -14.85)
+
+[node name="VenaBrillante0" type="Line2D" parent="HojasPunzantes"]
+points = PackedVector2Array(-37.00, -6.00, -40.00, -9.90, -43.00, -22.44, -42.00, -28.00)
+width = 1.20
+default_color = Color(0.588235, 0.839216, 0.411765, 1)
+antialiased = true
+
+[node name="VenaSecundaria0" type="Line2D" parent="HojasPunzantes"]
+points = PackedVector2Array(-40.00, -9.90, -43.76, -13.53)
+width = 0.70
+default_color = Color(0.768627, 0.952941, 0.545098, 1)
+antialiased = true
+
+[node name="VenaSecundariaB0" type="Line2D" parent="HojasPunzantes"]
+points = PackedVector2Array(-43.00, -22.44, -34.00, -13.20)
+width = 0.65
+default_color = Color(0.588235, 0.839216, 0.411765, 1)
+antialiased = true
+
+[node name="EspinaLateral0_0" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.717647, 0.631373, 0.423529, 1)
+polygon = PackedVector2Array(-44.10, -17.89, -48.10, -24.89, -45.10, -21.89)
+
+[node name="EspinaLateral0_1" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.513725, 0.454902, 0.317647, 1)
+polygon = PackedVector2Array(-43.46, -21.88, -39.46, -28.88, -42.46, -25.88)
+
+[node name="EspinaLateral0_2" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.717647, 0.631373, 0.423529, 1)
+polygon = PackedVector2Array(-42.91, -25.30, -46.91, -32.30, -43.91, -29.30)
+
+[node name="Manchas0_0" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.235294, 0.349020, 0.258824, 1)
+polygon = PackedVector2Array(-39.95, -8.91, -40.68, -8.15, -41.85, -8.44, -41.85, -9.38, -40.68, -9.67)
+
+[node name="Manchas0_1" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.235294, 0.349020, 0.258824, 1)
+polygon = PackedVector2Array(-35.95, -14.19, -36.68, -13.43, -37.85, -13.72, -37.85, -14.66, -36.68, -14.95)
+
+[node name="Manchas0_2" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.235294, 0.349020, 0.258824, 1)
+polygon = PackedVector2Array(-39.95, -19.47, -40.68, -18.71, -41.85, -19.00, -41.85, -19.94, -40.68, -20.23)
+
+[node name="BordeHueso1" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.145098, 0.270588, 0.207843, 1)
+polygon = PackedVector2Array(-30.00, -4.00, -31.80, -12.00, -28.00, -18.64, -26.00, -35.44, -22.00, -46.00, -18.00, -30.16, -11.00, -18.16, -10.00, -8.00, -14.50, -1.00, -23.00, -2.00)
+
+[node name="EspinaCarnivora1" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.243137, 0.419608, 0.250980, 1)
+polygon = PackedVector2Array(-31.00, -6.00, -32.80, -14.00, -29.00, -20.64, -27.00, -37.44, -23.00, -48.00, -19.00, -32.16, -12.00, -20.16, -11.00, -10.00, -15.50, -3.00, -24.00, -4.00)
+
+[node name="SombraLateral1" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.203922, 0.317647, 0.227451, 1)
+polygon = PackedVector2Array(-29.00, -10.00, -28.00, -21.12, -27.00, -36.96, -23.00, -48.00, -24.00, -31.20, -22.00, -15.36, -22.00, -6.00)
+
+[node name="ReflejoBorde1" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.435294, 0.635294, 0.364706, 1)
+polygon = PackedVector2Array(-23.00, -48.00, -20.00, -33.60, -16.00, -15.36, -16.00, -7.00, -19.00, -21.60)
+
+[node name="VenaBrillante1" type="Line2D" parent="HojasPunzantes"]
+points = PackedVector2Array(-20.00, -6.00, -23.00, -14.40, -24.00, -32.64, -23.00, -43.00)
+width = 1.20
+default_color = Color(0.588235, 0.839216, 0.411765, 1)
+antialiased = true
+
+[node name="VenaSecundaria1" type="Line2D" parent="HojasPunzantes"]
+points = PackedVector2Array(-23.00, -14.40, -28.20, -19.68)
+width = 0.70
+default_color = Color(0.768627, 0.952941, 0.545098, 1)
+antialiased = true
+
+[node name="VenaSecundariaB1" type="Line2D" parent="HojasPunzantes"]
+points = PackedVector2Array(-24.00, -32.64, -16.00, -19.20)
+width = 0.65
+default_color = Color(0.588235, 0.839216, 0.411765, 1)
+antialiased = true
+
+[node name="EspinaLateral1_0" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.717647, 0.631373, 0.423529, 1)
+polygon = PackedVector2Array(-27.69, -22.54, -33.69, -29.54, -28.69, -26.54)
+
+[node name="EspinaLateral1_1" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.513725, 0.454902, 0.317647, 1)
+polygon = PackedVector2Array(-26.26, -29.68, -20.26, -36.68, -25.26, -33.68)
+
+[node name="EspinaLateral1_2" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.717647, 0.631373, 0.423529, 1)
+polygon = PackedVector2Array(-25.04, -35.80, -31.04, -42.80, -26.04, -39.80)
+
+[node name="Manchas1_0" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.235294, 0.349020, 0.258824, 1)
+polygon = PackedVector2Array(-22.95, -12.96, -23.68, -12.20, -24.85, -12.49, -24.85, -13.43, -23.68, -13.72)
+
+[node name="Manchas1_1" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.235294, 0.349020, 0.258824, 1)
+polygon = PackedVector2Array(-18.95, -20.64, -19.68, -19.88, -20.85, -20.17, -20.85, -21.11, -19.68, -21.40)
+
+[node name="Manchas1_2" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.235294, 0.349020, 0.258824, 1)
+polygon = PackedVector2Array(-22.95, -28.32, -23.68, -27.56, -24.85, -27.85, -24.85, -28.79, -23.68, -29.08)
+
+[node name="BordeHueso2" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.145098, 0.270588, 0.207843, 1)
+polygon = PackedVector2Array(-10.00, -4.00, -11.80, -12.00, -8.00, -24.66, 1.00, -46.36, 5.00, -60.00, 9.00, -39.54, 9.00, -24.04, 10.00, -8.00, 5.50, -1.00, -3.00, -2.00)
+
+[node name="EspinaCarnivora2" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.329412, 0.545098, 0.294118, 1)
+polygon = PackedVector2Array(-11.00, -6.00, -12.80, -14.00, -9.00, -26.66, 0.00, -48.36, 4.00, -62.00, 8.00, -41.54, 8.00, -26.04, 9.00, -10.00, 4.50, -3.00, -4.00, -4.00)
+
+[node name="SombraLateral2" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.203922, 0.317647, 0.227451, 1)
+polygon = PackedVector2Array(-9.00, -10.00, -8.00, -27.28, 0.00, -47.74, 4.00, -62.00, 3.00, -40.30, -2.00, -19.84, -2.00, -6.00)
+
+[node name="ReflejoBorde2" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.435294, 0.635294, 0.364706, 1)
+polygon = PackedVector2Array(4.00, -62.00, 7.00, -43.40, 4.00, -19.84, 4.00, -7.00, 1.00, -27.90)
+
+[node name="VenaBrillante2" type="Line2D" parent="HojasPunzantes"]
+points = PackedVector2Array(0.00, -6.00, -3.00, -18.60, 3.00, -42.16, 4.00, -57.00)
+width = 1.20
+default_color = Color(0.588235, 0.839216, 0.411765, 1)
+antialiased = true
+
+[node name="VenaSecundaria2" type="Line2D" parent="HojasPunzantes"]
+points = PackedVector2Array(-3.00, -18.60, -8.20, -25.42)
+width = 0.70
+default_color = Color(0.768627, 0.952941, 0.545098, 1)
+antialiased = true
+
+[node name="VenaSecundariaB2" type="Line2D" parent="HojasPunzantes"]
+points = PackedVector2Array(3.00, -42.16, 4.00, -24.80)
+width = 0.65
+default_color = Color(0.588235, 0.839216, 0.411765, 1)
+antialiased = true
+
+[node name="EspinaLateral2_0" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.717647, 0.631373, 0.423529, 1)
+polygon = PackedVector2Array(-5.52, -26.88, -9.52, -33.88, -6.52, -30.88)
+
+[node name="EspinaLateral2_1" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.513725, 0.454902, 0.317647, 1)
+polygon = PackedVector2Array(-2.62, -36.96, 1.38, -43.96, -1.62, -40.96)
+
+[node name="EspinaLateral2_2" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.717647, 0.631373, 0.423529, 1)
+polygon = PackedVector2Array(-0.14, -45.60, -4.14, -52.60, -1.14, -49.60)
+
+[node name="Manchas2_0" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.235294, 0.349020, 0.258824, 1)
+polygon = PackedVector2Array(-2.95, -16.74, -3.68, -15.98, -4.85, -16.27, -4.85, -17.21, -3.68, -17.50)
+
+[node name="Manchas2_1" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.235294, 0.349020, 0.258824, 1)
+polygon = PackedVector2Array(1.05, -26.66, 0.32, -25.90, -0.85, -26.19, -0.85, -27.13, 0.32, -27.42)
+
+[node name="Manchas2_2" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.235294, 0.349020, 0.258824, 1)
+polygon = PackedVector2Array(-2.95, -36.58, -3.68, -35.82, -4.85, -36.11, -4.85, -37.05, -3.68, -37.34)
+
+[node name="BordeHueso3" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.145098, 0.270588, 0.207843, 1)
+polygon = PackedVector2Array(11.00, -4.00, 9.20, -12.00, 13.00, -19.50, 16.00, -37.00, 20.00, -48.00, 24.00, -31.50, 30.00, -19.00, 31.00, -8.00, 26.50, -1.00, 18.00, -2.00)
+
+[node name="EspinaCarnivora3" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.243137, 0.419608, 0.250980, 1)
+polygon = PackedVector2Array(10.00, -6.00, 8.20, -14.00, 12.00, -21.50, 15.00, -39.00, 19.00, -50.00, 23.00, -33.50, 29.00, -21.00, 30.00, -10.00, 25.50, -3.00, 17.00, -4.00)
+
+[node name="SombraLateral3" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.203922, 0.317647, 0.227451, 1)
+polygon = PackedVector2Array(12.00, -10.00, 13.00, -22.00, 15.00, -38.50, 19.00, -50.00, 18.00, -32.50, 19.00, -16.00, 19.00, -6.00)
+
+[node name="ReflejoBorde3" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.435294, 0.635294, 0.364706, 1)
+polygon = PackedVector2Array(19.00, -50.00, 22.00, -35.00, 25.00, -16.00, 25.00, -7.00, 22.00, -22.50)
+
+[node name="VenaBrillante3" type="Line2D" parent="HojasPunzantes"]
+points = PackedVector2Array(21.00, -6.00, 18.00, -15.00, 18.00, -34.00, 19.00, -45.00)
+width = 1.20
+default_color = Color(0.588235, 0.839216, 0.411765, 1)
+antialiased = true
+
+[node name="VenaSecundaria3" type="Line2D" parent="HojasPunzantes"]
+points = PackedVector2Array(18.00, -15.00, 12.80, -20.50)
+width = 0.70
+default_color = Color(0.768627, 0.952941, 0.545098, 1)
+antialiased = true
+
+[node name="VenaSecundariaB3" type="Line2D" parent="HojasPunzantes"]
+points = PackedVector2Array(18.00, -34.00, 25.00, -20.00)
+width = 0.65
+default_color = Color(0.588235, 0.839216, 0.411765, 1)
+antialiased = true
+
+[node name="EspinaLateral3_0" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.717647, 0.631373, 0.423529, 1)
+polygon = PackedVector2Array(13.62, -23.16, 7.62, -30.16, 12.62, -27.16)
+
+[node name="EspinaLateral3_1" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.513725, 0.454902, 0.317647, 1)
+polygon = PackedVector2Array(15.26, -30.72, 21.26, -37.72, 16.26, -34.72)
+
+[node name="EspinaLateral3_2" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.717647, 0.631373, 0.423529, 1)
+polygon = PackedVector2Array(16.66, -37.20, 10.66, -44.20, 15.66, -41.20)
+
+[node name="Manchas3_0" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.235294, 0.349020, 0.258824, 1)
+polygon = PackedVector2Array(18.05, -13.50, 17.32, -12.74, 16.15, -13.03, 16.15, -13.97, 17.32, -14.26)
+
+[node name="Manchas3_1" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.235294, 0.349020, 0.258824, 1)
+polygon = PackedVector2Array(22.05, -21.50, 21.32, -20.74, 20.15, -21.03, 20.15, -21.97, 21.32, -22.26)
+
+[node name="Manchas3_2" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.235294, 0.349020, 0.258824, 1)
+polygon = PackedVector2Array(18.05, -29.50, 17.32, -28.74, 16.15, -29.03, 16.15, -29.97, 17.32, -30.26)
+
+[node name="BordeHueso4" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.145098, 0.270588, 0.207843, 1)
+polygon = PackedVector2Array(31.00, -4.00, 29.56, -12.00, 32.60, -14.77, 39.00, -28.42, 43.00, -37.00, 47.00, -24.13, 46.20, -14.38, 47.00, -8.00, 43.40, -1.00, 36.00, -2.00)
+
+[node name="EspinaCarnivora4" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.329412, 0.545098, 0.294118, 1)
+polygon = PackedVector2Array(30.00, -6.00, 28.56, -14.00, 31.60, -16.77, 38.00, -30.42, 42.00, -39.00, 46.00, -26.13, 45.20, -16.38, 46.00, -10.00, 42.40, -3.00, 35.00, -4.00)
+
+[node name="SombraLateral4" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.203922, 0.317647, 0.227451, 1)
+polygon = PackedVector2Array(32.00, -10.00, 32.40, -17.16, 38.00, -30.03, 42.00, -39.00, 41.00, -25.35, 37.00, -12.48, 37.00, -6.00)
+
+[node name="ReflejoBorde4" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.435294, 0.635294, 0.364706, 1)
+polygon = PackedVector2Array(42.00, -39.00, 45.00, -27.30, 42.00, -12.48, 43.00, -7.00, 40.00, -17.55)
+
+[node name="VenaBrillante4" type="Line2D" parent="HojasPunzantes"]
+points = PackedVector2Array(39.00, -6.00, 36.00, -11.70, 41.00, -26.52, 42.00, -34.00)
+width = 1.20
+default_color = Color(0.588235, 0.839216, 0.411765, 1)
+antialiased = true
+
+[node name="VenaSecundaria4" type="Line2D" parent="HojasPunzantes"]
+points = PackedVector2Array(36.00, -11.70, 32.24, -15.99)
+width = 0.70
+default_color = Color(0.768627, 0.952941, 0.545098, 1)
+antialiased = true
+
+[node name="VenaSecundariaB4" type="Line2D" parent="HojasPunzantes"]
+points = PackedVector2Array(41.00, -26.52, 42.00, -15.60)
+width = 0.65
+default_color = Color(0.588235, 0.839216, 0.411765, 1)
+antialiased = true
+
+[node name="EspinaLateral4_0" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.717647, 0.631373, 0.423529, 1)
+polygon = PackedVector2Array(34.38, -19.75, 30.38, -26.75, 33.38, -23.75)
+
+[node name="EspinaLateral4_1" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.513725, 0.454902, 0.317647, 1)
+polygon = PackedVector2Array(36.70, -25.00, 40.70, -32.00, 37.70, -29.00)
+
+[node name="EspinaLateral4_2" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.717647, 0.631373, 0.423529, 1)
+polygon = PackedVector2Array(38.69, -29.50, 34.69, -36.50, 37.69, -33.50)
+
+[node name="Manchas4_0" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.235294, 0.349020, 0.258824, 1)
+polygon = PackedVector2Array(36.05, -10.53, 35.32, -9.77, 34.15, -10.06, 34.15, -11.00, 35.32, -11.29)
+
+[node name="Manchas4_1" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.235294, 0.349020, 0.258824, 1)
+polygon = PackedVector2Array(40.05, -16.77, 39.32, -16.01, 38.15, -16.30, 38.15, -17.24, 39.32, -17.53)
+
+[node name="Manchas4_2" type="Polygon2D" parent="HojasPunzantes"]
+color = Color(0.235294, 0.349020, 0.258824, 1)
+polygon = PackedVector2Array(36.05, -23.01, 35.32, -22.25, 34.15, -22.54, 34.15, -23.48, 35.32, -23.77)
+
+[node name="ZarcillosVivos" type="Node2D" parent="."]
+
+[node name="Zarcillo0" type="Polygon2D" parent="ZarcillosVivos"]
+color = Color(0.235294, 0.349020, 0.258824, 1)
+polygon = PackedVector2Array(-38.05, -3.45, -40.84, -14.75, -29.00, -20.00, -19.51, -15.14, -18.49, -16.86, -29.00, -24.00, -45.16, -17.25, -41.95, -2.55)
+
+[node name="BrilloZarcillo0" type="Line2D" parent="ZarcillosVivos"]
+points = PackedVector2Array(-40.00, -3.00, -43.00, -16.00, -29.00, -22.00, -19.00, -16.00)
+width = 0.85
+default_color = Color(0.588235, 0.839216, 0.411765, 1)
+antialiased = true
+
+[node name="Zarcillo1" type="Polygon2D" parent="ZarcillosVivos"]
+color = Color(0.235294, 0.349020, 0.258824, 1)
+polygon = PackedVector2Array(39.88, -1.33, 45.46, -16.45, 34.71, -25.87, 22.00, -25.00, 22.00, -23.00, 33.29, -22.13, 40.54, -15.55, 36.12, -2.67)
+
+[node name="BrilloZarcillo1" type="Line2D" parent="ZarcillosVivos"]
+points = PackedVector2Array(38.00, -2.00, 43.00, -16.00, 34.00, -24.00, 22.00, -24.00)
+width = 0.85
+default_color = Color(0.588235, 0.839216, 0.411765, 1)
+antialiased = true
+
+[node name="EsporasLuminosas" type="Node2D" parent="."]
+
+[node name="BioEspora0" type="Polygon2D" parent="EsporasLuminosas"]
+color = Color(0.635294, 0.929412, 0.474510, 1)
+polygon = PackedVector2Array(-40.70, -22.00, -41.19, -20.98, -42.29, -20.73, -43.17, -21.44, -43.17, -22.56, -42.29, -23.27, -41.19, -23.02)
+
+[node name="BioEspora1" type="Polygon2D" parent="EsporasLuminosas"]
+color = Color(0.635294, 0.929412, 0.474510, 1)
+polygon = PackedVector2Array(-12.70, -20.00, -13.19, -18.98, -14.29, -18.73, -15.17, -19.44, -15.17, -20.56, -14.29, -21.27, -13.19, -21.02)
+
+[node name="BioEspora2" type="Polygon2D" parent="EsporasLuminosas"]
+color = Color(0.635294, 0.929412, 0.474510, 1)
+polygon = PackedVector2Array(12.30, -31.00, 11.81, -29.98, 10.71, -29.73, 9.83, -30.44, 9.83, -31.56, 10.71, -32.27, 11.81, -32.02)
+
+[node name="BioEspora3" type="Polygon2D" parent="EsporasLuminosas"]
+color = Color(0.635294, 0.929412, 0.474510, 1)
+polygon = PackedVector2Array(36.30, -24.00, 35.81, -22.98, 34.71, -22.73, 33.83, -23.44, 33.83, -24.56, 34.71, -25.27, 35.81, -25.02)

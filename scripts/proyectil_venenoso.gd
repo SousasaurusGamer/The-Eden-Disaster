@@ -17,6 +17,9 @@ func _ready() -> void:
 
 
 func _physics_process(delta: float) -> void:
+
+	$VenenoMutanteVisual.rotation += delta * 3.0
+
 	# Mover el proyectil
 	global_position += direccion.normalized() * velocidad * delta
 

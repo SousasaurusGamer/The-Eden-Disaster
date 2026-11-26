@@ -1,0 +1,369 @@
+[gd_scene load_steps=1 format=3]
+
+[node name="PlataformaMutanteVisual" type="Node2D"]
+
+[node name="Estructura" type="Node2D" parent="."]
+
+[node name="RaicesColgantes" type="Node2D" parent="."]
+
+[node name="Raiz" type="Node2D" parent="."]
+
+[node name="Musgo" type="Node2D" parent="."]
+
+[node name="Brotes" type="Node2D" parent="."]
+
+[node name="Bioluminiscencia" type="Node2D" parent="."]
+
+[node name="SombraBajoLaPlataforma" type="Polygon2D" parent="Estructura"]
+color = Color(0.082353, 0.176471, 0.168627, 1)
+polygon = PackedVector2Array(-65.000, 10.000, -58.000, 18.000, -40.000, 19.000, -10.000, 17.000, 20.000, 19.000, 50.000, 17.000, 65.000, 11.000, 59.000, 22.000, -60.000, 22.000)
+
+[node name="VigaInferior" type="Polygon2D" parent="Estructura"]
+color = Color(0.203922, 0.278431, 0.243137, 1)
+polygon = PackedVector2Array(-66.000, 7.000, 65.000, 7.000, 59.000, 18.000, 32.000, 17.000, 19.000, 19.000, -17.000, 18.000, -37.000, 20.000, -60.000, 18.000)
+
+[node name="VigaSuperior" type="Polygon2D" parent="Estructura"]
+color = Color(0.325490, 0.400000, 0.341176, 1)
+polygon = PackedVector2Array(-66.000, 1.000, -62.000, -3.000, 62.000, -3.000, 66.000, 1.000, 64.000, 6.000, -65.000, 6.000)
+
+[node name="BordeOxidado" type="Polygon2D" parent="Estructura"]
+color = Color(0.466667, 0.392157, 0.270588, 1)
+polygon = PackedVector2Array(-66.000, 5.000, 66.000, 5.000, 60.000, 9.000, -64.000, 9.000)
+
+[node name="RefuerzoIzquierdo" type="Polygon2D" parent="Estructura"]
+color = Color(0.137255, 0.235294, 0.215686, 1)
+polygon = PackedVector2Array(-61.000, 9.000, -53.000, 10.000, -44.000, 22.000, -49.000, 23.000)
+
+[node name="RefuerzoDerecho" type="Polygon2D" parent="Estructura"]
+color = Color(0.137255, 0.235294, 0.215686, 1)
+polygon = PackedVector2Array(51.000, 9.000, 59.000, 9.000, 48.000, 23.000, 44.000, 22.000)
+
+[node name="LuzAcero" type="Line2D" parent="Estructura"]
+points = PackedVector2Array(-60.000, 0.000, -25.000, -1.000, 22.000, -1.000, 60.000, 0.000)
+width = 1.30
+default_color = Color(0.466667, 0.564706, 0.509804, 1)
+antialiased = true
+
+[node name="Remache_00" type="Polygon2D" parent="Estructura"]
+color = Color(0.090196, 0.160784, 0.141176, 1)
+polygon = PackedVector2Array(-57.000, 11.000, -54.000, 10.000, -53.000, 12.000, -54.000, 14.000, -57.000, 14.000)
+
+[node name="BrilloRemache_00" type="Polygon2D" parent="Estructura"]
+color = Color(0.780392, 0.670588, 0.454902, 1)
+polygon = PackedVector2Array(-56.000, 10.000, -55.000, 10.000, -55.000, 11.000)
+
+[node name="Remache_01" type="Polygon2D" parent="Estructura"]
+color = Color(0.090196, 0.160784, 0.141176, 1)
+polygon = PackedVector2Array(-26.000, 11.000, -23.000, 10.000, -22.000, 12.000, -23.000, 14.000, -26.000, 14.000)
+
+[node name="BrilloRemache_01" type="Polygon2D" parent="Estructura"]
+color = Color(0.780392, 0.670588, 0.454902, 1)
+polygon = PackedVector2Array(-25.000, 10.000, -24.000, 10.000, -24.000, 11.000)
+
+[node name="Remache_02" type="Polygon2D" parent="Estructura"]
+color = Color(0.090196, 0.160784, 0.141176, 1)
+polygon = PackedVector2Array(-2.000, 11.000, 1.000, 10.000, 2.000, 12.000, 1.000, 14.000, -2.000, 14.000)
+
+[node name="BrilloRemache_02" type="Polygon2D" parent="Estructura"]
+color = Color(0.780392, 0.670588, 0.454902, 1)
+polygon = PackedVector2Array(-1.000, 10.000, 0.000, 10.000, 0.000, 11.000)
+
+[node name="Remache_03" type="Polygon2D" parent="Estructura"]
+color = Color(0.090196, 0.160784, 0.141176, 1)
+polygon = PackedVector2Array(22.000, 11.000, 25.000, 10.000, 26.000, 12.000, 25.000, 14.000, 22.000, 14.000)
+
+[node name="BrilloRemache_03" type="Polygon2D" parent="Estructura"]
+color = Color(0.780392, 0.670588, 0.454902, 1)
+polygon = PackedVector2Array(23.000, 10.000, 24.000, 10.000, 24.000, 11.000)
+
+[node name="Remache_04" type="Polygon2D" parent="Estructura"]
+color = Color(0.090196, 0.160784, 0.141176, 1)
+polygon = PackedVector2Array(53.000, 11.000, 56.000, 10.000, 57.000, 12.000, 56.000, 14.000, 53.000, 14.000)
+
+[node name="BrilloRemache_04" type="Polygon2D" parent="Estructura"]
+color = Color(0.780392, 0.670588, 0.454902, 1)
+polygon = PackedVector2Array(54.000, 10.000, 55.000, 10.000, 55.000, 11.000)
+
+[node name="RaizPrincipal" type="Polygon2D" parent="Raiz"]
+color = Color(0.294118, 0.223529, 0.164706, 1)
+polygon = PackedVector2Array(-66.000, 3.000, -62.000, -3.000, -49.000, -5.000, -37.000, -2.000, -25.000, -6.000, -10.000, -4.000, -1.000, -8.000, 12.000, -5.000, 27.000, -7.000, 42.000, -3.000, 55.000, -5.000, 66.000, 1.000, 64.000, 8.000, 52.000, 12.000, 41.000, 10.000, 25.000, 14.000, 5.000, 12.000, -11.000, 13.000, -27.000, 10.000, -44.000, 12.000, -60.000, 10.000)
+
+[node name="CortezaIluminada" type="Polygon2D" parent="Raiz"]
+color = Color(0.474510, 0.376471, 0.274510, 1)
+polygon = PackedVector2Array(-62.000, 0.000, -50.000, -4.000, -35.000, -1.000, -25.000, -5.000, -10.000, -3.000, 0.000, -7.000, 19.000, -4.000, 29.000, -6.000, 44.000, -2.000, 58.000, -4.000, 64.000, 1.000, 46.000, 2.000, 28.000, 1.000, 14.000, 3.000, -3.000, 0.000, -18.000, 2.000, -35.000, 0.000, -51.000, 3.000)
+
+[node name="CortezaSombra" type="Polygon2D" parent="Raiz"]
+color = Color(0.188235, 0.168627, 0.145098, 1)
+polygon = PackedVector2Array(-64.000, 8.000, -48.000, 10.000, -32.000, 8.000, -19.000, 11.000, -3.000, 9.000, 18.000, 11.000, 30.000, 8.000, 54.000, 10.000, 64.000, 7.000, 60.000, 13.000, 43.000, 11.000, 25.000, 14.000, 5.000, 12.000, -11.000, 13.000, -27.000, 11.000, -44.000, 13.000, -60.000, 11.000)
+
+[node name="NervioCentral" type="Line2D" parent="Raiz"]
+points = PackedVector2Array(-59.000, 3.000, -43.000, 2.000, -24.000, 4.000, -12.000, 2.000, 6.000, 4.000, 20.000, 3.000, 38.000, 5.000, 57.000, 3.000)
+width = 1.30
+default_color = Color(0.654902, 0.509804, 0.333333, 1)
+antialiased = true
+
+[node name="GrietaLarga" type="Line2D" parent="Raiz"]
+points = PackedVector2Array(-52.000, 8.000, -41.000, 5.000, -29.000, 6.000, -15.000, 4.000)
+width = 1.80
+default_color = Color(0.156863, 0.176471, 0.137255, 1)
+antialiased = true
+
+[node name="GrietaCorta" type="Line2D" parent="Raiz"]
+points = PackedVector2Array(9.000, 7.000, 15.000, 5.000, 21.000, 8.000, 33.000, 7.000)
+width = 1.60
+default_color = Color(0.207843, 0.168627, 0.141176, 1)
+antialiased = true
+
+[node name="CortezaHendidura" type="Line2D" parent="Raiz"]
+points = PackedVector2Array(-7.000, -3.000, -3.000, 1.000, -8.000, 6.000)
+width = 1.40
+default_color = Color(0.203922, 0.168627, 0.149020, 1)
+antialiased = true
+
+[node name="CortezaHendidura2" type="Line2D" parent="Raiz"]
+points = PackedVector2Array(40.000, 1.000, 34.000, 5.000, 37.000, 9.000)
+width = 1.50
+default_color = Color(0.203922, 0.168627, 0.149020, 1)
+antialiased = true
+
+[node name="RaizColgante_1" type="Line2D" parent="RaicesColgantes"]
+points = PackedVector2Array(-58.000, 10.000, -59.200, 15.000, -62.000, 20.000, -60.000, 23.000, -64.000, 28.000)
+width = 3.10
+default_color = Color(0.200000, 0.180392, 0.149020, 1)
+antialiased = true
+
+[node name="LuzRaizColgante_1" type="Line2D" parent="RaicesColgantes"]
+points = PackedVector2Array(-58.800, 9.000, -60.000, 14.000, -62.800, 19.000)
+width = 0.80
+default_color = Color(0.419608, 0.345098, 0.250980, 1)
+antialiased = true
+
+[node name="VenaToxica_1" type="Line2D" parent="RaicesColgantes"]
+points = PackedVector2Array(-59.200, 15.000, -62.000, 20.000, -60.000, 23.000)
+width = 0.80
+default_color = Color(0.352941, 0.615686, 0.317647, 1)
+antialiased = true
+
+[node name="RaizColgante_2" type="Line2D" parent="RaicesColgantes"]
+points = PackedVector2Array(-38.000, 10.000, -36.800, 15.000, -34.000, 20.000, -36.000, 28.000, -32.000, 33.000)
+width = 3.10
+default_color = Color(0.200000, 0.180392, 0.149020, 1)
+antialiased = true
+
+[node name="LuzRaizColgante_2" type="Line2D" parent="RaicesColgantes"]
+points = PackedVector2Array(-38.800, 9.000, -37.600, 14.000, -34.800, 19.000)
+width = 0.80
+default_color = Color(0.419608, 0.345098, 0.250980, 1)
+antialiased = true
+
+[node name="RaizColgante_3" type="Line2D" parent="RaicesColgantes"]
+points = PackedVector2Array(-18.000, 10.000, -19.500, 15.000, -23.000, 20.000, -20.500, 20.000, -25.500, 25.000)
+width = 3.10
+default_color = Color(0.200000, 0.180392, 0.149020, 1)
+antialiased = true
+
+[node name="LuzRaizColgante_3" type="Line2D" parent="RaicesColgantes"]
+points = PackedVector2Array(-18.800, 9.000, -20.300, 14.000, -23.800, 19.000)
+width = 0.80
+default_color = Color(0.419608, 0.345098, 0.250980, 1)
+antialiased = true
+
+[node name="VenaToxica_3" type="Line2D" parent="RaicesColgantes"]
+points = PackedVector2Array(-19.500, 15.000, -23.000, 20.000, -20.500, 20.000)
+width = 0.80
+default_color = Color(0.352941, 0.615686, 0.317647, 1)
+antialiased = true
+
+[node name="RaizColgante_4" type="Line2D" parent="RaicesColgantes"]
+points = PackedVector2Array(11.000, 10.000, 11.900, 15.000, 14.000, 20.000, 12.500, 27.000, 15.500, 32.000)
+width = 3.10
+default_color = Color(0.200000, 0.180392, 0.149020, 1)
+antialiased = true
+
+[node name="LuzRaizColgante_4" type="Line2D" parent="RaicesColgantes"]
+points = PackedVector2Array(10.200, 9.000, 11.100, 14.000, 13.200, 19.000)
+width = 0.80
+default_color = Color(0.419608, 0.345098, 0.250980, 1)
+antialiased = true
+
+[node name="RaizColgante_5" type="Line2D" parent="RaicesColgantes"]
+points = PackedVector2Array(38.000, 10.000, 37.100, 15.000, 35.000, 20.000, 36.500, 25.000, 33.500, 30.000)
+width = 3.10
+default_color = Color(0.200000, 0.180392, 0.149020, 1)
+antialiased = true
+
+[node name="LuzRaizColgante_5" type="Line2D" parent="RaicesColgantes"]
+points = PackedVector2Array(37.200, 9.000, 36.300, 14.000, 34.200, 19.000)
+width = 0.80
+default_color = Color(0.419608, 0.345098, 0.250980, 1)
+antialiased = true
+
+[node name="VenaToxica_5" type="Line2D" parent="RaicesColgantes"]
+points = PackedVector2Array(37.100, 15.000, 35.000, 20.000, 36.500, 25.000)
+width = 0.80
+default_color = Color(0.352941, 0.615686, 0.317647, 1)
+antialiased = true
+
+[node name="RaizColgante_6" type="Line2D" parent="RaicesColgantes"]
+points = PackedVector2Array(58.000, 10.000, 59.200, 15.000, 62.000, 20.000, 60.000, 19.000, 64.000, 24.000)
+width = 3.10
+default_color = Color(0.200000, 0.180392, 0.149020, 1)
+antialiased = true
+
+[node name="LuzRaizColgante_6" type="Line2D" parent="RaicesColgantes"]
+points = PackedVector2Array(57.200, 9.000, 58.400, 14.000, 61.200, 19.000)
+width = 0.80
+default_color = Color(0.419608, 0.345098, 0.250980, 1)
+antialiased = true
+
+[node name="CapaMusgo" type="Polygon2D" parent="Musgo"]
+color = Color(0.200000, 0.372549, 0.250980, 1)
+polygon = PackedVector2Array(-64.000, -1.000, -60.000, -7.000, -52.000, -4.000, -44.000, -6.000, -32.000, -3.000, -19.000, -6.000, -7.000, -4.000, 6.000, -7.000, 20.000, -4.000, 32.000, -6.000, 47.000, -4.000, 58.000, -6.000, 64.000, -1.000, 58.000, 1.000, 44.000, 1.000, 24.000, 1.000, 5.000, 1.000, -18.000, 1.000, -44.000, 1.000, -62.000, 2.000)
+
+[node name="MusgoBrillante" type="Polygon2D" parent="Musgo"]
+color = Color(0.427451, 0.623529, 0.333333, 1)
+polygon = PackedVector2Array(-62.000, -4.000, -55.000, -8.000, -45.000, -5.000, -37.000, -7.000, -27.000, -4.000, -19.000, -6.000, -6.000, -5.000, 9.000, -9.000, 20.000, -5.000, 29.000, -7.000, 43.000, -5.000, 55.000, -7.000, 61.000, -2.000, 48.000, -3.000, 35.000, -3.000, 19.000, -2.000, 4.000, -4.000, -14.000, -2.000, -29.000, -2.000, -50.000, -3.000)
+
+[node name="ManchaMusgoOscuro" type="Polygon2D" parent="Musgo"]
+color = Color(0.192157, 0.345098, 0.227451, 1)
+polygon = PackedVector2Array(-54.000, -1.000, -38.000, -2.000, -31.000, 0.000, -43.000, 1.000)
+
+[node name="ManchaMusgoOscuro2" type="Polygon2D" parent="Musgo"]
+color = Color(0.192157, 0.345098, 0.227451, 1)
+polygon = PackedVector2Array(11.000, -3.000, 26.000, -2.000, 19.000, 0.000, 5.000, 0.000)
+
+[node name="PuntosMusgo_0" type="Polygon2D" parent="Musgo"]
+color = Color(0.650980, 0.725490, 0.415686, 1)
+polygon = PackedVector2Array(-59.000, -3.000, -58.000, -5.000, -54.000, -3.000, -51.000, -3.000, -53.000, -1.000, -57.000, -1.000)
+
+[node name="PuntosMusgo_1" type="Polygon2D" parent="Musgo"]
+color = Color(0.650980, 0.725490, 0.415686, 1)
+polygon = PackedVector2Array(-29.000, -3.000, -28.000, -5.000, -25.000, -3.000, -23.000, -3.000, -24.000, -1.000, -28.000, -1.000)
+
+[node name="PuntosMusgo_2" type="Polygon2D" parent="Musgo"]
+color = Color(0.650980, 0.725490, 0.415686, 1)
+polygon = PackedVector2Array(-7.000, -3.000, -6.000, -5.000, -2.000, -3.000, 1.000, -3.000, -1.000, -1.000, -5.000, -1.000)
+
+[node name="PuntosMusgo_3" type="Polygon2D" parent="Musgo"]
+color = Color(0.650980, 0.725490, 0.415686, 1)
+polygon = PackedVector2Array(19.000, -3.000, 20.000, -5.000, 23.000, -3.000, 25.000, -3.000, 24.000, -1.000, 20.000, -1.000)
+
+[node name="PuntosMusgo_4" type="Polygon2D" parent="Musgo"]
+color = Color(0.650980, 0.725490, 0.415686, 1)
+polygon = PackedVector2Array(49.000, -3.000, 50.000, -5.000, 54.000, -3.000, 57.000, -3.000, 55.000, -1.000, 51.000, -1.000)
+
+[node name="Hoja_1" type="Polygon2D" parent="Brotes"]
+color = Color(0.258824, 0.423529, 0.270588, 1)
+polygon = PackedVector2Array(-52.000, -4.000, -55.500, -15.900, -59.000, -21.000, -59.350, -9.950, -50.000, -5.000)
+
+[node name="NervioHoja_1" type="Line2D" parent="Brotes"]
+points = PackedVector2Array(-52.000, -4.000, -56.900, -15.050)
+width = 0.85
+default_color = Color(0.603922, 0.713725, 0.431373, 1)
+antialiased = true
+
+[node name="Hoja_2" type="Polygon2D" parent="Brotes"]
+color = Color(0.466667, 0.588235, 0.356863, 1)
+polygon = PackedVector2Array(-40.000, -3.000, -37.000, -10.700, -34.000, -14.000, -33.700, -6.850, -38.000, -4.000)
+
+[node name="NervioHoja_2" type="Line2D" parent="Brotes"]
+points = PackedVector2Array(-40.000, -3.000, -35.800, -10.150)
+width = 0.85
+default_color = Color(0.603922, 0.713725, 0.431373, 1)
+antialiased = true
+
+[node name="Hoja_3" type="Polygon2D" parent="Brotes"]
+color = Color(0.290196, 0.482353, 0.282353, 1)
+polygon = PackedVector2Array(-12.000, -6.000, -15.500, -16.500, -19.000, -21.000, -19.350, -11.250, -10.000, -7.000)
+
+[node name="NervioHoja_3" type="Line2D" parent="Brotes"]
+points = PackedVector2Array(-12.000, -6.000, -16.900, -15.750)
+width = 0.85
+default_color = Color(0.603922, 0.713725, 0.431373, 1)
+antialiased = true
+
+[node name="Hoja_4" type="Polygon2D" parent="Brotes"]
+color = Color(0.400000, 0.572549, 0.321569, 1)
+polygon = PackedVector2Array(14.000, -5.000, 17.000, -14.100, 20.000, -18.000, 20.300, -9.550, 16.000, -6.000)
+
+[node name="NervioHoja_4" type="Line2D" parent="Brotes"]
+points = PackedVector2Array(14.000, -5.000, 18.200, -13.450)
+width = 0.85
+default_color = Color(0.603922, 0.713725, 0.431373, 1)
+antialiased = true
+
+[node name="Hoja_5" type="Polygon2D" parent="Brotes"]
+color = Color(0.337255, 0.552941, 0.317647, 1)
+polygon = PackedVector2Array(47.000, -4.000, 43.500, -14.500, 40.000, -19.000, 39.650, -9.250, 49.000, -5.000)
+
+[node name="NervioHoja_5" type="Line2D" parent="Brotes"]
+points = PackedVector2Array(47.000, -4.000, 42.100, -13.750)
+width = 0.85
+default_color = Color(0.603922, 0.713725, 0.431373, 1)
+antialiased = true
+
+[node name="Hoja_6" type="Polygon2D" parent="Brotes"]
+color = Color(0.207843, 0.403922, 0.270588, 1)
+polygon = PackedVector2Array(57.000, -2.000, 60.000, -9.700, 63.000, -13.000, 63.300, -5.850, 59.000, -3.000)
+
+[node name="NervioHoja_6" type="Line2D" parent="Brotes"]
+points = PackedVector2Array(57.000, -2.000, 61.200, -9.150)
+width = 0.85
+default_color = Color(0.603922, 0.713725, 0.431373, 1)
+antialiased = true
+
+[node name="NoduloHalo_0" type="Polygon2D" parent="Bioluminiscencia"]
+color = Color(0.258824, 0.415686, 0.250980, 1)
+polygon = PackedVector2Array(-51.000, 11.000, -49.000, 8.000, -45.000, 8.000, -43.000, 11.000, -45.000, 15.000, -49.000, 15.000)
+
+[node name="NoduloLuz_0" type="Polygon2D" parent="Bioluminiscencia"]
+color = Color(0.643137, 0.909804, 0.474510, 1)
+polygon = PackedVector2Array(-49.000, 11.000, -47.000, 9.000, -45.000, 11.000, -47.000, 13.000)
+
+[node name="NoduloHalo_1" type="Polygon2D" parent="Bioluminiscencia"]
+color = Color(0.258824, 0.415686, 0.250980, 1)
+polygon = PackedVector2Array(-12.000, 11.000, -10.000, 8.000, -6.000, 8.000, -4.000, 11.000, -6.000, 15.000, -10.000, 15.000)
+
+[node name="NoduloLuz_1" type="Polygon2D" parent="Bioluminiscencia"]
+color = Color(0.643137, 0.909804, 0.474510, 1)
+polygon = PackedVector2Array(-10.000, 11.000, -8.000, 9.000, -6.000, 11.000, -8.000, 13.000)
+
+[node name="NoduloHalo_2" type="Polygon2D" parent="Bioluminiscencia"]
+color = Color(0.258824, 0.415686, 0.250980, 1)
+polygon = PackedVector2Array(24.000, 11.000, 26.000, 8.000, 30.000, 8.000, 32.000, 11.000, 30.000, 15.000, 26.000, 15.000)
+
+[node name="NoduloLuz_2" type="Polygon2D" parent="Bioluminiscencia"]
+color = Color(0.643137, 0.909804, 0.474510, 1)
+polygon = PackedVector2Array(26.000, 11.000, 28.000, 9.000, 30.000, 11.000, 28.000, 13.000)
+
+[node name="NoduloHalo_3" type="Polygon2D" parent="Bioluminiscencia"]
+color = Color(0.258824, 0.415686, 0.250980, 1)
+polygon = PackedVector2Array(48.000, 11.000, 50.000, 8.000, 54.000, 8.000, 56.000, 11.000, 54.000, 15.000, 50.000, 15.000)
+
+[node name="NoduloLuz_3" type="Polygon2D" parent="Bioluminiscencia"]
+color = Color(0.643137, 0.909804, 0.474510, 1)
+polygon = PackedVector2Array(50.000, 11.000, 52.000, 9.000, 54.000, 11.000, 52.000, 13.000)
+
+[node name="VenasVivas" type="Line2D" parent="Bioluminiscencia"]
+points = PackedVector2Array(-49.000, 8.000, -36.000, 7.000, -20.000, 10.000, -8.000, 8.000, 8.000, 10.000, 25.000, 8.000, 43.000, 10.000, 51.000, 8.000)
+width = 0.90
+default_color = Color(0.400000, 0.541176, 0.262745, 1)
+antialiased = true
+
+[node name="LiquenColgante_0" type="Line2D" parent="Bioluminiscencia"]
+points = PackedVector2Array(-31.000, 11.000, -30.000, 16.000, -33.000, 23.000)
+width = 1.10
+default_color = Color(0.458824, 0.564706, 0.333333, 1)
+antialiased = true
+
+[node name="LiquenColgante_1" type="Line2D" parent="Bioluminiscencia"]
+points = PackedVector2Array(1.000, 11.000, 2.000, 16.000, -1.000, 21.000)
+width = 1.10
+default_color = Color(0.458824, 0.564706, 0.333333, 1)
+antialiased = true
+
+[node name="LiquenColgante_2" type="Line2D" parent="Bioluminiscencia"]
+points = PackedVector2Array(30.000, 11.000, 31.000, 16.000, 28.000, 25.000)
+width = 1.10
+default_color = Color(0.458824, 0.564706, 0.333333, 1)
+antialiased = true

@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://sraeciu0wnxt"]
+
+[ext_resource type="Script" uid="uid://b5t31r5r63rpb" path="res://scripts/npc_refugio.gd" id="1_icm4s"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_op1xx"]
+size = Vector2(100, 95)
+
+[node name="NPCRefugio" type="Area2D" unique_id=88952096]
+script = ExtResource("1_icm4s")
+
+[node name="Visual" type="Node2D" parent="." unique_id=969831866]
+
+[node name="Cabeza" type="ColorRect" parent="Visual" unique_id=1747234906]
+offset_left = -11.0
+offset_top = -76.0
+offset_right = 11.0
+offset_bottom = -52.0
+
+[node name="Cuerpo" type="ColorRect" parent="Visual" unique_id=580883668]
+offset_left = -15.0
+offset_top = -52.0
+offset_right = 15.0
+offset_bottom = -16.0
+
+[node name="Piernas" type="ColorRect" parent="Visual" unique_id=344228224]
+offset_left = -12.0
+offset_top = -16.0
+offset_right = 12.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1343540110]
+position = Vector2(0, -45)
+shape = SubResource("RectangleShape2D_op1xx")

@@ -1,0 +1,57 @@
+[gd_scene format=3 uid="uid://bux2bjkh3emda"]
+
+[ext_resource type="Script" uid="uid://e3pvs3ifv3hn" path="res://scripts/pantalla_recuerdo.gd" id="1_ok2vi"]
+
+[node name="PantallaRecuerdo" type="CanvasLayer" unique_id=887814003]
+script = ExtResource("1_ok2vi")
+
+[node name="Pantalla" type="Control" parent="." unique_id=2124680447]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Fondo" type="ColorRect" parent="Pantalla" unique_id=1323550897]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.043137256, 0.07450981, 0.1254902, 0.9411765)
+
+[node name="Centro" type="CenterContainer" parent="Pantalla" unique_id=1922359852]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Tarjeta" type="PanelContainer" parent="Pantalla/Centro" unique_id=870387868]
+custom_minimum_size = Vector2(800, 450)
+layout_mode = 2
+
+[node name="Contenido" type="VBoxContainer" parent="Pantalla/Centro/Tarjeta" unique_id=241031491]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="Titulo" type="Label" parent="Pantalla/Centro/Tarjeta/Contenido" unique_id=1071473757]
+layout_mode = 2
+theme_override_font_sizes/font_size = 28
+
+[node name="Imagen" type="TextureRect" parent="Pantalla/Centro/Tarjeta/Contenido" unique_id=507519819]
+custom_minimum_size = Vector2(0, 220)
+layout_mode = 2
+expand_mode = 3
+stretch_mode = 4
+
+[node name="Texto" type="Label" parent="Pantalla/Centro/Tarjeta/Contenido" unique_id=1521952181]
+layout_mode = 2
+autowrap_mode = 2
+
+[node name="BotonCerrar" type="Button" parent="Pantalla/Centro/Tarjeta/Contenido" unique_id=1729327661]
+layout_mode = 2
+text = "CERRAR"
