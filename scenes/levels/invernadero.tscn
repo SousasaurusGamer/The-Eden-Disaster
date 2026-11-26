@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://couffylpjkfwp"]
 
 [ext_resource type="PackedScene" uid="uid://bs4wjh4g2wxnf" path="res://scenes/player/steve.tscn" id="1_ikrkf"]
+[ext_resource type="PackedScene" uid="uid://dhkkv4u73likl" path="res://scenes/props/fondo_invernadero.tscn" id="1_rffpa"]
 [ext_resource type="PackedScene" uid="uid://dxbq7pncklnoo" path="res://scenes/ui/hud.tscn" id="2_71ufu"]
 [ext_resource type="PackedScene" uid="uid://b44n2ouuaimgu" path="res://scenes/boss/jefe_planta.tscn" id="3_71ufu"]
 [ext_resource type="Script" uid="uid://c4q4bpdwpo4ei" path="res://scripts/hud_jefe.gd" id="3_pidvd"]
@@ -10,7 +11,7 @@
 [ext_resource type="Script" uid="uid://viquf2saa5ht" path="res://scripts/control_pinchos_permanentes.gd" id="7_pidvd"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_op1xx"]
-size = Vector2(1432, 42)
+size = Vector2(1448, 67)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kmatr"]
 bg_color = Color(0.9, 0.24299997, 0.24299997, 1)
@@ -21,29 +22,34 @@ size = Vector2(35, 646)
 [node name="Invernadero" type="Node2D" unique_id=901466039]
 
 [node name="FondoTemporal" type="ColorRect" parent="." unique_id=1084933701]
-z_index = -2
+z_index = -11
 offset_left = -5.0
 offset_top = -7.0
 offset_right = 1459.0
 offset_bottom = 659.0
 color = Color(0.25065672, 0.3163744, 0.38215223, 1)
 
+[node name="FondoInvernadero1464" parent="." unique_id=1291646712 instance=ExtResource("1_rffpa")]
+z_index = -10
+position = Vector2(1, 0)
+
 [node name="Suelo" type="StaticBody2D" parent="." unique_id=1815186442]
 
 [node name="ColorRect" type="ColorRect" parent="Suelo" unique_id=463342805]
-offset_left = 1.0
-offset_top = 610.0
-offset_right = 1453.0
-offset_bottom = 650.0
+visible = false
+offset_left = -2.0
+offset_top = 593.0
+offset_right = 1450.0
+offset_bottom = 633.0
 color = Color(0.3764706, 0.41960785, 0.4627451, 1)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Suelo" unique_id=1159307698]
-position = Vector2(726, 631)
+position = Vector2(714, 619)
 shape = SubResource("RectangleShape2D_op1xx")
 debug_color = Color(0, 0.6, 0.69803923, 0)
 
 [node name="Steve" parent="." unique_id=1515212709 instance=ExtResource("1_ikrkf")]
-position = Vector2(100, 600)
+position = Vector2(91, 565)
 
 [node name="Camera2D" parent="Steve" index="3" unique_id=1693207895]
 limit_left = -3
@@ -82,12 +88,11 @@ value = 200.0
 show_percentage = false
 
 [node name="JefePlanta" parent="." unique_id=1188613141 instance=ExtResource("3_71ufu")]
-position = Vector2(1062, 610)
+position = Vector2(996, 563)
 
 [node name="ControlPinchos" type="Node2D" parent="." unique_id=1885701288 node_paths=PackedStringArray("jefe")]
 script = ExtResource("6_vutt5")
 jefe = NodePath("../JefePlanta")
-altura_suelo = 610.0
 
 [node name="TimerAtaques" type="Timer" parent="ControlPinchos" unique_id=1103027472]
 
@@ -96,7 +101,6 @@ altura_suelo = 610.0
 [node name="ControlPinchosAleatorios2" type="Node2D" parent="PinchosAleatoriso" unique_id=1566690672 node_paths=PackedStringArray("jefe")]
 script = ExtResource("6_dkjeq")
 jefe = NodePath("../../JefePlanta")
-altura_suelo = 610.0
 
 [node name="TimerAleatorio" type="Timer" parent="PinchosAleatoriso/ControlPinchosAleatorios2" unique_id=495706388]
 wait_time = 4.0
@@ -105,7 +109,6 @@ one_shot = true
 [node name="ControlPinchosAleatorios3" type="Node2D" parent="PinchosAleatoriso" unique_id=599913570 node_paths=PackedStringArray("jefe")]
 script = ExtResource("6_dkjeq")
 jefe = NodePath("../../JefePlanta")
-altura_suelo = 610.0
 
 [node name="TimerAleatorio" type="Timer" parent="PinchosAleatoriso/ControlPinchosAleatorios3" unique_id=1038866505]
 wait_time = 4.0
@@ -114,7 +117,6 @@ one_shot = true
 [node name="ControlPinchosAleatorios4" type="Node2D" parent="PinchosAleatoriso" unique_id=394941868 node_paths=PackedStringArray("jefe")]
 script = ExtResource("6_dkjeq")
 jefe = NodePath("../../JefePlanta")
-altura_suelo = 610.0
 
 [node name="TimerAleatorio" type="Timer" parent="PinchosAleatoriso/ControlPinchosAleatorios4" unique_id=76759350]
 wait_time = 4.0
@@ -123,22 +125,21 @@ one_shot = true
 [node name="ControlPinchosAleatorios5" type="Node2D" parent="PinchosAleatoriso" unique_id=1556556023 node_paths=PackedStringArray("jefe")]
 script = ExtResource("6_dkjeq")
 jefe = NodePath("../../JefePlanta")
-altura_suelo = 610.0
 
 [node name="TimerAleatorio" type="Timer" parent="PinchosAleatoriso/ControlPinchosAleatorios5" unique_id=35481286]
 wait_time = 4.0
 one_shot = true
 
 [node name="PlataformaTemporal" parent="." unique_id=1748668339 node_paths=PackedStringArray("jefe") instance=ExtResource("7_dkjeq")]
-position = Vector2(220, 495)
+position = Vector2(288, 474)
 jefe = NodePath("../JefePlanta")
 
 [node name="PlataformaTemporal2" parent="." unique_id=939206833 node_paths=PackedStringArray("jefe") instance=ExtResource("7_dkjeq")]
-position = Vector2(489, 499)
+position = Vector2(475, 478)
 jefe = NodePath("../JefePlanta")
 
 [node name="PlataformaTemporal3" parent="." unique_id=680056963 node_paths=PackedStringArray("jefe") instance=ExtResource("7_dkjeq")]
-position = Vector2(726, 498)
+position = Vector2(655, 476)
 jefe = NodePath("../JefePlanta")
 
 [node name="StaticBody2D2" type="StaticBody2D" parent="." unique_id=1770278595]

@@ -5,8 +5,8 @@ extends Area2D
 @export var tiempo_aviso: float = 3.5
 @export var intervalo_dano: float = 1.5
 
-@onready var aviso: ColorRect = $AvisoVisual
-@onready var pinchos: Polygon2D = $PinchosVisual
+@onready var aviso: Node2D = $AvisoVisual
+@onready var pinchos: Node2D = $PinchosVisual
 @onready var colision: CollisionShape2D = $CollisionShape2D
 @onready var timer_aviso: Timer = $TimerAviso
 

@@ -1,0 +1,740 @@
+[gd_scene format=3 uid="uid://cigku6wmymj6e"]
+
+[ext_resource type="Script" uid="uid://dl7rux1bthaj6" path="res://scripts/nota_recuerdo.gd" id="1_westh"]
+[ext_resource type="Texture2D" uid="uid://lebpwy18wpuo" path="res://assets/recuerdos/Proyecto Edén Ciudad Sostenible.png" id="2_8he2m"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_zona"]
+size = Vector2(299.5, 223)
+
+[node name="CartelEden" type="Node2D" unique_id=521385092]
+z_index = 3
+
+[node name="Visual" type="Node2D" parent="." unique_id=762196703]
+scale = Vector2(0.5, 0.5)
+
+[node name="SombraSeparacion" type="ColorRect" parent="Visual" unique_id=2141051478]
+offset_left = -192.0
+offset_top = -347.0
+offset_right = 197.0
+offset_bottom = -98.0
+mouse_filter = 2
+color = Color(0.063, 0.11, 0.133, 1)
+
+[node name="MarcoMetalExterior" type="ColorRect" parent="Visual" unique_id=221324696]
+offset_left = -187.0
+offset_top = -350.0
+offset_right = 187.0
+offset_bottom = -110.0
+mouse_filter = 2
+color = Color(0.514, 0.6, 0.6, 1)
+
+[node name="MarcoMetalInterior" type="ColorRect" parent="Visual" unique_id=593301215]
+offset_left = -182.0
+offset_top = -345.0
+offset_right = 182.0
+offset_bottom = -115.0
+mouse_filter = 2
+color = Color(0.153, 0.231, 0.231, 1)
+
+[node name="PapelPoster" type="ColorRect" parent="Visual" unique_id=1179565452]
+offset_left = -176.0
+offset_top = -339.0
+offset_right = 176.0
+offset_bottom = -121.0
+mouse_filter = 2
+color = Color(0.843, 0.816, 0.663, 1)
+
+[node name="SombraDerecha" type="ColorRect" parent="Visual" unique_id=1401255714]
+offset_left = 170.0
+offset_top = -337.0
+offset_right = 176.0
+offset_bottom = -122.0
+mouse_filter = 2
+color = Color(0.396, 0.373, 0.302, 1)
+
+[node name="BrilloMarcoSuperior" type="ColorRect" parent="Visual" unique_id=226388895]
+offset_left = -183.0
+offset_top = -350.0
+offset_right = 183.0
+offset_bottom = -347.0
+mouse_filter = 2
+color = Color(0.769, 0.847, 0.792, 1)
+
+[node name="Remache01" type="ColorRect" parent="Visual" unique_id=1998462055]
+offset_left = -184.0
+offset_top = -343.0
+offset_right = -179.0
+offset_bottom = -337.0
+mouse_filter = 2
+color = Color(0.851, 0.878, 0.835, 1)
+
+[node name="Remache02" type="ColorRect" parent="Visual" unique_id=1513690835]
+offset_left = 179.0
+offset_top = -343.0
+offset_right = 184.0
+offset_bottom = -337.0
+mouse_filter = 2
+color = Color(0.851, 0.878, 0.835, 1)
+
+[node name="Remache03" type="ColorRect" parent="Visual" unique_id=952366810]
+offset_left = -184.0
+offset_top = -118.0
+offset_right = -179.0
+offset_bottom = -113.0
+mouse_filter = 2
+color = Color(0.851, 0.878, 0.835, 1)
+
+[node name="Remache04" type="ColorRect" parent="Visual" unique_id=2086591243]
+offset_left = 179.0
+offset_top = -118.0
+offset_right = 184.0
+offset_bottom = -113.0
+mouse_filter = 2
+color = Color(0.851, 0.878, 0.835, 1)
+
+[node name="FondoVerdeSuperior" type="ColorRect" parent="Visual" unique_id=151948489]
+offset_left = -167.0
+offset_top = -331.0
+offset_right = 167.0
+offset_bottom = -212.0
+mouse_filter = 2
+color = Color(0.098, 0.243, 0.204, 1)
+
+[node name="LuzVerdeLateral" type="ColorRect" parent="Visual" unique_id=1057968575]
+offset_left = -165.0
+offset_top = -330.0
+offset_right = -161.0
+offset_bottom = -212.0
+mouse_filter = 2
+color = Color(0.384, 0.6, 0.416, 1)
+
+[node name="SeparadorVerde" type="ColorRect" parent="Visual" unique_id=1942451160]
+offset_left = -167.0
+offset_top = -214.0
+offset_right = 167.0
+offset_bottom = -211.0
+mouse_filter = 2
+color = Color(0.494, 0.659, 0.475, 1)
+
+[node name="FondoCremaInferior" type="ColorRect" parent="Visual" unique_id=593559311]
+offset_left = -167.0
+offset_top = -211.0
+offset_right = 167.0
+offset_bottom = -129.0
+mouse_filter = 2
+color = Color(0.82, 0.792, 0.655, 1)
+
+[node name="MolduraInferior" type="ColorRect" parent="Visual" unique_id=423642438]
+offset_left = -168.0
+offset_top = -134.0
+offset_right = 168.0
+offset_bottom = -128.0
+mouse_filter = 2
+color = Color(0.196, 0.388, 0.306, 1)
+
+[node name="ZonaCodigo" type="ColorRect" parent="Visual" unique_id=1802417415]
+offset_left = -167.0
+offset_top = -128.0
+offset_right = 167.0
+offset_bottom = -122.0
+mouse_filter = 2
+color = Color(0.612, 0.659, 0.541, 1)
+
+[node name="RejillaFondoV1" type="Line2D" parent="Visual" unique_id=606880089]
+points = PackedVector2Array(25, -328, 25, -215)
+width = 1.0
+default_color = Color(0.188, 0.345, 0.286, 1)
+antialiased = true
+
+[node name="RejillaFondoV2" type="Line2D" parent="Visual" unique_id=28134537]
+points = PackedVector2Array(49, -328, 49, -215)
+width = 1.0
+default_color = Color(0.188, 0.345, 0.286, 1)
+antialiased = true
+
+[node name="RejillaFondoV3" type="Line2D" parent="Visual" unique_id=577928565]
+points = PackedVector2Array(73, -328, 73, -215)
+width = 1.0
+default_color = Color(0.188, 0.345, 0.286, 1)
+antialiased = true
+
+[node name="RejillaFondoV4" type="Line2D" parent="Visual" unique_id=444321400]
+points = PackedVector2Array(97, -328, 97, -215)
+width = 1.0
+default_color = Color(0.188, 0.345, 0.286, 1)
+antialiased = true
+
+[node name="RejillaFondoV5" type="Line2D" parent="Visual" unique_id=524627455]
+points = PackedVector2Array(121, -328, 121, -215)
+width = 1.0
+default_color = Color(0.188, 0.345, 0.286, 1)
+antialiased = true
+
+[node name="RejillaFondoV6" type="Line2D" parent="Visual" unique_id=139256886]
+points = PackedVector2Array(145, -328, 145, -215)
+width = 1.0
+default_color = Color(0.188, 0.345, 0.286, 1)
+antialiased = true
+
+[node name="RejillaFondoH1" type="Line2D" parent="Visual" unique_id=1285374743]
+points = PackedVector2Array(17, -318, 163, -318)
+width = 1.0
+default_color = Color(0.141, 0.298, 0.251, 1)
+antialiased = true
+
+[node name="RejillaFondoH2" type="Line2D" parent="Visual" unique_id=1547458081]
+points = PackedVector2Array(17, -296, 163, -296)
+width = 1.0
+default_color = Color(0.141, 0.298, 0.251, 1)
+antialiased = true
+
+[node name="RejillaFondoH3" type="Line2D" parent="Visual" unique_id=991922902]
+points = PackedVector2Array(17, -274, 163, -274)
+width = 1.0
+default_color = Color(0.141, 0.298, 0.251, 1)
+antialiased = true
+
+[node name="RejillaFondoH4" type="Line2D" parent="Visual" unique_id=362725741]
+points = PackedVector2Array(17, -252, 163, -252)
+width = 1.0
+default_color = Color(0.141, 0.298, 0.251, 1)
+antialiased = true
+
+[node name="DatosBarras1" type="ColorRect" parent="Visual" unique_id=670997292]
+offset_left = 50.0
+offset_top = -239.0
+offset_right = 57.0
+offset_bottom = -225.0
+mouse_filter = 2
+color = Color(0.318, 0.486, 0.345, 1)
+
+[node name="DatosBarras2" type="ColorRect" parent="Visual" unique_id=527307607]
+offset_left = 62.0
+offset_top = -235.0
+offset_right = 69.0
+offset_bottom = -225.0
+mouse_filter = 2
+color = Color(0.318, 0.486, 0.345, 1)
+
+[node name="DatosBarras3" type="ColorRect" parent="Visual" unique_id=314888173]
+offset_left = 74.0
+offset_top = -246.0
+offset_right = 81.0
+offset_bottom = -225.0
+mouse_filter = 2
+color = Color(0.318, 0.486, 0.345, 1)
+
+[node name="DatosBarras4" type="ColorRect" parent="Visual" unique_id=2110384883]
+offset_left = 86.0
+offset_top = -252.0
+offset_right = 93.0
+offset_bottom = -225.0
+mouse_filter = 2
+color = Color(0.318, 0.486, 0.345, 1)
+
+[node name="DatosBarras5" type="ColorRect" parent="Visual" unique_id=1016298588]
+offset_left = 98.0
+offset_top = -243.0
+offset_right = 105.0
+offset_bottom = -225.0
+mouse_filter = 2
+color = Color(0.318, 0.486, 0.345, 1)
+
+[node name="DatosBarras6" type="ColorRect" parent="Visual" unique_id=414319230]
+offset_left = 110.0
+offset_top = -257.0
+offset_right = 117.0
+offset_bottom = -225.0
+mouse_filter = 2
+color = Color(0.318, 0.486, 0.345, 1)
+
+[node name="DatosBarras7" type="ColorRect" parent="Visual" unique_id=1563110041]
+offset_left = 122.0
+offset_top = -249.0
+offset_right = 129.0
+offset_bottom = -225.0
+mouse_filter = 2
+color = Color(0.318, 0.486, 0.345, 1)
+
+[node name="PequenaCorporacion" type="Label" parent="Visual" unique_id=1017962754]
+offset_left = -154.0
+offset_top = -330.0
+offset_right = 90.0
+offset_bottom = -312.0
+theme_override_colors/font_color = Color(0.647, 0.8, 0.627, 1)
+theme_override_font_sizes/font_size = 8
+text = "E D E N   R E S E A R C H"
+
+[node name="Proyecto" type="Label" parent="Visual" unique_id=700945182]
+offset_left = -157.0
+offset_top = -311.0
+offset_right = 99.0
+offset_bottom = -272.0
+theme_override_colors/font_color = Color(0.945, 0.949, 0.835, 1)
+theme_override_colors/font_outline_color = Color(0.094, 0.204, 0.145, 1)
+theme_override_constants/outline_size = 1
+theme_override_font_sizes/font_size = 30
+text = "PROYECTO"
+
+[node name="Eden" type="Label" parent="Visual" unique_id=74829079]
+offset_left = -157.0
+offset_top = -283.0
+offset_right = 69.0
+offset_bottom = -222.0
+theme_override_colors/font_color = Color(0.741, 0.918, 0.588, 1)
+theme_override_colors/font_outline_color = Color(0.137, 0.282, 0.169, 1)
+theme_override_constants/outline_size = 1
+theme_override_font_sizes/font_size = 51
+text = "EDÉN"
+
+[node name="Presentacion" type="Label" parent="Visual" unique_id=969341837]
+offset_left = -153.0
+offset_top = -231.0
+offset_right = 90.0
+offset_bottom = -212.0
+theme_override_colors/font_color = Color(0.835, 0.882, 0.741, 1)
+theme_override_font_sizes/font_size = 9
+text = "LA CIENCIA DE UN MUNDO NUEVO"
+
+[node name="CirculoEmblemaSombra" type="Polygon2D" parent="Visual" unique_id=1892496134]
+color = Color(0.651, 0.725, 0.604, 1)
+polygon = PackedVector2Array(-81, -170, -81.673, -163.757, -83.664, -157.754, -86.899, -152.222, -91.251, -147.373, -96.555, -143.393, -102.606, -140.436, -109.172, -138.615, -116, -138, -122.828, -138.615, -129.394, -140.436, -135.445, -143.393, -140.749, -147.373, -145.101, -152.222, -148.336, -157.754, -150.327, -163.757, -151, -170, -150.327, -176.243, -148.336, -182.246, -145.101, -187.778, -140.749, -192.627, -135.445, -196.607, -129.394, -199.564, -122.828, -201.385, -116, -202, -109.172, -201.385, -102.606, -199.564, -96.555, -196.607, -91.251, -192.627, -86.899, -187.778, -83.664, -182.246, -81.673, -176.243)
+
+[node name="CirculoEmblema" type="Polygon2D" parent="Visual" unique_id=1125181566]
+color = Color(0.902, 0.906, 0.773, 1)
+polygon = PackedVector2Array(-85, -172, -85.634, -166.147, -87.512, -160.519, -90.562, -155.333, -94.665, -150.787, -99.666, -147.056, -105.371, -144.284, -111.562, -142.576, -118, -142, -124.438, -142.576, -130.629, -144.284, -136.334, -147.056, -141.335, -150.787, -145.438, -155.333, -148.488, -160.519, -150.366, -166.147, -151, -172, -150.366, -177.853, -148.488, -183.481, -145.438, -188.667, -141.335, -193.213, -136.334, -196.944, -130.629, -199.716, -124.438, -201.424, -118, -202, -111.562, -201.424, -105.371, -199.716, -99.666, -196.944, -94.665, -193.213, -90.562, -188.667, -87.512, -183.481, -85.634, -177.853)
+
+[node name="TalloCentral" type="Line2D" parent="Visual" unique_id=1427926263]
+points = PackedVector2Array(-120, -149, -120, -185, -124, -200)
+width = 4.0
+default_color = Color(0.176, 0.459, 0.282, 1)
+antialiased = true
+
+[node name="HojaGrandeIzquierda" type="Polygon2D" parent="Visual" unique_id=1809831991]
+color = Color(0.251, 0.478, 0.306, 1)
+polygon = PackedVector2Array(-123, -176, -141, -185, -148, -201, -127, -195, -121, -183)
+
+[node name="HojaGrandeDerecha" type="Polygon2D" parent="Visual" unique_id=1934400917]
+color = Color(0.412, 0.651, 0.353, 1)
+polygon = PackedVector2Array(-122, -186, -110, -202, -94, -204, -102, -191, -118, -181)
+
+[node name="HojaPequenaDerecha" type="Polygon2D" parent="Visual" unique_id=1841915325]
+color = Color(0.557, 0.749, 0.404, 1)
+polygon = PackedVector2Array(-119, -165, -107, -181, -101, -184, -107, -170, -117, -160)
+
+[node name="NervaduraHoja" type="Line2D" parent="Visual" unique_id=1861641650]
+points = PackedVector2Array(-124, -183, -139, -195)
+width = 1.0
+default_color = Color(0.647, 0.784, 0.525, 1)
+antialiased = true
+
+[node name="EsloganPrincipal" type="Label" parent="Visual" unique_id=1951236986]
+offset_left = -77.0
+offset_top = -201.0
+offset_right = 81.0
+offset_bottom = -175.0
+theme_override_colors/font_color = Color(0.145, 0.294, 0.224, 1)
+theme_override_font_sizes/font_size = 17
+text = "UN FUTURO"
+
+[node name="EsloganSecundario" type="Label" parent="Visual" unique_id=488047030]
+offset_left = -76.0
+offset_top = -178.0
+offset_right = 77.0
+offset_bottom = -157.0
+theme_override_colors/font_color = Color(0.302, 0.439, 0.298, 1)
+theme_override_font_sizes/font_size = 10
+text = "VERDE PARA TODOS"
+
+[node name="LineaCorporativa" type="ColorRect" parent="Visual" unique_id=445352205]
+offset_left = -79.0
+offset_top = -158.0
+offset_right = 75.0
+offset_bottom = -156.0
+mouse_filter = 2
+color = Color(0.482, 0.6, 0.502, 1)
+
+[node name="FirmaSteve" type="Label" parent="Visual" unique_id=431450692]
+offset_left = -77.0
+offset_top = -154.0
+offset_right = 70.0
+offset_bottom = -132.0
+theme_override_colors/font_color = Color(0.165, 0.29, 0.2, 1)
+theme_override_font_sizes/font_size = 9
+text = "IMPULSADO POR STEVE"
+
+[node name="CodigoArchivo" type="Label" parent="Visual" unique_id=306859150]
+offset_left = -160.0
+offset_top = -130.0
+offset_right = 115.0
+offset_bottom = -118.0
+theme_override_colors/font_color = Color(0.267, 0.388, 0.294, 1)
+theme_override_font_sizes/font_size = 7
+text = "ED-01  //  ECOLOGÍA EXPERIMENTAL"
+
+[node name="AroRetrato" type="Polygon2D" parent="Visual" unique_id=1011260733]
+color = Color(0.188, 0.357, 0.271, 1)
+polygon = PackedVector2Array(163, -246, 162.509, -236.312, 161.045, -226.841, 158.643, -217.798, 155.355, -209.384, 151.254, -201.789, 146.434, -195.181, 141, -189.708, 135.075, -185.493, 128.791, -182.63, 122.288, -181.182, 115.712, -181.182, 109.209, -182.63, 102.925, -185.493, 97, -189.708, 91.566, -195.181, 86.746, -201.789, 82.645, -209.384, 79.357, -217.798, 76.955, -226.841, 75.491, -236.312, 75, -246, 75.491, -255.688, 76.955, -265.159, 79.357, -274.202, 82.645, -282.616, 86.746, -290.211, 91.566, -296.819, 97, -302.292, 102.925, -306.507, 109.209, -309.37, 115.712, -310.818, 122.288, -310.818, 128.791, -309.37, 135.075, -306.507, 141, -302.292, 146.434, -296.819, 151.254, -290.211, 155.355, -282.616, 158.643, -274.202, 161.045, -265.159, 162.509, -255.688)
+
+[node name="CaraCuello" type="Polygon2D" parent="Visual" unique_id=1016951168]
+color = Color(0.561, 0.557, 0.439, 1)
+polygon = PackedVector2Array(112, -228, 143, -228, 147, -199, 105, -198)
+
+[node name="BataHombroIzquierdo" type="Polygon2D" parent="Visual" unique_id=849715142]
+color = Color(0.914, 0.898, 0.796, 1)
+polygon = PackedVector2Array(118, -210, 99, -213, 76, -194, 66, -157, 92, -145, 116, -168)
+
+[node name="BataHombroDerecho" type="Polygon2D" parent="Visual" unique_id=697195229]
+color = Color(0.91, 0.882, 0.773, 1)
+polygon = PackedVector2Array(133, -211, 148, -218, 166, -196, 168, -146, 131, -144, 122, -169)
+
+[node name="CamisaOscura" type="Polygon2D" parent="Visual" unique_id=1940329275]
+color = Color(0.192, 0.349, 0.29, 1)
+polygon = PackedVector2Array(112, -210, 132, -210, 136, -151, 109, -148)
+
+[node name="SolapaIzquierda" type="Polygon2D" parent="Visual" unique_id=1441618161]
+color = Color(0.969, 0.957, 0.875, 1)
+polygon = PackedVector2Array(111, -210, 96, -202, 108, -179, 103, -151, 119, -175)
+
+[node name="SolapaDerecha" type="Polygon2D" parent="Visual" unique_id=1817257628]
+color = Color(0.98, 0.961, 0.859, 1)
+polygon = PackedVector2Array(132, -210, 146, -201, 134, -176, 143, -150, 122, -172)
+
+[node name="BordeSolapaIzq" type="Line2D" parent="Visual" unique_id=1259614148]
+points = PackedVector2Array(95, -202, 109, -180, 103, -151)
+width = 2.0
+default_color = Color(0.675, 0.667, 0.573, 1)
+antialiased = true
+
+[node name="BordeSolapaDer" type="Line2D" parent="Visual" unique_id=878361797]
+points = PackedVector2Array(146, -201, 134, -176, 143, -150)
+width = 2.0
+default_color = Color(0.647, 0.655, 0.569, 1)
+antialiased = true
+
+[node name="Oreja" type="Polygon2D" parent="Visual" unique_id=1839055822]
+color = Color(0.678, 0.62, 0.486, 1)
+polygon = PackedVector2Array(106, -254, 105.578, -250.58, 104.362, -247.572, 102.5, -245.34, 100.216, -244.152, 97.784, -244.152, 95.5, -245.34, 93.638, -247.572, 92.422, -250.58, 92, -254, 92.422, -257.42, 93.638, -260.428, 95.5, -262.66, 97.784, -263.848, 100.216, -263.848, 102.5, -262.66, 104.362, -260.428, 105.578, -257.42)
+
+[node name="RostroSteve" type="Polygon2D" parent="Visual" unique_id=2132632075]
+color = Color(0.714, 0.671, 0.529, 1)
+polygon = PackedVector2Array(101, -281, 118, -294, 141, -291, 148, -274, 147, -250, 137, -233, 118, -231, 107, -242, 101, -256)
+
+[node name="SombraRostro" type="Polygon2D" parent="Visual" unique_id=1877838954]
+color = Color(0.553, 0.545, 0.447, 1)
+polygon = PackedVector2Array(139, -284, 148, -273, 147, -250, 139, -234, 131, -234, 136, -257)
+
+[node name="Cabello" type="Polygon2D" parent="Visual" unique_id=1766070047]
+color = Color(0.11, 0.176, 0.176, 1)
+polygon = PackedVector2Array(99, -263, 97, -286, 108, -296, 125, -300, 142, -295, 150, -284, 146, -269, 137, -282, 121, -284, 108, -274)
+
+[node name="MechonCabello" type="Polygon2D" parent="Visual" unique_id=1954581156]
+color = Color(0.188, 0.259, 0.224, 1)
+polygon = PackedVector2Array(104, -289, 110, -305, 122, -297, 139, -301, 145, -293, 132, -291)
+
+[node name="LentesIzquierdo" type="Line2D" parent="Visual" unique_id=553404103]
+points = PackedVector2Array(103, -268, 116, -268, 119, -260, 105, -260, 103, -268)
+width = 2.0
+default_color = Color(0.145, 0.22, 0.22, 1)
+antialiased = true
+
+[node name="LentesDerecho" type="Line2D" parent="Visual" unique_id=1492955189]
+points = PackedVector2Array(124, -268, 140, -269, 143, -260, 126, -259, 124, -268)
+width = 2.0
+default_color = Color(0.145, 0.22, 0.22, 1)
+antialiased = true
+
+[node name="PuenteLentes" type="Line2D" parent="Visual" unique_id=1950662431]
+points = PackedVector2Array(118, -265, 125, -265)
+width = 2.0
+default_color = Color(0.145, 0.22, 0.22, 1)
+antialiased = true
+
+[node name="Nariz" type="Line2D" parent="Visual" unique_id=76453643]
+points = PackedVector2Array(123, -263, 121, -251, 129, -249)
+width = 1.0
+default_color = Color(0.388, 0.369, 0.322, 1)
+antialiased = true
+
+[node name="Sonrisa" type="Line2D" parent="Visual" unique_id=355783419]
+points = PackedVector2Array(122, -244, 130, -241, 136, -244)
+width = 1.5
+default_color = Color(0.369, 0.302, 0.263, 1)
+antialiased = true
+
+[node name="CienciaCurva" type="Line2D" parent="Visual" unique_id=1483198911]
+points = PackedVector2Array(36, -285, 47, -275, 55, -266, 69, -256)
+width = 2.0
+default_color = Color(0.42, 0.624, 0.482, 1)
+antialiased = true
+
+[node name="BroteMini" type="Polygon2D" parent="Visual" unique_id=1059723413]
+color = Color(0.447, 0.667, 0.38, 1)
+polygon = PackedVector2Array(56, -271, 46, -282, 47, -293, 57, -285)
+
+[node name="BroteMini2" type="Polygon2D" parent="Visual" unique_id=1340648962]
+color = Color(0.671, 0.843, 0.537, 1)
+polygon = PackedVector2Array(59, -279, 67, -293, 77, -291, 66, -279)
+
+[node name="BroteTallo" type="Line2D" parent="Visual" unique_id=917060167]
+points = PackedVector2Array(57, -267, 57, -282)
+width = 2.0
+default_color = Color(0.427, 0.663, 0.408, 1)
+antialiased = true
+
+[node name="RoturaEsquinaIzq" type="Polygon2D" parent="Visual" unique_id=198354528]
+color = Color(0.529, 0.569, 0.482, 1)
+polygon = PackedVector2Array(-176, -339, -156, -339, -174, -319)
+
+[node name="RoturaEsquinaDer" type="Polygon2D" parent="Visual" unique_id=652704226]
+color = Color(0.463, 0.498, 0.396, 1)
+polygon = PackedVector2Array(176, -339, 160, -338, 176, -320)
+
+[node name="EsquinaRotaInferior" type="Polygon2D" parent="Visual" unique_id=1582122228]
+color = Color(0.722, 0.698, 0.596, 1)
+polygon = PackedVector2Array(-176, -121, -176, -145, -150, -121)
+
+[node name="DoblecesPapel" type="Polygon2D" parent="Visual" unique_id=716920646]
+color = Color(0.663, 0.643, 0.522, 1)
+polygon = PackedVector2Array(137, -121, 168, -137, 167, -121)
+
+[node name="GrietaEsquina01" type="Line2D" parent="Visual" unique_id=815411781]
+points = PackedVector2Array(-173, -319, -161, -308, -170, -295)
+width = 1.5
+default_color = Color(0.424, 0.471, 0.376, 1)
+antialiased = true
+
+[node name="GrietaEsquina02" type="Line2D" parent="Visual" unique_id=110231050]
+points = PackedVector2Array(171, -318, 160, -307, 167, -296)
+width = 1.5
+default_color = Color(0.49, 0.549, 0.475, 1)
+antialiased = true
+
+[node name="Rayon01" type="Line2D" parent="Visual" unique_id=592510369]
+points = PackedVector2Array(-159, -145, -145, -139, -132, -145)
+width = 1.0
+default_color = Color(0.624, 0.616, 0.478, 1)
+antialiased = true
+
+[node name="Rayon02" type="Line2D" parent="Visual" unique_id=1974191823]
+points = PackedVector2Array(39, -214, 52, -216, 70, -213)
+width = 1.0
+default_color = Color(0.471, 0.592, 0.51, 1)
+antialiased = true
+
+[node name="Rayon03" type="Line2D" parent="Visual" unique_id=1404222714]
+points = PackedVector2Array(-56, -133, -26, -136, -15, -132)
+width = 1.0
+default_color = Color(0.608, 0.612, 0.494, 1)
+antialiased = true
+
+[node name="CintaSuperior" type="Polygon2D" parent="Visual" unique_id=758305786]
+color = Color(0.714, 0.71, 0.627, 1)
+polygon = PackedVector2Array(-183, -344, -157, -351, -147, -336, -176, -330)
+
+[node name="CintaDerecha" type="Polygon2D" parent="Visual" unique_id=1463422627]
+color = Color(0.694, 0.725, 0.631, 1)
+polygon = PackedVector2Array(158, -144, 185, -149, 187, -126, 163, -125)
+
+[node name="MarcaDesgaste02" type="ColorRect" parent="Visual" unique_id=2082575715]
+offset_left = -48.0
+offset_top = -206.0
+offset_right = -46.0
+offset_bottom = -203.0
+mouse_filter = 2
+color = Color(0.643, 0.647, 0.541, 1)
+
+[node name="MarcaDesgaste04" type="ColorRect" parent="Visual" unique_id=1882799841]
+offset_left = -3.0
+offset_top = -203.0
+offset_right = 1.0
+offset_bottom = -202.0
+mouse_filter = 2
+color = Color(0.643, 0.647, 0.541, 1)
+
+[node name="MarcaDesgaste05" type="ColorRect" parent="Visual" unique_id=419755906]
+offset_left = 98.0
+offset_top = -157.0
+offset_right = 103.0
+offset_bottom = -155.0
+mouse_filter = 2
+color = Color(0.643, 0.647, 0.541, 1)
+
+[node name="MarcaDesgaste06" type="ColorRect" parent="Visual" unique_id=866894227]
+offset_left = 138.0
+offset_top = -333.0
+offset_right = 144.0
+offset_bottom = -332.0
+mouse_filter = 2
+color = Color(0.404, 0.51, 0.451, 1)
+
+[node name="MarcaDesgaste07" type="ColorRect" parent="Visual" unique_id=1638958821]
+offset_left = 99.0
+offset_top = -331.0
+offset_right = 104.0
+offset_bottom = -328.0
+mouse_filter = 2
+color = Color(0.404, 0.51, 0.451, 1)
+
+[node name="MarcaDesgaste08" type="ColorRect" parent="Visual" unique_id=2068196687]
+offset_left = -66.0
+offset_top = -119.0
+offset_right = -62.0
+offset_bottom = -118.0
+mouse_filter = 2
+color = Color(0.643, 0.647, 0.541, 1)
+
+[node name="MarcaDesgaste09" type="ColorRect" parent="Visual" unique_id=1434375593]
+offset_left = 59.0
+offset_top = -313.0
+offset_right = 63.0
+offset_bottom = -312.0
+mouse_filter = 2
+color = Color(0.404, 0.51, 0.451, 1)
+
+[node name="MarcaDesgaste10" type="ColorRect" parent="Visual" unique_id=467008905]
+offset_left = -151.0
+offset_top = -199.0
+offset_right = -149.0
+offset_bottom = -196.0
+mouse_filter = 2
+color = Color(0.643, 0.647, 0.541, 1)
+
+[node name="MarcaDesgaste11" type="ColorRect" parent="Visual" unique_id=815586404]
+offset_left = -88.0
+offset_top = -221.0
+offset_right = -86.0
+offset_bottom = -219.0
+mouse_filter = 2
+color = Color(0.404, 0.51, 0.451, 1)
+
+[node name="MarcaDesgaste12" type="ColorRect" parent="Visual" unique_id=1843122150]
+offset_left = -144.0
+offset_top = -324.0
+offset_right = -138.0
+offset_bottom = -322.0
+mouse_filter = 2
+color = Color(0.404, 0.51, 0.451, 1)
+
+[node name="MarcaDesgaste14" type="ColorRect" parent="Visual" unique_id=670512726]
+offset_left = 70.0
+offset_top = -254.0
+offset_right = 75.0
+offset_bottom = -253.0
+mouse_filter = 2
+color = Color(0.404, 0.51, 0.451, 1)
+
+[node name="MarcaDesgaste15" type="ColorRect" parent="Visual" unique_id=665058771]
+offset_left = 104.0
+offset_top = -125.0
+offset_right = 108.0
+offset_bottom = -122.0
+mouse_filter = 2
+color = Color(0.643, 0.647, 0.541, 1)
+
+[node name="MarcaDesgaste16" type="ColorRect" parent="Visual" unique_id=1524890480]
+offset_left = 125.0
+offset_top = -186.0
+offset_right = 127.0
+offset_bottom = -185.0
+mouse_filter = 2
+color = Color(0.643, 0.647, 0.541, 1)
+
+[node name="MarcaDesgaste17" type="ColorRect" parent="Visual" unique_id=1710858618]
+offset_left = 131.0
+offset_top = -259.0
+offset_right = 134.0
+offset_bottom = -257.0
+mouse_filter = 2
+color = Color(0.404, 0.51, 0.451, 1)
+
+[node name="MarcaDesgaste19" type="ColorRect" parent="Visual" unique_id=977084482]
+offset_left = -45.0
+offset_top = -164.0
+offset_right = -40.0
+offset_bottom = -162.0
+mouse_filter = 2
+color = Color(0.643, 0.647, 0.541, 1)
+
+[node name="MarcaDesgaste20" type="ColorRect" parent="Visual" unique_id=636671025]
+offset_left = 49.0
+offset_top = -155.0
+offset_right = 51.0
+offset_bottom = -153.0
+mouse_filter = 2
+color = Color(0.643, 0.647, 0.541, 1)
+
+[node name="MarcaDesgaste21" type="ColorRect" parent="Visual" unique_id=119006749]
+offset_left = -165.0
+offset_top = -125.0
+offset_right = -162.0
+offset_bottom = -123.0
+mouse_filter = 2
+color = Color(0.643, 0.647, 0.541, 1)
+
+[node name="TrepadoraIzq" type="Line2D" parent="Visual" unique_id=935443469]
+points = PackedVector2Array(-190, -333, -199, -310, -191, -295, -194, -267, -185, -249, -191, -230)
+width = 4.0
+default_color = Color(0.212, 0.345, 0.282, 1)
+antialiased = true
+
+[node name="TrepadoraDer" type="Line2D" parent="Visual" unique_id=473712348]
+points = PackedVector2Array(197, -132, 190, -150, 178, -173, 187, -205, 176, -221)
+width = 5.0
+default_color = Color(0.204, 0.341, 0.267, 1)
+antialiased = true
+
+[node name="EnredaderaHojaIzq" type="Polygon2D" parent="Visual" unique_id=334458538]
+color = Color(0.306, 0.467, 0.322, 1)
+polygon = PackedVector2Array(-194, -294, -212, -306, -216, -318, -195, -305)
+
+[node name="EnredaderaHojaDer" type="Polygon2D" parent="Visual" unique_id=2087233319]
+color = Color(0.259, 0.412, 0.306, 1)
+polygon = PackedVector2Array(190, -160, 211, -169, 212, -183, 187, -174)
+
+[node name="EnredaderaHojaDer2" type="Polygon2D" parent="Visual" unique_id=201058732]
+color = Color(0.271, 0.459, 0.318, 1)
+polygon = PackedVector2Array(185, -205, 205, -214, 209, -227, 179, -217)
+
+[node name="CosturaMarcoIzq" type="Line2D" parent="Visual" unique_id=372438110]
+points = PackedVector2Array(-184, -342, -184, -115)
+width = 1.0
+default_color = Color(0.714, 0.761, 0.682, 1)
+antialiased = true
+
+[node name="CosturaMarcoDer" type="Line2D" parent="Visual" unique_id=1019030683]
+points = PackedVector2Array(184, -342, 184, -115)
+width = 1.0
+default_color = Color(0.094, 0.184, 0.188, 1)
+antialiased = true
+
+[node name="LectorCartel" type="Area2D" parent="." unique_id=1497326216]
+collision_layer = 0
+script = ExtResource("1_westh")
+id_nota = "nota_002"
+titulo_nota = "ARCHIVO 002 - EL ROSTRO DE EDÉN"
+contenido = "CAMPAÑA PÚBLICA DEL PROYECTO EDÉN
+
+Prometimos devolver la vida al planeta.
+
+Steve era el rostro visible del proyecto.
+
+Sus investigaciones, junto a Elena, impulsaron el primer experimento de restauración vegetal."
+imagen_recuerdo = ExtResource("2_8he2m")
+pensamiento_steve = "¿Ese... soy yo?
+Mi nombre estaba en la publicidad de toda la ciudad...
+¿Yo fui quien impulsó el Proyecto Edén?
+Entonces... ¿qué responsabilidad tuve en el desastre?"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LectorCartel" unique_id=865380342]
+position = Vector2(7.75, -101.5)
+shape = SubResource("RectangleShape2D_zona")
+
+[node name="Aviso" type="Label" parent="LectorCartel" unique_id=995035439]
+z_index = 1
+offset_left = -122.0
+offset_top = -201.0
+offset_right = 122.0
+offset_bottom = -170.0
+theme_override_font_sizes/font_size = 22
+text = "PRESIONA E PARA LEER"

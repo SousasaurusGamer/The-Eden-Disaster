@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://7ylw67e5mkw3"]
+
+[ext_resource type="Script" uid="uid://dl7rux1bthaj6" path="res://scripts/nota_recuerdo.gd" id="1_lsvcy"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_op1xx"]
+size = Vector2(75, 75)
+
+[node name="NotaRecuerdo" type="Area2D" unique_id=875965010]
+rotation = -0.01645052
+script = ExtResource("1_lsvcy")
+
+[node name="Visual" type="Node2D" parent="." unique_id=1946781650]
+
+[node name="Papel" type="ColorRect" parent="Visual" unique_id=1266493994]
+offset_left = -12.0
+offset_top = -30.0
+offset_right = 12.0
+color = Color(0.8784314, 0.7921569, 0.5803922, 1)
+
+[node name="Marca" type="ColorRect" parent="Visual" unique_id=1117225557]
+offset_left = -7.0
+offset_top = -20.0
+offset_right = 7.0
+offset_bottom = -17.0
+color = Color(0.4627451, 0.35686275, 0.23529412, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=463882369]
+position = Vector2(0, -25)
+shape = SubResource("RectangleShape2D_op1xx")
+
+[node name="Aviso" type="Label" parent="." unique_id=550701628]
+offset_left = -95.0
+offset_top = -75.0
+offset_right = 83.0
+offset_bottom = -52.0
+text = "PRESIONA E PARA LEER"

@@ -11,7 +11,7 @@ const ESCENA_PINCHOS = preload("res://scenes/boss/pinchos_suelo.tscn")
 @export var limite_derecho: float = 1092.0
 
 # Altura del suelo
-@export var altura_suelo: float = 580.0
+@export var altura_suelo: float = 590.0
 
 # Tiempo entre ataques
 @export var intervalo: float = 2.5

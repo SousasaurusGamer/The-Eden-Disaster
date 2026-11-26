@@ -2,6 +2,24 @@
 
 [ext_resource type="Script" uid="uid://b87fsg7ter1s6" path="res://scripts/pantalla_derrota.gd" id="1_kgyjn"]
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mm5a4"]
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_aalce"]
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_x77yk"]
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_op1xx"]
 bg_color = Color(0.63, 0, 0, 1)
 corner_radius_top_left = 16
@@ -90,6 +108,32 @@ layout_mode = 2
 theme_override_font_sizes/font_size = 24
 text = "Steve has fallen."
 horizontal_alignment = 1
+
+[node name="Mejoras" type="VBoxContainer" parent="Pantalla/Centro/Opciones" unique_id=700913320]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Puntos" type="Label" parent="Pantalla/Centro/Opciones/Mejoras" unique_id=659785160]
+layout_mode = 2
+text = "UPGRADE POINTS: 0"
+
+[node name="BotonVida" type="Button" parent="Pantalla/Centro/Opciones/Mejoras" unique_id=606880111]
+custom_minimum_size = Vector2(240, 42)
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_mm5a4")
+text = "HEALTH +10 HP"
+
+[node name="BotonDano" type="Button" parent="Pantalla/Centro/Opciones/Mejoras" unique_id=111405712]
+custom_minimum_size = Vector2(240, 42)
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_aalce")
+text = "DAMAGE +5%"
+
+[node name="BotonRecarga" type="Button" parent="Pantalla/Centro/Opciones/Mejoras" unique_id=1946974567]
+custom_minimum_size = Vector2(240, 42)
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_x77yk")
+text = "RELOAD -0.1s"
 
 [node name="BotonReintentar" type="Button" parent="Pantalla/Centro/Opciones" unique_id=1445802499]
 custom_minimum_size = Vector2(360, 65)

@@ -1,0 +1,48 @@
+[gd_scene format=3 uid="uid://chffrq6vuer7g"]
+
+[ext_resource type="Script" uid="uid://6iaa1efcwkrc" path="res://scripts/dialogo_npc.gd" id="1_5g4e0"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_op1xx"]
+bg_color = Color(0.09019608, 0.13725491, 0.1764706, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.32156864, 0.48235294, 0.4627451, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[node name="DialogoNPC" type="CanvasLayer" unique_id=1866827827]
+script = ExtResource("1_5g4e0")
+
+[node name="Cuadro" type="Panel" parent="." unique_id=2112935323]
+offset_left = 170.0
+offset_top = 430.0
+offset_right = 982.0
+offset_bottom = 600.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_op1xx")
+
+[node name="Nombre" type="Label" parent="Cuadro" unique_id=1107833349]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 15.0
+offset_right = 770.0
+offset_bottom = 45.0
+
+[node name="Texto" type="Label" parent="Cuadro" unique_id=2057275245]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 50.0
+offset_right = 790.0
+offset_bottom = 130.0
+autowrap_mode = 2
+
+[node name="Indicacion" type="Label" parent="Cuadro" unique_id=1537080291]
+layout_mode = 0
+offset_left = 590.0
+offset_top = 135.0
+offset_right = 790.0
+offset_bottom = 160.0
+text = "PRESS E TO CONTINUE"

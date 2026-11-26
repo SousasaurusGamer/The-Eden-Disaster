@@ -11,6 +11,8 @@
 [ext_resource type="PackedScene" path="res://scenes/props/entrada_invernadero.tscn" id="9_ggbsf"]
 [ext_resource type="PackedScene" uid="uid://6y3s3ddlm6sa" path="res://scenes/enemies/spore_shooter.tscn" id="10_7383w"]
 [ext_resource type="PackedScene" uid="uid://bhjhv3042iaxg" path="res://scenes/enemies/plant_enemy.tscn" id="11_iamyx"]
+[ext_resource type="PackedScene" uid="uid://ogjn71e71bfe" path="res://scenes/props/muestra_carnivora.tscn" id="12_iamyx"]
+[ext_resource type="Texture2D" uid="uid://cnk82hf7ghfu7" path="res://assets/recuerdos/Cápsula bioluminiscente de planta mutante.png" id="13_cmbc0"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_op1xx"]
 size = Vector2(1185, 30)
@@ -152,4 +154,18 @@ position = Vector2(222, 609)
 position = Vector2(-244, -278)
 shape = SubResource("RectangleShape2D_7383w")
 
+[node name="MuestraMutante2" parent="." unique_id=634911507 instance=ExtResource("12_iamyx")]
+z_index = -4
+position = Vector2(549, 606)
+scale = Vector2(0.2, 0.2)
+imagen_recuerdo = ExtResource("13_cmbc0")
+
+[node name="Aviso" parent="MuestraMutante2" index="2" unique_id=176998517]
+offset_left = -300.0
+offset_top = -215.00006
+offset_right = 368.0
+offset_bottom = -146.00006
+theme_override_font_sizes/font_size = 50
+
 [editable path="Steve"]
+[editable path="MuestraMutante2"]

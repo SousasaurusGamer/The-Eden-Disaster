@@ -1,6 +1,10 @@
 
 extends StaticBody2D
 
+const CAJA_MUNICION = preload(
+	"res://scenes/player/ammo_pickup.tscn"
+)
+
 const SPORE_SCENE = preload("res://scenes/enemies/enemy_spore.tscn")
 
 # Configuracion del enemigo
@@ -10,10 +14,14 @@ const SPORE_SCENE = preload("res://scenes/enemies/enemy_spore.tscn")
 # Referencias
 @onready var muzzle: Marker2D = $Muzzle
 
+@export_range(0.0, 1.0, 0.05)
+var probabilidad_municion: float = 0.10
+
 # Variables
 var health: int
 var shoot_timer: float = 1.0
 var is_dead: bool = false
+
 
 
 func _ready() -> void:
@@ -69,7 +77,28 @@ func take_damage(amount: int) -> void:
 		die()
 
 
+func soltar_municion() -> void:
+	if randf() > probabilidad_municion:
+		return
+
+	var caja = CAJA_MUNICION.instantiate()
+
+	get_tree().current_scene.add_child(caja)
+
+	caja.global_position = global_position + Vector2(0, -12)
+
+	print("El enemigo solto municion")
+
+
 func die() -> void:
+	if is_dead:
+		return
+
 	is_dead = true
 	print("Planta lanzadora derrotada")
+
+	# Intentar soltar municion
+	soltar_municion()
+
+	# Eliminar la planta
 	queue_free()

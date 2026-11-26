@@ -1,0 +1,1055 @@
+[gd_scene format=3]
+
+[node name="PuertaRefugioReforzada" type="Node2D"]
+z_index = -1
+
+[node name="SombraSuelo" type="Polygon2D" parent="."]
+color = Color(0.043137, 0.082353, 0.109804, 0.520)
+polygon = PackedVector2Array(-78, 0, 82, 0, 99, 6, -97, 6)
+
+[node name="SombraPared" type="ColorRect" parent="."]
+offset_left = -78
+offset_top = -203
+offset_right = 78
+offset_bottom = -1
+color = Color(0.043137, 0.082353, 0.109804, 0.400)
+mouse_filter = 2
+
+[node name="FondoPuerta" type="ColorRect" parent="."]
+offset_left = -72
+offset_top = -199
+offset_right = 72
+offset_bottom = -1
+color = Color(0.062745, 0.121569, 0.156863, 1.000)
+mouse_filter = 2
+
+[node name="ResalteExterior" type="ColorRect" parent="."]
+offset_left = -76
+offset_top = -204
+offset_right = 76
+offset_bottom = -192
+color = Color(0.470588, 0.568627, 0.596078, 1.000)
+mouse_filter = 2
+
+[node name="ResalteBordeAlto" type="ColorRect" parent="."]
+offset_left = -77
+offset_top = -205
+offset_right = 77
+offset_bottom = -201
+color = Color(0.690196, 0.784314, 0.768627, 1.000)
+mouse_filter = 2
+
+[node name="PestanaAlto" type="ColorRect" parent="."]
+offset_left = -75
+offset_top = -193
+offset_right = 75
+offset_bottom = -187
+color = Color(0.192157, 0.290196, 0.329412, 1.000)
+mouse_filter = 2
+
+[node name="MontanteIzquierdo" type="ColorRect" parent="."]
+offset_left = -75
+offset_top = -190
+offset_right = -55
+offset_bottom = -4
+color = Color(0.192157, 0.290196, 0.329412, 1.000)
+mouse_filter = 2
+
+[node name="MontanteDerecho" type="ColorRect" parent="."]
+offset_left = 55
+offset_top = -190
+offset_right = 75
+offset_bottom = -4
+color = Color(0.192157, 0.290196, 0.329412, 1.000)
+mouse_filter = 2
+
+[node name="MontanteClaroIzq" type="ColorRect" parent="."]
+offset_left = -72
+offset_top = -186
+offset_right = -69
+offset_bottom = -8
+color = Color(0.349020, 0.462745, 0.501961, 1.000)
+mouse_filter = 2
+
+[node name="MontanteClaroDer" type="ColorRect" parent="."]
+offset_left = 68
+offset_top = -185
+offset_right = 71
+offset_bottom = -8
+color = Color(0.349020, 0.462745, 0.501961, 1.000)
+mouse_filter = 2
+
+[node name="MontanteInteriorIzq" type="ColorRect" parent="."]
+offset_left = -60
+offset_top = -181
+offset_right = -55
+offset_bottom = -8
+color = Color(0.470588, 0.568627, 0.596078, 1.000)
+mouse_filter = 2
+
+[node name="MontanteInteriorDer" type="ColorRect" parent="."]
+offset_left = 55
+offset_top = -181
+offset_right = 60
+offset_bottom = -8
+color = Color(0.470588, 0.568627, 0.596078, 1.000)
+mouse_filter = 2
+
+[node name="CabeceroExterior" type="ColorRect" parent="."]
+offset_left = -64
+offset_top = -195
+offset_right = 64
+offset_bottom = -161
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+mouse_filter = 2
+
+[node name="LaminaCabecero" type="ColorRect" parent="."]
+offset_left = -60
+offset_top = -192
+offset_right = 60
+offset_bottom = -167
+color = Color(0.192157, 0.290196, 0.329412, 1.000)
+mouse_filter = 2
+
+[node name="LineaSuperiorLuminosa" type="ColorRect" parent="."]
+offset_left = -55
+offset_top = -190
+offset_right = 55
+offset_bottom = -187
+color = Color(0.364706, 0.815686, 0.772549, 0.650)
+mouse_filter = 2
+
+[node name="NumeroSector" type="Label" parent="."]
+offset_left = -53
+offset_top = -185
+offset_right = 53
+offset_bottom = -167
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.831373, 0.890196, 0.827451, 1.000)
+theme_override_font_sizes/font_size = 11
+text = "S-07  //  SALIDA"
+horizontal_alignment = 1
+
+[node name="MarcadorEstado" type="ColorRect" parent="."]
+offset_left = -23
+offset_top = -167
+offset_right = 23
+offset_bottom = -164
+color = Color(0.364706, 0.815686, 0.772549, 0.900)
+mouse_filter = 2
+
+[node name="JuntaHueco" type="ColorRect" parent="."]
+offset_left = -52
+offset_top = -158
+offset_right = 52
+offset_bottom = -12
+color = Color(0.082353, 0.149020, 0.188235, 1.000)
+mouse_filter = 2
+
+[node name="FondoHueco" type="ColorRect" parent="."]
+offset_left = -49
+offset_top = -155
+offset_right = 49
+offset_bottom = -15
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+mouse_filter = 2
+
+[node name="MarcoInteriorIzq" type="ColorRect" parent="."]
+offset_left = -52
+offset_top = -159
+offset_right = -45
+offset_bottom = -6
+color = Color(0.278431, 0.380392, 0.419608, 1.000)
+mouse_filter = 2
+
+[node name="MarcoInteriorDer" type="ColorRect" parent="."]
+offset_left = 45
+offset_top = -159
+offset_right = 52
+offset_bottom = -6
+color = Color(0.278431, 0.380392, 0.419608, 1.000)
+mouse_filter = 2
+
+[node name="GuiaPuertaSuperior" type="ColorRect" parent="."]
+offset_left = -49
+offset_top = -159
+offset_right = 49
+offset_bottom = -153
+color = Color(0.470588, 0.568627, 0.596078, 1.000)
+mouse_filter = 2
+
+[node name="GuiaPuertaInferior" type="ColorRect" parent="."]
+offset_left = -50
+offset_top = -17
+offset_right = 50
+offset_bottom = -10
+color = Color(0.349020, 0.462745, 0.501961, 1.000)
+mouse_filter = 2
+
+[node name="HojaAceroIzquierda" type="ColorRect" parent="."]
+offset_left = -44
+offset_top = -150
+offset_right = -1
+offset_bottom = -19
+color = Color(0.192157, 0.290196, 0.329412, 1.000)
+mouse_filter = 2
+
+[node name="HojaAceroDerecha" type="ColorRect" parent="."]
+offset_left = 1
+offset_top = -150
+offset_right = 44
+offset_bottom = -19
+color = Color(0.278431, 0.380392, 0.419608, 1.000)
+mouse_filter = 2
+
+[node name="BandaLucesAlto" type="ColorRect" parent="."]
+offset_left = -42
+offset_top = -145
+offset_right = 42
+offset_bottom = -141
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+mouse_filter = 2
+
+[node name="LaminillaArriba" type="ColorRect" parent="."]
+offset_left = -43
+offset_top = -151
+offset_right = 43
+offset_bottom = -148
+color = Color(0.470588, 0.568627, 0.596078, 1.000)
+mouse_filter = 2
+
+[node name="JuntaCentral" type="ColorRect" parent="."]
+offset_left = -2
+offset_top = -150
+offset_right = 2
+offset_bottom = -16
+color = Color(0.082353, 0.149020, 0.188235, 1.000)
+mouse_filter = 2
+
+[node name="JuntaBrillo" type="ColorRect" parent="."]
+offset_left = 1
+offset_top = -148
+offset_right = 2
+offset_bottom = -20
+color = Color(0.364706, 0.815686, 0.772549, 0.420)
+mouse_filter = 2
+
+[node name="RefuerzoPalaIzq" type="Polygon2D" parent="."]
+color = Color(0.349020, 0.462745, 0.501961, 0.750)
+polygon = PackedVector2Array(-42, -133, -36, -133, -9, -109, -9, -100, -41, -123)
+
+[node name="RefuerzoPalaDer" type="Polygon2D" parent="."]
+color = Color(0.470588, 0.568627, 0.596078, 0.530)
+polygon = PackedVector2Array(42, -133, 36, -133, 9, -109, 9, -100, 41, -123)
+
+[node name="RefuerzoPalaInferiorIzq" type="Polygon2D" parent="."]
+color = Color(0.349020, 0.462745, 0.501961, 0.570)
+polygon = PackedVector2Array(-42, -36, -36, -36, -9, -64, -9, -73, -42, -46)
+
+[node name="RefuerzoPalaInferiorDer" type="Polygon2D" parent="."]
+color = Color(0.470588, 0.568627, 0.596078, 0.500)
+polygon = PackedVector2Array(42, -36, 36, -36, 9, -64, 9, -73, 42, -46)
+
+[node name="JuntaHorizontal" type="ColorRect" parent="."]
+offset_left = -41
+offset_top = -137
+offset_right = 41
+offset_bottom = -135
+color = Color(0.082353, 0.149020, 0.188235, 0.750)
+mouse_filter = 2
+
+[node name="BrilloJunta" type="ColorRect" parent="."]
+offset_left = -41
+offset_top = -134
+offset_right = 41
+offset_bottom = -133
+color = Color(0.470588, 0.568627, 0.596078, 0.380)
+mouse_filter = 2
+
+[node name="Tornillo" type="ColorRect" parent="."]
+offset_left = -39
+offset_top = -145
+offset_right = -36
+offset_bottom = -142
+color = Color(0.690196, 0.784314, 0.768627, 0.780)
+mouse_filter = 2
+
+[node name="CentroTornillo" type="ColorRect" parent="."]
+offset_left = -38
+offset_top = -144
+offset_right = -37
+offset_bottom = -143
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+mouse_filter = 2
+
+[node name="Tornillo2" type="ColorRect" parent="."]
+offset_left = 36
+offset_top = -145
+offset_right = 39
+offset_bottom = -142
+color = Color(0.690196, 0.784314, 0.768627, 0.780)
+mouse_filter = 2
+
+[node name="CentroTornillo2" type="ColorRect" parent="."]
+offset_left = 37
+offset_top = -144
+offset_right = 38
+offset_bottom = -143
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+mouse_filter = 2
+
+[node name="JuntaHorizontal2" type="ColorRect" parent="."]
+offset_left = -41
+offset_top = -93
+offset_right = 41
+offset_bottom = -91
+color = Color(0.082353, 0.149020, 0.188235, 0.750)
+mouse_filter = 2
+
+[node name="BrilloJunta2" type="ColorRect" parent="."]
+offset_left = -41
+offset_top = -90
+offset_right = 41
+offset_bottom = -89
+color = Color(0.470588, 0.568627, 0.596078, 0.380)
+mouse_filter = 2
+
+[node name="Tornillo3" type="ColorRect" parent="."]
+offset_left = -39
+offset_top = -101
+offset_right = -36
+offset_bottom = -98
+color = Color(0.690196, 0.784314, 0.768627, 0.780)
+mouse_filter = 2
+
+[node name="CentroTornillo3" type="ColorRect" parent="."]
+offset_left = -38
+offset_top = -100
+offset_right = -37
+offset_bottom = -99
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+mouse_filter = 2
+
+[node name="Tornillo4" type="ColorRect" parent="."]
+offset_left = 36
+offset_top = -101
+offset_right = 39
+offset_bottom = -98
+color = Color(0.690196, 0.784314, 0.768627, 0.780)
+mouse_filter = 2
+
+[node name="CentroTornillo4" type="ColorRect" parent="."]
+offset_left = 37
+offset_top = -100
+offset_right = 38
+offset_bottom = -99
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+mouse_filter = 2
+
+[node name="JuntaHorizontal3" type="ColorRect" parent="."]
+offset_left = -41
+offset_top = -51
+offset_right = 41
+offset_bottom = -49
+color = Color(0.082353, 0.149020, 0.188235, 0.750)
+mouse_filter = 2
+
+[node name="BrilloJunta3" type="ColorRect" parent="."]
+offset_left = -41
+offset_top = -48
+offset_right = 41
+offset_bottom = -47
+color = Color(0.470588, 0.568627, 0.596078, 0.380)
+mouse_filter = 2
+
+[node name="Tornillo5" type="ColorRect" parent="."]
+offset_left = -39
+offset_top = -59
+offset_right = -36
+offset_bottom = -56
+color = Color(0.690196, 0.784314, 0.768627, 0.780)
+mouse_filter = 2
+
+[node name="CentroTornillo5" type="ColorRect" parent="."]
+offset_left = -38
+offset_top = -58
+offset_right = -37
+offset_bottom = -57
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+mouse_filter = 2
+
+[node name="Tornillo6" type="ColorRect" parent="."]
+offset_left = 36
+offset_top = -59
+offset_right = 39
+offset_bottom = -56
+color = Color(0.690196, 0.784314, 0.768627, 0.780)
+mouse_filter = 2
+
+[node name="CentroTornillo6" type="ColorRect" parent="."]
+offset_left = 37
+offset_top = -58
+offset_right = 38
+offset_bottom = -57
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+mouse_filter = 2
+
+[node name="VentanaBlindadaMarco" type="ColorRect" parent="."]
+offset_left = -31
+offset_top = -125
+offset_right = -14
+offset_bottom = -101
+color = Color(0.082353, 0.149020, 0.188235, 1.000)
+mouse_filter = 2
+
+[node name="VentanaCristal" type="ColorRect" parent="."]
+offset_left = -28
+offset_top = -121
+offset_right = -17
+offset_bottom = -105
+color = Color(0.086275, 0.215686, 0.231373, 1.000)
+mouse_filter = 2
+
+[node name="CristalBrillo" type="ColorRect" parent="."]
+offset_left = -27
+offset_top = -119
+offset_right = -24
+offset_bottom = -107
+color = Color(0.364706, 0.815686, 0.772549, 0.320)
+mouse_filter = 2
+
+[node name="VentanaDiagonal" type="Line2D" parent="."]
+points = PackedVector2Array(-26, -116, -20, -116)
+width = 1
+default_color = Color(0.364706, 0.815686, 0.772549, 0.650)
+
+[node name="VentanaBlindadaMarco2" type="ColorRect" parent="."]
+offset_left = 16
+offset_top = -125
+offset_right = 33
+offset_bottom = -101
+color = Color(0.082353, 0.149020, 0.188235, 1.000)
+mouse_filter = 2
+
+[node name="VentanaCristal2" type="ColorRect" parent="."]
+offset_left = 19
+offset_top = -121
+offset_right = 30
+offset_bottom = -105
+color = Color(0.086275, 0.215686, 0.231373, 1.000)
+mouse_filter = 2
+
+[node name="CristalBrillo2" type="ColorRect" parent="."]
+offset_left = 20
+offset_top = -119
+offset_right = 23
+offset_bottom = -107
+color = Color(0.364706, 0.815686, 0.772549, 0.320)
+mouse_filter = 2
+
+[node name="VentanaDiagonal2" type="Line2D" parent="."]
+points = PackedVector2Array(21, -116, 27, -116)
+width = 1
+default_color = Color(0.364706, 0.815686, 0.772549, 0.650)
+
+[node name="CerraduraCaja" type="ColorRect" parent="."]
+offset_left = -11
+offset_top = -91
+offset_right = 11
+offset_bottom = -60
+color = Color(0.082353, 0.149020, 0.188235, 1.000)
+mouse_filter = 2
+
+[node name="CerraduraPlaca" type="ColorRect" parent="."]
+offset_left = -8
+offset_top = -88
+offset_right = 8
+offset_bottom = -63
+color = Color(0.349020, 0.462745, 0.501961, 1.000)
+mouse_filter = 2
+
+[node name="CerraduraInterior" type="ColorRect" parent="."]
+offset_left = -4
+offset_top = -83
+offset_right = 4
+offset_bottom = -66
+color = Color(0.082353, 0.149020, 0.188235, 1.000)
+mouse_filter = 2
+
+[node name="TestigoCerradura" type="ColorRect" parent="."]
+offset_left = -2
+offset_top = -81
+offset_right = 2
+offset_bottom = -77
+color = Color(0.580392, 0.909804, 0.647059, 1.000)
+mouse_filter = 2
+
+[node name="Tirador" type="ColorRect" parent="."]
+offset_left = -2
+offset_top = -76
+offset_right = 2
+offset_bottom = -68
+color = Color(0.690196, 0.784314, 0.768627, 1.000)
+mouse_filter = 2
+
+[node name="BandaPrecaucion" type="ColorRect" parent="."]
+offset_left = -45
+offset_top = -25
+offset_right = 45
+offset_bottom = -15
+color = Color(0.827451, 0.603922, 0.274510, 1.000)
+mouse_filter = 2
+
+[node name="RayasAdvertencia" type="Polygon2D" parent="."]
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+polygon = PackedVector2Array(-44, -16, -39, -16, -34, -25, -39, -25)
+
+[node name="RayasAdvertencia2" type="Polygon2D" parent="."]
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+polygon = PackedVector2Array(-34, -16, -29, -16, -24, -25, -29, -25)
+
+[node name="RayasAdvertencia3" type="Polygon2D" parent="."]
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+polygon = PackedVector2Array(-24, -16, -19, -16, -14, -25, -19, -25)
+
+[node name="RayasAdvertencia4" type="Polygon2D" parent="."]
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+polygon = PackedVector2Array(-14, -16, -9, -16, -4, -25, -9, -25)
+
+[node name="RayasAdvertencia5" type="Polygon2D" parent="."]
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+polygon = PackedVector2Array(-4, -16, 1, -16, 6, -25, 1, -25)
+
+[node name="RayasAdvertencia6" type="Polygon2D" parent="."]
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+polygon = PackedVector2Array(6, -16, 11, -16, 16, -25, 11, -25)
+
+[node name="RayasAdvertencia7" type="Polygon2D" parent="."]
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+polygon = PackedVector2Array(16, -16, 21, -16, 26, -25, 21, -25)
+
+[node name="RayasAdvertencia8" type="Polygon2D" parent="."]
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+polygon = PackedVector2Array(26, -16, 31, -16, 36, -25, 31, -25)
+
+[node name="RayasAdvertencia9" type="Polygon2D" parent="."]
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+polygon = PackedVector2Array(36, -16, 41, -16, 46, -25, 41, -25)
+
+[node name="PanelAccesoSombra" type="ColorRect" parent="."]
+offset_left = 76
+offset_top = -124
+offset_right = 104
+offset_bottom = -39
+color = Color(0.043137, 0.082353, 0.109804, 0.350)
+mouse_filter = 2
+
+[node name="LectorPanelMarco" type="ColorRect" parent="."]
+offset_left = 74
+offset_top = -128
+offset_right = 103
+offset_bottom = -47
+color = Color(0.082353, 0.149020, 0.188235, 1.000)
+mouse_filter = 2
+
+[node name="LectorPanelAcero" type="ColorRect" parent="."]
+offset_left = 77
+offset_top = -126
+offset_right = 101
+offset_bottom = -50
+color = Color(0.349020, 0.462745, 0.501961, 1.000)
+mouse_filter = 2
+
+[node name="LectorPantalla" type="ColorRect" parent="."]
+offset_left = 80
+offset_top = -120
+offset_right = 98
+offset_bottom = -104
+color = Color(0.086275, 0.215686, 0.231373, 1.000)
+mouse_filter = 2
+
+[node name="LectorTexto" type="ColorRect" parent="."]
+offset_left = 83
+offset_top = -116
+offset_right = 95
+offset_bottom = -113
+color = Color(0.364706, 0.815686, 0.772549, 1.000)
+mouse_filter = 2
+
+[node name="LectorRayas" type="ColorRect" parent="."]
+offset_left = 83
+offset_top = -109
+offset_right = 95
+offset_bottom = -108
+color = Color(0.580392, 0.909804, 0.647059, 1.000)
+mouse_filter = 2
+
+[node name="BotonTeclado" type="ColorRect" parent="."]
+offset_left = 83
+offset_top = -98
+offset_right = 88
+offset_bottom = -93
+color = Color(0.470588, 0.568627, 0.596078, 1.000)
+mouse_filter = 2
+
+[node name="CentroBoton" type="ColorRect" parent="."]
+offset_left = 84
+offset_top = -97
+offset_right = 86
+offset_bottom = -95
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+mouse_filter = 2
+
+[node name="BotonTeclado2" type="ColorRect" parent="."]
+offset_left = 91
+offset_top = -98
+offset_right = 96
+offset_bottom = -93
+color = Color(0.470588, 0.568627, 0.596078, 1.000)
+mouse_filter = 2
+
+[node name="CentroBoton2" type="ColorRect" parent="."]
+offset_left = 92
+offset_top = -97
+offset_right = 94
+offset_bottom = -95
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+mouse_filter = 2
+
+[node name="BotonTeclado3" type="ColorRect" parent="."]
+offset_left = 83
+offset_top = -90
+offset_right = 88
+offset_bottom = -85
+color = Color(0.470588, 0.568627, 0.596078, 1.000)
+mouse_filter = 2
+
+[node name="CentroBoton3" type="ColorRect" parent="."]
+offset_left = 84
+offset_top = -89
+offset_right = 86
+offset_bottom = -87
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+mouse_filter = 2
+
+[node name="BotonTeclado4" type="ColorRect" parent="."]
+offset_left = 91
+offset_top = -90
+offset_right = 96
+offset_bottom = -85
+color = Color(0.470588, 0.568627, 0.596078, 1.000)
+mouse_filter = 2
+
+[node name="CentroBoton4" type="ColorRect" parent="."]
+offset_left = 92
+offset_top = -89
+offset_right = 94
+offset_bottom = -87
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+mouse_filter = 2
+
+[node name="BotonTeclado5" type="ColorRect" parent="."]
+offset_left = 83
+offset_top = -82
+offset_right = 88
+offset_bottom = -77
+color = Color(0.470588, 0.568627, 0.596078, 1.000)
+mouse_filter = 2
+
+[node name="CentroBoton5" type="ColorRect" parent="."]
+offset_left = 84
+offset_top = -81
+offset_right = 86
+offset_bottom = -79
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+mouse_filter = 2
+
+[node name="BotonTeclado6" type="ColorRect" parent="."]
+offset_left = 91
+offset_top = -82
+offset_right = 96
+offset_bottom = -77
+color = Color(0.470588, 0.568627, 0.596078, 1.000)
+mouse_filter = 2
+
+[node name="CentroBoton6" type="ColorRect" parent="."]
+offset_left = 92
+offset_top = -81
+offset_right = 94
+offset_bottom = -79
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+mouse_filter = 2
+
+[node name="LectorLuzListo" type="ColorRect" parent="."]
+offset_left = 85
+offset_top = -67
+offset_right = 93
+offset_bottom = -63
+color = Color(0.580392, 0.909804, 0.647059, 1.000)
+mouse_filter = 2
+
+[node name="BaseLector" type="ColorRect" parent="."]
+offset_left = 79
+offset_top = -52
+offset_right = 99
+offset_bottom = -48
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+mouse_filter = 2
+
+[node name="PanelSeñal" type="ColorRect" parent="."]
+offset_left = -97
+offset_top = -138
+offset_right = -75
+offset_bottom = -46
+color = Color(0.082353, 0.149020, 0.188235, 1.000)
+mouse_filter = 2
+
+[node name="SeñalMetal" type="ColorRect" parent="."]
+offset_left = -95
+offset_top = -136
+offset_right = -77
+offset_bottom = -47
+color = Color(0.278431, 0.380392, 0.419608, 1.000)
+mouse_filter = 2
+
+[node name="LineaAzul" type="ColorRect" parent="."]
+offset_left = -92
+offset_top = -131
+offset_right = -80
+offset_bottom = -128
+color = Color(0.364706, 0.815686, 0.772549, 1.000)
+mouse_filter = 2
+
+[node name="MarcaUno" type="ColorRect" parent="."]
+offset_left = -91
+offset_top = -122
+offset_right = -81
+offset_bottom = -120
+color = Color(0.690196, 0.784314, 0.768627, 1.000)
+mouse_filter = 2
+
+[node name="MarcaDos" type="ColorRect" parent="."]
+offset_left = -91
+offset_top = -118
+offset_right = -81
+offset_bottom = -116
+color = Color(0.690196, 0.784314, 0.768627, 0.400)
+mouse_filter = 2
+
+[node name="RejillaAbajo" type="ColorRect" parent="."]
+offset_left = -92
+offset_top = -59
+offset_right = -80
+offset_bottom = -57
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+mouse_filter = 2
+
+[node name="RejillaAbajo2" type="ColorRect" parent="."]
+offset_left = -92
+offset_top = -55
+offset_right = -80
+offset_bottom = -53
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+mouse_filter = 2
+
+[node name="LuzAbajo" type="ColorRect" parent="."]
+offset_left = -89
+offset_top = -69
+offset_right = -84
+offset_bottom = -64
+color = Color(0.580392, 0.909804, 0.647059, 1.000)
+mouse_filter = 2
+
+[node name="TornilloMarco" type="ColorRect" parent="."]
+offset_left = -72
+offset_top = -190
+offset_right = -68
+offset_bottom = -186
+color = Color(0.082353, 0.149020, 0.188235, 1.000)
+mouse_filter = 2
+
+[node name="BrilloMarco" type="ColorRect" parent="."]
+offset_left = -71
+offset_top = -189
+offset_right = -69
+offset_bottom = -187
+color = Color(0.690196, 0.784314, 0.768627, 1.000)
+mouse_filter = 2
+
+[node name="TornilloMarco2" type="ColorRect" parent="."]
+offset_left = -72
+offset_top = -153
+offset_right = -68
+offset_bottom = -149
+color = Color(0.082353, 0.149020, 0.188235, 1.000)
+mouse_filter = 2
+
+[node name="BrilloMarco2" type="ColorRect" parent="."]
+offset_left = -71
+offset_top = -152
+offset_right = -69
+offset_bottom = -150
+color = Color(0.690196, 0.784314, 0.768627, 1.000)
+mouse_filter = 2
+
+[node name="TornilloMarco3" type="ColorRect" parent="."]
+offset_left = -72
+offset_top = -109
+offset_right = -68
+offset_bottom = -105
+color = Color(0.082353, 0.149020, 0.188235, 1.000)
+mouse_filter = 2
+
+[node name="BrilloMarco3" type="ColorRect" parent="."]
+offset_left = -71
+offset_top = -108
+offset_right = -69
+offset_bottom = -106
+color = Color(0.690196, 0.784314, 0.768627, 1.000)
+mouse_filter = 2
+
+[node name="TornilloMarco4" type="ColorRect" parent="."]
+offset_left = -72
+offset_top = -67
+offset_right = -68
+offset_bottom = -63
+color = Color(0.082353, 0.149020, 0.188235, 1.000)
+mouse_filter = 2
+
+[node name="BrilloMarco4" type="ColorRect" parent="."]
+offset_left = -71
+offset_top = -66
+offset_right = -69
+offset_bottom = -64
+color = Color(0.690196, 0.784314, 0.768627, 1.000)
+mouse_filter = 2
+
+[node name="TornilloMarco5" type="ColorRect" parent="."]
+offset_left = -72
+offset_top = -25
+offset_right = -68
+offset_bottom = -21
+color = Color(0.082353, 0.149020, 0.188235, 1.000)
+mouse_filter = 2
+
+[node name="BrilloMarco5" type="ColorRect" parent="."]
+offset_left = -71
+offset_top = -24
+offset_right = -69
+offset_bottom = -22
+color = Color(0.690196, 0.784314, 0.768627, 1.000)
+mouse_filter = 2
+
+[node name="TornilloMarco6" type="ColorRect" parent="."]
+offset_left = 68
+offset_top = -190
+offset_right = 72
+offset_bottom = -186
+color = Color(0.082353, 0.149020, 0.188235, 1.000)
+mouse_filter = 2
+
+[node name="BrilloMarco6" type="ColorRect" parent="."]
+offset_left = 69
+offset_top = -189
+offset_right = 71
+offset_bottom = -187
+color = Color(0.690196, 0.784314, 0.768627, 1.000)
+mouse_filter = 2
+
+[node name="TornilloMarco7" type="ColorRect" parent="."]
+offset_left = 68
+offset_top = -153
+offset_right = 72
+offset_bottom = -149
+color = Color(0.082353, 0.149020, 0.188235, 1.000)
+mouse_filter = 2
+
+[node name="BrilloMarco7" type="ColorRect" parent="."]
+offset_left = 69
+offset_top = -152
+offset_right = 71
+offset_bottom = -150
+color = Color(0.690196, 0.784314, 0.768627, 1.000)
+mouse_filter = 2
+
+[node name="TornilloMarco8" type="ColorRect" parent="."]
+offset_left = 68
+offset_top = -109
+offset_right = 72
+offset_bottom = -105
+color = Color(0.082353, 0.149020, 0.188235, 1.000)
+mouse_filter = 2
+
+[node name="BrilloMarco8" type="ColorRect" parent="."]
+offset_left = 69
+offset_top = -108
+offset_right = 71
+offset_bottom = -106
+color = Color(0.690196, 0.784314, 0.768627, 1.000)
+mouse_filter = 2
+
+[node name="TornilloMarco9" type="ColorRect" parent="."]
+offset_left = 68
+offset_top = -67
+offset_right = 72
+offset_bottom = -63
+color = Color(0.082353, 0.149020, 0.188235, 1.000)
+mouse_filter = 2
+
+[node name="BrilloMarco9" type="ColorRect" parent="."]
+offset_left = 69
+offset_top = -66
+offset_right = 71
+offset_bottom = -64
+color = Color(0.690196, 0.784314, 0.768627, 1.000)
+mouse_filter = 2
+
+[node name="TornilloMarco10" type="ColorRect" parent="."]
+offset_left = 68
+offset_top = -25
+offset_right = 72
+offset_bottom = -21
+color = Color(0.082353, 0.149020, 0.188235, 1.000)
+mouse_filter = 2
+
+[node name="BrilloMarco10" type="ColorRect" parent="."]
+offset_left = 69
+offset_top = -24
+offset_right = 71
+offset_bottom = -22
+color = Color(0.690196, 0.784314, 0.768627, 1.000)
+mouse_filter = 2
+
+[node name="CajaLuz" type="ColorRect" parent="."]
+offset_left = -30
+offset_top = -215
+offset_right = 30
+offset_bottom = -204
+color = Color(0.082353, 0.149020, 0.188235, 1.000)
+mouse_filter = 2
+
+[node name="PantallaLuz" type="ColorRect" parent="."]
+offset_left = -24
+offset_top = -212
+offset_right = 24
+offset_bottom = -207
+color = Color(0.364706, 0.815686, 0.772549, 1.000)
+mouse_filter = 2
+
+[node name="DiodoIzq" type="ColorRect" parent="."]
+offset_left = -27
+offset_top = -212
+offset_right = -24
+offset_bottom = -207
+color = Color(0.580392, 0.909804, 0.647059, 1.000)
+mouse_filter = 2
+
+[node name="DiodoDer" type="ColorRect" parent="."]
+offset_left = 24
+offset_top = -212
+offset_right = 27
+offset_bottom = -207
+color = Color(0.580392, 0.909804, 0.647059, 1.000)
+mouse_filter = 2
+
+[node name="BrilloLuminaria" type="Polygon2D" parent="."]
+color = Color(0.364706, 0.815686, 0.772549, 0.090)
+polygon = PackedVector2Array(-23, -207, 23, -207, 36, -192, -36, -192)
+
+[node name="CableSuperior" type="Line2D" parent="."]
+points = PackedVector2Array(88, -124, 111, -124, 114, -146, 124, -146)
+width = 4
+default_color = Color(0.349020, 0.462745, 0.501961, 1.000)
+
+[node name="CableBrillo" type="Line2D" parent="."]
+points = PackedVector2Array(88, -125, 111, -125, 114, -147, 124, -147)
+width = 1
+default_color = Color(0.690196, 0.784314, 0.768627, 0.550)
+
+[node name="CubiertaCable" type="ColorRect" parent="."]
+offset_left = 111
+offset_top = -140
+offset_right = 118
+offset_bottom = -117
+color = Color(0.192157, 0.290196, 0.329412, 1.000)
+mouse_filter = 2
+
+[node name="PlacaFijacion" type="ColorRect" parent="."]
+offset_left = 119
+offset_top = -154
+offset_right = 130
+offset_bottom = -141
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+mouse_filter = 2
+
+[node name="TornilloPlaca1" type="ColorRect" parent="."]
+offset_left = 122
+offset_top = -151
+offset_right = 125
+offset_bottom = -148
+color = Color(0.690196, 0.784314, 0.768627, 1.000)
+mouse_filter = 2
+
+[node name="TornilloPlaca2" type="ColorRect" parent="."]
+offset_left = 122
+offset_top = -146
+offset_right = 125
+offset_bottom = -143
+color = Color(0.690196, 0.784314, 0.768627, 1.000)
+mouse_filter = 2
+
+[node name="EscalonSombra" type="ColorRect" parent="."]
+offset_left = -80
+offset_top = -9
+offset_right = 79
+offset_bottom = 2
+color = Color(0.043137, 0.082353, 0.109804, 1.000)
+mouse_filter = 2
+
+[node name="EscalonMarco" type="ColorRect" parent="."]
+offset_left = -82
+offset_top = -8
+offset_right = 82
+offset_bottom = -1
+color = Color(0.470588, 0.568627, 0.596078, 1.000)
+mouse_filter = 2
+
+[node name="EscalonAlto" type="ColorRect" parent="."]
+offset_left = -80
+offset_top = -8
+offset_right = 80
+offset_bottom = -6
+color = Color(0.690196, 0.784314, 0.768627, 1.000)
+mouse_filter = 2
+
+[node name="TornilloSuelo" type="ColorRect" parent="."]
+offset_left = -75
+offset_top = -5
+offset_right = -72
+offset_bottom = -3
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+mouse_filter = 2
+
+[node name="TornilloSuelo2" type="ColorRect" parent="."]
+offset_left = -66
+offset_top = -5
+offset_right = -63
+offset_bottom = -3
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+mouse_filter = 2
+
+[node name="TornilloSuelo3" type="ColorRect" parent="."]
+offset_left = 61
+offset_top = -5
+offset_right = 64
+offset_bottom = -3
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+mouse_filter = 2
+
+[node name="TornilloSuelo4" type="ColorRect" parent="."]
+offset_left = 70
+offset_top = -5
+offset_right = 73
+offset_bottom = -3
+color = Color(0.129412, 0.203922, 0.243137, 1.000)
+mouse_filter = 2
